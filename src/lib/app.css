@@ -1,0 +1,199 @@
+/* variables */
+:root {
+    --red: #ff3860;
+    --yellow: #ffd000;
+    --green: #6ada2d;
+    --blue: #5DA9E9;
+    --purple: #ba7ffc;
+    --dark_green: #123701;
+}
+
+@font-face {
+    font-family: 'Boldenda';
+    src: url('./BoldenaBold-VGjmz.ttf');
+}
+* {
+    font-family: 'Boldenda';
+}
+
+html {
+    overscroll-behavior-block: none;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+body {
+    margin: 0;
+    overflow-x: hidden
+}
+hr {
+    border: 1px solid black;
+}
+
+.page-title {
+    color: black;
+    font-size: 80px;
+    font-size: 12vw;
+    text-align: center;
+}
+/* rounded box */
+.round-box {
+    margin: 1vw;
+    padding: 10px;
+    border: 10px solid black;
+    border-radius: 20px;
+}
+.round-box h1 {
+    text-align: center;
+}
+/* top link navigation bar */
+.topnav {
+    background-color: var(--blue);
+    margin: 0px;
+    overflow: hidden;
+}
+.topnav a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.topnav a:hover {
+    color: var(--red);
+}
+/* dnd items list */
+.items-list {
+    list-style-type: none;
+    list-style-position: left;
+    padding: 0px;
+    margin: 20px;
+}
+.items-list li span{
+    display: flex;
+}
+.items-list li span a {
+    text-align: left;
+    text-decoration: none;
+    color: black;
+    width: 50%;
+}
+.items-list li span .cost{
+    text-align: center;
+    width: 50%;
+}
+.items-list li a:hover {
+    color:var(--red);
+}
+/* selected items page */
+.item-title {
+    font-size: 6vw;
+    text-align: center;
+}
+.column-left {
+    float: left;
+    width: 50%;
+}
+.column-right {
+    float: right;
+    width: 50%;
+}
+/* flex containers */
+.container {
+    display: flex;
+}
+.container-row {
+    display: flex;
+    justify-content: space-around;
+}
+.container-column {
+    width: flex;
+}
+/* boxicons icons */
+.large {
+    font-size: 5vw;
+}
+.checkout {
+    font-size: 10vw;
+    text-align: left;
+    color: black;
+}
+.backarrow {
+    font-size: 5vw;
+    color: black;
+}
+/* absolute position features */
+.corner-feature-left {
+    position: absolute;
+    top: 5vw;
+    left: 0;
+    margin: 50px;
+}
+.corner-feature-right {
+    position: absolute;
+    top: 5vw;
+    right: 0;
+    margin: 50px;
+}
+
+/* afterclass formatting */
+/* colors */
+.red {color: var(--red);}
+.yellow {color: var(--yellow);}
+.green {color: var(--green);}
+.blue {color: var(--blue);}
+.purple {color: var(--purple);}
+.dark_green {color: var(--dark_green);}
+
+.border-red {border-color: var(--red);}
+.border-yellow {border-color: var(--yellow);}
+.border-green {border-color: var(--green);}
+.border-blue {border-color: var(--blue);}
+.border-purple {border-color: var(--purple);}
+.border-dark_green {border-color: var(--dark_green);}
+
+.background-dark_green {background-color: var(--dark_green);}
+/* text */
+.text-center {text-align: center;}
+
+/* welcome screen */
+.front-vine {
+    z-index: 1;
+    position: absolute;
+    height: 200vh;
+    width: 15vw;
+    top: 0px;
+}
+.front-flower {
+    z-index: 2;
+    position: absolute;
+    width: 3vw;
+    height: auto;
+    top: 0px;
+}
+
+/* .background */
+.background {
+    z-index: -1;
+    position: absolute;
+    width: 100vw;
+    height: max(100vh, 100vw);
+    top: 0px;
+}
+.page-section {
+    width: 100vw;
+    height: max(100vh, 100vw);
+    margin: 0px;
+}
+.page-top {
+    height: 11vh;
+    padding: 0px;
+    margin: 0px;
+}
+.wooden-sign {
+    background-image: url('./images/wooden_sign.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border-radius: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
