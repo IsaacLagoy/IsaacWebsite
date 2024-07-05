@@ -37,7 +37,7 @@
 
 {#each $cart as item}
     <div class='container-row'>
-        <p class='container-column'>{item.name}</p>
+        <p class='contained'>{item.name}</p>
         <input
             type='number'
             min=1

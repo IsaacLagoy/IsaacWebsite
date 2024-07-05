@@ -18,14 +18,14 @@
     <h1>Filter</h1>
     <form method="POST" action="?/set-filter-categories">
         <div class='container-row'>
-            <div class='container-column'>
+            <div class='contained'>
                 <Multiselect
                     options = {["armor", "animal", "clothing", 'enchantment', 'food', 'jewelry', 'plant', "potion", 'scroll', 'spell', 'stick', 'supplies', 'weapon']}
                     placeholder = 'Filter categories'
                     name = 'filter'
                 />
             </div>
-            <div class='container-column text-center'>
+            <div class='contained text-center'>
                 <p>Cost:</p>
                 <div>
                     <label>

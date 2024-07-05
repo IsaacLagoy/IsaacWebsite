@@ -105,8 +105,18 @@ hr {
     display: flex;
     justify-content: space-around;
 }
-.container-column {
+.contained {
     width: flex;
+}
+.container-column {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+.container-column-reverse {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-around;
 }
 /* boxicons icons */
 .large {
@@ -170,7 +180,6 @@ hr {
     height: auto;
     top: 0px;
 }
-
 /* .background */
 .background {
     z-index: -1;
@@ -180,20 +189,57 @@ hr {
     top: 0px;
 }
 .page-section {
+    position: relative;
     width: 100vw;
     height: max(100vh, 100vw);
     margin: 0px;
+    display: inline-block;
 }
 .page-top {
     height: 11vh;
     padding: 0px;
     margin: 0px;
 }
+/* signs */
 .wooden-sign {
-    background-image: url('./images/wooden_sign.png');
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    border-radius: 0px;
-    padding-left: 0px;
-    padding-right: 0px;
+    background-color: #ad8f55;
+    border: solid 10px #7d6237;
+    border-radius: 20px;
+    padding: 10px;
+    color: black;
+}
+.direction-sign-left {
+    position: absolute;
+    bottom: 0;
+    left: 20vw;
+    background-color: white;
+}
+.direction-sign-right {
+    position: absolute;
+    bottom: 0;
+    right: 20vw;
+    background-color: white;
+}
+/* div spacing */
+.spacer-five {
+    height: 5vh;
+    margin: 0px;
+}
+.spacer-ten {
+    height: 10vh;
+    margin: 0px;
+}
+/* bottom attached */
+.bottom-up {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.bottom-up div {
+    width: flex;
+    justify-content: space-around;
+    flex-direction: column-reverse;
 }
