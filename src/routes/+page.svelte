@@ -6,7 +6,10 @@
     import flower from '$lib/images/flower_red.png';
     import jungle_one from '$lib/images/jungle_one.png';
     import jungle_two from '$lib/images/jungle_two.png';
+    import cave_one from '$lib/images/cave_one.png';
+    import cave_two from '$lib/images/cave_two.png';
     import DirectionSign from './DirectionSign.svelte';
+    import best_programming_award from '$lib/images/spring_best_programming_2024.jpeg';
     export let data;
 
     function get_scroll_pos(data : any[], scroll : number) {
@@ -25,43 +28,47 @@
 
 <svelte:window bind:scrollY={scroll}/>
 
-<!-- Background -->
-<div class='background-dark_green page-top'>
-    <img src={jungle_one} style="transform: translateY(11vh)" alt='jungle1' class='background'/>
-    <img src={jungle_two} style="transform: translateY(calc(11vh + max(100vw, 100vh)))" alt='jungle2' class='background'/>
-</div>
+
+<!-- Top Background -->
+<div class='background-dark_green page-top'></div>
 
 <!-- Vines Covering Screen -->
 {#each data.vines as pos}
     <img style="transform: translate3d(calc(-50% + {get_scroll_pos(pos, scroll)}vw), {pos[1] - 50}vh, {pos[3]}px);" src={vines[pos[3]]} alt='vine1' class='front-vine'/>
     <img style="transform: translate3d(calc(-50% + {get_scroll_pos(pos, scroll)}vw), calc(-50% + {pos[4]}vw), {pos[3]}px);" src={flower} alt='vine1' class='front-flower'/>
 {/each}
-
 {#each data.flowers as pos}
     <img style="transform: translate3d(calc(-50% + {get_scroll_pos(pos, scroll)}vw), {pos[1] - pos[4] - 50}vh, {pos[3]}px);" src={vines[pos[3]]} alt='vine1' class='front-vine'/>
     <img style="transform: translate3d(calc(-50% + {get_scroll_pos(pos, scroll)}vw), calc(-50% + {pos[1]}vw), {pos[3]}px);" src={flower} alt='vine1' class='front-flower'/>
 {/each}
 
-<!-- Start of main page -->
-<div class='page-section'>
+<!-- Front Page -->
+<div class='page-section' style='background-image: url({jungle_one})'>
     <h1 class='page-title'><span class='wooden-sign'>About Me</span></h1>
     <p class='wooden-sign text-center'>
         Welcome to my website! My name is Isaac and I hope your having a great {get_word_time($date_time.getHours())}. Feel free to look around and check out any cool projects that may interest you. Scroll down to learn more about me!
     </p>
-    <div class='bottom-up'>
-        <div>
-            <a href='/projects' class='contained wooden-sign'>Projects</a>
-        </div>
-        <div>
-            <a href='/dndDatabase' class='contained wooden-sign'>D&D</a>
-        </div>
-    </div>
-</div>
-<div class='page-section'>
-    <h1 class='page-title'><span class='wooden-sign'>Experience</span></h1>
-    <p class='text-center wooden-sign'>I'm a loud and proud member of the fighting Texas Aggie class of 2027! I attend Texas A&M College Station</p>
-    <p class='text-center'>iStar, Structurology</p>
     <DirectionSign
+        title={'Where to?'}
+        destinations={{
+            'Projects' : '/projects',
+            'D&D' : '/dndDatabase'
+        }}
+        location={'left'}
+    />
+</div>
+<!-- Experience -->
+<div class='page-section' style='background-image: url({jungle_two})'>
+    <h1 class='page-title'><span class='wooden-sign'>Experience</span></h1>
+    <p class='text-center wooden-sign'>I'm currently attending the computer science program at Texas A&M, looking to graduate in 2027. I participate in the Texas A&M Game Developers Club where I won the Spring 2024 Best Programming Award.</p>
+    <div class='container-row'>
+        <a href='/' class='contained-column wooden-sign tilt-right'>
+            <img src={best_programming_award} alt='programAward' width=150vw/>
+        </a>
+        <div class='contained-column'></div>
+    </div>
+    <DirectionSign
+        title={'Jobs'}
         destinations={{
             'iStar' : '/iStar',
             'Structurology' : '/structurology'
@@ -69,22 +76,72 @@
         location={'right'}
     />
 </div>
-<div class='page-section'>
-    <h1 class='page-title'>Skills</h1>
-    <ul>
-        <li>WebDev: HTML, CSS, TS, SvelteKit</li>
-        <li>Docker: Docker Tutorial</li>
-        <li>Power Automate: Structurology</li>
-        <li>Python</li>
-        <li>Maybe Java</li>
-    </ul>
+<!-- Skills -->
+<div class='page-section' style='background-image: url({cave_one});'>
+    <h1 class='page-title'><span class='wooden-sign'>Skills</span></h1>
+    <div class='spacer-ten'></div>
+    <div class='container-row text-center'>
+        <div class='container-column'>
+            <a href='/siteInfo' class='no-decoration'>
+                <div class='wooden-sign tilt-left'>
+                    <p>Web Dev</p>
+                    <p>
+                        <i class='bx bxl-html5' ></i>
+                        <i class='bx bxl-css3' ></i>
+                        <i class='bx bxl-typescript' ></i>
+                    </p>
+                </div>
+            </a>
+            <div class='spacer-ten'></div>
+            <!-- needs to be changed to python projects later -->
+            <a href='/projects' class='no-decoration'>
+                <div class='wooden-sign tilt-right'>
+                    <i class='bx bxl-python'></i>
+                </div>
+            </a>
+        </div>
+        <div class='contained-column'>
+            <a href='/iStar' class='no-decoration'>
+                <div class='wooden-sign'>
+                    <i class='bx bxl-docker' ></i>
+                </div>
+            </a>
+            <div class='spacer-ten'></div>
+            <a href='/structurology' class='no-decoration'>
+                <div class='wooden-sign tilt-right'>
+                    <p>Power Automate</p>
+                    <i class='bx bxl-microsoft' ></i>
+                </div>
+            </a>
+        </div>
+    </div>
 </div>
-<div class='page-section'>
-    <h1 class='page-title'>Contact Me</h1>
-    <ul>
-        <li>Email: isaacblagoy@gmail.com</li>
-        <li>Phone: +1 (713)-498-5947 <span class='red'>Please text!</span></li>
-        <li>GitHub: <a href='https://github.com/IsaacLagoy'>IsaacLagoy</li>
-        <li>LinkedIn: None yet</li>
-    </ul>
+<!-- Contact -->
+<div class='page-section' style='background-image: url({cave_two});'>
+    <h1 class='page-title'><span class='wooden-sign'>Contact Me</span></h1>
+    <div class='spacer-ten'></div>
+    <div class='container-row text-center'>
+        <div class='container-column'>
+            <div class='spacer-ten'></div>
+            <!-- needs to be changed to python projects later -->
+            <div class='wooden-sign tilt-right'>
+                isaacblagoy@gmail.com
+            </div>
+        </div>
+        <div class='contained-column'>
+            <div class='wooden-sign tilt-left'>
+                <p>+1 (713) 498-5947</p>
+                <p>Please Text!</p>
+            </div>
+            <div class='spacer-ten'></div>
+        </div>
+    </div>
+    <DirectionSign
+        title={'Socials'}
+        destinations={{
+            'GitHub' : 'https://github.com/IsaacLagoy',
+            'LinkedIn' : 'none'
+        }}
+        location={'left'}
+    />
 </div>

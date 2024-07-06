@@ -6,6 +6,8 @@
     --blue: #5DA9E9;
     --purple: #ba7ffc;
     --dark_green: #123701;
+    --light_wood: #ad8f55;
+    --dark_wood: #7d6237;
 }
 
 @font-face {
@@ -107,6 +109,7 @@ hr {
 }
 .contained {
     width: flex;
+    height: flex;
 }
 .container-column {
     display: flex;
@@ -145,26 +148,6 @@ hr {
     margin: 50px;
 }
 
-/* afterclass formatting */
-/* colors */
-.red {color: var(--red);}
-.yellow {color: var(--yellow);}
-.green {color: var(--green);}
-.blue {color: var(--blue);}
-.purple {color: var(--purple);}
-.dark_green {color: var(--dark_green);}
-
-.border-red {border-color: var(--red);}
-.border-yellow {border-color: var(--yellow);}
-.border-green {border-color: var(--green);}
-.border-blue {border-color: var(--blue);}
-.border-purple {border-color: var(--purple);}
-.border-dark_green {border-color: var(--dark_green);}
-
-.background-dark_green {background-color: var(--dark_green);}
-/* text */
-.text-center {text-align: center;}
-
 /* welcome screen */
 .front-vine {
     z-index: 1;
@@ -194,6 +177,7 @@ hr {
     height: max(100vh, 100vw);
     margin: 0px;
     display: inline-block;
+    background-size: 100% 100%;
 }
 .page-top {
     height: 11vh;
@@ -202,23 +186,79 @@ hr {
 }
 /* signs */
 .wooden-sign {
-    background-color: #ad8f55;
-    border: solid 10px #7d6237;
+    background-color: var(--light_wood);
+    border: solid 10px var(--dark_wood);
     border-radius: 20px;
     padding: 10px;
     color: black;
 }
-.direction-sign-left {
+.direction-post {
+    background-color: var(--dark_wood);
+    position: absolute;
+    width: 10px;
+    height: 100%;
+}
+.direction-post-left {
     position: absolute;
     bottom: 0;
     left: 20vw;
-    background-color: white;
+    padding-bottom: max(20vh, 20vw);
+    transform: rotate(10deg);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
-.direction-sign-right {
+.direction-post-right {
     position: absolute;
     bottom: 0;
     right: 20vw;
-    background-color: white;
+    padding-bottom: max(20vh, 20vw);
+    transform: rotate(-10deg);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.direction-sign-right {
+    background-color: var(--light_wood);
+    margin-top: 5px;
+    display: inline-block;
+
+    border: 7px solid var(--dark_wood);
+    border-radius: 5px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    
+    padding: 2px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+    z-index: 1;
+}
+.direction-sign-left {
+    background-color: var(--light_wood);
+    margin-top: 10px;
+    display: inline-block;
+
+    border: 7px solid var(--dark_wood);
+    border-radius: 5px;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+
+    padding: 2px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+    z-index: 1;
+}
+.direction-title {
+    background-color: var(--light_wood);
+    border: 10px solid var(--dark_wood);
+    border-radius: 20px;
+    text-align: center;
+    font-size: 18px;
+    display: inline-block;
+    z-index: 1;
+    padding: 5px;
 }
 /* div spacing */
 .spacer-five {
@@ -242,4 +282,35 @@ hr {
     width: flex;
     justify-content: space-around;
     flex-direction: column-reverse;
+}
+
+/* afterclass formatting #################################### last thing in css */
+/* colors */
+.red {color: var(--red);}
+.yellow {color: var(--yellow);}
+.green {color: var(--green);}
+.blue {color: var(--blue);}
+.purple {color: var(--purple);}
+.dark_green {color: var(--dark_green);}
+.black {color: black;}
+
+.border-red {border-color: var(--red);}
+.border-yellow {border-color: var(--yellow);}
+.border-green {border-color: var(--green);}
+.border-blue {border-color: var(--blue);}
+.border-purple {border-color: var(--purple);}
+.border-dark_green {border-color: var(--dark_green);}
+
+.background-dark_green {background-color: var(--dark_green);}
+
+/* text */
+.text-center {text-align: center;}
+.no-decoration {text-decoration: none;}
+
+/* informal */
+.tilt-right {
+    transform: rotate(5deg);
+}
+.tilt-left {
+    transform: rotate(-5deg);
 }
