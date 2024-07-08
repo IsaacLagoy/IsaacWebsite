@@ -25,7 +25,6 @@ body {
 }
 html body {
     max-width: 100vw;
-    overflow-x: hidden;
 }
 hr {
     border: 1px solid black;
@@ -149,19 +148,31 @@ hr {
 }
 
 /* welcome screen */
+.front-vine, .front-flower {
+    will-change: transform;
+    transform: translate3d(0, 0, 0);
+}
 .front-vine {
-    z-index: 1;
+    z-index: 4;
     position: absolute;
     height: 200vh;
     width: 15vw;
     top: 0px;
 }
 .front-flower {
-    z-index: 2;
+    z-index: 5;
     position: absolute;
     width: 3vw;
     height: auto;
     top: 0px;
+}
+.vine-container {
+    z-index: 4;
+    position: absolute;
+    overflow: hidden;
+    width: 100vw;
+    height: 200vh;
+    pointer-events: none;
 }
 /* .background */
 .background {
@@ -179,6 +190,9 @@ hr {
     display: inline-block;
     background-size: 100% 100%;
 }
+.full-page {
+    overflow-x: hidden;
+}
 .page-top {
     height: 11vh;
     padding: 0px;
@@ -191,6 +205,8 @@ hr {
     border-radius: 20px;
     padding: 10px;
     color: black;
+    margin-left: 10vw;
+    margin-right: 10vw;
 }
 .direction-post {
     background-color: var(--dark_wood);
@@ -200,7 +216,7 @@ hr {
 }
 .direction-post-left {
     position: absolute;
-    bottom: 0;
+    bottom: 8px;
     left: 20vw;
     padding-bottom: max(20vh, 20vw);
     transform: rotate(10deg);
@@ -210,7 +226,7 @@ hr {
 }
 .direction-post-right {
     position: absolute;
-    bottom: 0;
+    bottom: 8px;
     right: 20vw;
     padding-bottom: max(20vh, 20vw);
     transform: rotate(-10deg);
@@ -232,7 +248,7 @@ hr {
     padding-left: 10px;
     padding-right: 10px;
     text-align: center;
-    z-index: 1;
+    z-index: 3;
 }
 .direction-sign-left {
     background-color: var(--light_wood);
@@ -248,7 +264,7 @@ hr {
     padding-left: 10px;
     padding-right: 10px;
     text-align: center;
-    z-index: 1;
+    z-index: 3;
 }
 .direction-title {
     background-color: var(--light_wood);
@@ -257,10 +273,14 @@ hr {
     text-align: center;
     font-size: 18px;
     display: inline-block;
-    z-index: 1;
+    z-index: 3;
     padding: 5px;
 }
 /* div spacing */
+.spacer-one {
+    height: 1vh;
+    margin: 0px;
+}
 .spacer-five {
     height: 5vh;
     margin: 0px;
@@ -283,6 +303,18 @@ hr {
     justify-content: space-around;
     flex-direction: column-reverse;
 }
+/* D&D */ 
+.dungeon-background {
+    background-image: url('./images/dungeon_wall.png');
+    background-size: 100vw max(100vh, 100vw);
+    background-repeat: repeat-y;
+    background-position: center top;
+    margin: 0px;
+    padding:0px;
+    min-height: max(100%);
+    position: absolute;
+    width: 100vw;
+}
 
 /* afterclass formatting #################################### last thing in css */
 /* colors */
@@ -302,10 +334,17 @@ hr {
 .border-dark_green {border-color: var(--dark_green);}
 
 .background-dark_green {background-color: var(--dark_green);}
+.background-dark_wood {background-color: var(--dark_wood);}
 
 /* text */
 .text-center {text-align: center;}
 .no-decoration {text-decoration: none;}
+.font-size-25 {
+    font-size: 25;
+}
+.no-wrap {
+    white-space: nowrap;
+}
 
 /* informal */
 .tilt-right {

@@ -1,5 +1,6 @@
 <script lang='ts'>
     import Multiselect from 'svelte-multiselect';
+    import DisplayShelf from '../../DisplayShelf.svelte';
     export let data
 </script>
 
@@ -11,11 +12,11 @@
     <a class='corner-feature-right' href='/dndDatabase/dndShop/cart'>
         <i class='bx bx-cart checkout'></i>
     </a>
-    <h1 class='page-title'>D&D Shop</h1>
+    <h1 class='page-title'><span class='wooden-sign'>D&D Shop</span></h1>
 </div>
 
-<div class='round-box border-green'>
-    <h1>Filter</h1>
+<div class='wooden-sign'>
+    <h1 class='text-center'>Filter</h1>
     <form method="POST" action="?/set-filter-categories">
         <div class='container-row'>
             <div class='contained'>
@@ -55,13 +56,13 @@
 
 <ul class="items-list">
     {#each data.items as item}
-    <li>
-        <span>
-            <a href='/dndDatabase/dndShop/{item.id}'>{item.name}</a>
-            <span class='cost'>Cost: {item.cost}</span>
-        </span>
-        
-        <hr>
-    </li>
+        <li>
+            <DisplayShelf
+                name={item.name}
+                id={item.id}
+                cost={item.cost}
+            />
+        </li>
     {/each}
 </ul>
+

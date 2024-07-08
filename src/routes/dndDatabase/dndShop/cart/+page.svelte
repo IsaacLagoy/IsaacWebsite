@@ -33,7 +33,7 @@
 <a href='/dndDatabase/dndShop' class='corner-feature-left backarrow'>
     <i class='bx bx-arrow-back'></i>
 </a>
-<h1 class='item-title'>Shopping Cart</h1>
+<h1 class='item-title'><span class='wooden-sign'>Shopping Cart</span></h1>
 
 {#each $cart as item}
     <div class='container-row'>
@@ -57,7 +57,7 @@
     </div>
 {/each}
 
-<div class='round-box border-purple container-row'>
+<div class='wooden-sign container-row'>
     <label>
         Extra Spendings $
         <input 
@@ -82,4 +82,4 @@
     </label>
 </div>
 
-<h1>Total: ${Math.ceil($total)}</h1>
+<h1><span class='wooden-sign'>Total: ${Math.ceil($total)}</span></h1>
