@@ -3,12 +3,7 @@ import {filterCategoriesStore} from "$lib/index";
 
 // pulls data from database
 export async function load() {
-
-    /**
-     * @type {string | readonly any[] | Record<string, unknown>}
-     */
     const filterCategories = filterCategoriesStore.get();
-    // @ts-ignore
     const {data} = await supabase.from("items").select().contains('category', filterCategories.categories).gte("cost", filterCategories.greater).lte("cost", filterCategories.less);
 
     return {

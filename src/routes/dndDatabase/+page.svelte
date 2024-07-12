@@ -1,7 +1,7 @@
 <script>
     import DirectionSign from "../DirectionSign.svelte";
-
 </script>
+
 <h1 class='page-title'><span class='wooden-sign'>D&D</span></h1>
 
 <div class='wooden-sign'>
@@ -12,7 +12,7 @@
     location={'left'}
     destinations={{
         'Shop' : '/dndDatabase/dndShop',
-        'Classes' : '/dndDatabase/dndClasses'
+        'Characters' : '/dndDatabase/dndCharacters'
     }}
     title={'Where to?'}
 />

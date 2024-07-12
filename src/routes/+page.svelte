@@ -95,6 +95,7 @@
             <!-- needs to be changed to python projects later -->
             <a href='/projects' class='no-decoration'>
                 <div class='wooden-sign tilt-right'>
+                    <p>Python</p>
                     <i class='bx bxl-python'></i>
                 </div>
             </a>
@@ -102,6 +103,7 @@
         <div class='contained-column'>
             <a href='/iStar' class='no-decoration'>
                 <div class='wooden-sign'>
+                    <p>Docker</p>
                     <i class='bx bxl-docker' ></i>
                 </div>
             </a>

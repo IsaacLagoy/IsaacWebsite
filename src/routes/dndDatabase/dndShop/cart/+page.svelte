@@ -35,27 +35,35 @@
 </a>
 <h1 class='item-title'><span class='wooden-sign'>Shopping Cart</span></h1>
 
-{#each $cart as item}
-    <div class='container-row'>
-        <p class='contained'>{item.name}</p>
-        <input
-            type='number'
-            min=1
-            bind:value={item.quantity}
-        />
-        <form method='POST' action='?/remove-from-cart'>
-            <input
-                type='hidden'
-                name='id'
-                value={item.id}
-                required
-            />
-            <button type='submit'>
-                <i class='bx bx-x'></i>
-            </button>
-        </form>
-    </div>
-{/each}
+<div style='margin:5vh;'>
+    {#each $cart as item}
+        <div style='margin:1vh;'>
+            <div class='container-row'>
+                <div class='item-box'>
+                    <p class='contained'>{item.name}</p>
+                </div>
+                <input
+                    type='number'
+                    min=1
+                    bind:value={item.quantity}
+                />
+                <form method='POST' action='?/remove-from-cart'>
+                    <input
+                        type='hidden'
+                        name='id'
+                        value={item.id}
+                        required
+                    />
+                    <button type='submit'>
+                        <i class='bx bx-x'></i>
+                    </button>
+                </form>
+            </div>
+            <div class='spacer-one background-light_wood'></div>
+        </div>
+    {/each}
+</div>
+
 
 <div class='wooden-sign container-row'>
     <label>

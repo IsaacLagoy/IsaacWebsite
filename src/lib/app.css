@@ -8,6 +8,7 @@
     --dark_green: #123701;
     --light_wood: #ad8f55;
     --dark_wood: #7d6237;
+    --brown: #764401;
 }
 
 @font-face {
@@ -18,7 +19,8 @@
     font-family: 'Boldenda';
 }
 html {
-    overscroll-behavior-block: none;
+    overscroll-behavior-y: none;
+    overscroll-behavior-x: none;
 }
 body {
     margin: 0px;
@@ -118,6 +120,11 @@ hr {
 .container-column-reverse {
     display: flex;
     flex-direction: column-reverse;
+    justify-content: space-around;
+}
+.container-row-wrap {
+    display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
 }
 /* boxicons icons */
@@ -315,6 +322,28 @@ hr {
     position: absolute;
     width: 100vw;
 }
+/* wooden shelf */
+.item-box {
+    background-color: var(--brown);
+    bottom: 0px;
+    margin-bottom: 0px;
+    padding: 10px;
+    color: var(--light_wood);
+}
+.item-box:hover {
+    color: white;
+}
+.money-bag {
+    background-image: url('./images/money_bag.png');
+    background-size: 100% 100%;
+    padding: 0px;
+    padding-left: 10px;
+    padding-right: 15px;
+    text-align: center;
+}
+.money-bag p {
+    padding-top: 20px;
+}
 
 /* afterclass formatting #################################### last thing in css */
 /* colors */
@@ -335,6 +364,7 @@ hr {
 
 .background-dark_green {background-color: var(--dark_green);}
 .background-dark_wood {background-color: var(--dark_wood);}
+.background-light_wood {background-color: var(--light_wood);}
 
 /* text */
 .text-center {text-align: center;}

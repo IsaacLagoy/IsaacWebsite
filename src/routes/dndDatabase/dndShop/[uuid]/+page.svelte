@@ -6,15 +6,15 @@
     <i class='bx bx-arrow-back'></i>
 </a>
 
-<h1 class='page-title'>{data.name}</h1>
+<h1 class='item-title'><span class='wooden-sign'>{data.name}</span></h1>
 
 <div class='container-row'>
     <div class='column-left'>
-        <div class='round-box border-red'>
+        <div class='wooden-sign text-center'>
             <h1>Cost:</h1>
-            <p class='text-center'>${data.cost}</p>
+            <p>${data.cost}</p>
         </div>
-        <form class='round-box border-green' method='POST' action='?/add-to-cart'>
+        <form class='wooden-sign' method='POST' action='?/add-to-cart'>
             <label>
                 Quantity
                 <input
@@ -29,7 +29,7 @@
         </form>
     </div>
     <div class='column-right'>
-        <div class='round-box border-purple'>
+        <div class='wooden-sign text-center'>
             <h1>Description</h1>
             <p>{data.description}</p>
         </div>

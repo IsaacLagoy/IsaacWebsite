@@ -28,7 +28,7 @@ export type filterType = {
 };
 
 // filter categories for dnd shop
-const initialFilterCategories : filterType = {categories: [], less: 100000000, greater: 0};
+const initialFilterCategories : filterType = {categories: [''], less: 100000000, greater: 0};
 export const filterCategoriesStore = new Store(initialFilterCategories);
 // cart for dnd shop
 const initialCart : {[key : string] : number} = {};

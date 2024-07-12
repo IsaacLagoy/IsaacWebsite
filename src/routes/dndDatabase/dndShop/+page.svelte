@@ -54,15 +54,13 @@
     </form>
 </div>
 
-<ul class="items-list">
+<div class='container-row-wrap'>
     {#each data.items as item}
-        <li>
-            <DisplayShelf
-                name={item.name}
-                id={item.id}
-                cost={item.cost}
-            />
-        </li>
+        <DisplayShelf
+            name={item.name}
+            id={item.id}
+            cost={item.cost}
+        />
     {/each}
-</ul>
+</div>
 
