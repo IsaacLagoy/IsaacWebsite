@@ -192,7 +192,7 @@ hr {
 .page-section {
     position: relative;
     width: 100vw;
-    height: max(100vh, 100vw);
+    height: max(100vh, 70vw);
     margin: 0px;
     display: inline-block;
     background-size: 100% 100%;
@@ -212,8 +212,6 @@ hr {
     border-radius: 20px;
     padding: 10px;
     color: black;
-    margin-left: 10vw;
-    margin-right: 10vw;
 }
 .direction-post {
     background-color: var(--dark_wood);
@@ -225,7 +223,7 @@ hr {
     position: absolute;
     bottom: 8px;
     left: 20vw;
-    padding-bottom: max(20vh, 20vw);
+    padding-bottom: max(20vh, 5vw);
     transform: rotate(10deg);
     display: flex;
     flex-direction: column;
@@ -235,7 +233,7 @@ hr {
     position: absolute;
     bottom: 8px;
     right: 20vw;
-    padding-bottom: max(20vh, 20vw);
+    padding-bottom: max(20vh, 5vw);
     transform: rotate(-10deg);
     display: flex;
     flex-direction: column;
@@ -382,4 +380,19 @@ hr {
 }
 .tilt-left {
     transform: rotate(-5deg);
+}
+/* margin */
+.margin-ten {
+    margin-left: 10vw;
+    margin-right: 10vw;
+}
+.margin-five {
+    margin-left: 5vw;
+    margin-right: 5vw;
+}
+.margin-one-around {
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+    margin-right: 1vw;
+    margin-left: 1vw;
 }

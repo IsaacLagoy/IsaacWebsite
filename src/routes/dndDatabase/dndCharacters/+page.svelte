@@ -1,18 +1,18 @@
 <script>
-    import DirectionSign from "../../DirectionSign.svelte";
+    import BackArrow from "$lib/BackArrow.svelte";
 </script>
 
-<a href='/dndDatabase' class='corner-feature-left backarrow'>
-    <i class='bx bx-arrow-back'></i>
-</a>
-
-<h1 class='page-title'>Characters</h1>
-
-<DirectionSign
-    location={'right'}
-    destinations={{
-        'Classes' : '/dndDatabase/dndCharacters/dndClasses',
-        'Skill Sheets' : '/dndDatabase/dndCharacters/dndSkillSheets'
-    }}
-    title={'erm what the sigma?'}
+<BackArrow
+    destination='/dndDatabase'
 />
+
+<h1 class='page-title'><span class='wooden-sign'>Characters</span></h1>
+<div class='wooden-sign text-center margin-ten'>
+    <h1>Documentation</h1>
+    <a href='/dndDatabase/dndCharacters/dndClasses' class='black'>Classes</a>
+</div>
+<div class='spacer-five'></div>
+<div class='wooden-sign text-center margin-ten'>
+    <h1>Editing</h1>
+    <a href='/dndDatabase/dndCharacters/dndSkillSheets' class='black'>Skill Sheets</a>
+</div>

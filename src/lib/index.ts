@@ -37,3 +37,4 @@ export const cartStore = new Store(initialCart);
 export const extraStore = new Store(0);
 // discound for dnd shop
 export const discountStore = new Store(0);
+export const itemPageNumberStore = new Store(1);

@@ -93,7 +93,5 @@ export const actions = {
         };
 
         const {error: databaseError} = await supabase.from('skill_sheets').update(newSheet).eq('id', newSheet.id);
-
-        console.log(databaseError);
     }
 };

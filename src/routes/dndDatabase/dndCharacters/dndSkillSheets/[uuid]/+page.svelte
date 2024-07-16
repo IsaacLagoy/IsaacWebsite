@@ -7,7 +7,7 @@
         name: string,
         description: string,
         skills: string[][],
-        spells: string[][]
+        spells: string[][],
     }
 
     const sheet = writable<sheetType>(data.skill_sheet);
@@ -22,12 +22,32 @@
         });
     };
 
+    function moveSkill(event : Event, id : string, current : number) {
+        event.preventDefault();
+        const form = new FormData(event.target as HTMLFormElement);
+        const destination = Number(form.get('end'));
+
+        sheet.update(s => {
+            s.skills[current].splice($sheet.skills[current].indexOf(id), 1);
+            s.skills[destination].push(id);
+            return s;
+        });
+    };
+
     function addSpell(event : Event, id : string) {
         event.preventDefault();
         const form = new FormData(event.target as HTMLFormElement);
         const level = Number(form.get('level'));
         sheet.update(s => {
             s.spells[level].push(id);
+            return s;
+        });
+    };
+
+    function removeSkill(event : Event, id : string, current : number) {
+        event.preventDefault();
+        sheet.update(s => {
+            s.skills[current].splice($sheet.skills[current].indexOf(id), 1);
             return s;
         });
     };
@@ -53,6 +73,8 @@
     };
 
     $: serializedSheet = JSON.stringify($sheet);
+    $: learnedSkills = $sheet.skills.flat();
+    $: learnedSpells = $sheet.spells.flat();
 
     const spellSearch = writable('');
     const skillSearch = writable('');
@@ -78,7 +100,7 @@
         bind:value={$skillSearch}
     />
     {#each Object.entries(data.skills) as [id, skill]}
-    {#if (skill.name.startsWith($skillSearch))}
+    {#if (skill.name.startsWith($skillSearch) && learnedSkills.indexOf(id) === -1)}
         <div class='container-row'>
             {skill.name}
             <form on:submit={(event) => addSkill(event, id)}>
@@ -105,7 +127,7 @@
         bind:value={$spellSearch}
     />
     {#each Object.entries(data.spells) as [id, spell]}
-        {#if (spell.name.startsWith($spellSearch))}
+        {#if (spell.name.startsWith($spellSearch) && learnedSpells.indexOf(id) === -1)}
         <div class='container-row'>
             {spell.name}
             <form on:submit={(event) => addSpell(event, id)}>
@@ -124,7 +146,6 @@
         {/if}
     {/each}
 </div>
-
 {#each [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20] as i}
     <div class='wooden-sign'>
         <h1 class='text-center'>Level {i}</h1>
@@ -132,30 +153,38 @@
             <p class='text-center'>Skills</p>
             {#each $sheet.skills[i] as skill}
                 <div>
-                    {data.skills[skill].name}
-                    <input
-
-                    />
+                    <form on:submit={(event) => moveSkill(event, skill, i)}>
+                        {data.skills[skill].name}
+                        <input
+                            name='end'
+                            type='number'
+                            value={i}
+                        />
+                        <button type='submit'>Move</button>
+                    </form>
+                    <form on:submit={(event) => removeSkill(event, skill, i)}>
+                        <button type='submit'>Remove</button>
+                    </form>
                 </div>
             {/each}
         </div>
         <div>
             <p class='text-center'>Spells</p>
             {#each $sheet.spells[i] as spell}
-            <div>
-                <form on:submit={(event) => moveSpell(event, spell, i)}>
-                    {data.spells[spell].name}
-                    <input
-                        name='end'
-                        type='number'
-                        value={i}
-                    />
-                    <button type='submit'>Move</button>
-                </form>
-                <form on:submit={(event) => removeSpell(event, spell, i)}>
-                    <button type='submit'>Remove</button>
-                </form>
-            </div>
+                <div>
+                    <form on:submit={(event) => moveSpell(event, spell, i)}>
+                        {data.spells[spell].name}
+                        <input
+                            name='end'
+                            type='number'
+                            value={i}
+                        />
+                        <button type='submit'>Move</button>
+                    </form>
+                    <form on:submit={(event) => removeSpell(event, spell, i)}>
+                        <button type='submit'>Remove</button>
+                    </form>
+                </div>
             {/each}
         </div>
     </div>

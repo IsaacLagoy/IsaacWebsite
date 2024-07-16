@@ -1,33 +1,41 @@
 import {supabase} from "$lib/supabaseClient";
-import {filterCategoriesStore} from "$lib/index";
 
-// pulls data from database
-export async function load() {
-    const filterCategories = filterCategoriesStore.get();
-    const {data} = await supabase.from("items").select().contains('category', filterCategories.categories).gte("cost", filterCategories.greater).lte("cost", filterCategories.less);
+export async function load({ url }) {
+    // load parameters
+    const page = Number(url.searchParams.get('page')) || 1;
+    const categories = url.searchParams.get('categories')?.split(',') || [];
+    const less = Number(url.searchParams.get('less')) || 100000000;
+    const greater = Number(url.searchParams.get('greater')) || 1;
+
+    const { count } = await supabase.from("items")
+        .select('*', { count: 'exact', head: true })
+        .contains('category', categories)
+        .gte("cost", greater)
+        .lte("cost", less);
+
+    // returns nothing if count is zero
+    if (!count || count === 0) {
+        return {
+            categories: { categories, less, greater },
+            items: [],
+            pages: 1,
+            currentPage: page
+        };
+    };
+
+    const { data } = await supabase.from("items")
+        .select()
+        .contains('category', categories)
+        .gte("cost", greater)
+        .lte("cost", less)
+        .range(50 * (page - 1), Math.min(50 * page, count) - 1);
 
     return {
-        categories: filterCategories ?? [],
+        categories: { categories, less, greater },
         items: data ?? [],
+        pages: Math.ceil(count / 50),
+        currentPage: page
     };
 }
 
-export const actions = {
-    'set-filter-categories': async({request}) => {
-        // gets muliselect form data
-        const form = await request.formData();
-        // @ts-ignore
-        const filter = JSON.parse(form.get('filter'));
-        // check numericals
-        // @ts-ignore
-        const less = form.get('less') !== '' ?  parseInt(form.get('less')) : 1000000000;
-        // @ts-ignore
-        const greater = form.get('greater') !== '' ?  parseInt(form.get('greater')) : 0;
-        
-        filterCategoriesStore.set({
-            categories: filter,
-            less: less,
-            greater: greater
-        });
-    }
-};
+

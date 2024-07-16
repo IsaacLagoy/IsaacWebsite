@@ -1,5 +1,4 @@
 import {supabase} from "$lib/supabaseClient";
-import {filterCategoriesStore} from "$lib/index";
 
 // pulls data from database
 export async function load() {
@@ -7,8 +6,4 @@ export async function load() {
     return {
         items: data ?? [],
     };
-}
-
-export const actions = {
-    
 };

@@ -1,6 +1,11 @@
 <script>
+    import BackArrow from '$lib/BackArrow.svelte';
     export let data;
 </script>
+
+<BackArrow 
+    destination='/dndDatabase/dndCharacters'
+/>
 
 <h1 class='page-title'><span class='wooden-sign'>Skill Sheets</span></h1>
 <ul>

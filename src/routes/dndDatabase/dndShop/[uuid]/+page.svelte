@@ -7,14 +7,15 @@
 </a>
 
 <h1 class='item-title'><span class='wooden-sign'>{data.name}</span></h1>
-
+<div class='spacer-five'></div>
 <div class='container-row'>
     <div class='column-left'>
-        <div class='wooden-sign text-center'>
+        <div class='wooden-sign text-center margin-five'>
             <h1>Cost:</h1>
             <p>${data.cost}</p>
         </div>
-        <form class='wooden-sign' method='POST' action='?/add-to-cart'>
+        <div class='spacer-five'></div>
+        <form class='wooden-sign margin-five' method='POST' action='?/add-to-cart'>
             <label>
                 Quantity
                 <input
@@ -29,7 +30,7 @@
         </form>
     </div>
     <div class='column-right'>
-        <div class='wooden-sign text-center'>
+        <div class='wooden-sign text-center margin-five'>
             <h1>Description</h1>
             <p>{data.description}</p>
         </div>

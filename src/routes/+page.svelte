@@ -130,7 +130,7 @@
         </div>
         <div class='contained-column'>
             <div class='wooden-sign tilt-left'>
-                <p>+1 (713) 498-5947</p>
+                <p class='black no-decoration'>+1 (713) 498-5947</p>
                 <p>Please Text!</p>
             </div>
         </div>
