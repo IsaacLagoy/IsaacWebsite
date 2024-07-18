@@ -8,16 +8,18 @@
 />
 
 <h1 class='item-title'><span class='wooden-sign'>{data.ability.name}</span></h1>
-
 <div class='wooden-sign text-center'>
     <p>{data.ability.description}</p>
 </div>
+<div class='spacer-five'></div>
 {#if (data.pageType === 'spell')}
     <div class='container-row'>
-        <div class='wooden-sign contained'>
-            <h1>Cost</h1>
-            <p class='text-center'>{data.ability.cost}</p>
-        </div>
+        {#if (data.ability.cost !== null)}
+            <div class='wooden-sign contained'>
+                <h1>Cost</h1>
+                <p class='text-center'>{data.ability.cost}</p>
+            </div>
+        {/if}
         {#if (data.ability.damage_count !== null)}
         <div class='wooden-sign contained'>
             <h1>Damage</h1>

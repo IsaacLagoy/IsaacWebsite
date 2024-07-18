@@ -29,7 +29,6 @@
         </div>
     </div>
 {/if}
-<div class='spacer-five'></div>
 {#each [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20] as i}
     {#if (data.sheet.skills[i].length + data.sheet.spells[i].length !== 0)}
         <div class='wooden-sign margin-ten'>

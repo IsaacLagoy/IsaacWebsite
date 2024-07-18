@@ -14,6 +14,6 @@
 <div class='spacer-five'></div>
 <div class='wooden-sign text-center margin-ten'>
     <h1>Editing</h1>
-    <p>Isaac Only</p>
+    <p class='red'>Isaac Only</p>
     <a href='/dndDatabase/dndCharacters/dndSkillSheets' class='black'>Skill Sheets</a>
 </div>
