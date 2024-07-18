@@ -51,5 +51,14 @@
             {/each}
         </div>
     </span>
+    {#if (data.class.alignment)}
+        <span>
+            <div class='spacer-five'></div>
+            <div class='wooden-sign text-center'>
+                <h1>Alignment</h1>
+                <p>{data.class.alignment}</p>
+            </div>
+        </span>
+    {/if}
 </div>
 <div class='spacer-five'></div>

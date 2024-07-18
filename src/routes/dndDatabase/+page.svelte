@@ -12,7 +12,8 @@
     location={'left'}
     destinations={{
         'Shop' : '/dndDatabase/dndShop',
-        'Characters' : '/dndDatabase/dndCharacters'
+        'Characters' : '/dndDatabase/dndCharacters',
+        'Rules' : '/dndDatabase/dndRules'
     }}
     title={'Where to?'}
 />
