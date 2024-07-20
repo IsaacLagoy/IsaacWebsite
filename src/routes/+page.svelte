@@ -18,6 +18,7 @@
     function get_word_time(hour : number) {
         if (hour < 12) {return 'morning';} 
         else if (hour < 17) {return 'afternoon';}
+        else if (hour < 20 ) {return 'evening';}
         else {return 'night';};
     };
 
@@ -45,7 +46,7 @@
 <div class='page-section' style='background-image: url({jungle_one})'>
     <h1 class='page-title'><span class='wooden-sign'>About Me</span></h1>
     <p class='wooden-sign text-center'>
-        Welcome to my website! My name is Isaac and I hope your having a great {get_word_time($date_time.getHours())}. Feel free to look around and check out any cool projects that may interest you. Scroll down to learn more about me!
+        Welcome to my website! My name is Isaac and I hope you're having a great {get_word_time($date_time.getHours())}. Feel free to look around and check out any cool projects that may interest you. Scroll down to learn more about me!
     </p>
     <DirectionSign
         title={'Where to?'}

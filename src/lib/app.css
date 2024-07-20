@@ -375,6 +375,9 @@ hr {
 .no-wrap {
     white-space: nowrap;
 }
+.no-margin {
+    margin: 0px;
+}
 
 /* informal */
 .tilt-right {
