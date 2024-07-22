@@ -1,5 +1,5 @@
 <script>
-    import RuleBlock from "./RuleBlock.svelte";
+    import RuleBlock from "$lib/RuleBlock.svelte";
     import BackArrow from "$lib/BackArrow.svelte";
 </script>
 

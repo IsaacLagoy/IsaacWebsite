@@ -16,7 +16,7 @@
     const rolls = writable<number[]>([]);
     const reroll = writable(false);
     const damage = writable(1);
-    const done = writable(false);
+    const total = writable(-1);
 
     // derived stores
     const toHit = derived(
@@ -88,7 +88,7 @@
     // functions
     async function thac0Roll() {
         rolls.set([]);
-        done.set(false);
+        total.set(-1);
         for (let i = 0; i < $dice; i++) {
             await sleep(200);
             if ($reroll){
@@ -114,7 +114,7 @@
             await sleep(50);
             damage.set(randint(1, max));
         };
-        done.set(true);
+        total.set($damage * ($hits + $crits * $critMultiplier));
     };
     function randint(min:number, max:number) {
         return Math.floor(Math.random() * (max - min + 1)) + min;
@@ -252,12 +252,10 @@
         </div>
         <div>
             <h1 class='text-center'>Damage</h1>
-            {#if ($rolls.length > 0)}
-                {#if ($rolls.length === $dice)}
-                    <h1 class='text-center'>{$damage}</h1>
-                    {#if ($done)}
-                        <h1 class='text-center wooden-sign'>{$damage * ($hits + $crits * $critMultiplier)}</h1>
-                    {/if}
+            {#if ($damage > -1 && $rolls.length > 0)}
+                <h1 class='text-center'>{$damage}</h1>
+                {#if ($total >= 0)}
+                    <h1 class='text-center wooden-sign'>{$total}</h1>
                 {/if}
             {/if}
         </div>

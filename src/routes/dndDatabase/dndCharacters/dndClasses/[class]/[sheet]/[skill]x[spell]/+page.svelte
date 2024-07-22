@@ -32,7 +32,7 @@
         <h1 class='text-center'>Rolls</h1>
         <p class='text-center'>
             {#each data.ability.rolls as roll}
-                <span>{roll}</span>
+                <span>{roll} </span>
             {/each}
         </p>
     </div>
