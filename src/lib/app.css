@@ -31,13 +31,48 @@ html body {
 hr {
     border: 1px solid black;
 }
+a {
+    text-decoration: none;
+    color: black;
+}
+div .inline-page {
+    width: 100%;
+    display: inline-block;
+}
+div .page {
+    width: min(100vw, 100vh);
+    margin: auto;
+    min-height: 80vh;
+}
+section {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 200px;
+}
+i {
+    font-size: 30px;
+}
 
 .page-title {
     color: black;
-    font-size: 80px;
-    font-size: 12vw;
+    font-size: min(12vw, 12vh);
     text-align: center;
 }
+/* waves */ 
+.wave {
+    aspect-ratio: 900/200;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+}
+.wave-image {
+    width: 300%;
+}
+
 /* rounded box */
 .round-box {
     margin: 1vw;
@@ -47,22 +82,6 @@ hr {
 }
 .round-box h1 {
     text-align: center;
-}
-/* top link navigation bar */
-.topnav {
-    background-color: var(--blue);
-    margin: 0px;
-    overflow: hidden;
-}
-.topnav a {
-    float: left;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-.topnav a:hover {
-    color: var(--red);
 }
 /* dnd items list */
 .items-list {
@@ -156,33 +175,40 @@ hr {
     margin: 50px;
 }
 
-/* welcome screen */
-.front-vine, .front-flower {
-    will-change: transform;
-    transform: translate3d(0, 0, 0);
+/* projects */
+.project-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
 }
-.front-vine {
-    z-index: 4;
-    position: absolute;
-    height: 200vh;
-    width: 15vw;
-    top: 0px;
+.project-thumbnail {
+    justify-self: left;
 }
-.front-flower {
-    z-index: 5;
-    position: absolute;
-    width: 3vw;
-    height: auto;
-    top: 0px;
+.project-words {
+    justify-self: left;
+    padding: 10px;
 }
-.vine-container {
-    z-index: 4;
-    position: absolute;
-    overflow: hidden;
-    width: 100vw;
-    height: 200vh;
-    pointer-events: none;
+.project-words h1 {
+    margin: 5px;
 }
+.project-words p {
+    margin: 10px;
+}
+.project-nav {
+    background-color: var(--green);
+    height: 40px;
+    width:100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+}
+.project-nav a {
+    margin: 10px;
+}
+.project-nav a:hover {
+    color: white;
+}   
+
 /* .background */
 .background {
     z-index: -1;
@@ -352,7 +378,7 @@ hr {
 .green {color: var(--green);}
 .blue {color: var(--blue);}
 .purple {color: var(--purple);}
-.dark_green {color: var(--dark_green);}
+.dark_green {color: var(--dark_green);} 
 .black {color: black;}
 
 .border-red {border-color: var(--red);}
@@ -365,10 +391,18 @@ hr {
 .background-dark_green {background-color: var(--dark_green);}
 .background-dark_wood {background-color: var(--dark_wood);}
 .background-light_wood {background-color: var(--light_wood);}
+.background-green {background-color: var(--green);}
+.background-red {background-color: var(--red);}
+.background-blue {background-color: var(--blue);}
+
+.hover-blue:hover{color:var(--blue)}
 
 /* text */
 .text-center {text-align: center;}
+.text-left {text-align: left;}
+.text-right {text-align: right;}
 .no-decoration {text-decoration: none;}
+.underline {text-decoration: underline;}
 .font-size-25 {
     font-size: 25;
 }
@@ -379,13 +413,6 @@ hr {
     margin: 0px;
 }
 
-/* informal */
-.tilt-right {
-    transform: rotate(5deg);
-}
-.tilt-left {
-    transform: rotate(-5deg);
-}
 /* margin */
 .margin-ten {
     margin-left: 10vw;
@@ -400,4 +427,8 @@ hr {
     margin-bottom: 1vh;
     margin-right: 1vw;
     margin-left: 1vw;
+}
+
+.inline-block {
+    display: inline-block;
 }

@@ -3,7 +3,7 @@
     import {goto} from '$app/navigation';
     import {writable} from 'svelte/store';
     import Multiselect from 'svelte-multiselect';
-    import DisplayShelf from '../../DisplayShelf.svelte';
+    import DisplayShelf from '../../../lib/DisplayShelf.svelte';
     export let data;
 
     // stores for filter categories and cost range
