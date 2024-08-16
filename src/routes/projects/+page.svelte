@@ -1,37 +1,31 @@
 <script lang='ts'>
-    import Multiselect from 'svelte-multiselect';
     import {writable} from 'svelte/store';
     export let data;
 
-    const search = writable<string[]>([]);
-
-    function contains_all(array:string[], contained:string[]){
-        contained.forEach((str) => {
-            if (array.indexOf(str) == -1){
-                return false;
-            };
-        });
-        return true;
-    };
-
+    const search = writable<string>('None');
 </script>
 
 <h1 class='page-title'>Projects</h1>
 
-<p>{$search}</p>
-
 <div class='page'>
     <div class='text-center'>
         <h1>Skill Search</h1>
-        <Multiselect 
-            options={['Python', 'CSS']}
+        <select
             bind:value={$search}
-        />
+        >
+            <option value='None'> </option>
+            <option value='Python'>Python</option>
+            <option value='HTML'>HTML</option>
+            <option value='TypeScript'>TypeScript</option>
+            <option value='CSS'>CSS</option>
+            <option value='Svelte'>Svelte</option>
+            <option value='Power Automate'>Power Automate</option>
+        </select>
     </div>
 
     <div class='spacer-five'></div>
     {#each data.projects as project}
-        {#if contains_all(project.skills, $search)}
+        {#if project.skills.indexOf($search) > -1 || $search === 'None'}
             <a href='/projects/{project.link}' class='black no-decoration'>
                 <div class='project-box'>
                     <div class='project-thumbnail'>

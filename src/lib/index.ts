@@ -2,15 +2,9 @@
 
 class Store {
     value: any;
-    constructor(value : any) {
-        this.value = value;
-    };
-    get() {
-        return this.value;
-    };
-    set(new_value : typeof this.value) {
-        this.value = new_value;
-    }
+    constructor(value : any) {this.value = value;};
+    get() {return this.value;};
+    set(new_value : typeof this.value) {this.value = new_value;};
 };
 
 export type ItemData = {

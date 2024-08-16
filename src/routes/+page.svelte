@@ -48,8 +48,8 @@
             </a>
             <div class='container-column text-center column-right'>
                 <h1>Jobs</h1>
-                <a href='iStar'>iStar</a>
-                <a href='structurology'>Structurology</a>
+                <a href='/jobs/iStar'>iStar</a>
+                <a href='/jobs/structurology'>Structurology</a>
             </div>
         </div>
     </div>

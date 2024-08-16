@@ -35,7 +35,7 @@ export function load() {
         {
             title:'Google Maps Finder',
             thumb:google_maps_site,
-            skills:['HTML, JavaScript, Svelte'],
+            skills:['HTML', 'JavaScript', 'Svelte'],
             description:'A simple project using the Google Maps API',
             link:'jarvis'
         },
@@ -44,7 +44,7 @@ export function load() {
             thumb:power_automate,
             skills:['Power Automate'],
             description:'These are a few flows I created during my time at Structurology',
-            link:'structurology'
+            link:'flows'
         },
     ];
 
