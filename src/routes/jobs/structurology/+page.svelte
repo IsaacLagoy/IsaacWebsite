@@ -12,8 +12,8 @@
     <div>
         <h1>Links</h1>
         <div class='container-row'>
-            <a href='/projects/flows'>Microsoft Flows</a>
-            <a href='/projects/jarvis'>Google Maps Tool</a>
+            <a href='/projectsNone/flows'>Microsoft Flows</a>
+            <a href='/projectsNone/jarvis'>Google Maps Tool</a>
             <a href='https://www.structurology.com'>Structurology Website</a>
         </div>
     </div>

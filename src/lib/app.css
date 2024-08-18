@@ -409,6 +409,7 @@ i {
 .background-green {background-color: var(--green);}
 .background-red {background-color: var(--red);}
 .background-blue {background-color: var(--blue);}
+.background-yellow {background-color: var(--yellow);};
 
 .hover-blue:hover{color:var(--blue)}
 
