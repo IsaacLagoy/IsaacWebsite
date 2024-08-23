@@ -66,6 +66,16 @@ export const load: PageServerLoad = async ({ params }) => {
 
     const exit = '/dndDatabase/dndCharacters/dndClasses/'+params.class
 
+    const obj = {
+        sheet: newSheet,
+        skills: skills,
+        spells: spells,
+        exit: exit,
+        paramsClass: params.class,
+        paramsSheet: params.sheet
+    }
+    console.log(obj)
+
     return {
         sheet: newSheet,
         skills: skills,

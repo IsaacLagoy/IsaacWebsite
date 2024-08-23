@@ -35,7 +35,9 @@
     </div>
 </div>
 <div class='wave'>
-    <img src={green_wave} alt='green wave' style="transform: translate3d(calc(-{Math.floor(scroll/10)}vw - 1vw), 0px, 0px);" class='wave-image'/>
+    <img src={green_wave} alt='green wave' 
+         style="transform: translate3d(calc({Math.min(scroll / 10, 250)}vw - 100vw), 0px, 0px);" 
+         class='wave-image'/>
 </div>
 <!-- About -->
 <div class='inline-page background-green'>
@@ -74,7 +76,9 @@
     </div>
 </div>
 <div class='wave'>
-    <img src={red_wave} alt='red wave' style="transform: translate3d(calc({Math.floor(scroll/10)}vw - 220vw), 0px, 0px);" class='wave-image'/>
+    <img src={red_wave} alt='red wave' 
+         style="transform: translate3d(calc({Math.min(Math.floor(scroll / 10), 250)}vw - 200vw), 0px, 0px);" 
+         class='wave-image'/>
 </div>
 <!-- Experience -->
 <div class='inline-page background-red'>
@@ -96,7 +100,7 @@
     </div>
 </div>
 <div class='wave'>
-    <img src={blue_wave} alt='red wave' style="transform: translate3d(calc(-{Math.floor(scroll/10)}vw + 120vw), 0px, 0px);" class='wave-image'/>
+    <img src={blue_wave} alt='blue wave' style="transform: translate3d(calc(-{Math.floor(scroll/10)}vw + 120vw), 0px, 0px);" class='wave-image'/>
 </div>
 <!-- Skills -->
 <div class='inline-page background-blue'>

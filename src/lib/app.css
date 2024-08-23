@@ -38,6 +38,7 @@ a {
 div .inline-page {
     width: 100%;
     display: inline-block;
+    margin: 0px;
 }
 div .page {
     width: min(100vw, 100vh);
