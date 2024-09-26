@@ -1,0 +1,86 @@
+
+
+
+/* main css classes */
+h1.page-title {
+    font-size: min(12vh, 10vw);
+}
+
+.page {
+    width: min(120vh, 85vw);
+}
+
+/* content alignment */
+.text-center {
+    text-align: center;
+}
+.content-center {
+    align-content: center;
+}
+
+/* carbon design resizing */
+.min-width {
+    flex:0 0 auto; 
+    width: auto;
+}
+
+/* backgrounds and images */
+.background-basilisk {
+    background-image: url(./graphics/basilisk.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+/* flex */
+.flex-grid {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.flex-content {
+    width: flex;
+    height: flex;
+}
+
+/* random */
+.border-red {
+    border: 1px solid red;
+}
+
+
+
+
+
+.text-center {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .border-red {
+    border: 2px solid red;
+    max-width: 250px; /* Adjust to control the size */
+    aspect-ratio: 1 / 1;
+    margin: 10px; /* Adds some space between tiles */
+  }
+
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensures the image covers the space without stretching */
+  }
+
+  .ClickableTile {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    text-align: center;
+  }
+
+  h2 {
+    margin-top: 10px;
+    font-size: 1.2rem; /* Adjust as needed */
+  }
