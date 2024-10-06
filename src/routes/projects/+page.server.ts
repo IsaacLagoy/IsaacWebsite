@@ -1,6 +1,13 @@
 // import python project thumbnails
 import diceyDecks from '$lib/images/dicey_decks.png';
 import basilisk from '$lib/images/basilisk_black_thumb.png';
+import adder from '$lib/images/adder.jpeg';
+import scatter_plot from '$lib/images/scatter_matplot.png';
+import quick_sort from '$lib/images/quick_sort.png';
+import tetris_ML from '$lib/images/tetris_ML.png';
+import bi_clone from '$lib/images/bi_clone.png';
+import gnome_filter from '$lib/images/gnome_filter.png';
+import dnd_shop from '$lib/images/dnd_shop.png';
 
 // import web dev thumbnails
 import mapsFinder from '$lib/images/google_maps_site.png';
@@ -16,7 +23,10 @@ export async function load() {
         href: string
     }[] = [
         {title:'Dicey Decks', thumb:diceyDecks, href:'diceyDecks'},
-        {title:"Basilisk Engine", thumb:basilisk, href:'basilisk'}
+        {title:'Basilisk Engine', thumb:basilisk, href:'basilisk'},
+        {title:'Tetris ML', thumb:tetris_ML, href:'tetrisML'},
+        {title:'Visual Sorters', thumb:quick_sort, href:'visualSorters'},
+        {title:'Bitwise Calculator', thumb:adder, href:'bitwiseCalc'},
     ];
 
     const web_dev_projects: {
@@ -25,7 +35,7 @@ export async function load() {
         href: string
     }[] = [
         {title:'isaaclagoy.com', thumb:isaaclagoyFavicon, href:'isaaclagoy'},
-        {title:'D&D Database', thumb:isaaclagoyFavicon, href:'dndDatabase'},
+        {title:'D&D Database', thumb:dnd_shop, href:'dndDatabase'},
         {title:'Maps Finder', thumb:mapsFinder, href:'mapsFinder'},
     ];
 

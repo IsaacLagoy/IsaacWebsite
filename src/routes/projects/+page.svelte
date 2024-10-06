@@ -8,7 +8,8 @@
         Tile,
         Button,
         ButtonSet,
-        ClickableTile
+        ClickableTile,
+        ImageLoader
     } from 'carbon-components-svelte';
 
     // scrolling from top buttons
@@ -64,34 +65,34 @@
         </Column>
     </Row>
     <Row><Column><h1 id='Python'>Python</h1></Column></Row>
-    <Row class='text-center'>
+    <Row class='content-center text-center'>
         {#each data.projects.python as project}
-          <Column sm={2} md={3} lg={5}>
-            <ClickableTile href='/projects/{project.href}'>
+          <Column sm={2} md={3} lg={4}>
+            <ClickableTile href='/projects/{project.href}' class='project-tile'>
               <h2>{project.title}</h2>
-              <img src={project.thumb} alt={project.title}/>
+              <ImageLoader src={project.thumb} alt={project.title}/>
             </ClickableTile>
           </Column>
         {/each}
     </Row>
     <Row><Column><h1 id='Web Development'>Web Development</h1></Column></Row>
-    <Row class='text-center'>
+    <Row class='content-center text-center'>
         {#each data.projects.web_dev as project}
-          <Column sm={2} md={3} lg={5}>
-            <ClickableTile href='/projects/{project.href}'>
+          <Column sm={2} md={3} lg={4}>
+            <ClickableTile href='/projects/{project.href}' class='project-tile'>
               <h2>{project.title}</h2>
-              <img src={project.thumb} alt={project.title}/>
+              <ImageLoader src={project.thumb} alt={project.title}/>
             </ClickableTile>
           </Column>
         {/each}
     </Row>
     <Row><Column><h1 id='Other'>Other</h1></Column></Row>
-    <Row class='text-center'>
+    <Row class='content-center text-center'>
         {#each data.projects.other as project}
-          <Column sm={2} md={3} lg={5}>
-            <ClickableTile href='/projects/{project.href}'>
+          <Column sm={2} md={3} lg={4}>
+            <ClickableTile href='/projects/{project.href}' class='project-tile'>
               <h2>{project.title}</h2>
-              <img src={project.thumb} alt={project.title}/>
+              <ImageLoader src={project.thumb} alt={project.title}/>
             </ClickableTile>
           </Column>
         {/each}

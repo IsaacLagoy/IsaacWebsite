@@ -22,7 +22,7 @@ import {
 </script>
 
 <Grid padding class='page'>
-    <Row><Column><h1 class='page-title'>D&D Database</h1></Column></Row>
+    <Row><Column><h1>D&D Database</h1></Column></Row>
     <Row>
         <Column>
             <Tile>

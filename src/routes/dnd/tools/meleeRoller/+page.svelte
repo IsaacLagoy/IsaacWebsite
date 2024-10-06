@@ -6,11 +6,12 @@
         Breadcrumb,
         BreadcrumbItem,
         Form,
-        FormItem,
-        FormGroup,
         Tile,
-        NumberInput
-
+        NumberInput,
+        Checkbox,
+        Select,
+        SelectItem,
+        Button
     } from 'carbon-components-svelte';
 
     import {writable, derived} from 'svelte/store';
@@ -89,7 +90,7 @@
     const critMultiplier = derived(
         [critOver],
         ([$critOver]) => {
-            let add = ['', 'Overwhelming Crit', 'Improved Overwhelming Crit', 'Superior Overwhelming Crit', 'Epic Overwhelming Crit', 'Legendary Overwhelming Crit', 'Godly Overwhelming Crit'].indexOf($critOver[0]);
+            let add = ['', 'Devastating Crit', 'Improved Devastating Crit', 'Superior Devastating Crit', 'Epic Devastating Crit', 'Legendary Devastating Crit', 'Godly Devastating Crit'].indexOf($critOver[0]);
             if (add === -1) {
                 add = 0;
             };
@@ -98,7 +99,8 @@
     );
 
     // functions
-    async function thac0Roll() {
+    async function thac0Roll(event : SubmitEvent) {
+        event.preventDefault();
         rolls.set([]);
         total.set(-1);
         for (let i = 0; i < $dice; i++) {
@@ -142,23 +144,163 @@
             <Breadcrumb>
                 <BreadcrumbItem href='/dnd'>D&D</BreadcrumbItem>
                 <BreadcrumbItem href='/dnd/tools'>Tools</BreadcrumbItem>
-                <BreadcrumbItem href='/dnd/tools/meleeRoller' isCurrentPage>Melee Roller</BreadcrumbItem>
+                <BreadcrumbItem isCurrentPage>Melee Roller</BreadcrumbItem>
             </Breadcrumb>
         </Column>
     </Row>
-    <Row><Column><h1 class='page-title'>Melee Roller</h1></Column></Row>
+    <Row><Column><h1>Melee Roller</h1></Column></Row>
     <Row>
         <Column>
             <Tile>
                 <Form on:submit={thac0Roll}>
-                    <NumberInput 
-                        label='Attacks Per Round' 
-                        bind:value={$dice} 
-                        min={1}
-                    />
+                    <Row>
+                        <Column>
+                            <NumberInput 
+                                light
+                                required
+                                helperText='Attacks Per Round' 
+                                bind:value={$dice} 
+                                min={1}
+                            />
+                        </Column>
+                        <Column>
+                            <NumberInput
+                                light
+                                required
+                                helperText='Strength'
+                                bind:value={$strength}
+                                min={1}
+                            />
+                        </Column>
+                    </Row>
+                    <Row>
+                        <Column>
+                            <NumberInput
+                                light
+                                required
+                                helperText='Your Thac0'
+                                max={20}
+                                bind:value={$thaco}
+                            />
+                        </Column>
+                        <Column>
+                            <NumberInput
+                                light
+                                required
+                                max={10}
+                                helperText='Enemy AC'
+                                bind:value={$ac}
+                            />
+                        </Column>
+                    </Row>
+                    <Row>
+                        <Column>
+                            <Checkbox
+                                labelText='Weapon?'
+                                bind:checked={$weapon}
+                            />
+                        </Column>
+                        {#if $weapon}
+                            <Column>
+                                <NumberInput
+                                    light
+                                    required
+                                    min={0}
+                                    helperText='Weapon Modifier'
+                                    bind:value={$weaponThaco}
+                                />
+                            </Column>
+                        {/if}
+                    </Row>
+                    <Row>
+                        <Column>
+                            <Select
+                                selected=''
+                                light
+                                helperText='Proficiency'
+                            >
+                                <SelectItem value=''/>
+                                <SelectItem value='Proficiency'/>
+                                <SelectItem value='Improved Proficiency'/>
+                                <SelectItem value='Superior Proficiency'/>
+                                <SelectItem value='Epic Proficiency'/>
+                                <SelectItem value='Legendary Proficiency'/>
+                                <SelectItem value='Godly Proficiency'/>
+                            </Select>
+                        </Column>
+                    </Row>
+                    <Row>
+                        <Column>
+                            <Select
+                                selected=''
+                                light
+                                helperText='Devastating Crit'
+                            >
+                                <SelectItem value=''/>
+                                <SelectItem value='Devastating Crit'/>
+                                <SelectItem value='Improved Devastating Crit'/>
+                                <SelectItem value='Superior Devastating Crit'/>
+                                <SelectItem value='Epic Devastating Crit'/>
+                                <SelectItem value='Legendary Devastating Crit'/>
+                                <SelectItem value='Godly Devastating Crit'/>
+                            </Select>
+                        </Column>
+                    </Row>
+                    <Row>
+                        <Column>
+                            <Checkbox
+                                labelText='Reroll 1 or 2'
+                                bind:checked={$reroll}
+                            />
+                        </Column>
+                        <Column>
+                            <Button type='submit' kind='secondary'>Roll</Button>
+                        </Column>
+                    </Row>
                 </Form>
             </Tile>
-            
+        </Column>
+    </Row>
+    <Row id='board'>
+        <Column>
+            <Tile>
+                <Row>
+                    <Column>
+                        <Tile light>
+                            {#each $rolls as roll}
+                                {#if (roll >= $toCrit)}
+                                    <span class='yellow'>{roll + ' '}</span>
+                                {:else if (roll >= $toHit)}
+                                    <span class='green'>{roll + ' '}</span>
+                                {:else}
+                                    <span class='red'>{roll + ' '}</span>
+                                {/if}
+                            {/each}
+                            {#if ($rolls.length > 0)}
+                                <div class='container-row'>
+                                    <p class='margin-one-around'>Hits: {$hits}</p>
+                                    <p class='margin-one-around'>Crits: {$crits}</p>
+                                </div>
+                                {#if ($rolls.length === $dice)}
+                                    <p class='text-center'>{$result}</p>
+                                {/if}
+                            {/if}
+                            
+                            {#if ($damage > -1 && $rolls.length > 0)}
+                                <p class='text-center'>Multiplier: {$damage}</p>
+                            {/if}
+                        </Tile>
+                    </Column>
+                    <Column>
+                        <Tile light>
+                            <h1 class='text-center'>Damage</h1>
+                            {#if ($total >= 0)}
+                                <h1 class='text-center'>{$total}</h1>
+                            {/if}
+                        </Tile>
+                    </Column>
+                </Row>
+            </Tile>
         </Column>
     </Row>
 </Grid>

@@ -21,11 +21,11 @@
         <Column>
             <Breadcrumb>
                 <BreadcrumbItem href='/dnd'>D&D</BreadcrumbItem>
-                <BreadcrumbItem href='/dnd/tools' isCurrentPage>Tools</BreadcrumbItem>
+                <BreadcrumbItem isCurrentPage>Tools</BreadcrumbItem>
             </Breadcrumb>
         </Column>
     </Row>
-    <Row><Column><h1 class='page-title'>Tools</h1></Column></Row>
+    <Row><Column><h1>Tools</h1></Column></Row>
     <Row>
         <Column>
             <Tile>
@@ -33,7 +33,7 @@
             </Tile>
         </Column>
     </Row>
-    <Row class='text-center'>
+    <Row class='content-center text-center'>
         {#each links as link}
             <Column sm={2} md={3} lg={5}>
                 <ClickableTile href='/dnd/tools/{link.href}'>
