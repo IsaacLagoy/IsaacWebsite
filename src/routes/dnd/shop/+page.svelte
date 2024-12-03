@@ -1,10 +1,5 @@
 <script lang='ts'>
-    import {onMount} from 'svelte';
-    import {goto} from '$app/navigation';
-    import {writable} from 'svelte/store';
-    export let data;
-
-    import {
+        import {
         Grid,
         Row,
         Column,
@@ -15,13 +10,16 @@
         Form,
         MultiSelect,
         NumberInput,
-        DataTable,
-        ButtonSet
+        DataTable
     } from 'carbon-components-svelte';
 
     import {
         ShoppingCart
     } from 'carbon-icons-svelte';
+
+    import {goto} from '$app/navigation';
+    import {writable} from 'svelte/store';
+    export let data;
 
     // stores for filter categories and cost range
     let filterCategories = writable(data.categories.categories);
@@ -30,8 +28,8 @@
 
     // function to apply filters by updating the URL parameters
     function applyFilters() {
-        const params = new URLSearchParams();
-        params.set('categories', $filterCategories.join(','));
+        const params = new URLSearchParams(window.location.search);
+        params.set('categories', 'animal');
         params.set('less', $less.toString());
         params.set('greater', $greater.toString());
         params.set('page', '1');
@@ -47,17 +45,10 @@
         params.set('page', page.toString());
         goto(`?${params.toString()}`);
     }
-
-    // on component mount, initialize the URL parameters if they are missing
-    onMount(() => {
-        const url = new URL(window.location.href);
-        if (!url.searchParams.has('categories') && !url.searchParams.has('less') && !url.searchParams.has('greater') && !url.searchParams.has('page')) {
-            applyFilters();
-        }
-    });
 </script>
 
-<p>{$filterCategories}</p>
+<p>{$filterCategories.join(',')}</p>
+<p>{$less}</p>
 
 <Grid padding class='page'>
     <Row>

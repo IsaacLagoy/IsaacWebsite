@@ -12,6 +12,8 @@
         ImageLoader
     } from 'carbon-components-svelte';
 
+    import basilisk from '$lib/images/basilisk_white_thumb.png';
+
     // scrolling from top buttons
     function scrollToTarget(id : string) {
         const target = document.getElementById(id);
@@ -50,7 +52,13 @@
     </Row>
     <Row><Column><h1>Featured</h1></Column></Row>
     <Row>
-        <Column class='background-basilisk min-width' style='aspect-ratio:450/770; width:20%;'></Column>
+        <Column>
+            <Tile>
+                <ImageLoader
+                    src={basilisk}
+                />
+            </Tile>
+        </Column>
         <Column>
             <Tile>
                 <h2>Basilisk Engine</h2>
@@ -61,6 +69,7 @@
             <Button 
                 kind="secondary" 
                 href='/projects/basilisk'
+                style='margin-top:20px;'
             >Learn More</Button>
         </Column>
     </Row>

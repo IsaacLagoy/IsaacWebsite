@@ -10,6 +10,7 @@
     } from "carbon-components-svelte";
 
 </script>
+
 <Grid padding class='page'>
     <Row>
         <Column>
@@ -27,7 +28,7 @@
             </ClickableTile>
         </Column>
         <Column>
-            <ClickableTile href='dnd/characters/races'>
+            <ClickableTile href='/dnd/characters/races'>
                 <h2>Races</h2>
             </ClickableTile>
         </Column>

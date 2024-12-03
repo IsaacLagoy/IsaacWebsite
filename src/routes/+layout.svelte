@@ -1,5 +1,5 @@
 <script>
-    import 'carbon-components-svelte/css/white.css';
+    import 'carbon-components-svelte/css/g90.css';
     import '$lib/style.css';
 
     import {
@@ -33,7 +33,7 @@
         {icon:Home, text:'Home', href:'/'},
         {icon:Code, text:'Projects', href:'/projects'},
         {icon:Workspace, text:'Experience', href:'/experience'},
-        {icon:WhitePaper, text:'Resume', href:'/resume'},
+        // {icon:WhitePaper, text:'Resume', href:'/resume'},
         {icon:DataBase, text:"D&D Database", href:'/dnd'}
     ];
 </script>

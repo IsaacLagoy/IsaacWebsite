@@ -9,16 +9,6 @@ import {
     TooltipIcon
 } from 'carbon-components-svelte';
 
-import {
-    ShoppingCart,
-    ShoppingBag,
-    ToolBox,
-    ToolKit,
-    Rule,
-    RuleFilled,
-    User
-} from 'carbon-icons-svelte';
-
 </script>
 
 <Grid padding class='page'>
@@ -26,15 +16,15 @@ import {
     <Row>
         <Column>
             <Tile>
-                <p>Welcome to the D&D database!!! Most of the data here is homebrew so appologies if it doesn't make sense. Check out the info pages and functioning shop powered by Supabase.</p>
+                <p>Welcome to the D&D database!!! Most of the data here is homebrew so appologies if it doesn't make sense.</p>
             </Tile>
         </Column>
     </Row>
     <Row>
         <Column>
-            <ClickableTile href='/dnd/shop'>
-                <h1>Shop</h1>
-            </ClickableTile>
+            <Tile>
+                <h1>Shop (coming soon)</h1>
+            </Tile>
         </Column>
         <Column>
             <ClickableTile href='/dnd/characters'>

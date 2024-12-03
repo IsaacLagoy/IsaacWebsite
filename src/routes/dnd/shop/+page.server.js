@@ -7,6 +7,11 @@ export async function load({ url }) {
     const less = Number(url.searchParams.get('less')) || 100000000;
     const greater = Number(url.searchParams.get('greater')) || 1;
 
+    console.log(page);
+    console.log(categories);
+    console.log(less);
+    console.log(greater);
+
     const { count } = await supabase.from("items")
         .select('*', { count: 'exact', head: true })
         .contains('category', categories)

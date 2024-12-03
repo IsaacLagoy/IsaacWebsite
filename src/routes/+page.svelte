@@ -47,7 +47,7 @@
             <h1>Howdy!</h1>
             <Tile>
                 <p>
-                    I'm a full time student at Texas A&M going for my BS in computer science with a minor in math. I love learning about how the world works and what I can do to make it a better place. You can often find me at the Game Developers Club where I'm working on a Python based game engine and improving my coding skills every day. 
+                    I'm a full time student at Texas A&M going for my BS in computer science with a minor in math. I love learning about how the world works and what I can do to make it a better place. You can often find me at the Game Developers Club where I'm working on my Basilisk game engine and improving my coding skills every day. 
                 </p>
             </Tile>
         </Column>
@@ -131,8 +131,8 @@
                 <Row>
                     <Column><p class='text-center'>isaacblagoy@gmail.com</p></Column>
                     <Column class='content-center'>
-                        <a href='/projects' style='color:black'>
-                            <LogoLinkedin size={32}/>
+                        <a href='https://www.linkedin.com/in/isaac-lagoy-698481331/' style='color:black'>
+                            <LogoLinkedin size={32} color={'white'}/>
                         </a>
                     </Column>
                 </Row>

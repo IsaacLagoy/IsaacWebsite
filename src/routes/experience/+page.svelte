@@ -15,9 +15,9 @@
 </script>
 
 <Grid padding class='page'>
-    <Row><Column><h1 class='page-title'>Jobs & Internships</h1></Column></Row>
+    <Row><Column><h1 class='page-title'>Experience</h1></Column></Row>
     <Row class='text-center'>
-        <Column sm={2} md={3} lg={5}>
+        <Column>
             <ClickableTile
                 href='/experience/iSTAR'
             >
@@ -26,24 +26,12 @@
                 />
             </ClickableTile>
         </Column>
-        <Column sm={2} md={3} lg={5}>
+        <Column>
             <ClickableTile
                 href='/experience/structurology'
             >
                 <ImageLoader
                     src={structurologyLogo}
-                />
-            </ClickableTile>
-        </Column>
-    </Row>
-    <Row><Column><h1>Awards & Competitions</h1></Column></Row>
-    <Row class='text-center'>
-        <Column sm={2} md={3} lg={5}>
-            <ClickableTile
-                href='/experience/gameDev'
-            >
-                <ImageLoader
-                    src={gameDevSpring2024}
                 />
             </ClickableTile>
         </Column>
