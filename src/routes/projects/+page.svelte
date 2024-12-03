@@ -76,7 +76,7 @@
     <Row><Column><h1 id='Python'>Python</h1></Column></Row>
     <Row class='content-center text-center'>
         {#each data.projects.python as project}
-          <Column sm={2} md={3} lg={4}>
+          <Column sm={2} md={3} lg={5}>
             <ClickableTile href='/projects/{project.href}' class='project-tile'>
               <h2>{project.title}</h2>
               <ImageLoader src={project.thumb} alt={project.title}/>
@@ -87,7 +87,7 @@
     <Row><Column><h1 id='Web Development'>Web Development</h1></Column></Row>
     <Row class='content-center text-center'>
         {#each data.projects.web_dev as project}
-          <Column sm={2} md={3} lg={4}>
+          <Column sm={2} md={3} lg={5}>
             <ClickableTile href='/projects/{project.href}' class='project-tile'>
               <h2>{project.title}</h2>
               <ImageLoader src={project.thumb} alt={project.title}/>
@@ -98,7 +98,7 @@
     <Row><Column><h1 id='Other'>Other</h1></Column></Row>
     <Row class='content-center text-center'>
         {#each data.projects.other as project}
-          <Column sm={2} md={3} lg={4}>
+          <Column sm={2} md={3} lg={5}>
             <ClickableTile href='/projects/{project.href}' class='project-tile'>
               <h2>{project.title}</h2>
               <ImageLoader src={project.thumb} alt={project.title}/>

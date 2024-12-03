@@ -5,6 +5,7 @@ import adder from '$lib/images/adder.jpeg';
 import quick_sort from '$lib/images/quick_sort.png';
 import tetris_ML from '$lib/images/tetris_ML.png';
 import dnd_shop from '$lib/images/dnd_shop.png';
+import indepenDanceDay from '$lib/images/indepenDanceDay.png';
 
 // import web dev thumbnails
 import isaaclagoyFavicon from '$lib/images/favicon.png';
@@ -22,6 +23,7 @@ export async function load() {
         {title:'Basilisk Engine', thumb:basilisk, href:'basilisk'},
         {title:'Tetris ML', thumb:tetris_ML, href:'tetrisML'},
         {title:'Visual Sorters', thumb:quick_sort, href:'visualSorters'},
+        {title:'IndepenDance Day', thumb:indepenDanceDay, href:'indepenDanceDay'},
         {title:'Bitwise Calculator', thumb:adder, href:'bitwiseCalc'},
     ];
 
