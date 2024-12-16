@@ -125,7 +125,7 @@
     </Row>
     <Row>
         <Column>
-            <h1>Contect Me</h1>
+            <h1>Contact Me</h1>
             <Tile>
                 <p>I'm always looking for jobs and interships so if you're interested in me, please reach out!</p>
                 <Row>
