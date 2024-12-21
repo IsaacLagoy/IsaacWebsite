@@ -20,7 +20,6 @@ export async function load() {
         href: string
     }[] = [
         {title:'Dicey Decks', thumb:diceyDecks, href:'diceyDecks'},
-        {title:'Basilisk Engine', thumb:basilisk, href:'basilisk'},
         {title:'Tetris ML', thumb:tetris_ML, href:'tetrisML'},
         {title:'Visual Sorters', thumb:quick_sort, href:'visualSorters'},
         {title:'IndepenDance Day', thumb:indepenDanceDay, href:'indepenDanceDay'},

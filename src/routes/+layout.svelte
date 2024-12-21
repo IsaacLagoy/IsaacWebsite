@@ -1,4 +1,4 @@
-<script>
+<script lang='ts'>
     import 'carbon-components-svelte/css/g90.css';
     import '$lib/style.css';
 
@@ -6,43 +6,47 @@
         Header,
         HeaderUtilities,
         HeaderGlobalAction,
-        SideNav,
-        SideNavItems,
-        SideNavLink,
-        Content
+        HeaderNav,
+        HeaderNavItem,
+        Content,
+        Grid
     } from 'carbon-components-svelte';
-
-    // icons
     import { 
         LogoGithub,
         LogoLinkedin,
         LogoYoutube,
-        Home,
-        Code,
-        Workspace,
-        WhitePaper,
-        DataBase
     } from 'carbon-icons-svelte';
 
-    let isSideNavOpen = false;
-    
-    // side nav links
-    import {page} from '$app/stores';
+    let stars: {
+        x: number,
+        y: number,
+        size: number,
+        color: string
+    }[] = []
 
-    const links = [
-        {icon:Home, text:'Home', href:'/'},
-        {icon:Code, text:'Projects', href:'/projects'},
-        {icon:Workspace, text:'Experience', href:'/experience'},
-        // {icon:WhitePaper, text:'Resume', href:'/resume'},
-        {icon:DataBase, text:"D&D Database", href:'/dnd'}
-    ];
+    for (let i = 0; i < 50; i++) {
+
+        const color = Math.floor(Math.random() * 100 + 50);
+        const hex   = color.toString(16);
+
+        stars.push({
+            x: Math.random() * 100,
+            y: Math.random() * 100,
+            size: Math.random() * 0.2 + 0.1,
+            color: `#${hex}${hex}${hex}`
+        })
+    }
 </script>
 
 <Header 
-    platformName='Isaac Lagoy' 
-    bind:isSideNavOpen
-    
+    platformName='Isaac Lagoy'
+    href='/'
 >
+    <HeaderNav>
+        <HeaderNavItem href='/projects' text='Projects'/>
+        <HeaderNavItem href='/experience' text='Experience'/>
+        <HeaderNavItem href='/resume' text='Resume'/>
+    </HeaderNav>
     <HeaderUtilities>
         <HeaderGlobalAction
             iconDescription='GitHub'
@@ -63,22 +67,43 @@
     </HeaderUtilities>
 </Header>
 
-<SideNav bind:isOpen={isSideNavOpen} rail>
-    <SideNavItems>
-        {#each links as link}
-            <SideNavLink 
-                icon={link.icon} 
-                text={link.text} 
-                href={link.href}
-                isSelected={$page.route.id === link.href}
-            />
-        {/each}
-    </SideNavItems>
-</SideNav>
+<svg
+    viewBox='0 0 100 100'
+    preserveAspectRatio='xMidYMid meet'
+>
+    {#each stars as star}
+        <circle
+            cx={star.x}
+            cy={star.y}
+            r={star.size}
+            fill={star.color}
+        />
+    {/each}
 
-<Content>
+</svg>
 
-    <slot/>
 
+
+<Content style='padding-top:0px; padding-bottom:0px;'>
+    <div class='page'>
+        <Grid padding>
+            <slot/>
+        </Grid>
+    </div>
 </Content>
 
+<style>
+    svg {
+        /* background: linear-gradient(to bottom, #f0f8ff, #e0f7fa); */
+        position: fixed; 
+        top: 0; 
+        left: 0; 
+        z-index: -2; 
+        width: 100vw;
+        overflow: hidden;
+    }
+
+    /* path {
+        stroke-linecap: round;
+    } */
+</style>

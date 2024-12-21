@@ -1,9 +1,15 @@
 
-
+body {
+    background-color: black;
+}
 
 /* main css classes */
-.page {
-    width: min(120vh, 85vw);
+div.page {
+    background-color: rgba(150, 150, 150, 0);
+    min-height: 100vh;
+    width: min(100vh, 90vw);
+    margin: auto;
+    margin-top: 0px;
 }
 
 h1.page-title {
@@ -59,7 +65,7 @@ img {
     justify-content: left;
 }
 
-.content-right{
+.content-right {
     display: flex;
     flex-wrap: wrap;
     justify-content: right;

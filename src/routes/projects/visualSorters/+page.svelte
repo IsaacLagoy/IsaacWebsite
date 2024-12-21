@@ -2,7 +2,6 @@
 import visual_sort from '$lib/images/quick_sort.png';
 
     import {
-        Grid,
         Row,
         Column,
         ImageLoader,
@@ -32,43 +31,41 @@ import visual_sort from '$lib/images/quick_sort.png';
     let selectedIndex = 0;
 </script>
 
-<Grid padding class='page'>
-    <Row><Column><h1 class='page-title'>Visual Sorters</h1></Column></Row>
-    <Row>
-        <Column>
-            <Tile>
-                <ImageLoader src={visual_sort}/>
-            </Tile>
-        </Column>
-        <Column>
-            <p>
-                This program displays the process that a sorting algorithm takes to sort an array. The red line shows which part of the array is being swapped. Below you can find the algorithms included in this program, and more can be added if need be. 
-            </p>
-            <Button kind='secondary' href='https://github.com/IsaacLagoy/VisualSorters/tree/main' style='margin-top:30px;'>Get it on GitHub</Button>
-        </Column>
-    </Row>
-    <Row>
-        <Column>
-            <ContentSwitcher bind:selectedIndex>
-                <Switch text='Quick'/>
-                <Switch text='Bubble'/>
-                <Switch text='Cocktail'/>
-                <Switch text='Gnome'/>
-                <Switch text='Bogo'/>
-            </ContentSwitcher>
-        </Column>
-    </Row>
-    <Row>
-        <Column>
-            <p>{description[selectedIndex]}</p>
-        </Column>
-        <Column>
-            <CodeSnippet 
-                type='multi'
-                code={code[selectedIndex]}
-                expanded
-                showMoreLess={false}
-            />
-        </Column>
-    </Row>
-</Grid>
+<Row><Column><h1 class='page-title'>Visual Sorters</h1></Column></Row>
+<Row>
+    <Column>
+        <Tile>
+            <ImageLoader src={visual_sort}/>
+        </Tile>
+    </Column>
+    <Column>
+        <p>
+            This program displays the process that a sorting algorithm takes to sort an array. The red line shows which part of the array is being swapped. Below you can find the algorithms included in this program, and more can be added if need be. 
+        </p>
+        <Button kind='secondary' href='https://github.com/IsaacLagoy/VisualSorters/tree/main' style='margin-top:30px;'>Get it on GitHub</Button>
+    </Column>
+</Row>
+<Row>
+    <Column>
+        <ContentSwitcher bind:selectedIndex>
+            <Switch text='Quick'/>
+            <Switch text='Bubble'/>
+            <Switch text='Cocktail'/>
+            <Switch text='Gnome'/>
+            <Switch text='Bogo'/>
+        </ContentSwitcher>
+    </Column>
+</Row>
+<Row>
+    <Column>
+        <p>{description[selectedIndex]}</p>
+    </Column>
+    <Column>
+        <CodeSnippet 
+            type='multi'
+            code={code[selectedIndex]}
+            expanded
+            showMoreLess={false}
+        />
+    </Column>
+</Row>

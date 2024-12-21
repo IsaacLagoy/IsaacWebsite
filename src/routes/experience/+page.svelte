@@ -2,7 +2,6 @@
     // images
     import iSTARLogo from '$lib/images/iSTAR_logo.png';
     import structurologyLogo from '$lib/images/structurology_logo.png';
-    import gameDevSpring2024 from '$lib/images/spring_best_programming_2024.jpeg';
 
     import {
         Grid,
