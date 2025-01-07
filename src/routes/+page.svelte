@@ -4,12 +4,10 @@
     import {
         Accordion,
         AccordionItem,
-        Grid,
         Row,
         Column,
         UnorderedList,
         ListItem,
-        Tile,
         StructuredList,
         StructuredListBody,
         StructuredListCell,
@@ -35,21 +33,21 @@
 <Row>
     <Column>
         <h1 class='page-title'>Welcome</h1>
-        <Tile>
+        <div>
             <p>
                 Welcome to my website! My name is Isaac and I hope you're having a great {get_word_time($date_time.getHours())}. Feel free to look around and check out any cool projects that may interest you.
             </p>
-        </Tile>
+        </div>
     </Column>
 </Row>
 <Row>
     <Column>
         <h1>Howdy!</h1>
-        <Tile>
+        <div>
             <p>
-                I'm a full time student at Texas A&M going for my BS in computer science with a minor in math. I love learning about how the world works and what I can do to make it a better place. You can often find me at the Game Developers Club where I'm working on my Basilisk game engine and improving my coding skills every day. 
+                I'm a full time student at Texas A&M going for my BS in computer science with a minor in math. I love learning about how the world works and what I can do to make it a better place. You can often find me at the Game Developers Club where I'm working on my Basilisk Game Engine and improving my coding skills every day. 
             </p>
-        </Tile>
+        </div>
     </Column>
 </Row>
 <Row>
@@ -126,16 +124,16 @@
 <Row>
     <Column>
         <h1>Contact Me</h1>
-        <Tile>
+        <div>
             <p>I'm always looking for jobs and interships so if you're interested in me, please reach out!</p>
             <Row>
                 <Column><p class='text-center'>isaacblagoy@gmail.com</p></Column>
                 <Column class='content-center'>
-                    <a href='https://www.linkedin.com/in/isaac-lagoy-698481331/' style='color:black'>
+                    <a href='https://www.linkedin.com/in/isaac-lagoy-698481331' style='color:black'>
                         <LogoLinkedin size={32} color={'white'}/>
                     </a>
                 </Column>
             </Row>
-        </Tile>
+        </div>
     </Column>
 </Row>

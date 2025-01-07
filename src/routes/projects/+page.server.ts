@@ -19,11 +19,11 @@ export async function load() {
         thumb: string,
         href: string
     }[] = [
-        {title:'Dicey Decks', thumb:diceyDecks, href:'diceyDecks'},
-        {title:'Tetris ML', thumb:tetris_ML, href:'tetrisML'},
-        {title:'Visual Sorters', thumb:quick_sort, href:'visualSorters'},
-        {title:'IndepenDance Day', thumb:indepenDanceDay, href:'indepenDanceDay'},
-        {title:'Bitwise Calculator', thumb:adder, href:'bitwiseCalc'},
+        {title:'Dicey Decks', thumb:diceyDecks, href:'/projects/diceyDecks'},
+        {title:'Tetris ML', thumb:tetris_ML, href:'/projects/tetrisML'},
+        {title:'Visual Sorters', thumb:quick_sort, href:'/projects/visualSorters'},
+        {title:'IndepenDance Day', thumb:indepenDanceDay, href:'/projects/indepenDanceDay'},
+        {title:'Bitwise Calculator', thumb:adder, href:'/projects/bitwiseCalc'},
     ];
 
     const web_dev_projects: {
@@ -31,8 +31,8 @@ export async function load() {
         thumb: string,
         href: string
     }[] = [
-        {title:'isaaclagoy.com', thumb:isaaclagoyFavicon, href:'isaaclagoy'},
-        {title:'D&D Database', thumb:dnd_shop, href:'dndDatabase'}
+        {title:'isaaclagoy.com', thumb:isaaclagoyFavicon, href:'/projects/isaaclagoy'},
+        {title:'D&D Database', thumb:dnd_shop, href:'/dnd'}
     ];
 
     const other_projects: {
@@ -40,7 +40,7 @@ export async function load() {
         thumb: string,
         href: string
     }[] = [
-        {title:'Power Automate', thumb:powerAutomate, href:'powerAutomate'}
+        {title:'Power Automate', thumb:powerAutomate, href:'/projects/powerAutomate'}
     ];
 
     return {

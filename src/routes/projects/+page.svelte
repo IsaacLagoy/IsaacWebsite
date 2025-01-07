@@ -68,7 +68,7 @@
 <Row class='content-center text-center'>
     {#each data.projects.python as project}
         <Column sm={2} md={3} lg={5}>
-            <a href={`/projects/${project.href}`} style='text-decoration:none; color:white;'>
+            <a href={`${project.href}`} style='text-decoration:none; color:white;'>
                 <div class='project'>
                     <div style='aspect-ratio:1; position:relative;'>
                         <img src={project.thumb} alt={project.title} class='thumbnail'/>
@@ -83,7 +83,7 @@
 <Row class='content-center text-center'>
     {#each data.projects.web_dev as project}
         <Column sm={2} md={3} lg={5}>
-            <a href={`/projects/${project.href}`} style='text-decoration:none; color:white;'>
+            <a href={`${project.href}`} style='text-decoration:none; color:white;'>
                 <div class='project'>
                     <div style='aspect-ratio:1; position:relative;'>
                         <img src={project.thumb} alt={project.title} class='thumbnail'/>
@@ -98,7 +98,7 @@
 <Row class='content-center text-center'>
     {#each data.projects.other as project}
         <Column sm={2} md={3} lg={5}>
-            <a href={`/projects/${project.href}`} style='text-decoration:none; color:white;'>
+            <a href={`${project.href}`} style='text-decoration:none; color:white;'>
                 <div class='project'>
                     <div style='aspect-ratio:1; position:relative;'>
                         <img src={project.thumb} alt={project.title} class='thumbnail'/>
