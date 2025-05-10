@@ -1,0 +1,26 @@
+[
+    {
+        "name": "Strength",
+        "nick": "str"
+    },
+    {
+        "name": "Constitution",
+        "nick": "con"
+    },
+    {
+        "name": "Dexterity",
+        "nick": "dex"
+    },
+    {
+        "name": "Intelligence",
+        "nick": "int"
+    },
+    {
+        "name": "Wisdom",
+        "nick": "wis"
+    },
+    {
+        "name": "Charisma",
+        "nick": "cha"
+    }
+]

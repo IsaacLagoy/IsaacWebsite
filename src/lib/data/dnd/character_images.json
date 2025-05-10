@@ -1,0 +1,68 @@
+[
+    {
+        "name": "Infrared",
+        "image": "infrared.png",
+        "classes": ["crystallite"],
+        "race": "andriod"
+    },
+    {
+        "name": "Sol",
+        "image": "sol.png",
+        "classes": ["crystallite"],
+        "race": "andriod"
+    },
+    {
+        "name": "Mach",
+        "image": "mach.png",
+        "classes": ["crystallite", "rogue"],
+        "race": "andriod"
+    },
+    {
+        "name": "Gaia",
+        "image": "gaia.png",
+        "classes": ["crystallite", "druid"],
+        "race": "andriod"
+    },
+    {
+        "name": "Refraction",
+        "image": "refraction.png",
+        "classes": ["crystallite", "bard"],
+        "race": "andriod"
+    },
+    {
+        "name": "Ultraviolet",
+        "image": "ultraviolet.png",
+        "classes": ["crystallite", "engineer"],
+        "race": "human"
+    },
+    {
+        "name": "NecrOS",
+        "image": "necros.png",
+        "classes": ["necromancer", "pythonmage"],
+        "race": "undead"
+    },
+    {
+        "name": "Tiefling",
+        "image": "tiefling.png",
+        "classes": ["eldritchknight"],
+        "race": "tiefling"
+    },
+    {
+        "name": "Orc",
+        "image": "orc.png",
+        "classes": ["fighter"],
+        "race": "orc"
+    },
+    {
+        "name": "Lizardfolk",
+        "image": "lizardfolk.png",
+        "classes": ["druid"],
+        "race": "lizardfolk"
+    },
+    {
+        "name": "Gnome",
+        "image": "gnome.png",
+        "classes": ["engineer"],
+        "race": "gnome"
+    }
+]

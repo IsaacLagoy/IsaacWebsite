@@ -1,0 +1,283 @@
+[
+    {
+        "url": "engineer",
+        "name": "Engineer",
+        "description": "Bob the builder",
+        "skill_sheets": [
+            "Engineer",
+            "General Skills"
+        ],
+        "rules": null,
+        "alignment": "Must have a lawful alignment. ",
+        "thac0": [
+            20,
+            1
+        ],
+        "ac": [
+            10,
+            1
+        ],
+        "health": "d4",
+        "mana": 9,
+        "skills": 2,
+        "hidden": false
+    },
+    {
+        "url": "necromancer",
+        "name": "Necromancer",
+        "description": "Spooky scary skeletons",
+        "skill_sheets": [
+            "Fighter",
+            "Necromancer",
+            "General Skills"
+        ],
+        "rules": "You may control up to 5 times your level in undead minions. The percent in total undead capacity that you exceed this number is the chance that you will temporarily lose control of your undead minions. ",
+        "alignment": "Must be neutral aligned or below.",
+        "thac0": [
+            18,
+            1
+        ],
+        "ac": [
+            8,
+            1
+        ],
+        "health": "d12",
+        "mana": 9,
+        "skills": 3,
+        "hidden": false
+    },
+    {
+        "url": "rogue",
+        "name": "Rogue",
+        "description": "You're a sneaky little guy. ",
+        "skill_sheets": [
+            "Rogue",
+            "General Skills"
+        ],
+        "rules": "",
+        "alignment": null,
+        "thac0": [
+            19,
+            2
+        ],
+        "ac": [
+            9,
+            2
+        ],
+        "health": "d10",
+        "mana": null,
+        "skills": 4,
+        "hidden": false
+    },
+    {
+        "url": "mage",
+        "name": "Mage",
+        "description": "I got magic hands :)",
+        "skill_sheets": [
+            "Mage",
+            "General Skills"
+        ],
+        "rules": "",
+        "alignment": null,
+        "thac0": [
+            20,
+            3
+        ],
+        "ac": [
+            10,
+            3
+        ],
+        "health": "d4",
+        "mana": 9,
+        "skills": 2,
+        "hidden": false
+    },
+    {
+        "url": "overlord",
+        "name": "Overlord",
+        "description": "Control Minions",
+        "skill_sheets": [
+            "Fighter",
+            "Overlord",
+            "General Skills"
+        ],
+        "rules": "You may control up to 10 times your level in minions. The percent in total minion capacity that you exceed this number is the chance that you will temporarily lose control of your minions. ",
+        "alignment": null,
+        "thac0": [
+            18,
+            1
+        ],
+        "ac": [
+            8,
+            1
+        ],
+        "health": "d12",
+        "mana": 9,
+        "skills": 3,
+        "hidden": false
+    },
+    {
+        "url": "eldritchknight",
+        "name": "Eldritch Knight",
+        "description": "Magic fists",
+        "skill_sheets": [
+            "Mage",
+            "Fighter",
+            "General Skills"
+        ],
+        "rules": null,
+        "alignment": null,
+        "thac0": [
+            18,
+            1
+        ],
+        "ac": [
+            8,
+            1
+        ],
+        "health": "d12",
+        "mana": 6,
+        "skills": 3,
+        "hidden": false
+    },
+    {
+        "url": "bard",
+        "name": "Bard",
+        "description": "A musical stranger who may or not scam the local parents with promises of extracurricular activities. ",
+        "skill_sheets": [
+            "Mage",
+            "Rogue",
+            "General Skills"
+        ],
+        "rules": null,
+        "alignment": null,
+        "thac0": [
+            20,
+            3
+        ],
+        "ac": [
+            10,
+            3
+        ],
+        "health": "d6",
+        "mana": 6,
+        "skills": 3,
+        "hidden": false
+    },
+    {
+        "url": "druid",
+        "name": "Druid",
+        "description": "130",
+        "skill_sheets": [
+            "Druid",
+            "General Skills"
+        ],
+        "rules": "Instead of mana, druid spells get uses per day starting at 3. For each improvement of the spell, increase the number of uses by 3. ",
+        "alignment": null,
+        "thac0": [
+            20,
+            3
+        ],
+        "ac": [
+            10,
+            3
+        ],
+        "health": "d4",
+        "mana": null,
+        "skills": 2,
+        "hidden": false
+    },
+    {
+        "url": "ranger",
+        "name": "Ranger",
+        "description": "Druid and Fighter",
+        "skill_sheets": [
+            "Druid",
+            "Fighter",
+            "General Skills"
+        ],
+        "rules": "Instead of mana, druid spells cast by rangers get uses per day starting at 1. For each improvement of the spell, increase the number of uses by 1. ",
+        "alignment": null,
+        "thac0": [
+            18,
+            1
+        ],
+        "ac": [
+            8,
+            1
+        ],
+        "health": "d12",
+        "mana": null,
+        "skills": 3,
+        "hidden": false
+    },
+    {
+        "url": "fighter",
+        "name": "Fighter",
+        "description": "Womp Womp",
+        "skill_sheets": [
+            "Fighter",
+            "General Skills"
+        ],
+        "rules": null,
+        "alignment": null,
+        "thac0": [
+            18,
+            1
+        ],
+        "ac": [
+            8,
+            1
+        ],
+        "health": "d20",
+        "mana": null,
+        "skills": 4,
+        "hidden": false
+    },
+    {
+        "url": "pythonmage",
+        "name": "Python Mage",
+        "description": "Python mages use a REPL and the Python coding language to use multiple spells in one cast. While a Python mage does not have many offensive abilities by themselves, if they have another class, a Python mage can become very powerful. Python mages rely on using their other spells in functions to call upon tremendous power in an instant. ",
+        "skill_sheets": [
+            "Python Mage",
+            "General Skills"
+        ],
+        "rules": null,
+        "alignment": null,
+        "thac0": [
+            20,
+            3
+        ],
+        "ac": [
+            10,
+            3
+        ],
+        "health": "d4",
+        "mana": 9,
+        "skills": 2,
+        "hidden": true
+    },
+    {
+        "url": "crystallite",
+        "name": "Crystallite",
+        "description": "A young magic from a corner of the multiverse. Creation, destruction, justice. ",
+        "skill_sheets": [
+            "Crystallite",
+            "General Skills"
+        ],
+        "rules": "Each crystallite has their own wavelength, giving them a unique color and identification. Ask your DM to see what colors are available. Crystallites use CEJ instead of mana. ",
+        "alignment": null,
+        "thac0": [
+            18,
+            1
+        ],
+        "ac": [
+            8,
+            1
+        ],
+        "health": "d4",
+        "mana": 10,
+        "skills": 2,
+        "hidden": true
+    }
+]

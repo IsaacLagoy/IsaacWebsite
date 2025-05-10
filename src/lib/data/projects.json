@@ -1,0 +1,68 @@
+[
+    {
+        "name": "Basilisk Engine", 
+        "thumb": "images/basilisk/basilisk_square_white.png",
+        "href": "/projects/basilisk", 
+        "skills": ["Python", "Basilisk Engine"]
+    },
+    {
+        "name": "Emulsion",
+        "thumb": "images/projects/emulsion.png",
+        "href": "/projects/emulsion",
+        "skills": ["Python", "Basilisk Engine"]
+    },
+    {
+        "name": "Selva",
+        "thumb": "images/projects/selva.png",
+        "href": "/projects/selva",
+        "skills": ["Python", "Basilisk Engine"]
+    },
+    {
+        "name": "IndepenDance Day",
+        "thumb": "images/projects/independance_day.png",
+        "href": "/projects/indepenDanceDay",
+        "skills": ["Python", "Basilisk Engine"]
+    },
+    {
+        "name": "Dicey Decks",
+        "thumb": "images/projects/dicey_decks.png",
+        "href": "/projects/diceyDecks",
+        "skills": ["Python"]
+    },
+    {
+        "name": "JavaFX Cheese Truck",
+        "thumb": "images/projects/cheese_truck.png",
+        "href": "/projects/cheeseTruck",
+        "skills": ["Java"]
+    },
+    {
+        "name": "X86-Like CPU",
+        "thumb": "images/projects/logisim.png",
+        "href": "/projects/y86",
+        "skills": []
+    },
+    {
+        "name": "Tetris ML",
+        "thumb": "images/projects/tetris_ml.png",
+        "href": "/projects/tetrisML",
+        "skills": ["Python"]
+    },
+    {
+        "name": "Visual Sorters",
+        "thumb": "images/projects/quick_sort.png",
+        "href": "/projects/visualSorters",
+        "skills": ["Python"]
+    },
+    {
+        "name": "D&D Database",
+        "thumb":"images/projects/dnd_shop.png",
+        "href": "/dnd",
+        "skills": ["HTML", "CSS", "Svelte", "TypeScript"]
+    },
+    {
+        "name": "Power Automate",
+        "thumb": "graphics/skills/power_automate_logo.svg",
+        "href": "/projects/powerAutomate",
+        "skills": ["Power Automate"]
+    }
+]

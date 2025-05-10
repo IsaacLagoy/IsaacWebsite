@@ -1,0 +1,332 @@
+[
+  {
+    "name": "Climbing",
+    "description": "Grants advantage on climbing checks and movement on vertical surfaces.",
+    "base": 50,
+    "linear": 0,
+    "exponential": 0,
+    "form": [],
+    "hue": 30,
+    "iterval": "hour",
+    "saturation": 100
+  },
+  {
+    "name": "Growth",
+    "description": "Temporarily grow larger.",
+    "base": 200,
+    "linear": 0,
+    "exponential": 0,
+    "form": [],
+    "hue": 50,
+    "iterval": "hour",
+    "saturation": 100
+  },
+  {
+    "name": "Shrink",
+    "description": "Temporarily shrink smaller.",
+    "base": 200,
+    "linear": 0,
+    "exponential": 0,
+    "form": [],
+    "hue": 0,
+    "iterval": "hour",
+    "saturation": 100
+  },
+  {
+    "name": "Fortify Stat",
+    "description": "Increase %s by %c for a duration.",
+    "base": 100,
+    "linear": 0,
+    "exponential": 10,
+    "form": [
+      "stat",
+      "level"
+    ],
+    "hue": 280,
+    "iterval": "hour",
+    "saturation": 100
+  },
+  {
+    "name": "Drain Stat",
+    "description": "Decrease %s by %c for a duration.",
+    "base": 50,
+    "linear": 0,
+    "exponential": 10,
+    "form": [
+      "stat",
+      "level"
+    ],
+    "hue": 0,
+    "iterval": "hour",
+    "saturation": 0
+  },
+  {
+    "name": "Fortify Health",
+    "description": "Increase maximum health by %c.",
+    "base": 50,
+    "linear": 50,
+    "exponential": 0,
+    "form": [
+      "level"
+    ],
+    "hue": 0,
+    "iterval": "hour",
+    "saturation": 100
+  },
+  {
+    "name": "Drain Health",
+    "description": "Decrease maximum health by %c.",
+    "base": 25,
+    "linear": 25,
+    "exponential": 0,
+    "form": [
+      "level"
+    ],
+    "hue": 0,
+    "iterval": "hour",
+    "saturation": 0
+  },
+  {
+    "name": "Fortify Magic",
+    "description": "Increase maximum mana or magical energy by %c.",
+    "base": 100,
+    "linear": 100,
+    "exponential": 0,
+    "form": [
+      "level"
+    ],
+    "hue": 220,
+    "iterval": "hour",
+    "saturation": 100
+  },
+  {
+    "name": "Drain Magic",
+    "description": "Decrease maximum mana or magical energy by %c.",
+    "base": 50,
+    "linear": 50,
+    "exponential": 0,
+    "form": [
+      "level"
+    ],
+    "hue": 0,
+    "iterval": "hour",
+    "saturation": 0
+  },
+  {
+    "name": "Speed",
+    "description": "Gain the skill Speed %c.",
+    "base": 100,
+    "linear": 0,
+    "exponential": 20,
+    "form": [
+      "level"
+    ],
+    "hue": 320,
+    "iterval": "hour",
+    "saturation": 100
+  },
+  {
+    "name": "Resistance",
+    "description": "Gain resistance to %e.",
+    "base": 2500,
+    "linear": 0,
+    "exponential": 0,
+    "form": [
+      "element"
+    ],
+    "hue": 280,
+    "iterval": "hour",
+    "saturation": 100
+  },
+  {
+    "name": "Frailty",
+    "description": "Gain a weakness to %e.",
+    "base": 1250,
+    "linear": 0,
+    "exponential": 0,
+    "form": [
+      "element"
+    ],
+    "hue": 0,
+    "iterval": "hour",
+    "saturation": 0
+  },
+  {
+    "name": "Paralysis",
+    "description": "Immobilize a target, tagret rolls constitution -%c to resist paralysis.",
+    "base": 250,
+    "linear": 0,
+    "exponential": 10,
+    "form": [
+      "level"
+    ],
+    "hue": 100,
+    "iterval": "hour",
+    "saturation": 100
+  },
+  {
+    "name": "Quick Poison",
+    "description": "Take %c damage every attack round due to poison.",
+    "base": 10,
+    "linear": 3,
+    "exponential": 0,
+    "form": [
+      "level"
+    ],
+    "hue": 100,
+    "iterval": "round",
+    "saturation": 100
+  },
+  {
+    "name": "Slow Poison",
+    "description": "Take %c damage every hour due to slow-acting poison.",
+    "base": 10,
+    "linear": 1,
+    "exponential": 0,
+    "form": [
+      "level"
+    ],
+    "hue": 100,
+    "iterval": "hour",
+    "saturation": 100
+  },
+  {
+    "name": "Quick Mana Poison",
+    "description": "Lose %c mana every attack round due to magical poison.",
+    "base": 20,
+    "linear": 10,
+    "exponential": 0,
+    "form": [
+      "level"
+    ],
+    "hue": 220,
+    "iterval": "round",
+    "saturation": 100
+  },
+  {
+    "name": "Slow Mana Poison",
+    "description": "Lose %c mana every hour due to slow-acting magical poison.",
+    "base": 20,
+    "linear": 2,
+    "exponential": 0,
+    "form": [
+      "level"
+    ],
+    "hue": 220,
+    "iterval": "hour",
+    "saturation": 100
+  },
+  {
+    "name": "Water Breathing",
+    "description": "Breathe underwater without penalty.",
+    "base": 100,
+    "linear": 0,
+    "exponential": 0,
+    "form": [],
+    "hue": 180,
+    "iterval": "hour",
+    "saturation": 100
+  },
+  {
+    "name": "Invisibility",
+    "description": "Become invisible, avoiding detection. Invisibility is at level %c.",
+    "base": 30,
+    "linear": 0,
+    "exponential": 5,
+    "form": [
+      "level"
+    ],
+    "hue": 0,
+    "iterval": "hour",
+    "saturation": 0
+  },
+  {
+    "name": "Breath Weapon",
+    "description": "Exhale a %e elemental attack, such as fire or ice.",
+    "base": 400,
+    "linear": 0,
+    "exponential": 0,
+    "form": [
+      "element"
+    ],
+    "hue": 30,
+    "iterval": "hour",
+    "saturation": 100
+  },
+  {
+    "name": "Flight",
+    "description": "Fly at the same speed as running on the ground.",
+    "base": 500,
+    "linear": 0,
+    "exponential": 0,
+    "form": [],
+    "hue": 320,
+    "iterval": "hour",
+    "saturation": 100
+  },
+  {
+    "name": "Luck",
+    "description": "Gain a percentage-based bonus to luck-related rolls.",
+    "base": 200,
+    "linear": 0,
+    "exponential": 2,
+    "form": [
+      "level"
+    ],
+    "hue": 50,
+    "iterval": "hour",
+    "saturation": 100
+  },
+  {
+    "name": "Iron Skin",
+    "description": "Reduce armor class by %c, making you harder to hit.",
+    "base": 200,
+    "linear": 0,
+    "exponential": 10,
+    "form": [
+      "level"
+    ],
+    "hue": 280,
+    "iterval": "hour",
+    "saturation": 100
+  },
+  {
+    "name": "Frail Skin",
+    "description": "Increase armor class by %c, making you easier to hit.",
+    "base": 100,
+    "linear": 0,
+    "exponential": 10,
+    "form": [
+      "level"
+    ],
+    "hue": 0,
+    "iterval": "hour",
+    "saturation": 0
+  },
+  {
+    "name": "Strength",
+    "description": "Reduce THAC0 by %c, improving attack chances.",
+    "base": 200,
+    "linear": 0,
+    "exponential": 10,
+    "form": [
+      "level"
+    ],
+    "hue": 30,
+    "iterval": "hour",
+    "saturation": 100
+  },
+  {
+    "name": "Weakness",
+    "description": "Increase THAC0 by %c, reducing attack chances.",
+    "base": 100,
+    "linear": 0,
+    "exponential": 10,
+    "form": [
+      "level"
+    ],
+    "hue": 0,
+    "iterval": "hour",
+    "saturation": 0
+  }
+]

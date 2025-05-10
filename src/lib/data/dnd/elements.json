@@ -1,0 +1,68 @@
+[
+    {
+      "name": "Fire",
+      "description": "Burning heat, flames, explosions.",
+      "effective_against": ["Cold", "Ice", "Plant", "Undead"]
+    },
+    {
+      "name": "Water",
+      "description": "Flowing, crushing force, or pure water magic.",
+      "effective_against": ["Fire", "Earth", "Constructs (rust, erosion)"]
+    },
+    {
+      "name": "Earth",
+      "description": "Stone, metal, soil, stability, crushing power.",
+      "effective_against": ["Air", "Lightning", "Fire (smothering)"]
+    },
+    {
+      "name": "Air",
+      "description": "Wind, storms, speed, mobility.",
+      "effective_against": ["Earth", "Poison (dispersal)", "Gas"]
+    },
+    {
+      "name": "Lightning",
+      "description": "Electric shocks, arcs, storms.",
+      "effective_against": ["Water", "Metal-armored creatures", "Mechanical constructs"]
+    },
+    {
+      "name": "Thunder",
+      "description": "Concussive sound waves, shockwaves.",
+      "effective_against": ["Structures", "Earth formations", "Creatures sensitive to sound"]
+    },
+    {
+      "name": "Cold",
+      "description": "Freezing frost, slowing or freezing targets.",
+      "effective_against": ["Fire", "Plant", "Water (freeze)"]
+    },
+    {
+      "name": "Acid",
+      "description": "Corrosive substances that dissolve materials.",
+      "effective_against": ["Metal", "Armor", "Structures", "Ooze"]
+    },
+    {
+      "name": "Poison",
+      "description": "Toxic substances that damage or debilitate.",
+      "effective_against": ["Living creatures", "Organic targets"]
+    },
+    {
+      "name": "Necrotic",
+      "description": "Death energy, decay, life-draining power.",
+      "effective_against": ["Living creatures", "Radiant creatures", "Celestials"]
+    },
+    {
+      "name": "Radiant",
+      "description": "Holy or pure energy, burns the unholy.",
+      "effective_against": ["Undead", "Fiends", "Necrotic"]
+    },
+    {
+      "name": "Force",
+      "description": "Pure magical energy, invisible but impactful.",
+      "effective_against": ["All physical barriers", "Ethereal creatures"]
+    },
+    {
+      "name": "Psychic",
+      "description": "Mental or telepathic assault on the mind.",
+      "effective_against": ["Low-Wisdom creatures", "Intellect-based creatures"]
+    }
+  ]
+  

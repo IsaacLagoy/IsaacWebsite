@@ -1,0 +1,9 @@
+.damage div {
+    
+    display: flex;
+    flex-direction: row;
+}
+
+.damage {
+    color: #72d0ff;
+}

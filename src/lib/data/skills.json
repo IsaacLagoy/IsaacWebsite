@@ -1,0 +1,52 @@
+[
+    {
+        "name": "Python",
+        "key": "python",
+        "thumb": "graphics/skills/python_logo.svg"
+    }, 
+    {
+        "name": "Java", 
+        "key": "java",
+        "thumb": "graphics/skills/java_logo.svg"
+    },
+    {
+        "name": "C++",
+        "key": "cpp",
+        "thumb": "graphics/skills/cpp_logo.svg"
+    },
+    {
+        "name": "TypeScript",
+        "key": "typescript",
+        "thumb": "graphics/skills/typescript_logo.svg"
+    },
+    {
+        "name": "HTML",
+        "key": "html",
+        "thumb": "graphics/skills/html_logo.svg"
+    },
+    {
+        "name": "CSS",
+        "key": "css",
+        "thumb": "graphics/skills/css_logo.svg"
+    },
+    {
+        "name": "Svelte",
+        "key": "svelte",
+        "thumb": "graphics/skills/svelte_logo.svg"
+    },
+    {
+        "name": "Haskell",
+        "key": "haskell",
+        "thumb": "graphics/skills/haskell_logo.svg"
+    },
+    {
+        "name": "Power Automate",
+        "key": "powerautomate",
+        "thumb": "graphics/skills/power_automate_logo.svg"
+    },
+    {
+        "name": "Basilisk Engine",
+        "key": "basiliskengine",
+        "thumb": "images/basilisk/basilisk_square_black.png"
+    }
+]

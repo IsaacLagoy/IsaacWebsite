@@ -1,0 +1,35 @@
+.dnd-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+    max-width: 500px;
+    margin: 2rem auto;
+    padding: 2rem;
+    margin-bottom: 200px;
+}
+
+.dnd-label {
+    font-size: 0.95rem;
+    font-weight: 500;
+    color: #72d0ff;
+    margin-bottom: 0.25rem;
+}
+
+input.text-entry,
+textarea.text-entry,
+select.text-entry {
+    margin-top: 0.3rem;
+    padding: 0.6rem 0.8rem;
+    font-size: 1rem;
+}
+
+textarea.text-entry {
+    resize: vertical;
+    min-height: 100px;
+}
+
+button[type='submit'].glow-button {
+    align-self: flex-end;
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+}

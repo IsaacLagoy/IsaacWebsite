@@ -1,0 +1,70 @@
+body {
+    background-color: #131313;
+    color: #ededed;
+    margin: 0;
+    padding: 0;
+    font-family: 'Orbitron', sans-serif;
+}
+
+html, body {
+    overflow-x: hidden;
+}
+
+a {
+    text-decoration: none;
+    color: #ededed;
+}
+
+button {
+    font-family: 'Orbitron', sans-serif;
+    color: #ededed;
+    font-weight: 700;
+}
+
+label {
+    display: flex;
+    flex-direction: column;
+}
+
+/* most generic reusable styles for cyan-space theme */
+.text-entry {
+    background-color: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 0.5rem;
+    color: #fff;
+    transition: border-color 0.3s;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+
+.text-entry:focus {
+    border-color: #72d0ff;
+    outline: none;
+    background-color: rgba(255, 255, 255, 0.08);
+}
+
+.glow-button {
+    cursor: pointer;
+    transition: background 0.3s, transform 0.2s;
+    font-weight: bold;
+    background: linear-gradient(135deg, #5a8fff, #4bc1ff);
+    color: #fff;
+    border: none;
+    box-shadow: 0 0 10px rgba(114, 208, 255, 0.5);
+    border-radius: 0.5rem;
+}
+
+.glow-button:hover {
+    background: linear-gradient(135deg, #72d0ff, #5edfff);
+    transform: scale(1.02);
+}
+
+.dark-div {
+    background-color: rgba(255, 255, 255, 0.02);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 1rem;
+    box-shadow: 0 0 15px rgba(0, 0, 30, 0.5);
+    backdrop-filter: blur(6px);
+    color: #eee;
+}

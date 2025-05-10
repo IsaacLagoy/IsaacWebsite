@@ -1,0 +1,48 @@
+.skill-sheet-container {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 2rem;
+}
+
+.level {
+    margin-bottom: 2rem;
+    padding: 1rem;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.05);
+}
+
+.skills, .spells {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.skill-grid, .spell-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    gap: 0.5rem;
+    margin-top: 0.5rem;
+}
+
+.skill-grid button, .spell-grid button {
+    border: none;
+    background-color: #333;
+    padding: 0.5rem 1rem;
+    border-radius: 6px;
+    text-align: center;
+    box-shadow: 0 0 5px rgba(255, 255, 255, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.skill-grid button:hover, .spell-grid button:hover {
+    transform: scale(1.02);
+    background-color: #373737;
+}
+
+.skill-sheet-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}

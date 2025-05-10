@@ -1,0 +1,88 @@
+[
+    {
+      "name": "Wood",
+      "description": "Basic organic material; lightweight, fragile.",
+      "modifier": 0
+    },
+    {
+      "name": "Cloth",
+      "description": "Basic material for clothing, provides no defense.",
+      "modifier": 0
+    },
+    {
+      "name": "Bronze",
+      "description": "Early metal alloy; decent strength, slightly soft.",
+      "modifier": 1
+    },
+    {
+      "name": "Iron",
+      "description": "Common metal; solid strength, widely used.",
+      "modifier": 1
+    },
+    {
+      "name": "Steel",
+      "description": "Refined iron alloy; stronger and more durable.",
+      "modifier": 1
+    },
+    {
+      "name": "Silver",
+      "description": "Precious metal; soft but effective against certain creatures.",
+      "modifier": 2
+    },
+    {
+      "name": "Gold",
+      "description": "Heavy, soft precious metal; decorative, not practical for combat gear.",
+      "modifier": 1
+    },
+    {
+      "name": "Cold Iron",
+      "description": "Specially forged iron; effective against fey, holds enchantments well.",
+      "modifier": 2
+    },
+    {
+      "name": "Darkwood",
+      "description": "Rare, lightweight, and durable enchanted wood.",
+      "modifier": 2
+    },
+    {
+      "name": "Dragonhide",
+      "description": "Tough scales from dragons; resistant to elements, excellent for armor.",
+      "modifier": 2
+    },
+    {
+      "name": "Mithral",
+      "description": "Lightweight, flexible metal; reduces armor penalties, magical properties.",
+      "modifier": 3
+    },
+    {
+      "name": "Adamantine",
+      "description": "Extremely hard metal; superior durability, can bypass resistances.",
+      "modifier": 3
+    },
+    {
+      "name": "Star Metal",
+      "description": "Meteoric metal; rare, holds strong magical potential.",
+      "modifier": 4
+    },
+    {
+      "name": "Infernal Iron",
+      "description": "Hellforged metal; infused with infernal power, rare and dangerous.",
+      "modifier": 4
+    },
+    {
+      "name": "Living Wood",
+      "description": "Fey-touched enchanted wood; sometimes self-repairing or alive.",
+      "modifier": 4
+    },
+    {
+      "name": "Planar Crystal",
+      "description": "Crystalline material from other planes; powerful magical conduit.",
+      "modifier": 5
+    },
+    {
+      "name": "Void Metal",
+      "description": "Mythic metal from the void; supreme magical and physical properties.",
+      "modifier": 5
+    }
+  ]
+  

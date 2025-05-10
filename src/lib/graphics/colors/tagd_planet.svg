@@ -1,0 +1,15 @@
+
+<svg width="100%" height="100%" viewBox="0 0 900 900" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice">
+    <defs>
+        <filter id="blur">
+            <feGaussianBlur stdDeviation="40" result="effect1_foregroundBlur"></feGaussianBlur>
+        </filter>
+    </defs>
+
+    <rect width="900" height="900" fill="#ffffff"></rect>
+    <g filter="url(#blur)">
+        <rect width="900" height="900" fill="#ffffff"></rect>
+        <circle cx="795" cy="525" r="300" fill="#3375cf"></circle><circle cx="326" cy="695" r="300" fill="#04c989"></circle><circle cx="182" cy="510" r="300" fill="#3375cf"></circle><circle cx="174" cy="308" r="300" fill="#04c989"></circle><circle cx="62" cy="686" r="300" fill="#3375cf"></circle><circle cx="223" cy="837" r="300" fill="#04c989"></circle><circle cx="610" cy="547" r="300" fill="#3375cf"></circle><circle cx="730" cy="392" r="300" fill="#04c989"></circle><circle cx="336" cy="194" r="300" fill="#3375cf"></circle><circle cx="852" cy="671" r="300" fill="#04c989"></circle>
+    </g>
+
+</svg>

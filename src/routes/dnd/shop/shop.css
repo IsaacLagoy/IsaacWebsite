@@ -1,0 +1,10 @@
+.shop-tile {
+    background: none;
+    border: none;
+    align-items: center;
+}
+
+.item-header {
+    display: flex;
+    justify-content: space-between;
+}

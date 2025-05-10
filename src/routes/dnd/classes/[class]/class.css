@@ -1,0 +1,61 @@
+.class-section {
+    margin-bottom: 2rem;
+    padding-bottom: 1rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.class-section > div {
+    flex: 1 1 300px;
+}
+
+/* Top half: Image and description */
+.character-image {
+    max-width: 200px;
+}
+
+.character-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Stats and skill sheet layout */
+.bottom-section {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: space-between;
+}
+
+.bottom-section > div {
+    flex: 1 1 280px;
+}
+
+.stat {
+    font-weight: bold;
+}
+
+/* Skill sheet buttons */
+.skill-sheet {
+    background-color: #282c34;
+    color: #fff;
+    padding: 0.75rem 1rem;
+    border-radius: 6px;
+    margin-bottom: 0.5rem;
+    text-align: center;
+    transition: background-color 0.2s ease;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.skill-sheet:hover {
+    background-color: #3e4451;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}

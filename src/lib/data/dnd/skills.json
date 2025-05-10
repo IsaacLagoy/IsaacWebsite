@@ -1,0 +1,1182 @@
+[
+    {
+        "url": "anythinggoes",
+        "name": "Anything Goes",
+        "description": "Allows the user to use any melee weapon. ",
+        "rolls": [
+            "int"
+        ]
+    },
+    {
+        "url": "anythinggoeslong",
+        "name": "Anything Goes Long",
+        "description": "Allows the player to use any ranged weapon. ",
+        "rolls": [
+            "int"
+        ]
+    },
+    {
+        "url": "haggling",
+        "name": "Haggling",
+        "description": "Barter with people for better prices. ",
+        "rolls": [
+            "cha"
+        ]
+    },
+    {
+        "url": "appraise",
+        "name": "Appraise",
+        "description": "Determine the price of an object. ",
+        "rolls": [
+            "int"
+        ]
+    },
+    {
+        "url": "contingency",
+        "name": "Contingency",
+        "description": "Allows the user to set up a spell to be cast at a different time or upon a certain event. Creating the contingency costs 150% the cost of the original spell rounded up. ",
+        "rolls": [
+            "wis"
+        ]
+    },
+    {
+        "url": "uncannydodge",
+        "name": "Uncanny Dodge",
+        "description": "Rogue Skill. Take half damage from an attack or series of attacks. ",
+        "rolls": [
+            "d100"
+        ]
+    },
+    {
+        "url": "usemagicdevice",
+        "name": "Use Magic Device",
+        "description": "Ignore all nonphysical requirements for using any given item. ",
+        "rolls": [
+            "int"
+        ]
+    },
+    {
+        "url": "blindsense",
+        "name": "Blindsense",
+        "description": "You are able to hear anything moving around you even if you are unable to see it. ",
+        "rolls": [
+            "wis"
+        ]
+    },
+    {
+        "url": "elusive",
+        "name": "Elusive",
+        "description": "Prevents attacks from gaining advantage on you unless you are restrained or incapacitated. ",
+        "rolls": [
+            "dex"
+        ]
+    },
+    {
+        "url": "acrobatics",
+        "name": "Acrobatics",
+        "description": "Allows you to perform acrobatic tricks and parkour. ",
+        "rolls": [
+            "dex"
+        ]
+    },
+    {
+        "url": "heyilikethatguy",
+        "name": "Hey I Like That Guy",
+        "description": "People generally enjoy your presence and have less suspicion towards you. ",
+        "rolls": [
+            "cha"
+        ]
+    },
+    {
+        "url": "unnoticeable",
+        "name": "Unnoticeable",
+        "description": "Allows you to sneak past enemies and prevent yourself from being detected. ",
+        "rolls": [
+            "dex"
+        ]
+    },
+    {
+        "url": "underworldconnections",
+        "name": "Underworld Connections",
+        "description": "Gives you a connection to the criminal underworld. ",
+        "rolls": []
+    },
+    {
+        "url": "merchant",
+        "name": "Merchant",
+        "description": "Allows you to set up shops and give you better selling prices. ",
+        "rolls": []
+    },
+    {
+        "url": "diplomacy",
+        "name": "Diplomacy",
+        "description": "Makes it easier to establish diplomatic relationships with people. ",
+        "rolls": []
+    },
+    {
+        "url": "deception",
+        "name": "Deception",
+        "description": "Prevents people from reading your face and helps you hide the truth when lying. ",
+        "rolls": [
+            "cha"
+        ]
+    },
+    {
+        "url": "persuasion",
+        "name": "Persuasion",
+        "description": "Improves your ability to influence people in good faith. ",
+        "rolls": [
+            "cha"
+        ]
+    },
+    {
+        "url": "haggling",
+        "name": "Haggling",
+        "description": "Gives you better buying prices. ",
+        "rolls": [
+            "cha"
+        ]
+    },
+    {
+        "url": "localknowledge",
+        "name": "Local Knowledge",
+        "description": "Gives you knowledge of things located in your current town or city. ",
+        "rolls": [
+            "int"
+        ]
+    },
+    {
+        "url": "walkinlikeiowntheplace",
+        "name": "Walk In Like I Own The Place",
+        "description": "Walk into a place with authority and avoid suspicion. ",
+        "rolls": [
+            "cha"
+        ]
+    },
+    {
+        "url": "localconnections",
+        "name": "Local Connections",
+        "description": "You know people and their occupations in your current town or city. ",
+        "rolls": [
+            "int"
+        ]
+    },
+    {
+        "url": "financialbacking",
+        "name": "Financial Backing",
+        "description": "Allows you to more easily gain investment from people. ",
+        "rolls": [
+            "cha"
+        ]
+    },
+    {
+        "url": "comprehendlanguages",
+        "name": "Comprehend Languages",
+        "description": "Rogue Skill. Understand any spoken language. ",
+        "rolls": [
+            "d100"
+        ]
+    },
+    {
+        "url": "pickpocket",
+        "name": "Pick Pocket",
+        "description": "Rogue Skill. Steal something from someone's pockets. ",
+        "rolls": [
+            "d100"
+        ]
+    },
+    {
+        "url": "detecttrap",
+        "name": "Detect Trap",
+        "description": "Rogue Skill. Detects a trap in the immediate area. ",
+        "rolls": [
+            "d100"
+        ]
+    },
+    {
+        "url": "detecttreasure",
+        "name": "Detect Treasure",
+        "description": "Rogue Skill. Detects treasure in the immediate area. ",
+        "rolls": [
+            "d100"
+        ]
+    },
+    {
+        "url": "passwithouttrace",
+        "name": "Pass Without Trace",
+        "description": "Rogue Skill. Improves stealth and allows you to move without any trace, preventing tracking. ",
+        "rolls": [
+            "d100"
+        ]
+    },
+    {
+        "url": "picklock",
+        "name": "Picklock",
+        "description": "Rogue Skill. Allows you to pick open locks. ",
+        "rolls": [
+            "d100"
+        ]
+    },
+    {
+        "url": "incredibleluck",
+        "name": "Incredible Luck",
+        "description": "Rogue Skill. Become incredibly lucky on any action you attempt to do. Maxes at 35%. ",
+        "rolls": [
+            "d100"
+        ]
+    },
+    {
+        "url": "perfectresponse",
+        "name": "Perfect Response",
+        "description": "Rogue Skill. The DM tells you what they view to be a perfect solution to an immediate situation. This information does not have to consider to explain future actions. ",
+        "rolls": [
+            "d100"
+        ]
+    },
+    {
+        "url": "jackofalltrades",
+        "name": "Jack of All Trades",
+        "description": "Rogue Skill. Be good at any simple skill. ",
+        "rolls": [
+            "d100"
+        ]
+    },
+    {
+        "url": "foregorogueskilllimit",
+        "name": "Forego Rogue Skill Limit",
+        "description": "Allows you to improve rogue skills by another 50%. ",
+        "rolls": []
+    },
+    {
+        "url": "legendarysavingthrow",
+        "name": "Legendary Saving Throw",
+        "description": "Prevents taking any one-time damage even if it's impossible to avoid by normal means.",
+        "rolls": [
+            "dex"
+        ]
+    },
+    {
+        "url": "longbackstab",
+        "name": "Long Backstab",
+        "description": "Allows you to backstab using ranged attacks. ",
+        "rolls": []
+    },
+    {
+        "url": "chainbackstab",
+        "name": "Chain Backstab",
+        "description": "Allows you to roll backstab an extra time against an enemy that you haven backstabbed this action. ",
+        "rolls": []
+    },
+    {
+        "url": "backstab",
+        "name": "Backstab",
+        "description": "Rogue Skill. Instantly kill any creature 100 health or below. If a creature is above 100 health, deal damage equal to the percentage rolled for backstab minus the reduce rogue skill percentage on your target. Improving this skill gives you an extra usage. Failing a backstab gives your target a free attack against you. ",
+        "rolls": [
+            "d100"
+        ]
+    },
+    {
+        "url": "chinkinarmor",
+        "name": "Chink in Armor",
+        "description": "Allows you to identify one of your opponents weaknesses. ",
+        "rolls": [
+            "int"
+        ]
+    },
+    {
+        "url": "analyzeopponent",
+        "name": "Analyze Opponent",
+        "description": "Accurately identify the condition that your opponent is in. ",
+        "rolls": [
+            "int"
+        ]
+    },
+    {
+        "url": "mountainleap",
+        "name": "Mountain Leap",
+        "description": "Allows you to jump 5ft from a standing position. ",
+        "rolls": [
+            "dex"
+        ]
+    },
+    {
+        "url": "mountaincrush",
+        "name": "Mountain Crush",
+        "description": "Landing on an enemy deals your strength d4 damage if you are the same size or larger than your target. ",
+        "rolls": [
+            "str"
+        ]
+    },
+    {
+        "url": "ironstomach",
+        "name": "Iron Stomach",
+        "description": "Receive no nonmagical deficits from eating harmful food. ",
+        "rolls": [
+            "con"
+        ]
+    },
+    {
+        "url": "intimidation",
+        "name": "Intimidation",
+        "description": "Frighten someone into doing something or giving you information. ",
+        "rolls": [
+            "cha"
+        ]
+    },
+    {
+        "url": "grappling",
+        "name": "Grappling",
+        "description": "Allows you to fight while on prone or knocked to the ground.  It also gives you advantage for strength rolls while grappling an opponent. ",
+        "rolls": []
+    },
+    {
+        "url": "sweeptheleg",
+        "name": "Sweep the Leg",
+        "description": "While in close combat with someone you may do a contested strength roll with advantage to knock them to the ground. ",
+        "rolls": [
+            "str"
+        ]
+    },
+    {
+        "url": "dismountfighter",
+        "name": "Dismount Fighter",
+        "description": "While in close combat with a mounted opponent, you may roll a contested strength check with advantage to knock them to the ground. ",
+        "rolls": [
+            "str"
+        ]
+    },
+    {
+        "url": "perfectdualwielding",
+        "name": "Perfect Dual Wielding",
+        "description": "Allows you to wield two weapons. at the same time. This does not increase the amount of times you may attack but allows you to use the effects from both weapons during one attack round. ",
+        "rolls": []
+    },
+    {
+        "url": "titanicweaponproficiency",
+        "name": "Titanic Weapon Proficiency",
+        "description": "Allows you to use very large and heavy weapons.",
+        "rolls": [
+            "str"
+        ]
+    },
+    {
+        "url": "whirlwindattack",
+        "name": "Whirlwind Attack",
+        "description": "Spin around while holding a weapon to hit everyone around you. Whether or not you hit your targets is calculated as normal. ",
+        "rolls": []
+    },
+    {
+        "url": "gatherelements",
+        "name": "Gather Elements",
+        "description": "Improves your foraging abilities. ",
+        "rolls": []
+    },
+    {
+        "url": "calledhit",
+        "name": "Called Hit",
+        "description": "Automatically hit a target anywhere you choose. This can still be dodged. You get one per encounter per level on this skill. ",
+        "rolls": []
+    },
+    {
+        "url": "calledcrit",
+        "name": "Called Crit",
+        "description": "Automatically turn a hit into a crit. You get one called crit per encounter per level on this skill. ",
+        "rolls": []
+    },
+    {
+        "url": "taunt",
+        "name": "Taunt",
+        "description": "Provoke all enemies that can see or hear you, focusing their attacks on you. ",
+        "rolls": [
+            "cha"
+        ]
+    },
+    {
+        "url": "giant'sstrength",
+        "name": "Giant's Strength",
+        "description": "Gives you advantage on non offensive feats of strength. ",
+        "rolls": []
+    },
+    {
+        "url": "shieldbash",
+        "name": "Shield Bash",
+        "description": "Allows attacking with a shield. ",
+        "rolls": []
+    },
+    {
+        "url": "justascratch",
+        "name": "Just a Scratch",
+        "description": "Gain advantage on constitution rolls when trying to resist pain. ",
+        "rolls": []
+    },
+    {
+        "url": "berserkerrage",
+        "name": "Berserker Rage",
+        "description": "Gain an extra round of attacks for this round but lose your action for next round. ",
+        "rolls": []
+    },
+    {
+        "url": "protector",
+        "name": "Protector",
+        "description": "Allows you to take the damage for someone within leaping range. You get one per encounter per level on this skill. ",
+        "rolls": [
+            "dex"
+        ]
+    },
+    {
+        "url": "spot",
+        "name": "Spot",
+        "description": "Allows you to see things far away. ",
+        "rolls": [
+            "int"
+        ]
+    },
+    {
+        "url": "unstoppablejuggernaut",
+        "name": "Unstoppable Juggernaut",
+        "description": "Gives you advantage on strength rolls when trying to run through something or someone. ",
+        "rolls": []
+    },
+    {
+        "url": "fearless",
+        "name": "Fearless",
+        "description": "Gives you advantage on wisdom rolls when facing a terrifying foe. ",
+        "rolls": []
+    },
+    {
+        "url": "thepainfeelsgood",
+        "name": "The Pain Feels Good",
+        "description": "Restore more health when rolling a crit on constitution if you're below half health. ",
+        "rolls": []
+    },
+    {
+        "url": "analyzebattlefield",
+        "name": "Analyze Battlefield",
+        "description": "Find strategic positions in the battlefield. ",
+        "rolls": [
+            "int"
+        ]
+    },
+    {
+        "url": "foregoarmor",
+        "name": "Forego Armor",
+        "description": "This skill only works if you do not have any AC reducing or health increasing items in affect. Gives you an extra round of attacks if you get a crit. You get one extra round of attacks per level on this skill. ",
+        "rolls": []
+    },
+    {
+        "url": "distantshot",
+        "name": "Distant Shot",
+        "description": "Allows you to hit accurate shots as far as your weapon can reach. ",
+        "rolls": []
+    },
+    {
+        "url": "endurance",
+        "name": "Endurance",
+        "description": "Gives you advantage on constitution rolls when doing any physical activity. ",
+        "rolls": []
+    },
+    {
+        "url": "deflection",
+        "name": "Deflection",
+        "description": "Allows you to block or parry a projectile. You get one per encounter per level on this skill. ",
+        "rolls": [
+            "dex"
+        ]
+    },
+    {
+        "url": "manyshot",
+        "name": "Manyshot",
+        "description": "With a weapon that can be loaded with more than one of your ammunition types, fire multiple of that projectile in one shot. You may fire one additional projectile for every level on this skill. ",
+        "rolls": []
+    },
+    {
+        "url": "instantreload",
+        "name": "Instant Reload",
+        "description": "Instantly reload a gun. ",
+        "rolls": []
+    },
+    {
+        "url": "leadership",
+        "name": "Leadership",
+        "description": "Inspire your companions with a speech. Those listening gain your charisma plus your level temporary health.",
+        "rolls": [
+            "cha"
+        ]
+    },
+    {
+        "url": "commander",
+        "name": "Commander",
+        "description": "Gives you advantage on leadership and allows you to command twice as many people in combat (10 by default). ",
+        "rolls": []
+    },
+    {
+        "url": "improvedinitiative",
+        "name": "Improved Initiative",
+        "description": "You gain +1 on combat initiative rolls.",
+        "rolls": []
+    },
+    {
+        "url": "handleanimal",
+        "name": "Handle Animal",
+        "description": "Gain advantage when wrestling with an animal. ",
+        "rolls": []
+    },
+    {
+        "url": "blind-fighting",
+        "name": "Blind-Fighting",
+        "description": "Allows you to fight opponents that you can hear but not necessarily see. ",
+        "rolls": []
+    },
+    {
+        "url": "shotontherun",
+        "name": "Shot on the Run",
+        "description": "You do not suffer penalties from running while attempting a ranged attack. ",
+        "rolls": []
+    },
+    {
+        "url": "armoredfighting",
+        "name": "Armored Fighting",
+        "description": "Suffer no penalties for wearing armor and gain -1 ac automatically. ",
+        "rolls": []
+    },
+    {
+        "url": "rerolloneortwo",
+        "name": "Reroll One or Two",
+        "description": "On a thac0 roll, you may reroll any one or two. ",
+        "rolls": []
+    },
+    {
+        "url": "maxhitdie",
+        "name": "Max Hit Die",
+        "description": "You automatically gain the highest possible amount of health when leveling up. ",
+        "rolls": []
+    },
+    {
+        "url": "extrahitdie",
+        "name": "Extra Hit Die",
+        "description": "You may roll a second dice for health when leveling up. This dice is added to your first dice. ",
+        "rolls": []
+    },
+    {
+        "url": "bonusxp",
+        "name": "Bonus XP",
+        "description": "Level up fast. This skill is only available to pure fighters with no other classes or access to other skill sheets. ",
+        "rolls": []
+    },
+    {
+        "url": "damagereduction",
+        "name": "Damage Reduction",
+        "description": "This skill starts off at a 5% chance of success and increases by 5% each level. Reduces damage by the amount rolled on the dice on a successful roll.",
+        "rolls": [
+            "d100"
+        ]
+    },
+    {
+        "url": "magicresistance",
+        "name": "Magic Resistance",
+        "description": "This skill starts off at a 5% chance of success and increases by 5% per level. Ignore the affects of magic directly cast on you. ",
+        "rolls": [
+            "d100"
+        ]
+    },
+    {
+        "url": "createundead",
+        "name": "Create Undead",
+        "description": "Use bones and body parts to create an undead creature. ",
+        "rolls": [
+            "wis",
+            "dex"
+        ]
+    },
+    {
+        "url": "commandundead",
+        "name": "Command Undead",
+        "description": "Allows you to control twice as many undead creatures. ",
+        "rolls": []
+    },
+    {
+        "url": "weaponproficiency",
+        "name": "Weapon Proficiency",
+        "description": "Be able to use a weapon well, reduces thac0 by 1 when using the weapon. You may select one weapon category when taking this skill but you may take this skill multiple times to have multiple proficiencies. Write your weapon category instead of just weapon proficiency when taking this skill. Ex. Sword Proficiency. ",
+        "rolls": []
+    },
+    {
+        "url": "musicalproficiency",
+        "name": "Musical Proficiency",
+        "description": "Become good at playing any instrument or singing. Doing your selected task requires 1 less wisdom. ",
+        "rolls": []
+    },
+    {
+        "url": "noquickdeath",
+        "name": "No Quick Death",
+        "description": "If you are killed by a single attack or spell from full health, survive at 1 health. May be used once per encounter per level on this skill. ",
+        "rolls": []
+    },
+    {
+        "url": "infusesoul",
+        "name": "Infuse Soul",
+        "description": "Infuse a captured soul into a minion to give it the abilities of the souls previous form. ",
+        "rolls": [
+            "wis"
+        ]
+    },
+    {
+        "url": "madscientist",
+        "name": "Mad Scientist",
+        "description": "Allows you to performs surgeries to attach severed parts of dead creatures onto your minions. Dismembering a creature does not lower your alignment. ",
+        "rolls": [
+            "wis",
+            "dex"
+        ]
+    },
+    {
+        "url": "redirectfocus",
+        "name": "Redirect Focus",
+        "description": "Roll contested wisdom against someone attempting to target you for an attack. If you win, they may not attack you unless you're the only one left alive in your party. ",
+        "rolls": [
+            "wis"
+        ]
+    },
+    {
+        "url": "untargetable",
+        "name": "Untargetable",
+        "description": "You cannot be targeted until you are the only person left in your party. ",
+        "rolls": []
+    },
+    {
+        "url": "createundeadgolem",
+        "name": "Create Undead Golem",
+        "description": "Combine a bunch of small undead creatures into a large undead creature. ",
+        "rolls": [
+            "wis",
+            "dex"
+        ]
+    },
+    {
+        "url": "mathematics",
+        "name": "Mathematics",
+        "description": "You are good at doing math. Gain advantage when doing math in game. ",
+        "rolls": []
+    },
+    {
+        "url": "createdevice",
+        "name": "Create Device",
+        "description": "Create a machine using the scrap and parts that you have created. The price and time to build this device is determined by the DM. ",
+        "rolls": [
+            "wis",
+            "dex"
+        ]
+    },
+    {
+        "url": "construction",
+        "name": "Construction",
+        "description": "Allows you to build buildings using gathering points. ",
+        "rolls": [
+            "wis",
+            "dex"
+        ]
+    },
+    {
+        "url": "createmagicaldevice",
+        "name": "Create Magical Device",
+        "description": "Allows you to create a magical machine using gathering points and parts that you have as well as a magical item. The price in gathering points and time to create are determinedly the DM.  ",
+        "rolls": [
+            "wis",
+            "dex"
+        ]
+    },
+    {
+        "url": "intuitdevice",
+        "name": "Intuit Device",
+        "description": "Determine how a device or mechanism works. ",
+        "rolls": [
+            "int"
+        ]
+    },
+    {
+        "url": "disarmtrap",
+        "name": "Disarm Trap",
+        "description": "Allows you to disarm a trap, if you fail the trap activates. ",
+        "rolls": [
+            "wis",
+            "dex"
+        ]
+    },
+    {
+        "url": "identifymagicalitem",
+        "name": "Identify Magical Item",
+        "description": "Identify what a magical item is and how to use it. ",
+        "rolls": [
+            "int"
+        ]
+    },
+    {
+        "url": "definitionreturn",
+        "name": "Definition Return",
+        "description": "Allows you to return a variable from a function. ",
+        "rolls": []
+    },
+    {
+        "url": "luckybreak",
+        "name": "Lucky Break",
+        "description": "Allows you to reroll a crafting roll. You may use this skill once per craft per level on this skill. ",
+        "rolls": []
+    },
+    {
+        "url": "advancedgatheringelements",
+        "name": "Advanced Gathering Elements",
+        "description": "Allows you to gather materials at a much greater rate, surpassing regular gather elements. ",
+        "rolls": []
+    },
+    {
+        "url": "createtrap",
+        "name": "Create Trap",
+        "description": "Rogue Skill. Allows you to create and arm a trap. Building requires materials or a premade trap.",
+        "rolls": [
+            "d100"
+        ]
+    },
+    {
+        "url": "speedassemble",
+        "name": "Speed Assemble",
+        "description": "Allows you to craft very fast especially in combat. ",
+        "rolls": []
+    },
+    {
+        "url": "speeddisassemble",
+        "name": "Speed Disassemble",
+        "description": "Allows you to take apart creations very fast especially in combat. ",
+        "rolls": []
+    },
+    {
+        "url": "createvehicle",
+        "name": "Create Vehicle",
+        "description": "Gives you the ability to craft a vehicle. ",
+        "rolls": [
+            "dex",
+            "wis"
+        ]
+    },
+    {
+        "url": "demolition",
+        "name": "Demolition",
+        "description": "Allows you to use explosives proficiently and safely. ",
+        "rolls": []
+    },
+    {
+        "url": "deviceweaponproficiency",
+        "name": "Device Weapon Proficiency",
+        "description": "If your device requires a thac0 roll to be used, reduce your thac0 by 1. Any magical device you create falls under this category. ",
+        "rolls": []
+    },
+    {
+        "url": "creategolem",
+        "name": "Create Golem",
+        "description": "Allows you to create a golem from materials or small creatures that you posses. ",
+        "rolls": [
+            "wis",
+            "dex"
+        ]
+    },
+    {
+        "url": "mindmagicresistance",
+        "name": "Mind Magic Resistance",
+        "description": "This skill starts off at a 5% chance of success and increases by 5% per level. Ignore the affects of mind magic directly cast on you. ",
+        "rolls": [
+            "d100"
+        ]
+    },
+    {
+        "url": "wildmagicresistance",
+        "name": "Wild Magic Resistance",
+        "description": "This skill starts off at a 5% chance of success and increases by 5% per level. Ignore the affects of wild magic directly cast on you. ",
+        "rolls": [
+            "d100"
+        ]
+    },
+    {
+        "url": "necromancyresistance",
+        "name": "Necromancy Resistance",
+        "description": "This skill starts off at a 5% chance of success and increases by 5% per level. Ignore the affects of necrotic magic directly cast on you. ",
+        "rolls": [
+            "d100"
+        ]
+    },
+    {
+        "url": "modronfamiliar",
+        "name": "Modron Familiar",
+        "description": "Link your mains with a friendly and willing modron or robot, making it your familiar. ",
+        "rolls": [
+            "wis"
+        ]
+    },
+    {
+        "url": "lawfulplanaralliances",
+        "name": "Lawful Planar Alliances",
+        "description": "Lawfully aligned planes are generally more friendly towards you. ",
+        "rolls": []
+    },
+    {
+        "url": "mechanuspatron",
+        "name": "Mechanus Patron",
+        "description": "A powerful being watches over you as your god. You may select your patron. Make sacrifices and pray to you patron to earn favor with them. ",
+        "rolls": []
+    },
+    {
+        "url": "designcity",
+        "name": "Design City",
+        "description": "Allows you to plan city infrastructure. ",
+        "rolls": [
+            "wis"
+        ]
+    },
+    {
+        "url": "modronform",
+        "name": "Modron Form",
+        "description": "Allows you to become part modron giving you resistance to mind, emotion, positive, and negative energy. You also gain resistance to cold, fire, and acid. You become weak to lightning. ",
+        "rolls": []
+    },
+    {
+        "url": "perfectmodronform",
+        "name": "Perfect Modron Form",
+        "description": "Become a full modron. Gain immunity to mind, emotion, negative, and positive magic. resistance to fire, cold, and acid. You gain the ability to nearly instantly craft. ",
+        "rolls": []
+    },
+    {
+        "url": "swimming",
+        "name": "Swimming",
+        "description": "You are good at swimming, gives you advantage while swimming. ",
+        "rolls": []
+    },
+    {
+        "url": "climbing",
+        "name": "Climbing",
+        "description": "You are good at climbing, gain advantage when climbing. ",
+        "rolls": []
+    },
+    {
+        "url": "fairyprotocol",
+        "name": "Fairy Protocol",
+        "description": "Know how to behave around fey and what to do when interacting with them. ",
+        "rolls": [
+            "wis"
+        ]
+    },
+    {
+        "url": "lowerplanarprotocol",
+        "name": "Lower Planar Protocol",
+        "description": "Know how to interact with people and things in a lower plane. ",
+        "rolls": [
+            "wis"
+        ]
+    },
+    {
+        "url": "upperplanarprotocol",
+        "name": "Upper Planar Protocol",
+        "description": "Know how to interact with people and things in an upper plane. ",
+        "rolls": [
+            "wis"
+        ]
+    },
+    {
+        "url": "royalprotocol",
+        "name": "Royal Protocol",
+        "description": "Know how to interact with any royalty. ",
+        "rolls": [
+            "wis"
+        ]
+    },
+    {
+        "url": "nativepeople'sprotocol",
+        "name": "Native People's Protocol",
+        "description": "Know how to interact when speaking to native people. ",
+        "rolls": [
+            "wis"
+        ]
+    },
+    {
+        "url": "woodlandecology",
+        "name": "Woodland Ecology",
+        "description": "You have knowledge of woodland creatures and plants. ",
+        "rolls": [
+            "wis"
+        ]
+    },
+    {
+        "url": "fairyecology",
+        "name": "Fairy Ecology",
+        "description": "Know all about fey, their abilities, and where you can find them.",
+        "rolls": [
+            "wis"
+        ]
+    },
+    {
+        "url": "monsterecology",
+        "name": "Monster Ecology",
+        "description": "Know all about monsters and how to fight them. ",
+        "rolls": [
+            "wis"
+        ]
+    },
+    {
+        "url": "lightningreflexes",
+        "name": "Lightning Reflexes",
+        "description": "Gives you advantage when using a reaction skill i.e. dodging. ",
+        "rolls": []
+    },
+    {
+        "url": "extraslot",
+        "name": "Extra Slot",
+        "description": "Each level gain an extra third of your mana per level. For example if you gain 9 mana per level, gain 12 mana per level instead. ",
+        "rolls": []
+    },
+    {
+        "url": "extraskill",
+        "name": "Extra Skill",
+        "description": "Gain an extra skill per level. ",
+        "rolls": []
+    },
+    {
+        "url": "improvedstatcrit",
+        "name": "Improved Stat Crit",
+        "description": "Lower the threshold to make a crit on a stat roll (not thac0)/ ",
+        "rolls": []
+    },
+    {
+        "url": "improvedcrit",
+        "name": "Improved Crit",
+        "description": "Lower the threshold for getting a crit on that0 rolls. ",
+        "rolls": []
+    },
+    {
+        "url": "dragonecology",
+        "name": "Dragon Ecology",
+        "description": "Know all about dragons and how to fight them. ",
+        "rolls": [
+            "wis"
+        ]
+    },
+    {
+        "url": "devastatingcrit",
+        "name": "Devastating Crit",
+        "description": "Gain a +1 multiplier on a critical hit (default x2). ",
+        "rolls": []
+    },
+    {
+        "url": "penetratingcrit",
+        "name": "Penetrating Crit",
+        "description": "Critical hits penetrate through solid objects more easily. ",
+        "rolls": []
+    },
+    {
+        "url": "twospellsperround",
+        "name": "Two Spells Per Round",
+        "description": "Allows you to cast two spells in one round if you can cast spells.",
+        "rolls": []
+    },
+    {
+        "url": "sculptspells",
+        "name": "Sculpt Spells",
+        "description": "Allows you to modify the shape of spells you cast without increasing the size. Ask the DM if you want to modify the spells in any other way. ",
+        "rolls": []
+    },
+    {
+        "url": "datatypes",
+        "name": "Data Types",
+        "description": "Allows you to use True, False, None, integers, floats, and characters in your REPL. ",
+        "rolls": []
+    },
+    {
+        "url": "mathematicalexpressions",
+        "name": "Mathematical Expressions",
+        "description": "Allows you to use mathematical expressions in your REPL as well as any Math imports. ",
+        "rolls": []
+    },
+    {
+        "url": "booleanoperators",
+        "name": "Boolean Operators",
+        "description": "Allows you to use any boolean operators like and, or, and not. ",
+        "rolls": []
+    },
+    {
+        "url": "comparativeoperators",
+        "name": "Comparative Operators",
+        "description": "Provides the REPL usage of <, >, <=, >=, ==, !=, is, and in. ",
+        "rolls": []
+    },
+    {
+        "url": "variables",
+        "name": "Variables",
+        "description": "Allows you to save data associated with a variable name. ",
+        "rolls": []
+    },
+    {
+        "url": "forloops",
+        "name": "For Loops",
+        "description": "Allows you to create for loops and for each loops. You also gain access to the range() function. ",
+        "rolls": []
+    },
+    {
+        "url": "lists",
+        "name": "Lists",
+        "description": "Allows you to create lists containing multiple variables or objects. You also gain all list methods like len(). ",
+        "rolls": []
+    },
+    {
+        "url": "strings",
+        "name": "Strings",
+        "description": "Allows you to create strings and save them to variables. ",
+        "rolls": []
+    },
+    {
+        "url": "loopmethods",
+        "name": "Loop Methods",
+        "description": "Allows you to use break, continue, and pass inside of loops. ",
+        "rolls": []
+    },
+    {
+        "url": "whileloops",
+        "name": "While Loops",
+        "description": "Allows you to create while loops. ",
+        "rolls": []
+    },
+    {
+        "url": "importvariables",
+        "name": "Import Variables",
+        "description": "Allows you to access numbers or other variables known by you or a willing creature to be used in your code. Example, you can use self.health to use your health in your REPL. ",
+        "rolls": []
+    },
+    {
+        "url": "dictionaries",
+        "name": "Dictionaries",
+        "description": "Allows you to create dictionaries and use methods associated with them. ",
+        "rolls": []
+    },
+    {
+        "url": "sets",
+        "name": "Sets",
+        "description": "Allows you to use sets and methods associated with them. ",
+        "rolls": []
+    },
+    {
+        "url": "definitions",
+        "name": "Definitions",
+        "description": "Allows the interpreter to use def. only uses default return value of None. Max recursion depth 1000, if passed will throw error. Calling definitions costs the total number of lines in the function plus the cost of all functions called inside.",
+        "rolls": []
+    },
+    {
+        "url": "functionalmethods",
+        "name": "Functional Methods",
+        "description": "Allows the interpreter to define filters as filter(function, iterable). Allows the interpreter to define maps as Map(function, iterable). Allows the interpreter to define temporary functions to be used in maps and filters. ",
+        "rolls": []
+    },
+    {
+        "url": "breathweapon",
+        "name": "Breath Weapon",
+        "description": "Choose an element for your breath weapon. You breathe your element on your target up to 10ft away dealing 1d6 damage per your level per the level on this skill. ",
+        "rolls": [
+            "dex",
+            "thac0"
+        ]
+    },
+    {
+        "url": "claw,claw,bite",
+        "name": "Claw, Claw, Bite",
+        "description": "Scratch twice at your opponent then bite. Roll individually for each attack. This attack deals 1d6 times your level times the level of this skill. ",
+        "rolls": [
+            "thac0"
+        ]
+    },
+    {
+        "url": "4actionsperround",
+        "name": "4 Actions Per Round",
+        "description": "Take up to 4 actions per round. These extra actions cannot be multiple rounds attacks. ",
+        "rolls": []
+    },
+    {
+        "url": "3actionsperround",
+        "name": "3 Actions Per Round",
+        "description": "Take up to 3 actions per round in combat. You may only make one round of attacks per round.",
+        "rolls": []
+    },
+    {
+        "url": "infraredvision",
+        "name": "Infrared Vision",
+        "description": "Allows the user to see infrared light and heat emissions.",
+        "rolls": []
+    },
+    {
+        "url": "temperatureresistant",
+        "name": "Temperature Resistant",
+        "description": "Take no side effects from being within -50C to 100C. Improving this skill increases this range by another 50C. ",
+        "rolls": []
+    },
+    {
+        "url": "algorithmicmind",
+        "name": "Algorithmic Mind",
+        "description": "Allows the user to compute arithmetic at computer-like speeds.",
+        "rolls": [
+            "int"
+        ]
+    },
+    {
+        "url": "uncannyinitiative",
+        "name": "Uncanny Initiative",
+        "description": "Always take initiative unless your opponent also has uncanny initiative, then initiative is decided normally. Improving this skill also improves odds for ties on initiative. ",
+        "rolls": []
+    },
+    {
+        "url": "seefulllightspectrum",
+        "name": "See Full Light Spectrum",
+        "description": "Allows the user to see all wavelength of light including radiation and radio waves. ",
+        "rolls": []
+    },
+    {
+        "url": "2actionsperround",
+        "name": "2 Actions Per Round",
+        "description": "Take 2 actions per combat round, this cannot include another round of attacks. ",
+        "rolls": []
+    },
+    {
+        "url": "speed1",
+        "name": "Speed 1",
+        "description": "Run up to 30mph.",
+        "rolls": []
+    },
+    {
+        "url": "speed2",
+        "name": "Speed 2",
+        "description": "Travel up to 100mph. ",
+        "rolls": []
+    },
+    {
+        "url": "speed3",
+        "name": "Speed 3",
+        "description": "You can now travel the speed of sound. ",
+        "rolls": []
+    },
+    {
+        "url": "speed4",
+        "name": "Speed 4",
+        "description": "Travel up to 120,000 mph. ",
+        "rolls": []
+    },
+    {
+        "url": "energypropulsion",
+        "name": "Energy Propulsion",
+        "description": "Channel energy into flight. The speed of the flight is influenced by speed skills and starts at 10mph. ",
+        "rolls": []
+    },
+    {
+        "url": "speed5",
+        "name": "Speed 5",
+        "description": "Loop the Earth in 1 minute, 1.5 million mile per hour. ",
+        "rolls": []
+    },
+    {
+        "url": "nonodezone",
+        "name": "No Node Zone",
+        "description": "Prevent other crystallites from creating energy nodes within 10 feet of you. This is a passive effect and always active. ",
+        "rolls": []
+    }
+]

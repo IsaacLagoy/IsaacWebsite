@@ -1,0 +1,218 @@
+[
+  {
+    "name": "Element",
+    "description": "This weapon now deals %e damage.",
+    "base": 1000,
+    "linear": 0,
+    "exponential": 0,
+    "form": ["element"],
+    "type": "weapon"
+  },
+  {
+    "name": "Vorpal",
+    "description": "Allows you to easily cut through non-magical material including living things.",
+    "base": 1000,
+    "linear": 0,
+    "exponential": 0,
+    "form": [],
+    "type": "weapon"
+  },
+  {
+    "name": "THAC0",
+    "description": "Reduces THAC0 by %c. ",
+    "base": 1000,
+    "linear": 0,
+    "exponential": 10,
+    "form": ["level"],
+    "type": "weapon"
+  },
+  {
+    "name": "Smite",
+    "description": "Double damage against undead.",
+    "base": 1000,
+    "linear": 0,
+    "exponential": 0,
+    "form": [],
+    "type": "weapon"
+  },
+  {
+    "name": "Oathbow",
+    "description": "Double damage against a single named target.",
+    "base": 10000,
+    "linear": 0,
+    "exponential": 0,
+    "form": [],
+    "type": "weapon"
+  },
+  {
+    "name": "Defender",
+    "description": "Convert half damage dealt into defense next enemy turn.",
+    "base": 5000,
+    "linear": 0,
+    "exponential": 0,
+    "form": [],
+    "type": "weapon"
+  },
+  {
+    "name": "Regeneration",
+    "description": "Recover %c %d HP every round.",
+    "base": 0,
+    "linear": 750,
+    "exponential": 0,
+    "form": ["dice"],
+    "type": "armor"
+  },
+  {
+    "name": "Evasion",
+    "description": "Advantage on dodge rolls.",
+    "base": 5000,
+    "linear": 0,
+    "exponential": 0,
+    "form": [],
+    "type": "armor"
+  },
+  {
+    "name": "Resistance",
+    "description": "You now resist %e.",
+    "base": 2500,
+    "linear": 0,
+    "exponential": 0,
+    "form": ["element"],
+    "type": "armor"
+  },
+  {
+    "name": "Invulnerability",
+    "description": "Gain %c% resistance to all damage.",
+    "base": 1000,
+    "linear": 0,
+    "exponential": 2,
+    "form": ["level"],
+    "type": "armor"
+  },
+  {
+    "name": "Missile Attraction",
+    "description": "Draw missile attacks toward you as long as you are alive.",
+    "base": 10000,
+    "linear": 0,
+    "exponential": 0,
+    "form": [],
+    "type": "armor"
+  },
+  {
+    "name": "Stat Up",
+    "description": "Increase a stat by %c.",
+    "base": 400,
+    "linear": 0,
+    "exponential": 10,
+    "form": ["level"],
+    "type": "armor"
+  },
+  {
+    "name": "AC",
+    "description": "Reduce AC by %c.",
+    "base": 1000,
+    "linear": 0,
+    "exponential": 10,
+    "form": ["level"],
+    "type": "armor"
+  },
+  {
+    "name": "Fortify Health",
+    "description": "Increase maximum health by %c.",
+    "base": 250,
+    "linear": 250,
+    "exponential": 0,
+    "form": ["level"],
+    "type": "armor"
+  },
+  {
+    "name": "Fortify Mana",
+    "description": "Increase maximum mana by %c.",
+    "base": 500,
+    "linear": 500,
+    "exponential": 0,
+    "form": ["level"],
+    "type": "armor"
+  },
+  {
+    "name": "Speed",
+    "description": "You now have the skill Speed %c.",
+    "base": 1000,
+    "linear": 0,
+    "exponential": 10,
+    "form": ["level"],
+    "type": "armor"
+  },
+  {
+    "name": "Sneak",
+    "description": "Advantage on stealth rolls.",
+    "base": 2500,
+    "linear": 0,
+    "exponential": 0,
+    "form": [],
+    "type": "armor"
+  },
+  {
+    "name": "Missile Snaring",
+    "description": "Gain %c% resistance to missiles.",
+    "base": 1500,
+    "linear": 0,
+    "exponential": 1.5,
+    "form": ["level"],
+    "type": "armor"
+  },
+  {
+    "name": "Swimming",
+    "description": "Grants swimming ability.",
+    "base": 500,
+    "linear": 0,
+    "exponential": 0,
+    "form": [],
+    "type": "armor"
+  },
+  {
+    "name": "Climbing",
+    "description": "Grants climbing ability.",
+    "base": 500,
+    "linear": 0,
+    "exponential": 0,
+    "form": [],
+    "type": "armor"
+  },
+  {
+    "name": "Flight",
+    "description": "Grants flight at running speed.",
+    "base": 2500,
+    "linear": 0,
+    "exponential": 0,
+    "form": [],
+    "type": "armor"
+  },
+  {
+    "name": "Wound Closure",
+    "description": "Automatically stabilizes you at 0 HP.",
+    "base": 3000,
+    "linear": 0,
+    "exponential": 0,
+    "form": [],
+    "type": "armor"
+  },
+  {
+    "name": "Lucky",
+    "description": "Increase luck by %c%.",
+    "base": 5000,
+    "linear": 0,
+    "exponential": 2,
+    "form": ["level"],
+    "type": "armor"
+  },
+  {
+    "name": "Intimidation",
+    "description": "Increases likelihood enemies target you.",
+    "base": 15000,
+    "linear": 0,
+    "exponential": 0,
+    "form": [],
+    "type": "armor"
+  }
+]

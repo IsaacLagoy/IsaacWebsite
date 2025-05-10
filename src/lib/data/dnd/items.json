@@ -1,0 +1,772 @@
+[
+    {
+      "url": "cosmicglue",
+      "name": "Cosmic Glue",
+      "cost": 2500,
+      "description": "A shimmering adhesive that permanently bonds any two surfaces, no matter the material.",
+      "category": ["supplies"]
+    },
+    {
+      "url": "universalsolvent",
+      "name": "Universal Solvent",
+      "cost": 2500,
+      "description": "A rare liquid capable of breaking down any adhesive, including magical glues.",
+      "category": ["supplies"]
+    },
+    {
+      "url": "smalltent",
+      "name": "Small Tent",
+      "cost": 200,
+      "description": "A compact canvas tent, just large enough for two people and their bedrolls, providing shelter from the elements.",
+      "category": ["supplies"]
+    },
+    {
+      "url": "largetent",
+      "name": "Large Tent",
+      "cost": 500,
+      "description": "A spacious, durable tent designed to house up to six people comfortably, with included bedrolls.",
+      "category": ["supplies"]
+    },
+    {
+      "url": "manapotion",
+      "name": "Mana Potion",
+      "cost": 150,
+      "description": "A glowing vial that fully replenishes the drinker’s magical energy or mana reserves.",
+      "category": ["potion"]
+    },
+    {
+      "url": "healthpotion",
+      "name": "Health Potion",
+      "cost": 150,
+      "description": "A ruby-red potion that restores the drinker’s health completely, ineffective on undead creatures.",
+      "category": ["potion"]
+    },
+    {
+      "url": "contingenttimeheal",
+      "name": "Contingent Time Heal",
+      "cost": 1500,
+      "description": "A magical charm that rewinds the holder’s timeline by six seconds upon death, preventing fatal outcomes once.",
+      "category": ["spell"]
+    },
+    {
+      "url": "loafofbread",
+      "name": "Loaf of Bread",
+      "cost": 2,
+      "description": "A hearty, rustic loaf of bread, sufficient to satisfy half a meal for one person.",
+      "category": ["food", "supplies"]
+    },
+    {
+      "url": "hunkofcheese",
+      "name": "Hunk of Cheese",
+      "cost": 1,
+      "description": "A dense wedge of aged cheese, offering a savory, protein-rich snack.",
+      "category": ["food", "supplies"]
+    },
+    {
+      "url": "rations",
+      "name": "Rations",
+      "cost": 15,
+      "description": "A sealed package of dried meat, fruit, and hardtack, providing one day’s worth of sustenance.",
+      "category": ["food", "supplies"]
+    },
+    {
+      "url": "chunkofmeat",
+      "name": "Chunk of Meat",
+      "cost": 30,
+      "description": "A generous serving of fresh, uncooked meat, ready for cooking or consumption.",
+      "category": ["food", "supplies"]
+    },
+    {
+      "url": "commonwine",
+      "name": "Common Wine",
+      "cost": 20,
+      "description": "A basic bottle of local wine, inexpensive yet sufficient to lift spirits.",
+      "category": ["food"]
+    },
+    {
+      "url": "mugofale",
+      "name": "Mug of Ale",
+      "cost": 4,
+      "description": "A frothy mug of hearty ale, a favorite among tavern-goers.",
+      "category": ["food"]
+    },
+    {
+      "url": "finewine",
+      "name": "Fine Wine",
+      "cost": 1000,
+      "description": "An exquisite bottle of rare vintage wine, highly prized by connoisseurs and nobles.",
+      "category": ["food"]
+    },
+    {
+      "url": "weakacid",
+      "name": "Weak Acid",
+      "cost": 250,
+      "description": "A small vial of acid capable of corroding non-metallic substances over time.",
+      "category": ["supplies", "weapon"]
+    },
+    {
+      "url": "arrow",
+      "name": "Arrow",
+      "cost": 5,
+      "description": "A standard wooden arrow tipped with iron, designed for use with longbows or shortbows.",
+      "category": ["weapon"]
+    },
+    {
+      "url": "crossbowbolt",
+      "name": "Crossbow Bolt",
+      "cost": 5,
+      "description": "A sturdy iron bolt crafted for crossbow use, delivering reliable piercing power.",
+      "category": ["weapon"]
+    },
+    {
+      "url": "antitoxin",
+      "name": "Antitoxin",
+      "cost": 5000,
+      "description": "A precious vial containing a universal antidote that neutralizes most non-magical poisons.",
+      "category": ["supplies"]
+    },
+    {
+      "url": "leatherbackpack",
+      "name": "Leather Backpack",
+      "cost": 200,
+      "description": "A sturdy leather pack designed to comfortably carry a variety of gear and supplies.",
+      "category": ["supplies", "clothing"]
+    },
+    {
+      "url": "bedroll",
+      "name": "Bedroll",
+      "cost": 100,
+      "description": "A rolled-up blanket and pad, providing basic comfort and insulation while sleeping outdoors.",
+      "category": ["supplies"]
+    },
+    {
+      "url": "commonclothes",
+      "name": "Common Clothes",
+      "cost": 50,
+      "description": "Simple, rugged garments typically worn by peasants and travelers.",
+      "category": ["clothing"]
+    },
+    {
+      "url": "fineclothes",
+      "name": "Fine Clothes",
+      "cost": 1500,
+      "description": "Elegant, well-tailored garments suitable for formal occasions or noble company.",
+      "category": ["clothing"]
+    },
+    {
+      "url": "sprigofmistletoe",
+      "name": "Sprig of Mistletoe",
+      "cost": 100,
+      "description": "A fresh or dried sprig of mistletoe, often used in druidic rituals or spellcasting.",
+      "category": ["plant"]
+    },
+    {
+      "url": "holywater",
+      "name": "Holy Water",
+      "cost": 2500,
+      "description": "A vial of consecrated water, highly effective against fiends and undead when used as a weapon or in rituals.",
+      "category": ["supplies"]
+    },
+    {
+      "url": "10footpole",
+      "name": "10-Foot Pole",
+      "cost": 5,
+      "description": "A long wooden pole, perfect for probing traps or measuring depth safely.",
+      "category": ["supplies"]
+    },
+    {
+      "url": "slingbullet",
+      "name": "Sling Bullet",
+      "cost": 1,
+      "description": "A smooth, rounded stone or metal bullet designed for use with a sling.",
+      "category": ["weapon"]
+    },
+    {
+      "url": "strongacid",
+      "name": "Strong Acid",
+      "cost": 2500,
+      "description": "A powerful corrosive substance capable of melting through nearly any non-magical material.",
+      "category": ["supplies", "weapon"]
+    },  
+    {
+      "url": "bag_of_holding",
+      "name": "Bag of Holding",
+      "cost": 10000,
+      "description": "A magical bag that can hold far more than its outside dimensions suggest.",
+      "category": ["supplies"]
+    },
+    {
+      "url": "portable_hole",
+      "name": "Portable Hole",
+      "cost": 12000,
+      "description": "A circular cloth that creates an extradimensional hole when spread on a surface.",
+      "category": ["supplies"]
+    },
+    {
+      "url": "alchemy_jug",
+      "name": "Alchemy Jug",
+      "cost": 5000,
+      "description": "A magical jug capable of producing various liquids each day, such as water, acid, or mayonnaise.",
+      "category": ["supplies"]
+    },
+    {
+      "url": "immovable_rod",
+      "name": "Immovable Rod",
+      "cost": 6000,
+      "description": "A metal rod that can be fixed in space, defying gravity and supporting great weight.",
+      "category": ["supplies"]
+    },
+    {
+      "url": "rope_of_climbing",
+      "name": "Rope of Climbing",
+      "cost": 3000,
+      "description": "A 60-foot rope that animates to climb, knot, or fasten itself upon command.",
+      "category": ["supplies"]
+    },
+    {
+      "url": "dust_of_disappearance",
+      "name": "Dust of Disappearance",
+      "cost": 4000,
+      "description": "A pinch of magical dust that renders the user and nearby creatures invisible for a short time.",
+      "category": ["supplies"]
+    },
+    {
+      "url": "dust_of_dryness",
+      "name": "Dust of Dryness",
+      "cost": 3500,
+      "description": "A pinch of dust that can absorb a large quantity of water, turning it into a marble-sized pellet.",
+      "category": ["supplies"]
+    },
+    {
+      "url": "horn_of_blasting",
+      "name": "Horn of Blasting",
+      "cost": 10000,
+      "description": "A magical horn that emits a destructive blast when blown, damaging creatures and structures.",
+      "category": ["supplies"]
+    },
+    {
+      "url": "decanter_of_endless_water",
+      "name": "Decanter of Endless Water",
+      "cost": 5000,
+      "description": "A magical container that produces fresh or salt water on command in various volumes.",
+      "category": ["supplies"]
+    },
+    {
+      "url": "sending_stones",
+      "name": "Sending Stones",
+      "cost": 7000,
+      "description": "A pair of magical stones that allow communication over any distance once per day.",
+      "category": ["supplies"]
+    },
+    {
+      "url": "sovereign_glue",
+      "name": "Sovereign Glue",
+      "cost": 8000,
+      "description": "An incredibly strong adhesive that can permanently bond objects together.",
+      "category": ["supplies"]
+    },
+    {
+      "url": "universal_solvent",
+      "name": "Universal Solvent",
+      "cost": 8000,
+      "description": "A magical liquid that dissolves sovereign glue and similar adhesives.",
+      "category": ["supplies"]
+    },
+    {
+      "url": "quiver_of_ehlonna",
+      "name": "Quiver of Ehlonna",
+      "cost": 6000,
+      "description": "A magical quiver that can hold numerous arrows, bolts, and javelins without adding weight.",
+      "category": ["weapon", "supplies"]
+    },
+    {
+      "url": "instant_fortress",
+      "name": "Instant Fortress",
+      "cost": 20000,
+      "description": "A small cube that expands into a large fortified tower when activated.",
+      "category": ["supplies"]
+    },
+    {
+      "url": "figurine_of_wondrous_power",
+      "name": "Figurine of Wondrous Power",
+      "cost": 10000,
+      "description": "A small statuette that transforms into a living creature to aid its owner.",
+      "category": ["supplies"]
+    },
+    {
+      "url": "chime_of_opening",
+      "name": "Chime of Opening",
+      "cost": 7000,
+      "description": "A hollow metal rod that unlocks doors, chests, and other locks when struck.",
+      "category": ["supplies"]
+    },
+    {
+      "url": "eversmoking_bottle",
+      "name": "Eversmoking Bottle",
+      "cost": 4000,
+      "description": "A bottle that, when opened, emits a thick, obscuring smoke until stopped.",
+      "category": ["supplies"]
+    },
+    {
+      "url": "bead_of_force",
+      "name": "Bead of Force",
+      "cost": 5000,
+      "description": "A small black sphere that explodes into a forceful blast, trapping creatures inside a resilient sphere.",
+      "category": ["supplies"]
+    },
+    {
+      "url": "caltrops",
+      "name": "Caltrops",
+      "cost": 50,
+      "description": "A small bag of spiked metal pieces scattered on the ground to slow and injure pursuers.",
+      "category": ["weapon"]
+    },
+    {
+      "url": "ball_bearings",
+      "name": "Ball Bearings",
+      "cost": 50,
+      "description": "A bag of tiny metal balls spread over an area to create difficult terrain and trip creatures.",
+      "category": ["weapon"]
+    },
+    {
+      "url": "bear_trap",
+      "name": "Bear Trap",
+      "cost": 250,
+      "description": "A heavy metal trap that snaps shut on creatures, restraining them.",
+      "category": ["weapon"]
+    },
+    {
+      "url": "torch",
+      "name": "Torch",
+      "cost": 1,
+      "description": "A wooden stick wrapped in cloth, burns for 1 hour providing light.",
+      "category": ["supplies"]
+    },
+    {
+      "url": "flint_and_steel",
+      "name": "Flint and Steel",
+      "cost": 50,
+      "description": "A small kit used to start fires.",
+      "category": ["supplies"]
+    },
+    {
+      "url": "rope_hempen",
+      "name": "Hempen Rope (50 ft)",
+      "cost": 100,
+      "description": "A 50-foot coil of tough hemp rope.",
+      "category": ["supplies"]
+    },
+    {
+      "url": "rope_silk",
+      "name": "Silk Rope (50 ft)",
+      "cost": 1000,
+      "description": "A lighter and stronger 50-foot coil of silk rope.",
+      "category": ["supplies"]
+    },
+    {
+      "url": "grappling_hook",
+      "name": "Grappling Hook",
+      "cost": 200,
+      "description": "A metal hook attached to a rope, useful for climbing or securing lines.",
+      "category": ["supplies"]
+    },
+    {
+      "url": "waterskin",
+      "name": "Waterskin",
+      "cost": 20,
+      "description": "A leather pouch that holds water, enough for one day.",
+      "category": ["supplies"]
+    },
+    {
+      "url": "salt_pouch",
+      "name": "Salt Pouch",
+      "cost": 10,
+      "description": "A small pouch of salt, useful for food preservation or rituals.",
+      "category": ["supplies", "food"]
+    },
+    {
+      "url": "herbal_kit",
+      "name": "Herbal Kit",
+      "cost": 500,
+      "description": "A pouch containing common medicinal herbs useful for basic first aid.",
+      "category": ["supplies", "plant"]
+    },
+    {
+      "url": "blanket",
+      "name": "Blanket",
+      "cost": 50,
+      "description": "A simple wool blanket, provides warmth during cold nights.",
+      "category": ["supplies"]
+    },
+    {
+      "url": "candle",
+      "name": "Candle",
+      "cost": 1,
+      "description": "A small wax candle, burns for about an hour.",
+      "category": ["supplies"]
+    },
+    {
+      "url": "soap",
+      "name": "Soap",
+      "cost": 5,
+      "description": "A bar of simple soap for washing.",
+      "category": ["supplies"]
+    },
+    {
+      "url": "cooking_pot",
+      "name": "Cooking Pot",
+      "cost": 200,
+      "description": "A metal pot used for cooking over a fire.",
+      "category": ["supplies"]
+    },
+    {
+      "url": "fishing_tackle",
+      "name": "Fishing Tackle",
+      "cost": 100,
+      "description": "A small kit with hooks, lines, and bait for fishing.",
+      "category": ["supplies"]
+    },
+    {
+      "url": "signal_whistle",
+      "name": "Signal Whistle",
+      "cost": 5,
+      "description": "A small whistle that can be heard over long distances.",
+      "category": ["supplies"]
+    },
+    {
+      "url": "shovel",
+      "name": "Shovel",
+      "cost": 200,
+      "description": "A sturdy metal shovel useful for digging or fortifications.",
+      "category": ["supplies"]
+    },
+    {
+      "url": "pickaxe",
+      "name": "Miner's Pickaxe",
+      "cost": 200,
+      "description": "A heavy tool for breaking rock or digging.",
+      "category": ["supplies"]
+    },
+    {
+      "url": "hammer",
+      "name": "Hammer",
+      "cost": 100,
+      "description": "A basic tool for driving nails or breaking small objects.",
+      "category": ["supplies"]
+    },
+    {
+      "url": "pitons",
+      "name": "Pitons (10)",
+      "cost": 50,
+      "description": "Iron spikes used in climbing to secure ropes or for anchoring.",
+      "category": ["supplies"]
+    },
+    {
+      "url": "bell",
+      "name": "Small Bell",
+      "cost": 100,
+      "description": "A small metal bell, useful for setting alarms or signaling.",
+      "category": ["supplies"]
+    },
+    {
+      "url": "mirror",
+      "name": "Steel Mirror",
+      "cost": 500,
+      "description": "A polished steel mirror, useful for seeing around corners or signaling.",
+      "category": ["supplies"]
+    },
+    {
+      "url": "chalk_piece",
+      "name": "Piece of Chalk",
+      "cost": 1,
+      "description": "A small piece of chalk, useful for marking walls, floors, or maps.",
+      "category": ["supplies"]
+    },
+    {
+      "url": "needle_and_thread",
+      "name": "Needle and Thread",
+      "cost": 5,
+      "description": "A small sewing kit for repairing torn clothes or gear.",
+      "category": ["supplies"]
+    },
+    {
+      "url": "sealing_wax",
+      "name": "Sealing Wax",
+      "cost": 10,
+      "description": "A stick of wax used to seal letters or documents with a signet.",
+      "category": ["supplies"]
+    },
+    {
+      "url": "iron_spikes",
+      "name": "Iron Spikes (10)",
+      "cost": 100,
+      "description": "Ten iron spikes useful for wedging doors, setting traps, or anchoring ropes.",
+      "category": ["supplies"]
+    },
+    {
+      "url": "small_mirror",
+      "name": "Small Glass Mirror",
+      "cost": 100,
+      "description": "A fragile glass mirror for personal grooming or peeking around corners.",
+      "category": ["supplies"]
+    },
+    {
+      "url": "small_spoon",
+      "name": "Small Spoon",
+      "cost": 1,
+      "description": "A simple metal spoon, useful for eating or cooking.",
+      "category": ["supplies"]
+    },
+    {
+      "url": "wooden_bowl",
+      "name": "Wooden Bowl",
+      "cost": 2,
+      "description": "A carved wooden bowl for holding food or water.",
+      "category": ["supplies"]
+    },
+    {
+      "url": "ink_bottle",
+      "name": "Ink Bottle",
+      "cost": 100,
+      "description": "A small bottle of black ink used for writing.",
+      "category": ["supplies"]
+    },
+    {
+      "url": "quill_pen",
+      "name": "Quill Pen",
+      "cost": 10,
+      "description": "A feather quill used for writing with ink.",
+      "category": ["supplies"]
+    },
+    {
+      "url": "parchment_sheet",
+      "name": "Parchment Sheet",
+      "cost": 5,
+      "description": "A blank sheet of parchment for writing or drawing.",
+      "category": ["supplies"]
+    },
+    {
+      "url": "small_bag_of_sand",
+      "name": "Small Bag of Sand",
+      "cost": 10,
+      "description": "A small bag of sand, useful for extinguishing small fires or adding weight to objects.",
+      "category": ["supplies"]
+    },
+    {
+      "url": "tin_whistle",
+      "name": "Tin Whistle",
+      "cost": 20,
+      "description": "A small metal whistle, useful for signaling or making music.",
+      "category": ["supplies", "instrument"]
+    },
+    {
+      "url": "small_net",
+      "name": "Small Net",
+      "cost": 100,
+      "description": "A small net used for catching fish or small creatures.",
+      "category": ["supplies"]
+    },
+    {
+      "url": "wooden_stakes",
+      "name": "Wooden Stakes (5)",
+      "cost": 50,
+      "description": "Five sharpened wooden stakes, useful for setting traps or securing tents.",
+      "category": ["supplies"]
+    },
+    {
+      "url": "clay_pot",
+      "name": "Clay Pot",
+      "cost": 20,
+      "description": "A small clay pot, useful for carrying water, storing herbs, or holding small items.",
+      "category": ["supplies"]
+    },
+    {
+      "url": "hand_bell",
+      "name": "Hand Bell",
+      "cost": 100,
+      "description": "A small handheld bell, useful for signaling or attracting attention.",
+      "category": ["supplies"]
+    },
+    {
+      "url": "charcoal_stick",
+      "name": "Charcoal Stick",
+      "cost": 5,
+      "description": "A stick of charcoal, useful for marking surfaces or sketching maps.",
+      "category": ["supplies"]
+    },
+      {
+        "url": "belladonna",
+        "name": "Belladonna",
+        "cost": 500,
+        "description": "A highly toxic plant with glossy black berries, commonly used in poisons and dark rituals.",
+        "category": ["plant"]
+      },
+      {
+        "url": "mandrake_root",
+        "name": "Mandrake Root",
+        "cost": 2000,
+        "description": "A magical root resembling a tiny humanoid, famous for its scream when uprooted; used in sleep magic and potions.",
+        "category": ["plant"]
+      },
+      {
+        "url": "wolfsbane",
+        "name": "Wolfsbane",
+        "cost": 750,
+        "description": "A poisonous herb said to ward off werewolves and cursed creatures.",
+        "category": ["plant"]
+      },
+      {
+        "url": "nightshade",
+        "name": "Nightshade",
+        "cost": 600,
+        "description": "A deadly plant used in the creation of potent poisons and alchemical mixtures.",
+        "category": ["plant"]
+      },
+      {
+        "url": "kingsfoil",
+        "name": "Kingsfoil (Athelas)",
+        "cost": 1500,
+        "description": "A rare healing herb known for soothing pain and treating minor wounds.",
+        "category": ["plant"]
+      },
+      {
+        "url": "faerie_fern",
+        "name": "Faerie Fern",
+        "cost": 1800,
+        "description": "A shimmering fern often found in fae groves, used in enchantments and illusion magic.",
+        "category": ["plant"]
+      },
+      {
+        "url": "dragonwort",
+        "name": "Dragonwort",
+        "cost": 2200,
+        "description": "A spiny herb said to resist dragonfire; an ingredient in fire resistance potions.",
+        "category": ["plant"]
+      },
+      {
+        "url": "elfroot",
+        "name": "Elfroot",
+        "cost": 1200,
+        "description": "A delicate herb cherished by elves for energy-restoring teas and tinctures.",
+        "category": ["plant"]
+      },
+      {
+        "url": "bloodgrass",
+        "name": "Bloodgrass",
+        "cost": 1000,
+        "description": "A reddish grass that grows on old battlefields; used in blood magic rituals.",
+        "category": ["plant"]
+      },
+      {
+        "url": "oldstone_moss",
+        "name": "Moss of the Old Stone",
+        "cost": 1400,
+        "description": "A gray-green moss found only on ancient ruins; valued for divination spells.",
+        "category": ["plant"]
+      },
+      {
+        "url": "silverleaf",
+        "name": "Silverleaf",
+        "cost": 1600,
+        "description": "A silvery-leafed plant used in light magic and the crafting of enchanted items.",
+        "category": ["plant"]
+      },
+      {
+        "url": "glowroot",
+        "name": "Glowroot",
+        "cost": 500,
+        "description": "A faintly glowing root found in deep caves; provides natural light in the dark.",
+        "category": ["plant"]
+      },
+      {
+        "url": "bitterwort",
+        "name": "Bitterwort",
+        "cost": 400,
+        "description": "A sharp-tasting herb used for cleansing toxins and crafting antidotes.",
+        "category": ["plant"]
+      },
+      {
+        "url": "whispering_reeds",
+        "name": "Whispering Reeds",
+        "cost": 1200,
+        "description": "Tall reeds that emit soft whispers in the wind; believed to carry the voices of spirits.",
+        "category": ["plant"]
+      },
+      {
+        "url": "emberflower",
+        "name": "Emberflower",
+        "cost": 2000,
+        "description": "A fiery red blossom that never wilts and radiates gentle warmth; used in fire-based alchemy.",
+        "category": ["plant"]
+      },
+      {
+        "url": "ironbark_seed",
+        "name": "Ironbark Seed",
+        "cost": 2500,
+        "description": "A tough seed from the ironbark tree, known for producing nearly indestructible wood.",
+        "category": ["plant"]
+      },
+      {
+        "url": "ashcap_mushroom",
+        "name": "Ashcap Mushroom",
+        "cost": 300,
+        "description": "A pale gray mushroom often found near dead trees; mildly toxic and used in brewing weak poisons.",
+        "category": ["plant"]
+      },
+      {
+        "url": "spirit_lily",
+        "name": "Spirit Lily",
+        "cost": 1800,
+        "description": "A delicate white lily growing near sacred sites; enhances the effects of necromantic spells.",
+        "category": ["plant"]
+      },
+      {
+        "url": "ghostvine",
+        "name": "Ghostvine",
+        "cost": 1500,
+        "description": "A thin, translucent vine often draped over graveyards; used to communicate with spirits.",
+        "category": ["plant"]
+      },
+      {
+        "url": "sunblossom",
+        "name": "Sunblossom",
+        "cost": 800,
+        "description": "A bright yellow flower that follows the sun; used in vitality potions and sunlight rituals.",
+        "category": ["plant"]
+      },
+      {
+        "url": "catmint",
+        "name": "Catmint",
+        "cost": 200,
+        "description": "A common herb that delights felines and has mild calming effects when brewed.",
+        "category": ["plant"]
+      },
+      {
+        "url": "lunar_thistle",
+        "name": "Lunar Thistle",
+        "cost": 1600,
+        "description": "A rare thistle that only blooms under moonlight; amplifies moon-based magic.",
+        "category": ["plant"]
+      },
+      {
+        "url": "thunderleaf",
+        "name": "Thunderleaf",
+        "cost": 1800,
+        "description": "A broad-leafed plant that crackles faintly with static; used in storm magic.",
+        "category": ["plant"]
+      },
+      {
+        "url": "tangleweed",
+        "name": "Tangleweed",
+        "cost": 400,
+        "description": "A sticky vine that clings aggressively to anything it touches; useful in crafting snares and traps.",
+        "category": ["plant"]
+      },
+      {
+        "url": "snowdrop",
+        "name": "Snowdrop",
+        "cost": 300,
+        "description": "A delicate white flower that blooms in the coldest winters, symbolizing hope and resilience.",
+        "category": ["plant"]
+      }
+    ]

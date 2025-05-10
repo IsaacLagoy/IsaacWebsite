@@ -1,0 +1,1127 @@
+[
+    {
+        "url": "fighter",
+        "name": "Fighter",
+        "skills": [
+            [
+                "Weapon Proficiency",
+                "Magic Resistance",
+                "Spot"
+            ],
+            [
+                "Mountain Leap",
+                "Mountain Crush",
+                "Iron Stomach",
+                "Grappling",
+                "Sweep the Leg",
+                "Dismount Fighter",
+                "Called Hit",
+                "Called Crit",
+                "Taunt",
+                "Shield Bash",
+                "Protector",
+                "Analyze Battlefield",
+                "Distant Shot",
+                "Endurance",
+                "Deflection",
+                "Manyshot",
+                "Instant Reload",
+                "Leadership",
+                "Commander",
+                "Handle Animal",
+                "Shot on the Run",
+                "Armored Fighting",
+                "Max Hit Die",
+                "Extra Hit Die",
+                "Bonus XP"
+            ],
+            [
+                "Giant's Strength",
+                "Just a Scratch",
+                "Analyze Opponent",
+                "Chink in Armor"
+            ],
+            [
+                "Improved Initiative",
+                "Reroll One or Two",
+                "Forego Armor"
+            ],
+            [
+                "Whirlwind Attack",
+                "Intimidation"
+            ],
+            [
+                "Berserker Rage",
+                "Unstoppable Juggernaut",
+                "Blind-Fighting"
+            ],
+            [],
+            [
+                "Perfect Dual Wielding",
+                "Titanic Weapon Proficiency",
+                "Fearless",
+                "The Pain Feels Good"
+            ],
+            [],
+            [],
+            [
+                "Damage Reduction"
+            ],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            []
+        ],
+        "spells": [
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            []
+        ]
+    },
+    {
+        "url": "mage",
+        "name": "Mage",
+        "skills": [
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [
+                "Contingency"
+            ],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            []
+        ],
+        "spells": [
+            [],
+            [
+                "Acid Splash",
+                "Chill Touch",
+                "Control Flames",
+                "Create Bonfire",
+                "Dancing Lights",
+                "Gust",
+                "Mage Hand",
+                "Mending",
+                "Minor Illusion",
+                "Poison Spray",
+                "Ray of Frost",
+                "Shape Water",
+                "Thunderclap",
+                "True Strike",
+                "Flame"
+            ],
+            [
+                "Alarm",
+                "Burning Hands",
+                "Comprehend Languages",
+                "Detect Magic",
+                "False Life",
+                "Feather Fall",
+                "Fog Cloud",
+                "Frost Fingers",
+                "Grease",
+                "Lesser Heal ",
+                "Identify",
+                "Charm Person",
+                "Chromatic Orb",
+                "Magic Missile",
+                "Sense Emotion"
+            ],
+            [
+                "Air Bubble",
+                "Arcane Lock",
+                "Augury",
+                "Continual Flame",
+                "Darkvision",
+                "Invisibility",
+                "Locate Object",
+                "Acid Stream"
+            ],
+            [
+                "Levitate",
+                "Acid Arrow",
+                "See Invisibility",
+                "Spider Climb",
+                "Suggestion",
+                "Warding Wind"
+            ],
+            [
+                "Stride",
+                "Blink",
+                "Erupting Earth",
+                "Fireball",
+                "Haste",
+                "Intellect Fortress",
+                "Wall of Sand",
+                "Wall of Water",
+                "Water Breathing",
+                "Feign Death"
+            ],
+            [
+                "Counterspell",
+                "Dispel Magic",
+                "Fly",
+                "Major Illusion",
+                "Friends"
+            ],
+            [
+                "Arcane Eye",
+                "Blight",
+                "Charm Monster",
+                "Elemental Bane",
+                "Black Tentacles",
+                "Hallucinatory Terrain",
+                "Ice Storm",
+                "Stoneskin",
+                "Wall of Fire"
+            ],
+            [
+                "Banishment",
+                "Confuse",
+                "Control Water",
+                "Divination",
+                "Gate Seal",
+                "Lightning Bolt"
+            ],
+            [
+                "Cone of Cold",
+                "Immolation",
+                "Skill Empowerment",
+                "Telekinesis",
+                "Control Winds",
+                "Legend Lore"
+            ],
+            [
+                "Dominate Person",
+                "Scrying",
+                "Steel Wind Strike",
+                "Temporal Shunt",
+                "Irresistible Dance",
+                "Shape Reality"
+            ],
+            [
+                "Disintegrate",
+                "Investiture of Flame",
+                "Investiture of Ice",
+                "Investiture of Stone",
+                "Investiture of Wind"
+            ],
+            [
+                "Chain Lightning",
+                "Globe of Invulnerability",
+                "Scatter",
+                "True Seeing"
+            ],
+            [
+                "Draconic Transformation",
+                "Power Word Pain",
+                "Teleport",
+                "Etheralness"
+            ],
+            [
+                "Prismatic Spray",
+                "Reverse Gravity",
+                "Plane Shift"
+            ],
+            [
+                "Control Weather",
+                "Incendiary Cloud",
+                "Sunburst",
+                "Telepathy",
+                "Whirlwind"
+            ],
+            [
+                "Antimagic Field",
+                "Dominate Monster",
+                "Power Word Stun"
+            ],
+            [
+                "Meteor Swarm"
+            ],
+            [
+                "Astral Projection",
+                "Power Word Kill"
+            ],
+            [
+                "Foresight",
+                "Time Stop"
+            ],
+            [
+                "Wish"
+            ]
+        ]
+    },
+    {
+        "url": "overlord",
+        "name": "Overlord",
+        "skills": [
+            [],
+            [],
+            [],
+            [
+                "Redirect Focus"
+            ],
+            [],
+            [],
+            [],
+            [
+                "Mad Scientist"
+            ],
+            [],
+            [],
+            [
+                "Infuse Soul",
+                "Untargetable"
+            ],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            []
+        ],
+        "spells": [
+            [
+                "Summon Brown"
+            ],
+            [],
+            [
+                "Summon Blue"
+            ],
+            [
+                "Summon Red",
+                "Alter Minion"
+            ],
+            [],
+            [
+                "Summon Green"
+            ],
+            [],
+            [
+                "Experimental Minion"
+            ],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            []
+        ]
+    },
+    {
+        "url": "rogue",
+        "name": "Rogue",
+        "skills": [
+            [
+                "Weapon Proficiency"
+            ],
+            [
+                "Hey I Like That Guy",
+                "Unnoticeable",
+                "Deception",
+                "Persuasion",
+                "Walk In Like I Own The Place",
+                "Comprehend Languages",
+                "Pick Pocket",
+                "Detect Trap",
+                "Detect Treasure",
+                "Pass Without Trace",
+                "Picklock",
+                "Backstab",
+                "Incredible Luck",
+                "Use Magic Device",
+                "Long Backstab",
+                "Diplomacy",
+                "Local Connections",
+                "Local Knowledge",
+                "Underworld Connections",
+                "Jack of All Trades"
+            ],
+            [],
+            [],
+            [],
+            [
+                "Uncanny Dodge",
+                "Financial Backing",
+                "Chain Backstab"
+            ],
+            [],
+            [
+                "Blindsense",
+                "Perfect Response"
+            ],
+            [],
+            [],
+            [
+                "Forego Rogue Skill Limit",
+                "No Quick Death"
+            ],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [
+                "Elusive"
+            ],
+            [],
+            [
+                "Legendary Saving Throw"
+            ]
+        ],
+        "spells": [
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            []
+        ]
+    },
+    {
+        "url": "engineer",
+        "name": "Engineer",
+        "skills": [
+            [
+                "Detect Trap",
+                "Create Device",
+                "Mathematics"
+            ],
+            [
+                "Construction"
+            ],
+            [
+                "Create Magical Device",
+                "Intuit Device",
+                "Disarm Trap",
+                "Gather Elements"
+            ],
+            [
+                "Identify Magical Item"
+            ],
+            [
+                "Chink in Armor",
+                "Lucky Break",
+                "Advanced Gathering Elements",
+                "Create Trap",
+                "Picklock"
+            ],
+            [
+                "Speed Assemble",
+                "Speed Disassemble",
+                "Incredible Luck",
+                "Create Vehicle",
+                "Demolition",
+                "Perfect Response"
+            ],
+            [
+                "Device Weapon Proficiency"
+            ],
+            [
+                "Create Golem"
+            ],
+            [
+                "Mind Magic Resistance",
+                "Wild Magic Resistance",
+                "Necromancy Resistance"
+            ],
+            [
+                "Lawful Planar Alliances",
+                "Mechanus Patron",
+                "Design City"
+            ],
+            [],
+            [],
+            [
+                "Modron Form"
+            ],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [
+                "Perfect Modron Form"
+            ]
+        ],
+        "spells": [
+            [],
+            [
+                "Light",
+                "Darkness",
+                "Far Sight",
+                "Ant Horde",
+                "Inspiration"
+            ],
+            [
+                "Feign Weakness",
+                "Attention Invisibility",
+                "Sharpen Senses",
+                "Haste"
+            ],
+            [
+                "Imbue Magical Device",
+                "Magical Energy Web",
+                "Magical Trap"
+            ],
+            [
+                "True Sight"
+            ],
+            [
+                "Conjure Device",
+                "Conjure Vehicle"
+            ],
+            [
+                "Hallucinatory Terrain",
+                "Modron Mind",
+                "Increase Efficiency ",
+                "Create Elements"
+            ],
+            [
+                "Summon Minor Modron",
+                "Shape Environment",
+                "Teleport"
+            ],
+            [
+                "Command Lawful Beings"
+            ],
+            [
+                "Summon Modron",
+                "Summon Lawful Servant",
+                "Conjure Structure",
+                "Re-Energize Party"
+            ],
+            [],
+            [],
+            [
+                "Summon Major Modron"
+            ],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            []
+        ]
+    },
+    {
+        "url": "druid",
+        "name": "Druid",
+        "skills": [
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            []
+        ],
+        "spells": [
+            [],
+            [
+                "Control Flames",
+                "Create Bonfire",
+                "Druidcraft",
+                "Magic Stone",
+                "Primal Savagery",
+                "Thorn Whip",
+                "Animal Friendship",
+                "Gust",
+                "Mending",
+                "Poison Spray",
+                "Flame",
+                "Shape Water",
+                "Thunderclap"
+            ],
+            [
+                "Charm Person",
+                "Create or Destroy Water",
+                "Cure Wounds",
+                "Detect Magic",
+                "Entangle",
+                "Fog Cloud",
+                "Purify Food and Drink",
+                "Speak with Animals"
+            ],
+            [
+                "Animal Messenger",
+                "Beast Sense",
+                "Continual Flame",
+                "Darkvision",
+                "Heat Metal",
+                "Locate Animals or Plants"
+            ],
+            [
+                "Augury",
+                "Spike Growth",
+                "Air Bubble",
+                "Summon Beast"
+            ],
+            [
+                "Aura of Vitality",
+                "Conjure Animals",
+                "Feign Death",
+                "Plant Growth",
+                "Speak with Plants",
+                "Wall of Water",
+                "Water Walk"
+            ],
+            [
+                "Erupting Earth",
+                "Dispel Magic",
+                "Summon Fey",
+                "Water Breathing",
+                "Call Lightning"
+            ],
+            [
+                "Control Water",
+                "Hallucinatory Terrain",
+                "Stoneskin",
+                "Wall of Fire"
+            ],
+            [
+                "Charm Monster",
+                "Confuse",
+                "Conjure Woodland Beings",
+                "Dominate Beast",
+                "Giant Insect",
+                "Grasping Vine"
+            ],
+            [
+                "Conjure Elemental",
+                "Mass Cure Wounds",
+                "Commune with Nature",
+                "Control Winds",
+                "Wall of Sand",
+                "Conjure Minor Elementals",
+                "Blight",
+                "Divination",
+                "Ice Storm"
+            ],
+            [
+                "Summon Draconic Spirit",
+                "Reincarnate",
+                "Tree Stride",
+                "Cone of Cold",
+                "Scrying",
+                "Greater Restoration",
+                "Insect Plague"
+            ],
+            [
+                "Heal",
+                "Wind Walk",
+                "Conjure Fey",
+                "Investiture of Flame",
+                "Investiture of Ice",
+                "Investiture of Stone",
+                "Investiture of Wind"
+            ],
+            [
+                "Heros' Feast",
+                "Flesh to Stone",
+                "Wall of Thorns",
+                "Transport via Plants",
+                "Primordial Ward"
+            ],
+            [
+                "Draconic Transformation",
+                "Fire Storm",
+                "Regenerate",
+                "Whirlwind"
+            ],
+            [
+                "Plane Shift",
+                "Reverse Gravity"
+            ],
+            [
+                "Animal Shapes",
+                "Earthquake",
+                "Incendiary Cloud",
+                "Revive"
+            ],
+            [
+                "Tsunami",
+                "Sunburst",
+                "Control Weather"
+            ],
+            [
+                "Storm of Vengeance"
+            ],
+            [
+                "Shapechange"
+            ],
+            [
+                "Foresight"
+            ],
+            [
+                "Mass Revive"
+            ]
+        ]
+    },
+    {
+        "url": "generalskills",
+        "name": "General Skills",
+        "skills": [
+            [],
+            [
+                "Anything Goes",
+                "Anything Goes Long",
+                "Haggling",
+                "Appraise",
+                "Acrobatics",
+                "Swimming",
+                "Climbing",
+                "Fairy Protocol",
+                "Lower Planar Protocol",
+                "Upper Planar Protocol",
+                "Royal Protocol",
+                "Native People's Protocol",
+                "Woodland Ecology",
+                "Fairy Ecology",
+                "Monster Ecology",
+                "Lightning Reflexes",
+                "Extra Slot",
+                "Extra Skill",
+                "Improved Stat Crit",
+                "Improved Crit",
+                "Dragon Ecology",
+                "Devastating Crit",
+                "Penetrating Crit",
+                "Hey I Like That Guy",
+                "Merchant",
+                "Diplomacy",
+                "Deception",
+                "Persuasion",
+                "Haggling",
+                "Walk In Like I Own The Place",
+                "Financial Backing",
+                "Improved Initiative"
+            ],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [
+                "Sculpt Spells"
+            ],
+            [],
+            [
+                "Two Spells Per Round"
+            ],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            []
+        ],
+        "spells": [
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            []
+        ]
+    },
+    {
+        "url": "necromancer",
+        "name": "Necromancer",
+        "skills": [
+            [],
+            [
+                "Create Undead"
+            ],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [
+                "Create Undead Golem"
+            ],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            []
+        ],
+        "spells": [
+            [],
+            [
+                "Chill Touch",
+                "Spare the Dying",
+                "Toll of the Dead",
+                "Detect Dead/Undead"
+            ],
+            [
+                "False Life",
+                "Ray of Sickness",
+                "Inflict Wounds"
+            ],
+            [
+                "Ray of Enfeeblement",
+                "Animate Dead"
+            ],
+            [
+                "Blindness/Deafness",
+                "Feign Death"
+            ],
+            [
+                "Speak with Dead",
+                "Summon Undead",
+                "Vampiric Touch"
+            ],
+            [
+                "Revivify"
+            ],
+            [],
+            [
+                "Blight"
+            ],
+            [
+                "Danse Macabre",
+                "Enervation"
+            ],
+            [
+                "Negative Energy Flood",
+                "Revive"
+            ],
+            [
+                "Create Undead",
+                "Harm"
+            ],
+            [
+                "Circle of Death"
+            ],
+            [],
+            [
+                "Finger of Death"
+            ],
+            [
+                "Consume Soul"
+            ],
+            [
+                "Mass Revive"
+            ],
+            [],
+            [
+                "Astral Projection"
+            ],
+            [],
+            []
+        ]
+    },
+    {
+        "url": "pythonmage",
+        "name": "Python Mage",
+        "skills": [
+            [
+                "Data Types"
+            ],
+            [
+                "Mathematical Expressions",
+                "Boolean Operators",
+                "Comparative Operators",
+                "Variables"
+            ],
+            [
+                "For Loops",
+                "Lists",
+                "Strings"
+            ],
+            [
+                "Loop Methods",
+                "Import Variables",
+                "While Loops"
+            ],
+            [
+                "Dictionaries",
+                "Sets"
+            ],
+            [
+                "Definitions"
+            ],
+            [
+                "Definition Return"
+            ],
+            [
+                "Functional Methods"
+            ],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            []
+        ],
+        "spells": [
+            [
+                "Import",
+                "REPL"
+            ],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            []
+        ]
+    },
+    {
+        "url": "crystallite",
+        "name": "Crystallite",
+        "skills": [
+            [],
+            [
+                "Infrared Vision"
+            ],
+            [
+                "Speed 1",
+                "Temperature Resistant"
+            ],
+            [
+                "Algorithmic Mind"
+            ],
+            [],
+            [
+                "Energy Propulsion",
+                "No Node Zone"
+            ],
+            [
+                "Speed 2"
+            ],
+            [
+                "See Full Light Spectrum"
+            ],
+            [],
+            [
+                "2 Actions Per Round"
+            ],
+            [
+                "Speed 3"
+            ],
+            [],
+            [
+                "Uncanny Initiative"
+            ],
+            [],
+            [
+                "Speed 4"
+            ],
+            [
+                "3 Actions Per Round"
+            ],
+            [],
+            [],
+            [],
+            [
+                "Speed 5"
+            ],
+            [
+                "4 Actions Per Round"
+            ]
+        ],
+        "spells": [
+            [],
+            [
+                "Create Crystal 1",
+                "Light Laser 1"
+            ],
+            [
+                "Create Crystalline Weapon",
+                "Crystal Strength"
+            ],
+            [
+                "Create Crystal 2",
+                "Light Laser 2",
+                "Minor Light Illusion",
+                "Refraction Shield"
+            ],
+            [
+                "Create Crystalline Armor",
+                "Create Crystalline Device",
+                "Laser Lotus"
+            ],
+            [
+                "Light Laser 3",
+                "Light Invisibility Field"
+            ],
+            [
+                "Crystal Shield"
+            ],
+            [
+                "Create Crystal 3",
+                "Light Illusion"
+            ],
+            [
+                "Create Crystal Battery",
+                "Light Laser 4"
+            ],
+            [],
+            [],
+            [
+                "Create Crystal 4",
+                "Light Laser 5"
+            ],
+            [],
+            [],
+            [
+                "Crystal Clone"
+            ],
+            [
+                "Create Crystal 5",
+                "Light Laser 6",
+                "Pseudo Reality"
+            ],
+            [],
+            [
+                "Crystal Portal",
+                "Crystalline Invisibility"
+            ],
+            [
+                "Create Crystal 6",
+                "Light Laser 7"
+            ],
+            [],
+            [
+                "Perfect Crystalline Clone"
+            ]
+        ]
+    }
+]
