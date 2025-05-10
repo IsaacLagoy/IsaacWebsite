@@ -104,15 +104,15 @@
 
 /* Override specific backgrounds */
 .tamu::before {
-    background-image: url('$lib/graphics/colors/tamu_planet.svg');
+    background-image: url('/graphics/colors/tamu_planet.svg');
 }
 
 .tagd::before {
-    background-image: url('$lib/graphics/colors/tagd_planet.svg');
+    background-image: url('/graphics/colors/tagd_planet.svg');
 }
 
 .basilisk::before {
-    background-image: url('$lib/graphics/colors/basilisk_planet.svg');
+    background-image: url('/graphics/colors/basilisk_planet.svg');
 }
 
 @keyframes float {

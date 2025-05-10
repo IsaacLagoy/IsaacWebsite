@@ -48,7 +48,7 @@
             <div class='project tile'>
                 <a href={project.href}>
                     <div class='project thumbnail-wrapper'>
-                        <img src={`src/lib/${project.thumb}`} alt={project.name} />
+                        <img src={`/${project.thumb}`} alt={project.name} />
                     </div>
                     <div class='project title'>{project.name}</div>
                 </a>
