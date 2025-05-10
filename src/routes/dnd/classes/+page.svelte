@@ -19,9 +19,9 @@
         <a href={`classes/${c.class.url}`} class='tile'>
             <div class='thumbnail-wrapper'>
                 {#if c.flip}
-                    <img src={`/src/lib/images/dnd/characters/${c.image}`} alt={c.class.name}/>
+                    <img src={`/images/dnd/characters/${c.image}`} alt={c.class.name}/>
                 {:else}
-                    <img src={`/src/lib/images/dnd/characters/${c.image}`} alt={c.class.name} style='transform: scaleX(-1);'/>
+                    <img src={`/images/dnd/characters/${c.image}`} alt={c.class.name} style='transform: scaleX(-1);'/>
                 {/if}
             </div>
             <div class='title'>{c.class.name}</div>

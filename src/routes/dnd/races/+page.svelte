@@ -20,7 +20,7 @@
     {#each races as race}
         <button on:click={() => open_popup(race.race)} class='race tile'>
             <div class='thumbnail-wrapper'>
-                <img src={`/src/lib/images/dnd/characters/${race.image}`} alt={race.race.name}/>
+                <img src={`/images/dnd/characters/${race.image}`} alt={race.race.name}/>
             </div>
             <div class='title'>{race.race.name}</div>
         </button>

@@ -19,7 +19,7 @@
         {/if}
     </div>
     <div class='character-wrapper'>
-        <img src={`/src/lib/images/dnd/characters/${data.image}`} alt='Class character' class='character-image'/>
+        <img src={`/images/dnd/characters/${data.image}`} alt='Class character' class='character-image'/>
     </div>
 </div>
 

@@ -23,7 +23,7 @@
     {#each tiles as tile}
         <a href={`dnd/${tile.href}`} class='tile'>
             <div class='thumbnail-wrapper'>
-                <img src={`src/lib/images/dnd/icons/${tile.thumb}.png`} alt={tile.title}/>
+                <img src={`/images/dnd/icons/${tile.thumb}.png`} alt={tile.title}/>
             </div>
             <div class='title'>{tile.title}</div>
         </a>

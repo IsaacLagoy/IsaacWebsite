@@ -81,7 +81,7 @@
         <div class='small-planet' style='--i: {i}'>
             <a href={`/projects?skills=${skill.key}`}>
                 <div class='small-bubble'>
-                    <img src={`src/lib/${skill.thumb}`} alt={skill.name}>
+                    <img src={`/${skill.thumb}`} alt={skill.name}>
                 </div>
             </a>
         </div>

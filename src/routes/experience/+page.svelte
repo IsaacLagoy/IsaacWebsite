@@ -37,7 +37,7 @@
         {#each data.game_awards as award}
             <a href={`/projects/${award.href}`} class='tile'>
                 <div class='thumbnail-wrapper'>
-                    <img src={`/src/lib/images/projects/${award.image}`} alt={award.name}/>
+                    <img src={`/images/projects/${award.image}`} alt={award.name}/>
                 </div>
                 <div class='title'>{award.name}</div>
             </a>
