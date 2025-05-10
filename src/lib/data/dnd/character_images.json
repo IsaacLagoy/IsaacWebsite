@@ -60,6 +60,18 @@
         "race": "lizardfolk"
     },
     {
+        "name": "Elf",
+        "image": "elf.png",
+        "classes": ["ranger"],
+        "race": "elf"
+    },
+    {
+        "name": "goblin",
+        "image": "goblin.png",
+        "classes": ["fighter"],
+        "race": "goblin"
+    },
+    {
         "name": "Gnome",
         "image": "gnome.png",
         "classes": ["engineer"],
