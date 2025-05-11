@@ -8,6 +8,9 @@
     import basilisk from '$lib/images/basilisk/basilisk_square_black.png';
     import tamu from '$lib/images/school/tamu_logo.png';
     import tagd from '$lib/images/school/tagd_logo.png';
+    import tamu_planet from '$lib/graphics/colors/tamu_planet.svg';
+    import tagd_planet from '$lib/graphics/colors/tagd_planet.svg';
+    import basilisk_planet from '$lib/graphics/colors/basilisk_planet.svg';
     
     import github from '$lib/graphics/social/github_stars.svg';
     import linked_in from '$lib/graphics/social/linked_in_stars.svg';
@@ -46,32 +49,36 @@
 <!-- Main about me -->
 <div class='planet-grid'>
     <div class='planet'>
-        <a href='/'>
-            <div class='bubble tamu' style='animation-delay: 0s;'>
-                <img src={tamu} alt='Texas A&M Logo' class='logo' />
-            </div>
-        </a>
-        <p class='label'>Computer Science @ Texas A&M<br />Minor in Math • 4.0 GPA<br />Student Researcher @ iSTAR</p>
+      <a href='/'>
+        <div class='bubble' style='animation-delay: 0s;'>
+          <img src={tamu_planet} alt='' class='planet-bg' />
+          <img src={tamu} alt='Texas A&M Logo' class='logo' />
+        </div>
+      </a>
+      <p class='label'>Computer Science @ Texas A&M<br />Minor in Math • 4.0 GPA<br />Student Researcher @ iSTAR</p>
     </div>
-
+  
     <div class='planet'>
-        <a href='/'>
-            <div class='bubble tagd' style='animation-delay: -2s;'>
-                <img src={tagd} alt='TAGD Logo' class='logo' />
-            </div>
-        </a>
-        <p class='label'>President of Texas Aggie Game Developers</p>
+      <a href='/'>
+        <div class='bubble' style='animation-delay: -2s;'>
+          <img src={tagd_planet} alt='' class='planet-bg' />
+          <img src={tagd} alt='TAGD Logo' class='logo' />
+        </div>
+      </a>
+      <p class='label'>President of Texas Aggie Game Developers</p>
     </div>
-
+  
     <div class='planet'>
-        <a href='/projects/basilisk'>
-            <div class='bubble basilisk' style='animation-delay: -4s;'>
-                <img src={basilisk} alt='Basilisk Logo' class='logo' />
-            </div>
-        </a>
-        <p class='label'>Developer @ Basilisk Engine<br />Physics & Collisions</p>
+      <a href='/projects/basilisk'>
+        <div class='bubble' style='animation-delay: -4s;'>
+          <img src={basilisk_planet} alt='' class='planet-bg' />
+          <img src={basilisk} alt='Basilisk Logo' class='logo' />
+        </div>
+      </a>
+      <p class='label'>Developer @ Basilisk Engine<br />Physics & Collisions</p>
     </div>
-</div>
+  </div>
+  
 
 <!-- Skills -->
 <div class='solar-system'>

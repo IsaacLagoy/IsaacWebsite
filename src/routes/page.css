@@ -102,17 +102,15 @@
     position: relative;
 }
 
-/* Override specific backgrounds */
-.tamu::before {
-    background-image: url('/graphics/colors/tamu_planet.svg');
-}
-
-.tagd::before {
-    background-image: url('/graphics/colors/tagd_planet.svg');
-}
-
-.basilisk::before {
-    background-image: url('/graphics/colors/basilisk_planet.svg');
+.planet-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 0;
+    animation: spin 60s linear infinite;
 }
 
 @keyframes float {
