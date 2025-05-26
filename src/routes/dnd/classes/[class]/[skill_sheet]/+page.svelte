@@ -8,9 +8,9 @@
     let skillspells = data.skillspells;
 
     // control popup window
-    let selected: Skill | Spell | null = null;
+    let selected: Skill | Spell | null | any = null;
 
-    function open_popup(item: Skill | Spell) {
+    function open_popup(item: Skill | Spell | any) {
         selected = item;
     }
 

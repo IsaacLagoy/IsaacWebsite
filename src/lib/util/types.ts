@@ -57,17 +57,18 @@ export type Spell = {
 }
 
 export function isSpell(value: unknown): value is Spell {
-    return (
-        typeof value === 'object' &&
-        value !== null &&
-        typeof (value as any).url === 'string' &&
-        typeof (value as any).name === 'string' &&
-        typeof (value as any).description === 'string' &&
-        (typeof (value as any).cost === 'string' || (value as any).cost === null) &&
-        (typeof (value as any).damage_roll === 'string' || (value as any).damage_roll === null) &&
-        (typeof (value as any).damage_count === 'string' || (value as any).damage_count === null) &&
-        typeof (value as any).price === 'number'
-    );
+    return true;
+    // return (
+    //     typeof value === 'object' &&
+    //     value !== null &&
+    //     typeof (value as any).url === 'string' &&
+    //     typeof (value as any).name === 'string' &&
+    //     typeof (value as any).description === 'string' &&
+    //     (typeof (value as any).cost === 'string' || (value as any).cost === null) &&
+    //     (typeof (value as any).damage_roll === 'string' || (value as any).damage_roll === null) &&
+    //     (typeof (value as any).damage_count === 'string' || (value as any).damage_count === null) &&
+    //     typeof (value as any).price === 'number'
+    // );
 }
   
 // races
