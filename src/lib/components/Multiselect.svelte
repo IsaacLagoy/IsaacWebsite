@@ -1,6 +1,6 @@
 <script lang="ts">
     import { onClickOutside } from '$lib/util/click';
-    import '$lib/components/Multiselect.css';
+    import '$lib/components/multiselect.css';
 
     export let options: string[] = [];
     export let selected: string[] = [];
