@@ -1,0 +1,2518 @@
+[
+    {
+        "url": "flame",
+        "name": "Flame",
+        "description": "A tiny burst of fire singes a creature.",
+        "cost": 3,
+        "damage_roll": "d4",
+        "damage_count": 1
+    },
+    {
+        "url": "fire_bolt",
+        "name": "Fire Bolt",
+        "description": "A searing bolt of flame streaks toward a target.",
+        "cost": 9,
+        "damage_roll": "d8",
+        "damage_count": 1
+    },
+    {
+        "url": "scorching_wave",
+        "name": "Scorching Wave",
+        "description": "A sweeping arc of fire engulfs nearby enemies.",
+        "cost": 18,
+        "damage_roll": "d10",
+        "damage_count": 10
+    },
+    {
+        "url": "fireball",
+        "name": "Fireball",
+        "description": "A fiery explosion erupts in a large radius.",
+        "cost": 30,
+        "damage_roll": "d20",
+        "damage_count": 9
+    },
+    {
+        "url": "inferno_lance",
+        "name": "Inferno Lance",
+        "description": "A concentrated beam of fire pierces through targets.",
+        "cost": 40,
+        "damage_roll": "d100",
+        "damage_count": 6
+    },
+    {
+        "url": "fire_storm",
+        "name": "Fire Storm",
+        "description": "A devastating storm of fire rains down over a large area.",
+        "cost": 60,
+        "damage_roll": "d100",
+        "damage_count": 10
+    },
+  
+    {
+        "url": "splash",
+        "name": "Splash",
+        "description": "A quick splash of pressured water.",
+        "cost": 3,
+        "damage_roll": "d4",
+        "damage_count": 1
+    },
+    {
+        "url": "water_jet",
+        "name": "Water Jet",
+        "description": "A concentrated stream of high-pressure water.",
+        "cost": 9,
+        "damage_roll": "d8",
+        "damage_count": 1
+    },
+    {
+        "url": "crushing_wave",
+        "name": "Crushing Wave",
+        "description": "A powerful crashing wave smashes enemies.",
+        "cost": 18,
+        "damage_roll": "d10",
+        "damage_count": 10
+    },
+    {
+        "url": "aqua_lance",
+        "name": "Aqua Lance",
+        "description": "A freezing spear of water impales a target.",
+        "cost": 30,
+        "damage_roll": "d20",
+        "damage_count": 9
+    },
+    {
+        "url": "maelstrom",
+        "name": "Maelstrom",
+        "description": "A whirlpool of razor-sharp currents forms beneath enemies.",
+        "cost": 40,
+        "damage_roll": "d100",
+        "damage_count": 6
+    },
+    {
+        "url": "tsunami_wrath",
+        "name": "Tsunami Wrath",
+        "description": "A tidal wave infused with elemental power devastates a large area.",
+        "cost": 60,
+        "damage_roll": "d100",
+        "damage_count": 10
+    },
+  
+    {
+        "url": "pebble_toss",
+        "name": "Pebble Toss",
+        "description": "A magically hurled stone strikes a foe.",
+        "cost": 3,
+        "damage_roll": "d4",
+        "damage_count": 1
+    },
+    {
+        "url": "stone_spike",
+        "name": "Stone Spike",
+        "description": "A jagged spike of rock bursts from the ground.",
+        "cost": 9,
+        "damage_roll": "d8",
+        "damage_count": 1
+    },
+    {
+        "url": "rock_fist",
+        "name": "Rock Fist",
+        "description": "A massive hand of stone punches the enemy.",
+        "cost": 18,
+        "damage_roll": "d10",
+        "damage_count": 10
+    },
+    {
+        "url": "earth_shatter",
+        "name": "Earth Shatter",
+        "description": "The ground splits violently, damaging all in its path.",
+        "cost": 30,
+        "damage_roll": "d20",
+        "damage_count": 9
+    },
+    {
+        "url": "obsidian_spear",
+        "name": "Obsidian Spear",
+        "description": "Razor-sharp obsidian launches toward the target.",
+        "cost": 40,
+        "damage_roll": "d100",
+        "damage_count": 6
+    },
+    {
+      "url": "meteor_slam",
+      "name": "Meteor Slam",
+      "description": "A massive chunk of burning earth crashes down from the sky.",
+      "cost": 60,
+      "damage_roll": "d100",
+      "damage_count": 10
+    },
+  
+    {
+      "url": "vine_whip",
+      "name": "Vine Whip",
+      "description": "A lash of magical vines strikes the enemy.",
+      "cost": 3,
+        "damage_roll": "d4",
+        "damage_count": 1
+    },
+    {
+      "url": "bramble_shot",
+      "name": "Bramble Shot",
+      "description": "A thorny projectile pierces the target.",
+      "cost": 9,
+      "damage_roll": "d8",
+      "damage_count": 1
+    },
+    {
+      "url": "toxic_bloom",
+      "name": "Toxic Bloom",
+      "description": "A poisonous flower blooms and explodes with spores.",
+      "cost": 18,
+      "damage_roll": "d10",
+      "damage_count": 10
+    },
+    {
+      "url": "thorn_surge",
+      "name": "Thorn Surge",
+      "description": "A wave of sharp vines erupts in a line.",
+      "cost": 30,
+      "damage_roll": "d20",
+      "damage_count": 9
+    },
+    {
+      "url": "carnivine_maw",
+      "name": "Carnivine Maw",
+      "description": "A massive plant snaps shut on an enemy.",
+      "cost": 40,
+      "damage_roll": "d100",
+      "damage_count": 6
+    },
+    {
+      "url": "verdant_cataclysm",
+      "name": "Verdant Cataclysm",
+      "description": "Nature itself lashes out in explosive plant growth and decay.",
+      "cost": 60,
+      "damage_roll": "d100",
+      "damage_count": 10
+    },
+  
+    {
+      "url": "gust_dart",
+      "name": "Gust Dart",
+      "description": "A compressed dart of air slams into a foe.",
+      "cost": 3,
+        "damage_roll": "d4",
+        "damage_count": 1
+    },
+    {
+      "url": "wind_blade",
+      "name": "Wind Blade",
+      "description": "A cutting slash of air slices through targets.",
+      "cost": 9,
+      "damage_roll": "d8",
+      "damage_count": 1
+    },
+    {
+      "url": "cyclone_kick",
+      "name": "Cyclone Kick",
+      "description": "A spinning burst of wind knocks back enemies.",
+      "cost": 18,
+      "damage_roll": "d10",
+      "damage_count": 10
+    },
+    {
+      "url": "vacuum_slice",
+      "name": "Vacuum Slice",
+      "description": "A razor-thin void of air cuts through armor.",
+      "cost": 30,
+      "damage_roll": "d20",
+      "damage_count": 9
+    },
+    {
+      "url": "tempest_fangs",
+      "name": "Tempest Fangs",
+      "description": "Shards of hardened air rapidly strike.",
+      "cost": 40,
+      "damage_roll": "d100",
+      "damage_count": 6
+    },
+    {
+      "url": "stormfront",
+      "name": "Stormfront",
+      "description": "A massive wall of destructive wind rolls forward.",
+      "cost": 60,
+      "damage_roll": "d100",
+      "damage_count": 10
+    },
+  
+    {
+      "url": "static_shock",
+      "name": "Static Shock",
+      "description": "A quick jolt zaps the target.",
+      "cost": 3,
+        "damage_roll": "d4",
+        "damage_count": 1
+    },
+    {
+      "url": "spark_lance",
+      "name": "Spark Lance",
+      "description": "A spear of lightning arcs toward a foe.",
+      "cost": 9,
+      "damage_roll": "d8",
+      "damage_count": 1
+    },
+    {
+      "url": "chain_bolt",
+      "name": "Chain Bolt",
+      "description": "Lightning leaps from one enemy to others.",
+      "cost": 18,
+      "damage_roll": "d10",
+      "damage_count": 10
+    },
+    {
+      "url": "voltaic_burst",
+      "name": "Voltaic Burst",
+      "description": "An explosive burst of electricity.",
+      "cost": 30,
+      "damage_roll": "d20",
+      "damage_count": 9
+    },
+    {
+      "url": "thunderlash",
+      "name": "Thunderlash",
+      "description": "A whip of lightning lashes across the battlefield.",
+      "cost": 40,
+      "damage_roll": "d100",
+      "damage_count": 6
+    },
+    {
+      "url": "stormstrike",
+      "name": "Stormstrike",
+      "description": "A bolt from the heavens obliterates the target.",
+      "cost": 60,
+      "damage_roll": "d100",
+      "damage_count": 10
+    },
+  
+    {
+      "url": "boom_snap",
+      "name": "Boom Snap",
+      "description": "A small sonic burst dazes the enemy.",
+      "cost": 3,
+        "damage_roll": "d4",
+        "damage_count": 1
+    },
+    {
+      "url": "rumble_pulse",
+      "name": "Rumble Pulse",
+      "description": "A rolling wave of thunder damages and disrupts.",
+      "cost": 9,
+      "damage_roll": "d8",
+      "damage_count": 1
+    },
+    {
+      "url": "echo_slam",
+      "name": "Echo Slam",
+      "description": "The ground trembles with thunderous echoes.",
+      "cost": 18,
+      "damage_roll": "d10",
+      "damage_count": 10
+    },
+    {
+      "url": "sonic_boom",
+      "name": "Sonic Boom",
+      "description": "A concussive blast hurls enemies backward.",
+      "cost": 30,
+      "damage_roll": "d20",
+      "damage_count": 9
+    },
+    {
+      "url": "howlquake",
+      "name": "Howlquake",
+      "description": "A long roar shakes foundations and ears.",
+      "cost": 40,
+      "damage_roll": "d100",
+      "damage_count": 6
+    },
+    {
+      "url": "thunder_gods_wrath",
+      "name": "Thunder God's Wrath",
+      "description": "An immense peal of thunder tears through the air and flesh.",
+      "cost": 60,
+      "damage_roll": "d100",
+      "damage_count": 10
+    },
+  
+    {
+      "url": "frost_blast",
+      "name": "Frost Blast",
+      "description": "A spectral cold hand brushes the enemy.",
+      "cost": 3,
+        "damage_roll": "d4",
+        "damage_count": 1
+    },
+    {
+      "url": "frost_shard",
+      "name": "Frost Shard",
+      "description": "An icy shard launches at a target.",
+      "cost": 9,
+      "damage_roll": "d8",
+      "damage_count": 1
+    },
+    {
+      "url": "snow_spike",
+      "name": "Snow Spike",
+      "description": "A spike of packed snow and ice erupts upward.",
+      "cost": 18,
+      "damage_roll": "d10",
+      "damage_count": 10
+    },
+    {
+      "url": "freezing_ray",
+      "name": "Freezing Ray",
+      "description": "A beam of cold freezes everything in its path.",
+      "cost": 30,
+      "damage_roll": "d20",
+      "damage_count": 9
+    },
+    {
+      "url": "glacial_grasp",
+      "name": "Glacial Grasp",
+      "description": "A massive icy hand crushes the foe.",
+      "cost": 40,
+      "damage_roll": "d100",
+      "damage_count": 6
+    },
+    {
+      "url": "absolute_zero",
+      "name": "Absolute Zero",
+      "description": "A blast of pure cold stops motion and life.",
+      "cost": 60,
+      "damage_roll": "d100",
+      "damage_count": 10
+    },
+  
+    {
+      "url": "acid_splash",
+      "name": "Acid Splash",
+      "description": "A tiny blob of acid sizzles the target.",
+      "cost": 3,
+        "damage_roll": "d4",
+        "damage_count": 1
+    },
+    {
+      "url": "corrode_beam",
+      "name": "Corrode Beam",
+      "description": "A stream of dissolving acid eats through armor.",
+      "cost": 9,
+      "damage_roll": "d8",
+      "damage_count": 1
+    },
+    {
+      "url": "acid_rain",
+      "name": "Acid Rain",
+      "description": "A drizzle of acid rains down in an area.",
+      "cost": 18,
+      "damage_roll": "d10",
+      "damage_count": 10
+    },
+    {
+      "url": "melting_touch",
+      "name": "Melting Touch",
+      "description": "A searing acid aura surrounds your attack.",
+      "cost": 30,
+      "damage_roll": "d20",
+      "damage_count": 9
+    },
+    {
+      "url": "caustic_torrent",
+      "name": "Caustic Torrent",
+      "description": "A flood of green liquid corrodes all it touches.",
+      "cost": 40,
+      "damage_roll": "d100",
+      "damage_count": 6
+    },
+    {
+      "url": "disintegration_pool",
+      "name": "Disintegration Pool",
+      "description": "A massive pool of acid dissolves flesh and metal.",
+      "cost": 60,
+      "damage_roll": "d100",
+      "damage_count": 10
+    },
+  
+    {
+      "url": "venom_sting",
+      "name": "Venom Sting",
+      "description": "A quick jab of toxic energy.",
+      "cost": 3,
+        "damage_roll": "d4",
+        "damage_count": 1
+    },
+    {
+      "url": "toxic_dart",
+      "name": "Toxic Dart",
+      "description": "A projectile that injects paralytic poison.",
+      "cost": 9,
+      "damage_roll": "d8",
+      "damage_count": 1
+    },
+    {
+      "url": "cloud_of_spores",
+      "name": "Cloud of Spores",
+      "description": "A choking poisonous cloud fills an area.",
+      "cost": 18,
+      "damage_roll": "d10",
+      "damage_count": 10
+    },
+    {
+      "url": "snakebite_curse",
+      "name": "Snakebite Curse",
+      "description": "Twin strikes deliver potent venom.",
+      "cost": 30,
+      "damage_roll": "d20",
+      "damage_count": 9
+    },
+    {
+      "url": "neurotoxin_wave",
+      "name": "Neurotoxin Wave",
+      "description": "A ripple of mind-numbing poison.",
+      "cost": 40,
+      "damage_roll": "d100",
+      "damage_count": 6
+    },
+    {
+      "url": "plague_burst",
+      "name": "Plague Burst",
+      "description": "A deadly miasma spreads virulently.",
+      "cost": 60,
+      "damage_roll": "d100",
+      "damage_count": 10
+    },
+  
+    {
+      "url": "death_touch",
+      "name": "Death Touch",
+      "description": "A cold, dark touch leeches life.",
+      "cost": 3,
+        "damage_roll": "d4",
+        "damage_count": 1
+    },
+    {
+      "url": "grave_bolt",
+      "name": "Grave Bolt",
+      "description": "A bolt of shadow pierces the soul.",
+      "cost": 9,
+      "damage_roll": "d8",
+      "damage_count": 1
+    },
+    {
+      "url": "soul_drain",
+      "name": "Soul Drain",
+      "description": "Saps vitality from the target over time.",
+      "cost": 18,
+      "damage_roll": "d10",
+      "damage_count": 10
+    },
+    {
+      "url": "bone_shard",
+      "name": "Bone Shard",
+      "description": "Deadly bone fragments erupt from the ground.",
+      "cost": 30,
+      "damage_roll": "d20",
+      "damage_count": 9
+    },
+    {
+      "url": "wail_of_the_forgotten",
+      "name": "Wail of the Forgotten",
+      "description": "A psychic necrotic scream deals massive damage.",
+      "cost": 40,
+      "damage_roll": "d100",
+      "damage_count": 6
+    },
+    {
+      "url": "black_sun",
+      "name": "Black Sun",
+      "description": "A hovering sphere of death energy decays everything nearby.",
+      "cost": 60,
+      "damage_roll": "d100",
+      "damage_count": 10
+    },
+  
+    {
+      "url": "light_spark",
+      "name": "Light Spark",
+      "description": "A quick burst of radiant light burns undead.",
+      "cost": 3,
+        "damage_roll": "d4",
+        "damage_count": 1
+    },
+    {
+      "url": "radiant_ray",
+      "name": "Radiant Ray",
+      "description": "A focused beam of searing holy light.",
+      "cost": 9,
+      "damage_roll": "d8",
+      "damage_count": 1
+    },
+    {
+      "url": "solar_lance",
+      "name": "Solar Lance",
+      "description": "A powerful spear of divine energy.",
+      "cost": 18,
+      "damage_roll": "d10",
+      "damage_count": 10
+    },
+    {
+      "url": "blinding_nova",
+      "name": "Blinding Nova",
+      "description": "A flash of light blinds and burns foes.",
+      "cost": 30,
+      "damage_roll": "d20",
+      "damage_count": 9
+    },
+    {
+      "url": "angels_wrath",
+      "name": "Angel’s Wrath",
+      "description": "A column of heavenly fire strikes down.",
+      "cost": 40,
+      "damage_roll": "d100",
+      "damage_count": 6
+    },
+    {
+      "url": "divine_cataclysm",
+      "name": "Divine Cataclysm",
+      "description": "A celestial explosion radiates holy energy.",
+      "cost": 60,
+      "damage_roll": "d100",
+      "damage_count": 10
+    },
+    {
+      "url": "dancing_lights",
+      "name": "Dancing Lights",
+      "description": "Conjures a few floating lights to hover around yourself or a target area. ",
+      "cost": 1,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "illuminate",
+      "name": "Illuminate",
+      "description": "Lights up a room with light conjured from your hand.",
+      "cost": 5,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "shine",
+      "name": "Shine",
+      "description": "Conjure a light that can illuminate an entire square mile.",
+      "cost": 15,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "darken",
+      "name": "Darken",
+      "description": "Shroud an area in darkness no bigger than a person.",
+      "cost": 2,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "darkness",
+      "name": "Darkness",
+      "description": "Fill a room with darkness, consuming any natural light in it.",
+      "cost": 5,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "dark_veil",
+      "name": "Dark Veil",
+      "description": "Cover a square mile in complete darkness.",
+      "cost": 15,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "lesser_alert",
+      "name": "Lesser Alert",
+      "description": "Become alerted when an unwanted person or creature enters an area with a 10ft radius. The alert can be auditory or telepathic but you must be within 1 mile to hear it.",
+      "cost": 4,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "alert",
+      "name": "Alert",
+      "description": "Become alerted when an unwanted person or creature enters an area with a 1 mile radius. The alert can be auditory or telepathic but you must be in the same universe to hear it.",
+      "cost": 20,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "greater_alert",
+      "name": "Greater Alert",
+      "description": "Become alerted when an unwanted person or creature enters any defined area within a universe or the universe itself. The alert can be auditory or telepathic.",
+      "cost": 50,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "lesser_conceal_movement",
+      "name": "Lesser Conceal Movement",
+      "description": "Hide your movements from people and creatures, making it harder for them to detect you. Avoid alert spells if your concealment is stronger than the alert.",
+      "cost": 4,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "conceal_movement",
+      "name": "Conceal Movement",
+      "description": "Hide your movements from people and creatures, making it harder for them to detect you. Avoid alert spells if your concealment is stronger than the alert.",
+      "cost": 20,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "greater_conceal_movement",
+      "name": "Greater Conceal Movement",
+      "description": "Hide your movements from people and creatures, making it harder for them to detect you. Avoid alert spells if your concealment is stronger than the alert.",
+      "cost": 50,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "comprehend_language",
+      "name": "Comprehend Language",
+      "description": "You or a target become able to understand a language of your chosing.",
+      "cost": 2,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "speak_language",
+      "name": "Speak Language",
+      "description": "You or a target become able to speak a language of your chosing.",
+      "cost": 2,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "lesser_conceal_magic",
+      "name": "Lesser Conceal Magic",
+      "description": "Hide if something is magical from lesser detect magic. Whichever spell is more powerful determines if the magic is detected or not.",
+      "cost": 6,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "conceal_magic",
+      "name": "Conceal Magic",
+      "description": "Hide if something is magical from detect magic. Whichever spell is more powerful determines if the magic is detected or not.",
+      "cost": 21,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "greater_conceal_magic",
+      "name": "Greater Conceal Magic",
+      "description": "Hide if something is magical from greater detect magic. Whichever spell is more powerful determines if the magic is detected or not.",
+      "cost": 39,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "master_conceal_magic",
+      "name": "Master Conceal Magic",
+      "description": "Hide if something is magical from master detect magic. Whichever spell is more powerful determines if the magic is detected or not.",
+      "cost": 54,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "lesser_detect_magic",
+      "name": "Lesser Detect Magoc",
+      "description": "Detect if an item is magical.",
+      "cost": 5,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "detect_magic",
+      "name": "Detect Magoc",
+      "description": "Detect if an item is magical.",
+      "cost": 20,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "greater_detect_magic",
+      "name": "Greater Detect Magoc",
+      "description": "Detect if an item is magical.",
+      "cost": 38,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "master_detect_magic",
+      "name": "Master Detect Magoc",
+      "description": "Detect if an item is magical.",
+      "cost": 53,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "lesser_conceal_motive",
+      "name": "Lesser Conceal Motive",
+      "description": "Hide your motive from those using detect motive magically.",
+      "cost": 6,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "conceal_motive",
+      "name": "Conceal Motive",
+      "description": "Hide your motive from those using detect motive magically.",
+      "cost": 21,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "gearter_conceal_motive",
+      "name": "Greater Conceal Motive",
+      "description": "Hide your motive from those using detect motive magically.",
+      "cost": 39,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "master_conceal_motive",
+      "name": "Master Conceal Motive",
+      "description": "Hide your motive from those using detect motive magically.",
+      "cost": 54,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "lesser_detect_motive",
+      "name": "Lesser Detect Motive",
+      "description": "Detect someone's motive during a conversation.",
+      "cost": 5,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "detect_motive",
+      "name": "Detect Motive",
+      "description": "Detect someone's motive during a conversation.",
+      "cost": 20,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "greater_detect_motive",
+      "name": "Greater Detect Motive",
+      "description": "Detect someone's motive during a conversation.",
+      "cost": 38,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "master_detect_motive",
+      "name": "Master Detect Motive",
+      "description": "Detect someone's motive during a conversation.",
+      "cost": 53,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "lesser_detect_trap",
+      "name": "Lesser Detect Trap",
+      "description": "Detect a nearby trap alerting you to its presence but not identifying what it is.",
+      "cost": 12,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "detect_trap",
+      "name": "Detect Trap",
+      "description": "Detect a nearby trap alerting you to its presence but not identifying what it is.",
+      "cost": 24,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "greater_detect_trap",
+      "name": "Greater Detect Trap",
+      "description": "Detect a nearby trap alerting you to its presence but not identifying what it is.",
+      "cost": 42,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "master_detect_trap",
+      "name": "Master Detect Trap",
+      "description": "Detect a nearby trap alerting you to its presence but not identifying what it is.",
+      "cost": 57,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "lesser_conceal_trap",
+      "name": "Lesser Conceal Trap",
+      "description": "Hide a trap from magical detect trap and reduce detect trap rogue skills by 1%.",
+      "cost": 15,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "conceal_trap",
+      "name": "Conceal Trap",
+      "description": "Hide a trap from magical detect trap and reduce detect trap rogue skills by 2%.",
+      "cost": 27,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "greater_conceal_trap",
+      "name": "Greater Conceal Trap",
+      "description": "Hide a trap from magical detect trap and reduce detect trap rogue skills by 3%.",
+      "cost": 45,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "master_conceal_trap",
+      "name": "Master Conceal Trap",
+      "description": "Hide a trap from magical detect trap and reduce detect trap rogue skills by 4%.",
+      "cost": 60,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "lesser_sense_emotion",
+      "name": "Lesser Sense Emotion",
+      "description": "Sense a person or creature's emotions within a sort distance.",
+      "cost": 9,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "sense_emotion",
+      "name": "Sense Emotion",
+      "description": "Sense a person or creature's emotions.",
+      "cost": 21,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "greater_sense_emotion",
+      "name": "Greater Sense Emotion",
+      "description": "Sense a person or creature's emotions.",
+      "cost": 39,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "master_sense_emotion",
+      "name": "Master Sense Emotion",
+      "description": "Sense a person or creature's emotions.",
+      "cost": 54,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "lesser_conceal_emotion",
+      "name": "Lesser Conceal Emotion",
+      "description": "Hide your emotions from someone casting the spell sense emotion.",
+      "cost": 8,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "conceal_emotion",
+      "name": "Conceal Emotion",
+      "description": "Hide your emotions from someone casting the spell sense emotion.",
+      "cost": 20,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "greater_conceal_emotion",
+      "name": "Greater Conceal Emotion",
+      "description": "Hide your emotions from someone casting the spell sense emotion.",
+      "cost": 38,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "master_conceal_emotion",
+      "name": "Master Conceal Emotion",
+      "description": "Hide your emotions from someone casting the spell sense emotion.",
+      "cost": 53,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+        "url": "grease",
+        "name": "Grease",
+        "description": "Creates a 10ft puddle of grease. Any creatures on the grease must make a dexterity roll or they fall. ",
+      "cost": 5,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+        "url": "glue",
+        "name": "Glue",
+        "description": "Creates a 10ft puddle of glue. Any creatures on the glue must make a strength roll or they immobilized. ",
+      "cost": 5,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+        "url": "featherfall",
+        "name": "Feather Fall",
+        "description": "Slows the rate of fall of a target. Target takes no fall damage. ",
+      "cost": 3,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "levitate",
+      "name": "Levitate",
+      "description": "Levitate yourself or an object under 500lbs up to 20ft. ",
+      "cost": 9,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+        "url": "fly",
+        "name": "Fly",
+        "description": "Allows the target to fly at 30mph for 10 minutes. ",
+      "cost": 15,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "grounding",
+      "name": "Grounding",
+      "description": "Prevent flight within a 1 mile radius.",
+      "cost": 45,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+        "url": "haste",
+        "name": "Haste",
+        "description": "Target gains advantage on dexterity rolls and an additional non-magical attack. ",
+      "cost": 12,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+        "url": "fog_cloud",
+        "name": "Fog Cloud",
+        "description": "Creates a 20ft cloud of semi-opaque fog. ",
+      "cost": 4,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+        "url": "smoke_screen",
+        "name": "Smoke Screen",
+        "description": "Creates a 100ft long wall of opaque smoke that rises 15ft from the ground.",
+      "cost": 18,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "smoke_storm",
+      "name": "Smoke Storm",
+      "description": "Conjure a storm of smoke that is half a mile in radius.",
+      "cost": 35,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "lesser_identify_magical_item",
+      "name": "Lesser Identify Magical Item",
+      "description": "Identifies what a magical item does. You must know that the item has magical properties before using this spell.",
+      "cost": 5,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "identify_magical_item",
+      "name": "Identify Magical Item",
+      "description": "Identifies what a magical item does. You must know that the item has magical properties before using this spell.",
+      "cost": 21,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "greater_identify_magical_item",
+      "name": "Greater Identify Magical Item",
+      "description": "Identifies what a magical item does. You must know that the item has magical properties before using this spell.",
+      "cost": 40,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "lesser_hide_magical_item",
+      "name": "Lesser Hide Magical Item",
+      "description": "Hides the properties of a magical item from the spell identify magical item and reduces intelligence by 1 when using the skill identify magical item.",
+      "cost": 5,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "hide_magical_item",
+      "name": "Hide Magical Item",
+      "description": "Hides the properties of a magical item from the spell identify magical item and reduces intelligence by 2 when using the skill identify magical item.",
+      "cost": 21,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "greater_hide_magical_item",
+      "name": "Greater Hide Magical Item",
+      "description": "Hides the properties of a magical item from the spell identify magical item and reduces intelligence by 3 when using the skill identify magical item.",
+      "cost": 40,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+        "url": "suggestion",
+        "name": "Suggestion",
+        "description": "Makes a target complete a non-harmful action. Target makes. wisdom saving throw. ",
+      "cost": 18,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "charm_person",
+      "name": "Charm Person",
+      "description": "Attempt to charm a humanoid target. Target must make a wisdom saving roll to avoid the charm. If it is in combat, the monster gains advantage on its roll. Charm is broken if you or your companions harm the monster.",
+      "cost": 36,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "charm_monster",
+      "name": "Charm Monster",
+      "description": "The targeted monster must make a wisdom roll or becomes charmed by the caster. If it is in combat, the monster gains advantage on its roll. Charm is broken if you or your companions harm the monster. ",
+      "cost": 36,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+        "url": "dominate_person",
+        "name": "Dominate Person",
+        "description": "Allows you to completely take over the mind of a person. The targeted person may make a wisdom saving throw and has advantage if it is being attacked. You may issue commands to the person without using an action. You make take full control over the person and act for them instead of yourself. If the person takes damage, they make a wisdom saving throw to break out of the domination. ",
+      "cost": 54,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+        "url": "dominate_monster",
+        "name": "Dominate Monster",
+        "description": "Allows you to control a monster. The monster may make a wisdom saving throw to prevent being dominated. When dominated you can instruct the monster or take over their mind acting as them instead of yourself. Each time the monster takes damage it may make a wisdom roll to break out of the domination. ",
+      "cost": 54,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "lesser_arcane_lock",
+      "name": "Lesser Arcane Lock",
+      "description": "Conjure a magical lock on a door or container.",
+      "cost": 10,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "arcane_lock",
+      "name": "Arcane Lock",
+      "description": "Conjure a magical lock on a door or container. Reduces rogue pick lock skill by 1%.",
+      "cost": 22,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "greater_arcane_lock",
+      "name": "Greater Arcane Lock",
+      "description": "Conjure a magical lock on a door or container. Reduces rogue pick lock skill by 2%.",
+      "cost": 40,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "master_arcane_lock",
+      "name": "Master Arcane Lock",
+      "description": "Conjure a magical lock on a door or container. Reduces rogue pick lock skill by 3%.",
+      "cost": 55,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "lesser_pick_lock",
+      "name": "Lesser Pick Lock",
+      "description": "Unlock an arcane lock if this spell is more powerful than the enchantment or take a 1% chance to unlock a non-magical lock.",
+      "cost": 12,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "pick_lock",
+      "name": "Pick Lock",
+      "description": "Unlock an arcane lock if this spell is more powerful than the enchantment or take a 2% chance to unlock a non-magical lock.",
+      "cost": 24,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "greater_pick_lock",
+      "name": "Greater Pick Lock",
+      "description": "Unlock an arcane lock if this spell is more powerful than the enchantment or take a 3% chance to unlock a non-magical lock.",
+      "cost": 42,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "master_pick_lock",
+      "name": "Master Pick Lock",
+      "description": "Unlock an arcane lock if this spell is more powerful than the enchantment or take a 4% chance to unlock a non-magical lock.",
+      "cost": 57,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "lesser_invisibility",
+      "name": "Lesser Invisibility",
+      "description": "Become invisible.",
+      "cost": 9,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "invisibility",
+      "name": "Invisibility",
+      "description": "Become invisible.",
+      "cost": 21,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "greater_invisibility",
+      "name": "Greater Invisibility",
+      "description": "Become invisible.",
+      "cost": 39,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "master_invisibility",
+      "name": "Master Invisibility",
+      "description": "Become invisible.",
+      "cost": 54,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "lesser_true_sight",
+      "name": "Lesser True Sight",
+      "description": "See through weaker invisibility and illusion spells.",
+      "cost": 9,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "true_sight",
+      "name": "True Sight",
+      "description": "See through weaker invisibility and illusion spells.",
+      "cost": 21,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "greater_true_sight",
+      "name": "Greater True Sight",
+      "description": "See through weaker invisibility and illusion spells.",
+      "cost": 39,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "master_true_sight",
+      "name": "Master True Sight",
+      "description": "See through weaker invisibility and illusion spells.",
+      "cost": 54,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "lesser_heal",
+      "name": "Lesser Heal",
+      "description": "Heal yourself or another player for 1d4 health.",
+      "cost": 2,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "heal",
+      "name": "Heal",
+      "description": "Heal yourself or another player for 2d10 health.",
+      "cost": 8,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "greater_heal",
+      "name": "Greater Heal",
+      "description": "Heal yourself or another player for 2d20 health.",
+      "cost": 15,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "master_heal",
+      "name": "Master Heal",
+      "description": "Heal any amount of health from yourself or your target. Costs 3 per d8 health rolled.",
+      "cost": null,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "darkvision",
+      "name": "Darkvision",
+      "description": "Allows the target to see in the dark. ",
+      "cost": 1,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "augury",
+      "name": "Augury",
+      "description": "Reveals the result of a given action. Can either be weal (good), woe (bad), weal and woe, or nothing. ",
+      "cost": 25,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "divination",
+      "name": "Divination",
+      "description": "Ask the DM a question relating to a specific goal or event, the DM responds truthfully in any way that they want. After casting this spell twice in one day, there is a cumulative 25% chance that the DM gives a random reading instead of the truth. ",
+      "cost": 50,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "lesser_locate_object",
+      "name": "Lesser Locate Object",
+      "description": "Locate an object that you own within 1 mile of your position.",
+      "cost": 2,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "locate_object",
+      "name": "Locate Object",
+      "description": "Locate an object that you own within your universe.",
+      "cost": 20,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "Greater_locate_object",
+      "name": "Greater Locate Object",
+      "description": "Determine the position and universe of any object that you own.",
+      "cost": 40,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "airbubble",
+      "name": "Air Bubble",
+      "description": "Creates a bubble around the target's head. Lasts a full day until popped. ",
+      "cost": 2,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "water_breathing",
+      "name": "Water Breathing",
+      "description": "Allow a target to breathe underwater for 1 hour.",
+      "cost": 5,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "breathless",
+      "name": "Breathless",
+      "description": "Stops a target from needing to breathe for 1 hour.",
+      "cost": 18,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "water_walking",
+      "name": "Water Walking",
+      "description": "Allows you or a target to walk on water or any other liquid for 1 hour.",
+      "cost": 7,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "stride",
+      "name": "Stride",
+      "description": "Give yourself or a target the skill Speed 1 for 1 hour.",
+      "cost": 15,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "slowness",
+      "name": "Slowness",
+      "description": "Rdeuce a target's speed by 1 level. If they have no speed skills, limit their speed to 5mph.",
+      "cost": 17,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "gate_seal",
+      "name": "Gate Seal",
+      "description": "Close all portals and planar travel within a 30ft radius. ",
+      "cost": 55,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "blink",
+      "name": "Blink",
+      "description": "Allows you to teleport up to 10ft away within sight.",
+      "cost": 3,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "teleport",
+      "name": "Teleport",
+      "description": "Teleport anywhere within a mile that you have a mental image of. ",
+      "cost": 15,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "mass_teleport",
+      "name": "Mass Teleport",
+      "description": "Teleport yourself and up to 8 willing creatures anywhere within a mile that you have a mental image of. ",
+      "cost": 40,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "plane_shift",
+      "name": "Plane Shift",
+      "description": "Teleport you and 8 other willing creatures to another plane of existence.",
+      "cost": 45,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "lesser_sense_life",
+      "name": "Lesser Sense Life",
+      "description": "Detect life within a 30ft radius.",
+      "cost": 3,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "sense_life",
+      "name": "Sense Life",
+      "description": "Detect life within a 100ft radius.",
+      "cost": 10,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "greater_sense_life",
+      "name": "Greater Sense Life",
+      "description": "Detect life within a 1000ft radius.",
+      "cost": 23,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "master_sense_life",
+      "name": "Master Sense Life",
+      "description": "Detect life within a 1 mile radius.",
+      "cost": 35,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "lesser_feign_death",
+      "name": "Lesser Feign Death",
+      "description": "A willing target is put into a state indistinguishable from death for up to an hour. Hides from weaker sense life spells.",
+      "cost": 3,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "feign_death",
+      "name": "Feign Death",
+      "description": "A willing target is put into a state indistinguishable from death for up to an hour. Hides from weaker sense life spells.",
+      "cost": 10,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "greater_feign_death",
+      "name": "Greater Feign Death",
+      "description": "A willing target is put into a state indistinguishable from death for up to an hour. Hides from weaker sense life spells.",
+      "cost": 23,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "master_feign_death",
+      "name": "Master Feign Death",
+      "description": "A willing target is put into a state indistinguishable from death for up to an hour. Hides from weaker sense life spells.",
+      "cost": 35,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "lesser_illusion",
+      "name": "Lesser Illusion",
+      "description": "Conjure an illusion the size of your palm. The illusion can produce sound and small amounts of light.",
+      "cost": 6,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "illusion",
+      "name": "Illusion",
+      "description": "Conjure an illusion the size a room. The illusion can produce sound and small amounts of light.",
+      "cost": 18,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "greater_illusion",
+      "name": "Greater Illusion",
+      "description": "Conjure an illusion the size of a large building. The illusion can produce sound and small amounts of light.",
+      "cost": 36,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "master_illusion",
+      "name": "Master Illusion",
+      "description": "Conjure an illusion that fits within a 1 mile radius. The illusion can produce sound and small amounts of light.",
+      "cost": 49,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "dispel",
+      "name": "Dispel",
+      "description": "Dispels a lingering magical spell. You will be informed on the cost of the spell. The price of dispelling is doubled for each improvement the spell caster has on the base spell.",
+      "cost": null,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "disjunct",
+      "name": "Disjunct",
+      "description": "Removes all enchantments from non-artifact items.",
+      "cost": 75,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "counter_disjunct",
+      "name": "Counter Disjunct",
+      "description": "Prevents an item from being disjuncted.",
+      "cost": 30,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "antimagicfield",
+      "name": "Antimagic Field",
+      "description": "Creates an 10ft spherical volume around you where magic does not exist. No spells can enter or be cast and magic items are rendered mundane. ",
+      "cost": 60,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "banishment",
+      "name": "Banishment",
+      "description": "Temporarily banish the target to its home plane. Target may make either a charisma or wisdom saving throw to prevent banishment. ",
+      "cost": 51,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "empower_skill",
+      "name": "Empower Skill",
+      "description": "Temporarily Improves a skill that a creature knows. Ex. Superior -> Epic. Lasts for 1 hour.",
+      "cost": 19,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "forbid_skill",
+      "name": "Forbid Skill",
+      "description": "Temporarily Weaken a skill that a creature knows. Ex. Superior -> Improved. Lasts for 1 hour.",
+      "cost": 19,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "mage_hand",
+      "name": "Mage Hand",
+      "description": "Lift an item within 30ft using a magical hand. Rolls to lift items with mage hand require strength.",
+      "cost": 3,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "lesser_telekinesis",
+      "name": "Lesser Telekinesis",
+      "description": "Lift an item under 100lbs.",
+      "cost": 3,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "lesser_telepathy",
+      "name": "Lesser Telepathy",
+      "description": "Communicate telepathically with a willing creature for up to 1 hour.",
+      "cost": 5,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "scrying",
+      "name": "Scrying",
+      "description": "You can see and hear a creature on the same plane as you. The target can make a wisdom saving throw to prevent scrying. Modifier for saving throw: +5 if you've heard of the target, +0 if you've met the target, -5 if you know the target well. ",
+      "cost": 24,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "astralprojection",
+      "name": "Astral Projection",
+      "description": "Create a spectral clone of yourself and up to 8 others in the astral plane that is tethered to your physical body. If you enter any other plane of existence your physical body is teleported to your astral projection. If the tether is broken you insanity die. ",
+      "cost": 44,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "confuse",
+      "name": "Confuse",
+      "description": "Roll a d10 the target does one of the following actions according to what is rolled: 1 the target moves in a random direction, 2-6 the target doesn't move or take actions, 7-8 the target must melee during its next action, or 9-10 the spell has no effect on the target. The target may make a wisdom saving throw to prevent confusion. ",
+      "cost": 18,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "irresistibledance",
+      "name": "Irresistible Dance",
+      "description": "Causes your target to dance preventing them from doing other actions. Your target can make. wisdom saving throw to stop dancing. ",
+      "cost": 36,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "globeofinvulnerability",
+      "name": "Globe of Invulnerability",
+      "description": "An immobile and impenetrable globe with a 10ft radius is created around you. Lasts up to 1 minute or until it is dispelled. ",
+      "cost": 35,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "scatter",
+      "name": "Scatter",
+      "description": "Teleport up to 5 creatures to a random place 120ft away from you. Targets may make a wisdom roll to prevent being teleported. ",
+      "cost": 47,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "powerwordpain",
+      "name": "Power Word Pain",
+      "description": "Causes a target under 100 health to suffer severe pain. While in pain the target has disadvantage on all rolls. The target may make a constitution saving throw to remove the effects. ",
+      "cost": 21,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "powerwordstun",
+      "name": "Power Word Stun",
+      "description": "Prevents a target under 150 health from making actions. The target may make a constitution roll every turn to break out of stun. ",
+      "cost": 30,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "powerwordkill",
+      "name": "Power Word Kill",
+      "description": "Instantly kill a target under 100 health. ",
+      "cost": 72,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "etheralness",
+      "name": "Etheralness",
+      "description": "You gain the properties of a ghost, become invisible, and can walk through solid objects. ",
+      "cost": 10,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "chromaticorb",
+      "name": "Chromatic Orb",
+      "description": "Fires an orb of either acid, ice, fire, lightning, earth, or poison.",
+      "cost": 13,
+      "damage_roll": "d10",
+      "damage_count": 8
+    },
+    {
+      "url": "prismaticspray",
+      "name": "Prismatic Spray",
+      "description": "Roll a d8 and do the corresponding action. 1 red - target takes 10d6 fire damage. 2 orange - target takes 10d6 acid damage. 3 yellow - target takes 10d6 lightning damage. 4 green - target takes 10d6 poison damage. 5 blue - target takes 10d6 cold damage. 6 indigo - target makes 3 constitution saving throws, if it fails all three it is turned to stone. 7 violet - target makes a wisdom saving throw, if it fails target becomes blind until your next turn. 8 - reroll twice and do both actions. ",
+      "cost": 26,
+      "damage_roll": "d20",
+      "damage_count": 14
+    },
+    {
+      "url": "reversegravity",
+      "name": "Reverse Gravity",
+      "description": "Reverse gravity in a 50ft area. Creatures inside may make a dexterity saving throw to grab onto a fixed object. ",
+      "cost": 33,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "controlweather",
+      "name": "Control Weather",
+      "description": "Control the weather up to heavy rain and wind within a 5 mile area. ",
+      "cost": 42,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "meteorswarm",
+      "name": "Meteor Swarm",
+      "description": "Meteors rain from the sky in a 40ft area dealing fire damage to anyone inside. ",
+      "cost": 57,
+      "damage_roll": "d20",
+      "damage_count": 45
+    },
+    {
+      "url": "foresight",
+      "name": "Foresight",
+      "description": "Allows the target to see slightly into the future. This target gains advantage on attack rolls and saving throws. ",
+      "cost": 57,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "wish",
+      "name": "Wish",
+      "description": "You may wish for one of the following: an item worth up to 1,000,000mp and no more than 300ft in any direction, allow up to 20 creatures to regain all health, grant up to 10 creatures resistance to any element for a day, grant up to 10 creatures immunity to a spell or magical effect for a day, force a reroll for any event that happened in the past day. This spell can only be cast once a week. Cannot be greater spell focused. ",
+      "cost": 120,
+      "damage_roll": null,
+      "damage_count": null
+    },
+      {
+          "url": "fortify_strength",
+          "name": "Fortify Strength",
+          "description": "Increases a target's or your strength by 1 for 1 hour.",
+          "cost": 20,
+          "damage_roll": null,
+          "damage_count": null
+      },
+      {
+          "url": "drain_strength",
+          "name": "Drain Strength",
+          "description": "Decreses a target's or your strength by 1 for 1 hour.",
+          "cost": 20,
+          "damage_roll": null,
+          "damage_count": null
+      },
+      {
+          "url": "strength_fortress",
+          "name": "Strength Fortress",
+          "description": "Increases a target's or your strength by 1 when rolling saving throws for 1 hour.",
+          "cost": 10,
+          "damage_roll": null,
+          "damage_count": null
+      },
+      {
+          "url": "unstable_strength",
+          "name": "Unstable Strength",
+          "description": "Decreses a target's or your strength by 1 when rolling saving throws for 1 hour.",
+          "cost": 10,
+          "damage_roll": null,
+          "damage_count": null
+      },
+      {
+          "url": "fortify_dexterity",
+          "name": "Fortify Dexterity",
+          "description": "Increases a target's or your dexterity by 1 for 1 hour.",
+          "cost": 20,
+          "damage_roll": null,
+          "damage_count": null
+      },
+      {
+          "url": "drain_dexterity",
+          "name": "Drain Dexterity",
+          "description": "Decreses a target's or your dexterity by 1 for 1 hour.",
+          "cost": 20,
+          "damage_roll": null,
+          "damage_count": null
+      },
+      {
+          "url": "dexterity_fortress",
+          "name": "Dexterity Fortress",
+          "description": "Increases a target's or your dexterity by 1 when rolling saving throws for 1 hour.",
+          "cost": 10,
+          "damage_roll": null,
+          "damage_count": null
+      },
+      {
+          "url": "unstable_dexterity",
+          "name": "Unstable Dexterity",
+          "description": "Decreses a target's or your dexterity by 1 when rolling saving throws for 1 hour.",
+          "cost": 10,
+          "damage_roll": null,
+          "damage_count": null
+      },
+      {
+          "url": "fortify_constitution",
+          "name": "Fortify Constitution",
+          "description": "Increases a target's or your constitution by 1 for 1 hour.",
+          "cost": 20,
+          "damage_roll": null,
+          "damage_count": null
+      },
+      {
+          "url": "drain_constitution",
+          "name": "Drain Constitution",
+          "description": "Decreses a target's or your constitution by 1 for 1 hour.",
+          "cost": 20,
+          "damage_roll": null,
+          "damage_count": null
+      },
+      {
+          "url": "constitution_fortress",
+          "name": "Constitution Fortress",
+          "description": "Increases a target's or your constitution by 1 when rolling saving throws for 1 hour.",
+          "cost": 10,
+          "damage_roll": null,
+          "damage_count": null
+      },
+      {
+          "url": "unstable_constitution",
+          "name": "Unstable Constitution",
+          "description": "Decreses a target's or your constitution by 1 when rolling saving throws for 1 hour.",
+          "cost": 10,
+          "damage_roll": null,
+          "damage_count": null
+      },
+      {
+          "url": "fortify_intelligence",
+          "name": "Fortify Intelligence",
+          "description": "Increases a target's or your intelligence by 1 for 1 hour.",
+          "cost": 20,
+          "damage_roll": null,
+          "damage_count": null
+      },
+      {
+          "url": "drain_intelligence",
+          "name": "Drain Intelligence",
+          "description": "Decreses a target's or your intelligence by 1 for 1 hour.",
+          "cost": 20,
+          "damage_roll": null,
+          "damage_count": null
+      },
+      {
+          "url": "intelligence_fortress",
+          "name": "Intelligence Fortress",
+          "description": "Increases a target's or your intelligence by 1 when rolling saving throws for 1 hour.",
+          "cost": 10,
+          "damage_roll": null,
+          "damage_count": null
+      },
+      {
+          "url": "unstable_intelligence",
+          "name": "Unstable Intelligence",
+          "description": "Decreses a target's or your intelligence by 1 when rolling saving throws for 1 hour.",
+          "cost": 10,
+          "damage_roll": null,
+          "damage_count": null
+      },
+      {
+          "url": "fortify_wisdom",
+          "name": "Fortify Wisdom",
+          "description": "Increases a target's or your wisdom by 1 for 1 hour.",
+          "cost": 20,
+          "damage_roll": null,
+          "damage_count": null
+      },
+      {
+          "url": "drain_wisdom",
+          "name": "Drain Wisdom",
+          "description": "Decreses a target's or your wisdom by 1 for 1 hour.",
+          "cost": 20,
+          "damage_roll": null,
+          "damage_count": null
+      },
+      {
+          "url": "wisdom_fortress",
+          "name": "Wisdom Fortress",
+          "description": "Increases a target's or your wisdom by 1 when rolling saving throws for 1 hour.",
+          "cost": 10,
+          "damage_roll": null,
+          "damage_count": null
+      },
+      {
+          "url": "unstable_wisdom",
+          "name": "Unstable Wisdom",
+          "description": "Decreses a target's or your wisdom by 1 when rolling saving throws for 1 hour.",
+          "cost": 10,
+          "damage_roll": null,
+          "damage_count": null
+      },
+      {
+          "url": "fortify_charisma",
+          "name": "Fortify Charisma",
+          "description": "Increases a target's or your charisma by 1 for 1 hour.",
+          "cost": 20,
+          "damage_roll": null,
+          "damage_count": null
+      },
+      {
+          "url": "drain_charisma",
+          "name": "Drain Charisma",
+          "description": "Decreses a target's or your charisma by 1 for 1 hour.",
+          "cost": 20,
+          "damage_roll": null,
+          "damage_count": null
+      },
+      {
+          "url": "charisma_fortress",
+          "name": "Charisma Fortress",
+          "description": "Increases a target's or your charisma by 1 when rolling saving throws for 1 hour.",
+          "cost": 10,
+          "damage_roll": null,
+          "damage_count": null
+      },
+      {
+          "url": "unstable_charisma",
+          "name": "Unstable Charisma",
+          "description": "Decreses a target's or your charisma by 1 when rolling saving throws for 1 hour.",
+          "cost": 10,
+          "damage_roll": null,
+          "damage_count": null
+      },
+      {
+          "url": "fortify_thac0",
+          "name": "Fortify Thac0",
+          "description": "Increases a target's or your thac0 by 1 for 1 hour.",
+          "cost": 20,
+          "damage_roll": null,
+          "damage_count": null
+      },
+      {
+          "url": "drain_thac0",
+          "name": "Drain Thac0",
+          "description": "Decreses a target's or your thac0 by 1 for 1 hour.",
+          "cost": 20,
+          "damage_roll": null,
+          "damage_count": null
+      },
+      {
+          "url": "thac0_fortress",
+          "name": "Thac0 Fortress",
+          "description": "Increases a target's or your thac0 by 1 when rolling saving throws for 1 hour.",
+          "cost": 10,
+          "damage_roll": null,
+          "damage_count": null
+      },
+      {
+          "url": "unstable_thac0",
+          "name": "Unstable Thac0",
+          "description": "Decreses a target's or your thac0 by 1 when rolling saving throws for 1 hour.",
+          "cost": 10,
+          "damage_roll": null,
+          "damage_count": null
+      },
+      {
+          "url": "fortify_ac",
+          "name": "Fortify AC",
+          "description": "Increases a target's or your ac by 1 for 1 hour.",
+          "cost": 20,
+          "damage_roll": null,
+          "damage_count": null
+      },
+      {
+          "url": "drain_ac",
+          "name": "Drain AC",
+          "description": "Decreses a target's or your ac by 1 for 1 hour.",
+          "cost": 20,
+          "damage_roll": null,
+          "damage_count": null
+      },
+      {
+          "url": "ac_fortress",
+          "name": "AC Fortress",
+          "description": "Increases a target's or your ac by 1 when rolling saving throws for 1 hour.",
+          "cost": 10,
+          "damage_roll": null,
+          "damage_count": null
+      },
+      {
+          "url": "unstable_ac",
+          "name": "Unstable AC",
+          "description": "Decreses a target's or your ac by 1 when rolling saving throws for 1 hour.",
+          "cost": 10,
+          "damage_roll": null,
+          "damage_count": null
+      },
+      {
+          "url": "lesser_fortify_health",
+          "name": "Lesser Fortify Health",
+          "description": "Increases the maximum health of yourself or a target by 1d4.",
+          "cost": 15,
+          "damage_roll": null,
+          "damage_count": null
+      },
+      {
+          "url": "lesser_drain_health",
+          "name": "Lesser Drain Health",
+          "description": "Decreases the maximum health of yourself or a target by 1d4.",
+          "cost": 15,
+          "damage_roll": null,
+          "damage_count": null
+      },
+      {
+          "url": "fortify_health",
+          "name": "Fortify Health",
+          "description": "Increases the maximum health of yourself or a target by 10d4.",
+          "cost": 30,
+          "damage_roll": null,
+          "damage_count": null
+      },
+      {
+          "url": "drain_health",
+          "name": "Drain Health",
+          "description": "Decreases the maximum health of yourself or a target by 3d4.",
+          "cost": 30,
+          "damage_roll": null,
+          "damage_count": null
+      },
+      {
+          "url": "greater_fortify_health",
+          "name": "Greater Fortify Health",
+          "description": "Increases the maximum health of yourself or a target by 100d4.",
+          "cost": 45,
+          "damage_roll": null,
+          "damage_count": null
+      },
+      {
+          "url": "greater_drain_health",
+          "name": "Greater Drain Health",
+          "description": "Decreases the maximum health of yourself or a target by 25d4.",
+          "cost": 45,
+          "damage_roll": null,
+          "damage_count": null
+      },
+      {
+          "url": "master_fortify_health",
+          "name": "Master Fortify Health",
+          "description": "Increases the maximum health of yourself or a target by 1000d4.",
+          "cost": 60,
+          "damage_roll": null,
+          "damage_count": null
+      },
+      {
+          "url": "master_drain_health",
+          "name": "Master Drain Health",
+          "description": "Decreases the maximum health of yourself or a target by 250d4.",
+          "cost": 60,
+          "damage_roll": null,
+          "damage_count": null
+      },
+      {
+          "url": "fortify_touch",
+          "name": "Fortify Touch",
+          "description": "Increases a target's or your touch for 1 hour, adding 1 to any roll when using that sense.",
+          "cost": 2,
+          "damage_roll": null,
+          "damage_count": null
+      },
+      {
+          "url": "drain_touch",
+          "name": "Drain Touch",
+          "description": "Decreases a target's or your touch for 1 hour, reducing 1 from any roll when using that sense.",
+          "cost": 2,
+          "damage_roll": null,
+          "damage_count": null
+      },
+      {
+          "url": "fortify_sight",
+          "name": "Fortify Sight",
+          "description": "Increases a target's or your sight for 1 hour, adding 1 to any roll when using that sense.",
+          "cost": 2,
+          "damage_roll": null,
+          "damage_count": null
+      },
+      {
+          "url": "drain_sight",
+          "name": "Drain Sight",
+          "description": "Decreases a target's or your sight for 1 hour, reducing 1 from any roll when using that sense.",
+          "cost": 2,
+          "damage_roll": null,
+          "damage_count": null
+      },
+      {
+          "url": "fortify_smell",
+          "name": "Fortify Smell",
+          "description": "Increases a target's or your smell for 1 hour, adding 1 to any roll when using that sense.",
+          "cost": 2,
+          "damage_roll": null,
+          "damage_count": null
+      },
+      {
+          "url": "drain_smell",
+          "name": "Drain Smell",
+          "description": "Decreases a target's or your smell for 1 hour, reducing 1 from any roll when using that sense.",
+          "cost": 2,
+          "damage_roll": null,
+          "damage_count": null
+      },
+      {
+          "url": "fortify_taste",
+          "name": "Fortify Taste",
+          "description": "Increases a target's or your taste for 1 hour, adding 1 to any roll when using that sense.",
+          "cost": 2,
+          "damage_roll": null,
+          "damage_count": null
+      },
+      {
+          "url": "drain_taste",
+          "name": "Drain Taste",
+          "description": "Decreases a target's or your taste for 1 hour, reducing 1 from any roll when using that sense.",
+          "cost": 2,
+          "damage_roll": null,
+          "damage_count": null
+      },
+      {
+          "url": "fortify_hearing",
+          "name": "Fortify Hearing",
+          "description": "Increases a target's or your hearing for 1 hour, adding 1 to any roll when using that sense.",
+          "cost": 2,
+          "damage_roll": null,
+          "damage_count": null
+      },
+      {
+          "url": "drain_hearing",
+          "name": "Drain Hearing",
+          "description": "Decreases a target's or your hearing for 1 hour, reducing 1 from any roll when using that sense.",
+          "cost": 2,
+          "damage_roll": null,
+          "damage_count": null
+      },
+      {
+          "url": "lesser_control_fire",
+          "name": "Lesser Control fire",
+          "description": "Control up to 1 cubic feet of fire up to 10ft away. ",
+          "cost": 3,
+          "damage_roll": null,
+          "damage_count": null
+      },
+      {
+          "url": "control_fire",
+          "name": "Control fire",
+          "description": "Control up to 10 cubic feet of fire up to 100ft away. ",
+          "cost": 12,
+          "damage_roll": null,
+          "damage_count": null
+      },
+      {
+          "url": "greater_control_fire",
+          "name": "Greater Control fire",
+          "description": "Control up to 100 cubic feet of fire up to 1000ft away. ",
+          "cost": 27,
+          "damage_roll": null,
+          "damage_count": null
+      },
+      {
+          "url": "master_control_fire",
+          "name": "Master Control fire",
+          "description": "Control up to 1000 cubic feet of fire up to 10000ft away. ",
+          "cost": 48,
+          "damage_roll": null,
+          "damage_count": null
+      },
+      {
+          "url": "lesser_control_water",
+          "name": "Lesser Control water",
+          "description": "Control up to 1 cubic feet of water up to 10ft away. ",
+          "cost": 3,
+          "damage_roll": null,
+          "damage_count": null
+      },
+      {
+          "url": "control_water",
+          "name": "Control water",
+          "description": "Control up to 10 cubic feet of water up to 100ft away. ",
+          "cost": 12,
+          "damage_roll": null,
+          "damage_count": null
+      },
+      {
+          "url": "greater_control_water",
+          "name": "Greater Control water",
+          "description": "Control up to 100 cubic feet of water up to 1000ft away. ",
+          "cost": 27,
+          "damage_roll": null,
+          "damage_count": null
+      },
+      {
+          "url": "master_control_water",
+          "name": "Master Control water",
+          "description": "Control up to 1000 cubic feet of water up to 10000ft away. ",
+          "cost": 48,
+          "damage_roll": null,
+          "damage_count": null
+      },
+      {
+          "url": "lesser_control_earth",
+          "name": "Lesser Control earth",
+          "description": "Control up to 1 cubic feet of earth up to 10ft away. ",
+          "cost": 3,
+          "damage_roll": null,
+          "damage_count": null
+      },
+      {
+          "url": "control_earth",
+          "name": "Control earth",
+          "description": "Control up to 10 cubic feet of earth up to 100ft away. ",
+          "cost": 12,
+          "damage_roll": null,
+          "damage_count": null
+      },
+      {
+          "url": "greater_control_earth",
+          "name": "Greater Control earth",
+          "description": "Control up to 100 cubic feet of earth up to 1000ft away. ",
+          "cost": 27,
+          "damage_roll": null,
+          "damage_count": null
+      },
+      {
+          "url": "master_control_earth",
+          "name": "Master Control earth",
+          "description": "Control up to 1000 cubic feet of earth up to 10000ft away. ",
+          "cost": 48,
+          "damage_roll": null,
+          "damage_count": null
+      },
+      {
+          "url": "lesser_control_air",
+          "name": "Lesser Control air",
+          "description": "Control up to 1 cubic feet of air up to 10ft away. ",
+          "cost": 3,
+          "damage_roll": null,
+          "damage_count": null
+      },
+      {
+          "url": "control_air",
+          "name": "Control air",
+          "description": "Control up to 10 cubic feet of air up to 100ft away. ",
+          "cost": 12,
+          "damage_roll": null,
+          "damage_count": null
+      },
+      {
+          "url": "greater_control_air",
+          "name": "Greater Control air",
+          "description": "Control up to 100 cubic feet of air up to 1000ft away. ",
+          "cost": 27,
+          "damage_roll": null,
+          "damage_count": null
+      },
+      {
+          "url": "master_control_air",
+          "name": "Master Control air",
+          "description": "Control up to 1000 cubic feet of air up to 10000ft away. ",
+          "cost": 48,
+          "damage_roll": null,
+          "damage_count": null
+      },
+      {
+          "url": "lesser_control_acid",
+          "name": "Lesser Control acid",
+          "description": "Control up to 1 cubic feet of acid up to 10ft away. ",
+          "cost": 3,
+          "damage_roll": null,
+          "damage_count": null
+      },
+      {
+          "url": "control_acid",
+          "name": "Control acid",
+          "description": "Control up to 10 cubic feet of acid up to 100ft away. ",
+          "cost": 12,
+          "damage_roll": null,
+          "damage_count": null
+      },
+      {
+          "url": "greater_control_acid",
+          "name": "Greater Control acid",
+          "description": "Control up to 100 cubic feet of acid up to 1000ft away. ",
+          "cost": 27,
+          "damage_roll": null,
+          "damage_count": null
+      },
+      {
+          "url": "master_control_acid",
+          "name": "Master Control acid",
+          "description": "Control up to 1000 cubic feet of acid up to 10000ft away. ",
+          "cost": 48,
+          "damage_roll": null,
+          "damage_count": null
+      },
+      {
+          "url": "lesser_control_poison",
+          "name": "Lesser Control poison",
+          "description": "Control up to 1 cubic feet of poison up to 10ft away. ",
+          "cost": 3,
+          "damage_roll": null,
+          "damage_count": null
+      },
+      {
+          "url": "control_poison",
+          "name": "Control poison",
+          "description": "Control up to 10 cubic feet of poison up to 100ft away. ",
+          "cost": 12,
+          "damage_roll": null,
+          "damage_count": null
+      },
+      {
+          "url": "greater_control_poison",
+          "name": "Greater Control poison",
+          "description": "Control up to 100 cubic feet of poison up to 1000ft away. ",
+          "cost": 27,
+          "damage_roll": null,
+          "damage_count": null
+      },
+      {
+          "url": "master_control_poison",
+          "name": "Master Control poison",
+          "description": "Control up to 1000 cubic feet of poison up to 10000ft away. ",
+          "cost": 48,
+          "damage_roll": null,
+          "damage_count": null
+      },
+      {
+          "url": "resist_fire",
+          "name": "Resist Fire",
+          "description": "Your target takes half damage from fire for 1 hour. Improving this spell only increases the number of targets you can choose.",
+          "cost": 19,
+          "damage_roll": null,
+          "damage_count": null
+      },
+      {
+          "url": "weaken_fire",
+          "name": "Weaken Fire",
+          "description": "Your target takes double damage from fire for 1 hour. Improving this spell only increases the number of targets you can choose.",
+          "cost": 19,
+          "damage_roll": null,
+          "damage_count": null
+      },
+      {
+          "url": "resist_water",
+          "name": "Resist Water",
+          "description": "Your target takes half damage from water for 1 hour. Improving this spell only increases the number of targets you can choose.",
+          "cost": 19,
+          "damage_roll": null,
+          "damage_count": null
+      },
+      {
+          "url": "weaken_water",
+          "name": "Weaken Water",
+          "description": "Your target takes double damage from water for 1 hour. Improving this spell only increases the number of targets you can choose.",
+          "cost": 19,
+          "damage_roll": null,
+          "damage_count": null
+      },
+      {
+          "url": "resist_earth",
+          "name": "Resist Earth",
+          "description": "Your target takes half damage from earth for 1 hour. Improving this spell only increases the number of targets you can choose.",
+          "cost": 19,
+          "damage_roll": null,
+          "damage_count": null
+      },
+      {
+          "url": "weaken_earth",
+          "name": "Weaken Earth",
+          "description": "Your target takes double damage from earth for 1 hour. Improving this spell only increases the number of targets you can choose.",
+          "cost": 19,
+          "damage_roll": null,
+          "damage_count": null
+      },
+      {
+          "url": "resist_plant",
+          "name": "Resist Plant",
+          "description": "Your target takes half damage from plant for 1 hour. Improving this spell only increases the number of targets you can choose.",
+          "cost": 19,
+          "damage_roll": null,
+          "damage_count": null
+      },
+      {
+          "url": "weaken_plant",
+          "name": "Weaken Plant",
+          "description": "Your target takes double damage from plant for 1 hour. Improving this spell only increases the number of targets you can choose.",
+          "cost": 19,
+          "damage_roll": null,
+          "damage_count": null
+      },
+      {
+          "url": "resist_air",
+          "name": "Resist Air",
+          "description": "Your target takes half damage from air for 1 hour. Improving this spell only increases the number of targets you can choose.",
+          "cost": 19,
+          "damage_roll": null,
+          "damage_count": null
+      },
+      {
+          "url": "weaken_air",
+          "name": "Weaken Air",
+          "description": "Your target takes double damage from air for 1 hour. Improving this spell only increases the number of targets you can choose.",
+          "cost": 19,
+          "damage_roll": null,
+          "damage_count": null
+      },
+      {
+          "url": "resist_acid",
+          "name": "Resist Acid",
+          "description": "Your target takes half damage from acid for 1 hour. Improving this spell only increases the number of targets you can choose.",
+          "cost": 19,
+          "damage_roll": null,
+          "damage_count": null
+      },
+      {
+          "url": "weaken_acid",
+          "name": "Weaken Acid",
+          "description": "Your target takes double damage from acid for 1 hour. Improving this spell only increases the number of targets you can choose.",
+          "cost": 19,
+          "damage_roll": null,
+          "damage_count": null
+      },
+      {
+          "url": "resist_poison",
+          "name": "Resist Poison",
+          "description": "Your target takes half damage from poison for 1 hour. Improving this spell only increases the number of targets you can choose.",
+          "cost": 19,
+          "damage_roll": null,
+          "damage_count": null
+      },
+      {
+          "url": "weaken_poison",
+          "name": "Weaken Poison",
+          "description": "Your target takes double damage from poison for 1 hour. Improving this spell only increases the number of targets you can choose.",
+          "cost": 19,
+          "damage_roll": null,
+          "damage_count": null
+      },
+      {
+          "url": "resist_lightning",
+          "name": "Resist Lightning",
+          "description": "Your target takes half damage from lightning for 1 hour. Improving this spell only increases the number of targets you can choose.",
+          "cost": 19,
+          "damage_roll": null,
+          "damage_count": null
+      },
+      {
+          "url": "weaken_lightning",
+          "name": "Weaken Lightning",
+          "description": "Your target takes double damage from lightning for 1 hour. Improving this spell only increases the number of targets you can choose.",
+          "cost": 19,
+          "damage_roll": null,
+          "damage_count": null
+      },
+      {
+          "url": "resist_thunder",
+          "name": "Resist Thunder",
+          "description": "Your target takes half damage from thunder for 1 hour. Improving this spell only increases the number of targets you can choose.",
+          "cost": 19,
+          "damage_roll": null,
+          "damage_count": null
+      },
+      {
+          "url": "weaken_thunder",
+          "name": "Weaken Thunder",
+          "description": "Your target takes double damage from thunder for 1 hour. Improving this spell only increases the number of targets you can choose.",
+          "cost": 19,
+          "damage_roll": null,
+          "damage_count": null
+      },
+      {
+          "url": "resist_cold",
+          "name": "Resist Cold",
+          "description": "Your target takes half damage from cold for 1 hour. Improving this spell only increases the number of targets you can choose.",
+          "cost": 19,
+          "damage_roll": null,
+          "damage_count": null
+      },
+      {
+          "url": "weaken_cold",
+          "name": "Weaken Cold",
+          "description": "Your target takes double damage from cold for 1 hour. Improving this spell only increases the number of targets you can choose.",
+          "cost": 19,
+          "damage_roll": null,
+          "damage_count": null
+      },
+      {
+          "url": "resist_necrotic",
+          "name": "Resist Necrotic",
+          "description": "Your target takes half damage from necrotic for 1 hour. Improving this spell only increases the number of targets you can choose.",
+          "cost": 19,
+          "damage_roll": null,
+          "damage_count": null
+      },
+      {
+          "url": "weaken_necrotic",
+          "name": "Weaken Necrotic",
+          "description": "Your target takes double damage from necrotic for 1 hour. Improving this spell only increases the number of targets you can choose.",
+          "cost": 19,
+          "damage_roll": null,
+          "damage_count": null
+      },
+      {
+          "url": "resist_radiant",
+          "name": "Resist Radiant",
+          "description": "Your target takes half damage from radiant for 1 hour. Improving this spell only increases the number of targets you can choose.",
+          "cost": 19,
+          "damage_roll": null,
+          "damage_count": null
+      },
+      {
+          "url": "weaken_radiant",
+          "name": "Weaken Radiant",
+          "description": "Your target takes double damage from radiant for 1 hour. Improving this spell only increases the number of targets you can choose.",
+          "cost": 19,
+          "damage_roll": null,
+          "damage_count": null
+      }
+  ]
+

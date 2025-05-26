@@ -227,7 +227,7 @@
   {
     "url": "chromaticorb",
     "name": "Chromatic Orb",
-    "description": "Fires an orb of either acid, ice, fire, lightning, or poison.",
+    "description": "Fires an orb of either acid, ice, fire, lightning, earth, or poison.",
     "cost": "12 mana",
     "damage_roll": "d8",
     "damage_count": "3",

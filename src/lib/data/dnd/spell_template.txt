@@ -1,0 +1,9 @@
+,
+    {
+      "url": "",
+      "name": "",
+      "description": "",
+      "cost": 1,
+      "damage_roll": null,
+      "damage_count": null
+    }
