@@ -1,5 +1,83 @@
 [
     {
+        "url": "animal_friendship",
+        "name": "Animal Friendship",
+        "description": "Beasts under 6 intelligence will not attack you unless provoked.",
+        "rolls": []
+    },
+    {
+        "url": "monster_friendship",
+        "name": "Monster Friendship",
+        "description": "Monsters under 6 intelligence will not attack you unless provoked or evil aligned",
+        "rolls": []
+    },
+    {
+        "url": "plant_friendship",
+        "name": "Plant Friendship",
+        "description": "Plant under 6 intelligence will not attack you unless provoked.",
+        "rolls": []
+    },
+    {
+        "url": "draconic_friendship",
+        "name": "Draconic Friendship",
+        "description": "Dragons will not attack you unless provoked or evil aligned.",
+        "rolls": []
+    },
+    {
+        "url": "beast_affinity",
+        "name": "Beast Affinity",
+        "description": "Pick a type of animal to become friends with. You may only take this skill once. Any animal of this type will automatically become an ally if they are below your level and have a chance of becoming an ally when above your level.",
+        "rolls": []
+    },
+    {
+        "url": "monster_affinity",
+        "name": "Monster Affinity",
+        "description": "Pick a type of monster to become friends with. You may only take this skill once. Any monster of this type will automatically become an ally if they are below your level and have a chance of becoming an ally when above your level.",
+        "rolls": []
+    },
+    {
+        "url": "draconic_affinity",
+        "name": "Draconic Affinity",
+        "description": "Pick a type of dragon to become friends with. You may only take this skill once. Any dragon of this type will automatically become an ally if they are below your level and have a chance of becoming an ally when above your level.",
+        "rolls": []
+    },
+    {
+        "url": "animal_trait",
+        "name": "Animal Trait",
+        "description": "Gain a permenant trait from your affinity. If this trait is magical, the magical trait must be obtainable at your current level. Examples: eagle eyes, elefant ears, or dog nose.",
+        "rolls": []
+    },
+    {
+        "url": "monster_trait",
+        "name": "Monster Trait",
+        "description": "Gain a permenant trait from your affinity. If this trait is magical, the magical trait must be obtainable at your current level.",
+        "rolls": []
+    },
+    {
+        "url": "draconic_trait",
+        "name": "Draconic Trait",
+        "description": "Gain a permenant trait from your affinity. If this trait is magical, the magical trait must be obtainable at your current level.",
+        "rolls": []
+    },
+    {
+        "url": "animal_form",
+        "name": "Animal Form",
+        "description": "Transform into your animal affinity at will.",
+        "rolls": []
+    },
+    {
+        "url": "monster_form",
+        "name": "Monster Form",
+        "description": "Transform into your monster affinity at will.",
+        "rolls": []
+    },
+    {
+        "url": "Draconic_form",
+        "name": "Draconic Form",
+        "description": "Transform into your draconic affinity at will.",
+        "rolls": []
+    },
+    {
         "url": "anythinggoes",
         "name": "Anything Goes",
         "description": "Allows the user to use any melee weapon. ",

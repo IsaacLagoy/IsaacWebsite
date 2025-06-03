@@ -1,0 +1,378 @@
+[
+    {
+      "url": "chill_touch",
+      "name": "Chill Touch",
+      "description": "Attach a skeletal hand to the target that reduces the amount gained from healing by half. This effect is overcome by the vitality effect.",
+      "cost": 5,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "spare_the_dying",
+      "name": "Spare the Dying",
+      "description": "Touch a creature that is at exactly 0 or -1 health, stabilizing their condition.",
+      "cost": 2,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "lesser_detect_dead",
+      "name": "Lesser Detect Dead",
+      "description": "Detect dead creatures that are unhidden or hidden by weaker concealment spells.",
+      "cost": 2,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "detect_dead",
+      "name": "Detect Dead",
+      "description": "Detect dead creatures that are unhidden or hidden by weaker concealment spells.",
+      "cost": 9,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "greater_detect_dead",
+      "name": "Greater Detect Dead",
+      "description": "Detect dead creatures that are unhidden or hidden by weaker concealment spells.",
+      "cost": 21,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "master_detect_dead",
+      "name": "Master Detect Dead",
+      "description": "Detect dead creatures that are unhidden or hidden by weaker concealment spells.",
+      "cost": 39,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "lesser_detect_undead",
+      "name": "Lesser Detect Undead",
+      "description": "Detect undead creatures that are unhidden or hidden by weaker concealment spells.",
+      "cost": 6,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "detect_undead",
+      "name": "Detect Undead",
+      "description": "Detect undead creatures that are unhidden or hidden by weaker concealment spells.",
+      "cost": 12,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "greater_detect_undead",
+      "name": "Greater Detect Undead",
+      "description": "Detect undead creatures that are unhidden or hidden by weaker concealment spells.",
+      "cost": 24,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "master_detect_undead",
+      "name": "Master Detect Undead",
+      "description": "Detect undead creatures that are unhidden or hidden by weaker concealment spells.",
+      "cost": 42,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "lesser_conceal_dead",
+      "name": "Lesser Conceal Dead",
+      "description": "Hides a dead creature's body from magical detect dead.",
+      "cost": 2,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "conceal_dead",
+      "name": "Conceal Dead",
+      "description": "Hides a dead creature's body from magical detect dead.",
+      "cost": 9,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "greater_conceal_dead",
+      "name": "Greater Conceal Dead",
+      "description": "Hides a dead creature's body from magical detect dead.",
+      "cost": 21,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "master_conceal_dead",
+      "name": "Master Conceal Dead",
+      "description": "Hides a dead creature's body from magical detect dead.",
+      "cost": 39,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "lesser_conceal_undead",
+      "name": "Lesser Conceal Undead",
+      "description": "Hides a undead creature's body from magical detect dead.",
+      "cost": 6,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "conceal_undead",
+      "name": "Conceal Undead",
+      "description": "Hides a undead creature's body from magical detect dead.",
+      "cost": 12,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "greater_conceal_undead",
+      "name": "Greater Conceal Undead",
+      "description": "Hides a undead creature's body from magical detect dead.",
+      "cost": 24,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "master_conceal_undead",
+      "name": "Master Conceal Undead",
+      "description": "Hides a undead creature's body from magical detect dead.",
+      "cost": 42,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "lesser_summon_zombie",
+      "name": "Lesser Summon Zombie",
+      "description": "Summons a weak zombie. str 12 con 17 dex 3 wis 1 int 1 cha -2 apr 1 thac0 18 ac 8.",
+      "cost": 7,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "summon_zombie",
+      "name": "Summon Zombie",
+      "description": "Summons a zombie. str 15 con 18 dex 4 wis 1 int 1 cha -3 apr 2 thac0 12 ac 2.",
+      "cost": 18,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "greater_summon_zombie",
+      "name": "Greater Summon Zombie",
+      "description": "Summons a zombie. str 17 con 19 dex 5 wis 1 int 1 cha -4 apr 4 thac0 6 ac 0.",
+      "cost": 40,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "master_summon_zombie",
+      "name": "Master Summon Zombie",
+      "description": "Summons a zombie. str 20 con 20 dex 7 wis 1 int 1 cha -5 apr 10 thac0 0 ac -5.",
+      "cost": 40,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "lesser_summon_skeleton",
+      "name": "Lesser Summon Skeleton",
+      "description": "Summons a weak skeleton that can use weapons. str 8 con 15 dex 5 wis 2 int 3 cha -1 apr 1 thac0 17 ac 7.",
+      "cost": 11,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "summon_skeleton",
+      "name": "Summon Skeleton",
+      "description": "Summons a skeleton that can use weapons. str 10 con 16 dex 7 wis 2 int 3 cha -1 apr 2 thac0 11 ac 1.",
+      "cost": 23,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "greater_summon_skeleton",
+      "name": "Greater Summon Skeleton",
+      "description": "Summons a skeleton that can use weapons. str 14 con 17 dex 10 wis 2 int 3 cha -1 apr 3 thac0 5 ac 0.",
+      "cost": 42,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "master_summon_skeleton",
+      "name": "Master Summon Skeleton",
+      "description": "Summons a skeleton that can use weapons. str 18 con 18 dex 15 wis 2 int 3 cha -1 apr 5 thac0 -1 ac -7.",
+      "cost": 60,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "summon_small_undead_animal",
+      "name": "Summon Small Undead Animal",
+      "description": "Summons a small undead animal under your control. You may specify an animal with no dimension larger than 2ft or a random animal will be summoned. The animal may be either skeletal or fleshy.",
+      "cost": 2,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "summon_undead_animal",
+      "name": "Summon Undead Animal",
+      "description": "Summons an undead animal under your control. You may specify an animal with no dimension larger than 4ft or a random animal will be summoned. The animal may be either skeletal or fleshy.",
+      "cost": 5,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "summon_large_undead_animal",
+      "name": "Summon Large Undead Animal",
+      "description": "Summons a large undead animal under your control. You may specify any non-magical animal or a random animal will be summoned. The animal may be either skeletal or fleshy.",
+      "cost": 9,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "lesser_raise_dead",
+      "name": "Lesser Raise Dead",
+      "description": "Animate a skeleton or corpse of a creature to fight for you. This creature must be level 1. Improving this spell raises the level cap by 1.",
+      "cost": 3,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "raise_dead",
+      "name": "Raise Dead",
+      "description": "Animate a skeleton or corpse of a creature to fight for you. This creature must be level 5 or below. Improving this spell raises the level cap by 1.",
+      "cost": 15,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "greater_raise_dead",
+      "name": "Greater Raise Dead",
+      "description": "Animate a skeleton or corpse of a creature to fight for you. This creature must be level 10 or below. Improving this spell raises the level cap by 1.",
+      "cost": 30,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "master_raise_dead",
+      "name": "Master Raise Dead",
+      "description": "Animate a skeleton or corpse of a creature to fight for you. This creature must be your level or below. Improving this spell raises the level cap by 1.",
+      "cost": 60,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "speak_with_dead",
+      "name": "Speak with Dead",
+      "description": "Speak with a skeleton or corpse who has died in the past 10 days. The dead creature only knows what they knew in life.",
+      "cost": 2,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "speak_with_undead",
+      "name": "Speak with Unead",
+      "description": "Speak with any undead corpse or skeleton.",
+      "cost": 3,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "consume_soul",
+      "name": "Consume Soul",
+      "description": "Consume the captured soul of another creature gaining some of its power. If the creature was above your level, there is a 5 * (their level - your level) percent chance that you become posessed.",
+      "cost": 20,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "lesser_summon_vampire",
+      "name": "Lesser Summon Vampire",
+      "description": "Summons a vampire that is either a level 3 necromancer, mage, rogue, or fighter. str 12 con 13 dex 10 wis 15 int 10 cha 12 apr 3 thac0 15 ac 5. Improving this skill increases the level of the vampire by 1.",
+      "cost": 21,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "summon_vampire",
+      "name": "Summon Vampire",
+      "description": "Summons a vampire that is either a level 8 necromancer, mage, rogue, or fighter. str 15 con 16 dex 13 wis 16 int 12 cha 15 apr 8 thac0 10 ac 0. Improving this skill increases the level of the vampire by 1.",
+      "cost": 36,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "greater_summon_vampire",
+      "name": "Greater Summon Vampire",
+      "description": "Summons a vampire that is either a level 12 necromancer, mage, rogue, or fighter. str 17 con 18 dex 15 wis 18 int 14 cha 17 apr 12 thac0 6 ac -4. Improving this skill increases the level of the vampire by 1.",
+      "cost": 51,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "master_summon_vampire",
+      "name": "Master Summon Vampire",
+      "description": "Summons a vampire that is either a level 15 necromancer, mage, rogue, or fighter. str 19 con 20 dex 18 wis 20 int 14 cha 19 apr 15 thac0 3 ac -7. Improving this skill increases the level of the vampire by 1.",
+      "cost": 60,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "lesser_summon_ghost",
+      "name": "Lesser Summon Ghost",
+      "description": "Summons an etherial ghost to fight for you. The ghost cannot be hurt by non-enchanted weapons and has access to level 1 mage spells. str 5 con 20 dex 5 wis 10 int 1 cha -1 apr 1 thac0 16 ac 6. Improving this spell increases the ghosts level by 1.",
+      "cost": 12,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "summon_ghost",
+      "name": "Summon Ghost",
+      "description": "Summons an etherial ghost to fight for you. The ghost cannot be hurt by non-enchanted weapons and has access to level 4 mage spells. str 7 con 20 dex 7 wis 13 int 2 cha -2 apr 2 thac0 11 ac 1. Improving this spell increases the ghosts level by 1.",
+      "cost": 24,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "greater_summon_ghost",
+      "name": "Greater Summon Ghost",
+      "description": "Summons an etherial ghost to fight for you. The ghost cannot be hurt by non-enchanted weapons and has access to level 9 mage spells. str 10 con 20 dex 10 wis 16 int 3 cha -3 apr 3 thac0 5 ac -5. Improving this spell increases the ghosts level by 1.",
+      "cost": 42,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "master_summon_ghost",
+      "name": "Master Summon Ghost",
+      "description": "Summons an etherial ghost to fight for you. The ghost cannot be hurt by non-enchanted weapons and has access to level 16 mage spells. str 15 con 20 dex 15 wis 20 int 4 cha -4 apr 4 thac0 3 ac -11. Improving this spell increases the ghosts level by 1.",
+      "cost": 60,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "summon_spectre",
+      "name": "Summon Spectre",
+      "description": "Summon a spectre using the captured soul of another creature. If the creature's level is greater than yours, this spectre has a 10 * (their level - your level) percent chance of rebelling.",
+      "cost": 25,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "fright",
+      "name": "Fright",
+      "description": "Trigger horror in a target with a 10% bonus. If successful, the target spends their next turn fleeing. Horror = bonus + 5 * aggressor level + 3 * negative cha - 10 * defender level.",
+      "cost": 6,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "mass_fright",
+      "name": "Mass Fright",
+      "description": "Trigger horror in all target that can sense you with a 10% bonus. If successful, the target spends their next turn fleeing. Horror = bonus + 5 * aggressor level + 3 * negative cha - 10 * defender level.",
+      "cost": 24,
+      "damage_roll": null,
+      "damage_count": null
+    }
+]

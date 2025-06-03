@@ -1,0 +1,549 @@
+[
+    {
+      "url": "druidcraft",
+      "name": "Druidcraft",
+      "description": "Create a harmless natural effect. For example, create a tiny snow globe like effect that predicts the weather at that location for the next day, instantly make a flower bloom, a seed pod open, or a leaf bud bloom, or instantly snuff out a small fire.",
+      "cost": 2,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "feral_claws",
+      "name": "Feral Claws",
+      "description": "Grow claws on your fists increasing your unarmed melee damage by 1d4. ",
+      "cost": 3,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "feral_jaws",
+      "name": "Feral Jaws",
+      "description": "Grow serrated teath and increase your jaw strength increasing your bite damage by 1d8. ",
+      "cost": 3,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "purify_food_and_drink",
+      "name": "Purify Food and Drink",
+      "description": "Remove all poison effects from food or drink that you touch.",
+      "cost": 4,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "speak_with_animals",
+      "name": "Speak with Animals",
+      "description": "Allows you to verbally communicate with animals even if their intelligence is below 7.",
+      "cost": 2,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "speak_with_monsters",
+      "name": "Speak with Monsters",
+      "description": "Allows you to verbally communicate with monsters even if their intelligence is below 7.",
+      "cost": 15,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "animal_messenger",
+      "name": "Animal Messenger",
+      "description": "Speak through an animal that is charmed or allied to you.",
+      "cost": 1,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "beast_sense",
+      "name": "Beast Sense",
+      "description": "See and hear through a charmed or allied beast's eyes and ears.",
+      "cost": 6,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "lesser_locate_animal",
+      "name": "Lesser Locate Animal",
+      "description": "Locate a specified type of animal within 1 mile of your location.",
+      "cost": 3,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "lesser_locate_monster",
+      "name": "Lesser Locate Monster",
+      "description": "Locate a specified type of monster within 1 mile of your location.",
+      "cost": 9,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "lesser_locate_dragon",
+      "name": "Lesser Locate Dragon",
+      "description": "Locate a specified type of dragon within 1 mile of your location.",
+      "cost": 15,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "lesser_locate_plant",
+      "name": "Lesser Locate Plant",
+      "description": "Locate a specified type of plant within 1 mile of your location.",
+      "cost": 3,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "locate_animal",
+      "name": "Locate Animal",
+      "description": "Locate a specified type of animal within 50 miles of your location.",
+      "cost": 15,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "locate_monster",
+      "name": "Locate Monster",
+      "description": "Locate a specified type of monster within 50 miles of your location.",
+      "cost": 24,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "locate_dragon",
+      "name": "Locate Dragon",
+      "description": "Locate a specified type of dragon within 50 miles of your location.",
+      "cost": 45,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "locate_plant",
+      "name": "Locate Plant",
+      "description": "Locate a specified type of plant within 50 miles of your location.",
+      "cost": 15,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "greater_locate_animal",
+      "name": "Greater Locate Animal",
+      "description": "Locate a specified type of animal anywhere within your dimension.",
+      "cost": 36,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "greater_locate_monster",
+      "name": "Greater Locate Monster",
+      "description": "Locate a specified type of monster anywhere within your dimension.",
+      "cost": 45,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "greater_locate_dragon",
+      "name": "Greater Locate Dragon",
+      "description": "Locate a specified type of dragon anywhere within your dimension.",
+      "cost": 48,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "greater_locate_plant",
+      "name": "Greater Locate Plant",
+      "description": "Locate a specified type of plant anywhere within your dimension.",
+      "cost": 36,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "master_locate_animal",
+      "name": "Master Locate Animal",
+      "description": "Locate a specified type of animal anywhere in the multiverse.",
+      "cost": 54,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "master_locate_monster",
+      "name": "Master Locate Monster",
+      "description": "Locate a specified type of monster anywhere in the multiverse.",
+      "cost": 60,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "master_locate_dragon",
+      "name": "Master Locate Dragon",
+      "description": "Locate a specified type of dragon anywhere in the multiverse.",
+      "cost": 60,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "master_locate_plant",
+      "name": "Master Locate Plant",
+      "description": "Locate a specified type of plant anywhere in the multiverse.",
+      "cost": 54,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "speak_with_dragons",
+      "name": "Speak with Dragons",
+      "description": "Allows you to speak dragon tongue.",
+      "cost": 21,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "speak_with_plants",
+      "name": "Speak with Plants",
+      "description": "Allows you to speak with plants.",
+      "cost": 2,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "heros_feast",
+      "name": "Heros' Feast",
+      "description": "Summon a great feast which can feed up to 12 people. Those who partake in the feast are cured of all diseases and poison, become resistant to poison and horror for the next 8hrs, and have advantage on wisdom saving throws. They also gain 2d10 maximum health for 24hrs.",
+      "cost": 30,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "revivify",
+      "name": "Revivify",
+      "description": "Revive a creature who has been dead for less than 10 seconds.",
+      "cost": 15,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "revive",
+      "name": "Revive",
+      "description": "Revive a creature who has been dead for less than 1 week.",
+      "cost": 30,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "mass_revive",
+      "name": "Mass Revive",
+      "description": "Revive a group of creatures who have been dead for less than 1 week.",
+      "cost": 45,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "lesser_transport_via_plants",
+      "name": "Lesser Transport via Plants",
+      "description": "Teleport between two large plants that are within 1 mile of each other.",
+      "cost": 21,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "transport_via_plants",
+      "name": "Transport via Plants",
+      "description": "Teleport between two large plants that are in the same universe.",
+      "cost": 42,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "greater_transport_via_plants",
+      "name": "Greater Transport via Plants",
+      "description": "Teleport between two large plants anywhere in the multiverse.",
+      "cost": 51,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "familiar",
+      "name": "Familiar",
+      "description": "Make an allied creature your familiar. This creature may not be a person.",
+      "cost": 21,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "familiar_perminancy",
+      "name": "Familiar Perminancy",
+      "description": "Make a temporary effect on a familiar perminant including transformations and stat increases. Stat increases of the same type override each other.",
+      "cost": 36,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "summon_small_animal",
+      "name": "Summon Small Animal",
+      "description": "Summons a small animal under your control. You may specify an animal with no dimension larger than 2ft or a random animal will be summoned.",
+      "cost": 2,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "summon_animal",
+      "name": "Summon Animal",
+      "description": "Summons an animal under your control. You may specify an animal with no dimension larger than 4ft or a random animal will be summoned.",
+      "cost": 5,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "summon_large_animal",
+      "name": "Summon Large Animal",
+      "description": "Summons a large animal under your control. You may specify any non-magical animal or a random animal will be summoned.",
+      "cost": 9,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "animal_ability",
+      "name": "Animal Ability",
+      "description": "Gain an attribute or ability of a beast that you have seen or know of. This ability must be obtainable below your level.",
+      "cost": 6,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "plant_ability",
+      "name": "Plant Ability",
+      "description": "Gain an attribute or ability of a plant that you have seen or know of. This ability must be obtainable below your level.",
+      "cost": 6,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "monster_ability",
+      "name": "Monster Ability",
+      "description": "Gain an attribute or ability of a monster that you have seen or know of. This ability must be obtainable below your level.",
+      "cost": 12,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "dragon_ability",
+      "name": "Dragon Ability",
+      "description": "Gain an attribute or ability of a dragon that you have seen or know of. This ability must be obtainable below your level.",
+      "cost": 15,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "animal_shape",
+      "name": "Animal Shape",
+      "description": "Shapeshift into an animal that you have seen or know of. This creature must be under your level.",
+      "cost": 12,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "plant_shape",
+      "name": "Plant Shape",
+      "description": "Shapeshift into a plant that you have seen or know of. This creature must be under your level.",
+      "cost": 12,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "monster_shape",
+      "name": "Monster Shape",
+      "description": "Shapeshift into a monster that you have seen or know of. This creature must be under your level.",
+      "cost": 36,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "draconic_shape",
+      "name": "Draconic Shape",
+      "description": "Shapeshift into an animal that you have seen or know of. This creature must be under your level.",
+      "cost": 51,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "lesser_summon_plant",
+      "name": "Lesser Summon Plant",
+      "description": "Summon a small non-magical plant that has no dimension larger than 1ft. You must have seen this plant before or read about it.",
+      "cost": 2,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "summon_plant",
+      "name": "Summon Plant",
+      "description": "Summon a non-magical plant that has no dimension larger than 5ft. You must have seen this plant before or read about it.",
+      "cost": 6,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "greater_summon_plant",
+      "name": "Greater Summon Plant",
+      "description": "Summon any plant that has no dimension larger than 25ft. You must have seen this plant before or read about it.",
+      "cost": 18,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "master_summon_plant",
+      "name": "Master Summon Plant",
+      "description": "Summon any plant that you have seen or read of.",
+      "cost": 30,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "lesser_summon_monster",
+      "name": "Lesser Summon Monster",
+      "description": "Summon a monster that is level 2 or below. Improving this spell increases the level cap by 1.",
+      "cost": 15,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "summon_monster",
+      "name": "Summon Monster",
+      "description": "Summon a monster that is level 7 or below. Improving this spell increases the level cap by 1.",
+      "cost": 30,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "greater_summon_monster",
+      "name": "Greater Summon Monster",
+      "description": "Summon a monster that is level 12 or below. Improving this spell increases the level cap by 1.",
+      "cost": 45,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "master_summon_monster",
+      "name": "Master Summon Monster",
+      "description": "Summon a monster that is your level or below. Improving this spell increases the level cap by 1.",
+      "cost": 60,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "lesser_summon_dragon",
+      "name": "Lesser Summon Dragon",
+      "description": "Summon a very young dragon of any element. hp 15d8 + 60. str 21 dex 10 con 19 int 13 wis 11 cha 17 thac0 13 ac 3.",
+      "cost": 30,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "summon_dragon",
+      "name": "Summon Dragon",
+      "description": "Summon a juvenile dragon of any element. hp 18d10 + 108 str 24 dex 10 con 22 int 15 wis 11 cha 20 thac0 10 ac 0.",
+      "cost": 39,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "greater_summon_dragon",
+      "name": "Greater Summon Dragon",
+      "description": "Summon an adult dragon of any element. hp 19d12 + 133. str 27 dex 10 con 25 int 16 wis 13 cha 21 thac0 7 ac -3.",
+      "cost": 51,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "master_summon_dragon",
+      "name": "Master Summon Dragon",
+      "description": "Summon an old dragon of any element. hp 25d12 + 177. str 30 dex 10 con 27 int 17 wis 14 cha 22 thac0 5 ac -5.",
+      "cost": 60,
+      "damage_roll": null,
+      "damage_count": null
+    }
+]
+
+
+[
+    {
+        "url": "animal_friendship",
+        "name": "Animal Friendship",
+        "description": "Beasts under 6 intelligence will not attack you unless provoked.",
+        "rolls": []
+    },
+    {
+        "url": "monster_friendship",
+        "name": "Monster Friendship",
+        "description": "Monsters under 6 intelligence will not attack you unless provoked or evil aligned",
+        "rolls": []
+    },
+    {
+        "url": "plant_friendship",
+        "name": "Plant Friendship",
+        "description": "Plant under 6 intelligence will not attack you unless provoked.",
+        "rolls": []
+    },
+    {
+        "url": "draconic_friendship",
+        "name": "Draconic Friendship",
+        "description": "Dragons will not attack you unless provoked or evil aligned.",
+        "rolls": []
+    },
+    {
+        "url": "beast_affinity",
+        "name": "Beast Affinity",
+        "description": "Pick a type of animal to become friends with. You may only take this skill once. Any animal of this type will automatically become an ally if they are below your level and have a chance of becoming an ally when above your level.",
+        "rolls": []
+    },
+    {
+        "url": "monster_affinity",
+        "name": "Monster Affinity",
+        "description": "Pick a type of monster to become friends with. You may only take this skill once. Any monster of this type will automatically become an ally if they are below your level and have a chance of becoming an ally when above your level.",
+        "rolls": []
+    },
+    {
+        "url": "draconic_affinity",
+        "name": "Draconic Affinity",
+        "description": "Pick a type of dragon to become friends with. You may only take this skill once. Any dragon of this type will automatically become an ally if they are below your level and have a chance of becoming an ally when above your level.",
+        "rolls": []
+    },
+    {
+        "url": "animal_trait",
+        "name": "Animal Trait",
+        "description": "Gain a permenant trait from your affinity. If this trait is magical, the magical trait must be obtainable at your current level. Examples: eagle eyes, elefant ears, or dog nose.",
+        "rolls": []
+    },
+    {
+        "url": "monster_trait",
+        "name": "Monster Trait",
+        "description": "Gain a permenant trait from your affinity. If this trait is magical, the magical trait must be obtainable at your current level.",
+        "rolls": []
+    },
+    {
+        "url": "draconic_trait",
+        "name": "Draconic Trait",
+        "description": "Gain a permenant trait from your affinity. If this trait is magical, the magical trait must be obtainable at your current level.",
+        "rolls": []
+    },
+    {
+        "url": "animal_form",
+        "name": "Animal Form",
+        "description": "Transform into your animal affinity at will.",
+        "rolls": []
+    },
+    {
+        "url": "monster_form",
+        "name": "Monster Form",
+        "description": "Transform into your monster affinity at will.",
+        "rolls": []
+    },
+    {
+        "url": "Draconic_form",
+        "name": "Draconic Form",
+        "description": "Transform into your draconic affinity at will.",
+        "rolls": []
+    }
+]
+

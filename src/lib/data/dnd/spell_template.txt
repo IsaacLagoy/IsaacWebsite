@@ -7,3 +7,130 @@
       "damage_roll": null,
       "damage_count": null
     }
+,
+    {
+        "url": "",
+        "name": "",
+        "description": "",
+        "rolls": []
+    }
+
+spells = {
+  'Flame': 1,
+  'Splash': 1,
+  'Pebble Toss': 1,
+  'Vine Whip': 1,
+  'Static Shock': 1,
+  'Venom Sting': 1,
+  'Gust Dart': 1,
+  'Fog Cloud': 1,
+  'Feather Fall': 1,
+  'Darkvision': 1,
+  'Fortify Touch': 1,
+  'Fortify Smell': 1,
+  'Fortify Taste': 1,
+  'Fortify Sight': 1,
+  'Fortify Hearing': 1,
+  'Fire Bolt': 3,
+  'Water Jet': 3,
+  'Stone Spike': 3,
+  'Brambe Shot': 3,
+  'Wind Blade': 3,
+  'Spark Lance': 3,
+  'Toxic Dart': 3,
+  'Heal': [1, 3, 5, 10],
+  'Water Breathing': 3,
+  'Fly': 5,
+  'Stride': 5,
+  'Sense Life': [1, 5, 10, 15],
+  'Smoke Screen': 6,
+  'Scorching Wave': 6,
+  'Crushing Wave': 6,
+  'Rock Fist': 6,
+  'Toxic Bloom': 6,
+  'Cyclone Kick': 6,
+  'Chain Bolt': 6,
+  'Cloud of Spores': 6,
+  'Augury': 7,
+  'Fire Ball': 10,
+  'Aqua Lance': 10,
+  'Earth Shatter': 10,
+  'Thorn Surge': 10,
+  'Vacuum Slice': 10,
+  'Voltaic Burst': 10,
+  'Snakebite Curse': 10,
+  'Smoke Storm': 11,
+  'Inferno Lance': 14,
+  'Maelstrom': 14,
+  'Obsidian Spear': 14,
+  'Carnivine Maw': 14,
+  'Thunderlash': 14,
+  'Neurotoxin Wave': 14,
+  'Divination': 14,
+  'Control Weather': 14,
+  'Foresight': 19,
+  'Fire Storm': 20,
+  'Tsunami Wrath': 20,
+  'Meteor Slam': 20,
+  'Verdant Cataclysm': 20,
+  'Stormfront': 20,
+  'Stormstrike': 20,
+  'Thunder God\'s Wrath': 20,
+  'Plague Burst': 20,
+  'Druidcraft': 1,
+  'Purify Food and Drink': 2,
+  'Speak with Animals': 1,
+  'Speak with Monsters': 5,
+  'Animal messenger': 2,
+  'Beast Sense': 2,
+  'Locate Animal': [1, 5, 12, 18],
+  'Locate Monster': [3, 8, 15, 20],
+  'Locate Dragon': [5, 10, 16, 20],
+  'Locate Plant': [1, 5, 12, 18],
+  'Speak with Dragons': 7,
+  'Speak with Plants': 1,
+  'Hero\'s Feast': 10,
+  'Revivify': 5,
+  'Revive': 10,
+  'Mass Revive': 15,
+  'Feral Jaws': 1,
+  'Feral Claws': 1,
+  'Transport via Plants': [7, 14, 17],
+  'Familiar': 7,
+  'Familiar Perminancy': 12,
+  'Summon Small Animal': 1,
+  'Summon Animal': 2,
+  'Summon Large Animal': 3,
+  'Animal Ability': 2,
+  'Plant Ability': 2,
+  'Monster Ability': 4,
+  'Draconic Ability': 5,
+  'Animal Shape': 4,
+  'Plant Shape': 4,
+  'Monster Shape': 12,
+  'Draconic Shape': 17,
+  'Summon Plant': [1, 3, 6, 10],
+  'Summon Monster': [5, 10, 15, 20],
+  'Summon Dragon': [10, 13, 17, 20]
+}
+
+Control fire water earth air poison
+Fortify stat & health
+
+animal friendship - 1
+plant friendship - 1
+monster friendship - 8
+draconic friendship - 12
+
+lv 1
+Beast afinity - friendly with 1 beast - 1
+Beast transformation - 3
+Beast trait - 2
+lv 10
+Monster afinity - friendly with 1 monster - 10
+Monster transformation - 12
+Monster trait - 11
+lv 15
+Draconic affinity - 15
+Draconic transformation - 17
+Draconic trait - 16

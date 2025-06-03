@@ -733,173 +733,251 @@
         ]
     },
     {
-        "url": "druid",
-        "name": "Druid",
-        "skills": [
-            [],
-            [],
-            [],
-            [],
-            [],
-            [],
-            [],
-            [],
-            [],
-            [],
-            [],
-            [],
-            [],
-            [],
-            [],
-            [],
-            [],
-            [],
-            [],
-            [],
-            []
+    "url": "druid",
+    "name": "Druid",
+    "skills": [
+        [],
+        [
+            "Animal Friendship",
+            "Plant Frienship",
+            "Beast Affinity"
         ],
-        "spells": [
-            [],
-            [
-                "Control Flames",
-                "Create Bonfire",
-                "Druidcraft",
-                "Magic Stone",
-                "Primal Savagery",
-                "Thorn Whip",
-                "Animal Friendship",
-                "Gust",
-                "Mending",
-                "Poison Spray",
-                "Flame",
-                "Shape Water",
-                "Thunderclap"
-            ],
-            [
-                "Charm Person",
-                "Create or Destroy Water",
-                "Cure Wounds",
-                "Detect Magic",
-                "Entangle",
-                "Fog Cloud",
-                "Purify Food and Drink",
-                "Speak with Animals"
-            ],
-            [
-                "Animal Messenger",
-                "Beast Sense",
-                "Continual Flame",
-                "Darkvision",
-                "Heat Metal",
-                "Locate Animals or Plants"
-            ],
-            [
-                "Augury",
-                "Spike Growth",
-                "Air Bubble",
-                "Summon Beast"
-            ],
-            [
-                "Aura of Vitality",
-                "Conjure Animals",
-                "Feign Death",
-                "Plant Growth",
-                "Speak with Plants",
-                "Wall of Water",
-                "Water Walk"
-            ],
-            [
-                "Erupting Earth",
-                "Dispel Magic",
-                "Summon Fey",
-                "Water Breathing",
-                "Call Lightning"
-            ],
-            [
-                "Control Water",
-                "Hallucinatory Terrain",
-                "Stoneskin",
-                "Wall of Fire"
-            ],
-            [
-                "Charm Monster",
-                "Confuse",
-                "Conjure Woodland Beings",
-                "Dominate Beast",
-                "Giant Insect",
-                "Grasping Vine"
-            ],
-            [
-                "Conjure Elemental",
-                "Mass Cure Wounds",
-                "Commune with Nature",
-                "Control Winds",
-                "Wall of Sand",
-                "Conjure Minor Elementals",
-                "Blight",
-                "Divination",
-                "Ice Storm"
-            ],
-            [
-                "Summon Draconic Spirit",
-                "Reincarnate",
-                "Tree Stride",
-                "Cone of Cold",
-                "Scrying",
-                "Greater Restoration",
-                "Insect Plague"
-            ],
-            [
-                "Heal",
-                "Wind Walk",
-                "Conjure Fey",
-                "Investiture of Flame",
-                "Investiture of Ice",
-                "Investiture of Stone",
-                "Investiture of Wind"
-            ],
-            [
-                "Heros' Feast",
-                "Flesh to Stone",
-                "Wall of Thorns",
-                "Transport via Plants",
-                "Primordial Ward"
-            ],
-            [
-                "Draconic Transformation",
-                "Fire Storm",
-                "Regenerate",
-                "Whirlwind"
-            ],
-            [
-                "Plane Shift",
-                "Reverse Gravity"
-            ],
-            [
-                "Animal Shapes",
-                "Earthquake",
-                "Incendiary Cloud",
-                "Revive"
-            ],
-            [
-                "Tsunami",
-                "Sunburst",
-                "Control Weather"
-            ],
-            [
-                "Storm of Vengeance"
-            ],
-            [
-                "Shapechange"
-            ],
-            [
-                "Foresight"
-            ],
-            [
-                "Mass Revive"
-            ]
+        [
+            "Beast Trait"
+        ],
+        [
+            "Beast Form"
+        ],
+        [],
+        [],
+        [],
+        [],
+        [
+            "Monster Friendship"
+        ],
+        [],
+        [
+            "Monster Affinity"
+        ],
+        [
+            "Monster Trait"
+        ],
+        [
+            "Draconic Friendship",
+            "Monster Form"
+        ],
+        [],
+        [],
+        [
+            "Draconic Affinity"
+        ],
+        [
+            "Draconic Trait"
+        ],
+        [
+            "Draconic Form"
+        ],
+        [],
+        [],
+        []
+    ],
+    "spells": [
+        [],
+        [
+            "Flame",
+            "Splash",
+            "Pebble Toss",
+            "Vine Whip",
+            "Static Shock",
+            "Venom Sting",
+            "Gust Dart",
+            "Fog Cloud",
+            "Feather Fall",
+            "Darkvision",
+            "Fortify Touch",
+            "Fortify Smell",
+            "Fortify Taste",
+            "Fortify Sight",
+            "Fortify Hearing",
+            "Lesser Heal",
+            "Lesser Sense Life",
+            "Druidcraft",
+            "Speak with Animals",
+            "Lesser Locate Animal",
+            "Lesser Locate Plant",
+            "Speak with Plants",
+            "Feral Jaws",
+            "Feral Claws",
+            "Summon Small Animal",
+            "Lesser Summon Plant",
+            "Lesser Control fire",
+            "Lesser Control water",
+            "Lesser Control earth",
+            "Lesser Control air",
+            "Lesser Control poison"
+        ],
+        [
+            "Purify Food and Drink",
+            "Animal messenger",
+            "Beast Sense",
+            "Summon Animal",
+            "Animal Ability",
+            "Plant Ability"
+        ],
+        [
+            "Fire Bolt",
+            "Water Jet",
+            "Stone Spike",
+            "Brambe Shot",
+            "Wind Blade",
+            "Spark Lance",
+            "Toxic Dart",
+            "Heal",
+            "Water Breathing",
+            "Lesser Locate Monster",
+            "Summon Large Animal",
+            "Summon Plant"
+        ],
+        [
+            "Monster Ability",
+            "Animal Shape",
+            "Plant Shape",
+            "Control fire",
+            "Control water",
+            "Control earth",
+            "Control air",
+            "Control poison"
+        ],
+        [
+            "Greater Heal",
+            "Fly",
+            "Stride",
+            "Sense Life",
+            "Speak with Monsters",
+            "Locate Animal",
+            "Lesser Locate Dragon",
+            "Locate Plant",
+            "Revivify",
+            "Draconic Ability",
+            "Lesser Summon Monster",
+            "Fortify Strength",
+            "Fortify Dexterity",
+            "Fortify Constitution",
+            "Fortify Intelligence",
+            "Fortify Wisdom",
+            "Fortify Charisma",
+            "Fortify Thac0",
+            "Fortify AC"
+        ],
+        [
+            "Smoke Screen",
+            "Scorching Wave",
+            "Crushing Wave",
+            "Rock Fist",
+            "Toxic Bloom",
+            "Cyclone Kick",
+            "Chain Bolt",
+            "Cloud of Spores",
+            "Greater Summon Plant"
+        ],
+        [
+            "Augury",
+            "Speak with Dragons",
+            "Lesser Transport via Plants",
+            "Familiar"
+        ],
+        [
+            "Locate Monster"
+        ],
+        [
+            "Greater Control fire",
+            "Greater Control water",
+            "Greater Control earth",
+            "Greater Control air",
+            "Greater Control poison"
+        ],
+        [
+            "Master Heal",
+            "Greater Sense Life",
+            "Fire Ball",
+            "Aqua Lance",
+            "Earth Shatter",
+            "Thorn Surge",
+            "Vacuum Slice",
+            "Voltaic Burst",
+            "Snakebite Curse",
+            "Locate Dragon",
+            "Hero's Feast",
+            "Revive",
+            "Master Summon Plant",
+            "Summon Monster",
+            "Lesser Summon Dragon"
+        ],
+        [
+            "Smoke Storm"
+        ],
+        [
+            "Greater Locate Animal",
+            "Greater Locate Plant",
+            "Familiar Perminancy",
+            "Monster Shape"
+        ],
+        [
+            "Summon Dragon"
+        ],
+        [
+            "Inferno Lance",
+            "Maelstrom",
+            "Obsidian Spear",
+            "Carnivine Maw",
+            "Thunderlash",
+            "Neurotoxin Wave",
+            "Divination",
+            "Control Weather",
+            "Transport via Plants"
+        ],
+        [
+            "Master Sense Life",
+            "Greater Locate Monster",
+            "Mass Revive",
+            "Greater Summon Monster"
+        ],
+        [
+            "Greater Locate Dragon",
+            "Master Control fire",
+            "Master Control water",
+            "Master Control earth",
+            "Master Control air",
+            "Master Control poison"
+        ],
+        [
+            "Greater Transport via Plants",
+            "Draconic Shape",
+            "Greater Summon Dragon"
+        ],
+        [
+            "Master Locate Animal",
+            "Master Locate Plant"
+        ],
+        [
+            "Foresight"
+        ],
+        [
+            "Fire Storm",
+            "Tsunami Wrath",
+            "Meteor Slam",
+            "Verdant Cataclysm",
+            "Stormfront",
+            "Stormstrike",
+            "Thunder God's Wrath",
+            "Plague Burst",
+            "Master Locate Monster",
+            "Master Locate Dragon",
+            "Master Summon Monster",
+            "Master Summon Dragon"
         ]
-    },
+    ]
+},
     {
         "url": "generalskills",
         "name": "General Skills",
@@ -988,101 +1066,180 @@
         ]
     },
     {
-        "url": "necromancer",
-        "name": "Necromancer",
-        "skills": [
-            [],
-            [
-                "Create Undead"
-            ],
-            [],
-            [],
-            [],
-            [],
-            [],
-            [
-                "Create Undead Golem"
-            ],
-            [],
-            [],
-            [],
-            [],
-            [],
-            [],
-            [],
-            [],
-            [],
-            [],
-            [],
-            [],
-            []
+    "url": "necromancer",
+    "name": "Necromancer",
+    "skills": [
+        [],
+        [
+            "Mad Scientist",
+            "Create Undead"
         ],
-        "spells": [
-            [],
-            [
-                "Chill Touch",
-                "Spare the Dying",
-                "Toll of the Dead",
-                "Detect Dead/Undead"
-            ],
-            [
-                "False Life",
-                "Ray of Sickness",
-                "Inflict Wounds"
-            ],
-            [
-                "Ray of Enfeeblement",
-                "Animate Dead"
-            ],
-            [
-                "Blindness/Deafness",
-                "Feign Death"
-            ],
-            [
-                "Speak with Dead",
-                "Summon Undead",
-                "Vampiric Touch"
-            ],
-            [
-                "Revivify"
-            ],
-            [],
-            [
-                "Blight"
-            ],
-            [
-                "Danse Macabre",
-                "Enervation"
-            ],
-            [
-                "Negative Energy Flood",
-                "Revive"
-            ],
-            [
-                "Create Undead",
-                "Harm"
-            ],
-            [
-                "Circle of Death"
-            ],
-            [],
-            [
-                "Finger of Death"
-            ],
-            [
-                "Consume Soul"
-            ],
-            [
-                "Mass Revive"
-            ],
-            [],
-            [
-                "Astral Projection"
-            ],
-            [],
-            []
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+    ],
+    "spells": [
+        [],
+        [
+            "Chill Touch",
+            "Spare the Dying",
+            "Lesser Detect Dead",
+            "Lesser Conceal Dead",
+            "Lesser Feign Death",
+            "Death Touch",
+            "Venom Sting",
+            "Darkvision",
+            "Lesser Control Earth",
+            "Summon Small Undead Animal",
+            "Lesser Raise Dead",
+            "Speak with Dead",
+            "Darken"
+        ],
+        [
+            "Lesser Detect Undead",
+            "Lesser Conceal Undead",
+            "Lesser Summon Zombie",
+            "Summon Undead Animal",
+            "Speak with Undead",
+            "Darkness",
+            "Fright"
+        ],
+        [
+            "Detect Dead",
+            "Conceal Dead",
+            "Grave Bolt",
+            "Toxic Dart",
+            "Lesser Summon Skeleton",
+            "Summon Large Undead Animal",
+            "Strength Fortress",
+            "Dexterity Fortress",
+            "Constitution Fortress",
+            "Intelligence Fortress",
+            "Wisdom Fortress",
+            "Charisma Fortress",
+            "Unstable Strength",
+            "Unstable Dexterity",
+            "Unstable Constitution",
+            "Unstable Intelligence",
+            "Unstable Wisdom",
+            "Unstable Charisma"
+        ],
+        [
+            "Detect Undead",
+            "Conceal Undead",
+            "Control Earth",
+            "Dark Veil",
+            "Lesser Summon Ghost"
+        ],
+        [
+            "Feign Death",
+            "Lesser Drain Health",
+            "Raise Dead",
+            "Consume Soul",
+            "Fortify Strength",
+            "Fortify Dexterity",
+            "Fortify Constitution",
+            "Fortify Intelligence",
+            "Fortify Wisdom",
+            "Fortify Charisma",
+            "Fortify Thac0",
+            "Fortify AC",
+            "Drain Strength",
+            "Drain Dexterity",
+            "Drain Constitution",
+            "Drain Intelligence",
+            "Drain Wisdom",
+            "Drain Charisma",
+            "Drain Thac0",
+            "Drain AC"
+        ],
+        [
+            "Cloud of Spores",
+            "Soul Drain",
+            "Summon Zombie"
+        ],
+        [
+            "Greater Detect Dead",
+            "Greater Conceal Dead",
+            "Summon Skeleton",
+            "Lesser Summon Vampire",
+            "Summon Spectre",
+            "Mass Fright"
+        ],
+        [
+            "Greater Detect Undead",
+            "Greater Conceal Undead",
+            "Summon Ghost"
+        ],
+        [
+            "Greater Control Earth"
+        ],
+        [
+            "Greater Feign Death",
+            "Drain Health",
+            "Snakebite Curse",
+            "Bone Shard",
+            "Greater Raise Dead"
+        ],
+        [],
+        [
+            "Greater Summon Zombie",
+            "Summon Vampire"
+        ],
+        [
+            "Master Detect Dead",
+            "Master Conceal Dead",
+            "Greater Summon Skeleton"
+        ],
+        [
+            "Master Detect Undead",
+            "Master Conceal Undead",
+            "Neurotoxin Wave",
+            "Wail of the Forgotten",
+            "Greater Summon Ghost"
+        ],
+        [
+            "Master Feign Death",
+            "Greater Drain Health"
+        ],
+        [
+            "Master Control Erath"
+        ],
+        [
+            "Greater Summon Vampire"
+        ],
+        [
+            "Master Summon Zombie"
+        ],
+        [
+            "Master Summon Skeleton"
+        ],
+        [
+            "Master Drain Health",
+            "Plague Burst",
+            "Black Sun",
+            "Master Raise Dead",
+            "Master Summon Vampire",
+            "Master Summon Ghost"
         ]
-    },
+    ]
+},
     {
         "url": "pythonmage",
         "name": "Python Mage",

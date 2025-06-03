@@ -1,2398 +1,468 @@
 [
   {
-    "url": "spiderclimb",
-    "name": "Spider Climb",
-    "description": "Allows the target to climb walls like Spiderman. ",
-    "cost": "16 mana",
-    "damage_roll": null,
-    "damage_count": null,
-    "price": 800
-  },
-  {
-    "url": "flame",
-    "name": "Flame",
-    "description": "Creates a small flame in front of the user's palm. ",
-    "cost": "3 mana",
-    "damage_roll": "d6",
-    "damage_count": "1",
-    "price": 150
-  },
-  {
-    "url": "acidsplash",
-    "name": "Acid Splash",
-    "description": "Lob a glob of acid towards your target. It splashes with a 2.5 foot radius. ",
-    "cost": "4 mana",
-    "damage_roll": "d6",
-    "damage_count": "1",
-    "price": 200
-  },
-  {
-    "url": "chilltouch",
-    "name": "Chill Touch",
-    "description": "Attach a skeletal hand to the target that prevents them from regaining health until your next turn. ",
-    "cost": "8 mana",
-    "damage_roll": "d8",
-    "damage_count": "1",
-    "price": 400
-  },
-  {
-    "url": "controlflames",
-    "name": "Control Flames",
-    "description": "You control flames that fit into a 5 by 5ft cube. You may do one of the following things: expand the flame 5ft in one direction, extinguish the flames, brighten or dim the light caused by the flame, or shape the flames. ",
-    "cost": "5 mana",
-    "damage_roll": null,
-    "damage_count": null,
-    "price": 250
-  },
-  {
-    "url": "createbonfire",
-    "name": "Create Bonfire",
-    "description": "Creates a bonfire on the ground with a 2.5ft radius. Can light fires and deal damage. ",
-    "cost": "6 mana",
-    "damage_roll": "d8",
-    "damage_count": "1",
-    "price": 300
-  },
-  {
-    "url": "dancinglights",
-    "name": "Dancing Lights",
-    "description": "Create 4 dancing lights that shine light in a 10ft radius. May be controlled for an additional action. ",
-    "cost": "2 mana",
-    "damage_roll": null,
-    "damage_count": null,
-    "price": 100
-  },
-  {
-    "url": "suggestion",
-    "name": "Suggestion",
-    "description": "Makes a target complete a non-harmful action. Target makes. wisdom saving throw. ",
-    "cost": "20 mana",
-    "damage_roll": null,
-    "damage_count": null,
-    "price": 1000
-  },
-  {
-    "url": "wardingwind",
-    "name": "Warding Wind",
-    "description": "Creates a gust of 20 mph wind around you in a 10ft radius. Lasts 10 minutes. The wind deafens you and everyone in the area, extinguishes unprotected flames, disadvantages ranged attacks if that pass through the wind.",
-    "cost": "18 mana",
-    "damage_roll": null,
-    "damage_count": null,
-    "price": 900
-  },
-  {
-    "url": "stride",
-    "name": "Stride",
-    "description": "Allows the target to run 30mph. ",
-    "cost": "25 mph",
-    "damage_roll": null,
-    "damage_count": null,
-    "price": 1250
-  },
-  {
-    "url": "blink",
-    "name": "Blink",
-    "description": "Allows you to teleport 10ft away.",
-    "cost": "10 mana",
-    "damage_roll": null,
-    "damage_count": null,
-    "price": 500
-  },
-  {
-    "url": "friends",
-    "name": "Friends",
-    "description": "Gives you advantage on all charisma rolls against your target for one minute. The target will realize that the spell was active once it is over.",
-    "cost": "20 mana",
-    "damage_roll": null,
-    "damage_count": null,
-    "price": 1000
-  },
-  {
-    "url": "gust",
-    "name": "Gust",
-    "description": "Allows you to control the air in one of the following ways: push a creature of human size or less up to 5ft away from you (can be blocked by strength check), push a small object up to 10ft away, create a gust of wind to blow through the area around you. ",
-    "cost": "4 mana",
-    "damage_roll": null,
-    "damage_count": null,
-    "price": 200
-  },
-  {
-    "url": "magehand",
-    "name": "Mage Hand",
-    "description": "Summons a controllable spectral hand that can be used up to 30ft away.",
-    "cost": "3 mana",
-    "damage_roll": null,
-    "damage_count": null,
-    "price": 150
-  },
-  {
-    "url": "mending",
-    "name": "Mending",
-    "description": "Restores a small crack or break in an object. It leaves no trace of former damage. ",
-    "cost": "2 mana",
-    "damage_roll": null,
-    "damage_count": null,
-    "price": 100
-  },
-  {
-    "url": "minorillusion",
-    "name": "Minor Illusion",
-    "description": "Create either a sound (whisper to scream) or an image (fits within a 5ft cube). Lasts 1 minute.",
-    "cost": "12 mana",
-    "damage_roll": null,
-    "damage_count": null,
-    "price": 600
-  },
-  {
-    "url": "poisonspray",
-    "name": "Poison Spray",
-    "description": "Release a puff of poison smoke towards the target. Target must make a constitution roll or they take damage. ",
-    "cost": "10 mana",
-    "damage_roll": "d12",
-    "damage_count": "1",
-    "price": 500
-  },
-  {
-    "url": "rayoffrost",
-    "name": "Ray of Frost",
-    "description": "Fire a beam of blue-white frost toward the target. ",
-    "cost": "7 mana",
-    "damage_roll": "d8",
-    "damage_count": "1",
-    "price": 350
-  },
-  {
-    "url": "shapewater",
-    "name": "Shape Water",
-    "description": "You man do one of the following to a 5ft cubed amount of water: move water 5ft in one direction, shape the water, change the color or opacity, or freeze the water if there is no one in it.",
-    "cost": "6 mana. ",
-    "damage_roll": null,
-    "damage_count": null,
-    "price": 300
-  },
-  {
-    "url": "thunderclap",
-    "name": "Thunderclap",
-    "description": "Creates a loud burst of sound that can be heard up to 100ft away. Each target in range must make a constitution roll or suffer damage. ",
-    "cost": "11 mana",
-    "damage_roll": "d6",
-    "damage_count": "1",
-    "price": 550
-  },
-  {
-    "url": "truestrike",
-    "name": "True Strike",
-    "description": "Informs the user of the targets weaknesses.",
-    "cost": "9 mana",
-    "damage_roll": null,
-    "damage_count": null,
-    "price": 450
-  },
-  {
-    "url": "acidstream",
-    "name": "Acid Stream",
-    "description": "Sprays the target with acid. ",
-    "cost": "10 mana",
-    "damage_roll": "d4",
-    "damage_count": "3",
-    "price": 500
-  },
-  {
-    "url": "alarm",
-    "name": "Alarm",
-    "description": "Creates an area that notifies you when an unwanted creature enters the area. Can be mental or audible, triggers up to 1 mile away. ",
-    "cost": "9 mana",
-    "damage_roll": null,
-    "damage_count": null,
-    "price": 450
-  },
-  {
-    "url": "burninghands",
-    "name": "Burning Hands",
-    "description": "Shoots a sheet of flames out from your fingertips. ",
-    "cost": "12 mana",
-    "damage_roll": "d6",
-    "damage_count": "3",
-    "price": 600
-  },
-  {
-    "url": "charmperson",
-    "name": "Charm Person",
-    "description": "Attempt to charm a humanoid target. Target must make a wisdom saving roll to avoid the charm.",
-    "cost": "10 mana",
-    "damage_roll": null,
-    "damage_count": null,
-    "price": 500
-  },
-  {
-    "url": "chromaticorb",
-    "name": "Chromatic Orb",
-    "description": "Fires an orb of either acid, ice, fire, lightning, earth, or poison.",
-    "cost": "12 mana",
-    "damage_roll": "d8",
-    "damage_count": "3",
-    "price": 600
-  },
-  {
-    "url": "comprehendlanguages",
-    "name": "Comprehend Languages",
-    "description": "Understand the literal meaning of any spoken language. You must be touching the speaker. ",
-    "cost": "10 mana",
-    "damage_roll": null,
-    "damage_count": null,
-    "price": 500
-  },
-  {
-    "url": "detectmagic",
-    "name": "Detect Magic",
-    "description": "Detects magic within a 30ft area. ",
-    "cost": "15 mana",
-    "damage_roll": null,
-    "damage_count": null,
-    "price": 750
-  },
-  {
-    "url": "falselife",
-    "name": "False Life",
-    "description": "Temporarily give a target 1d4 + 4 health. Lasts 1hr. ",
-    "cost": "6 mana",
-    "damage_roll": null,
-    "damage_count": null,
-    "price": 300
-  },
-  {
-    "url": "featherfall",
-    "name": "Feather Fall",
-    "description": "Slows the rate of fall of a target. Target takes no fall damage. ",
-    "cost": "3 mana",
-    "damage_roll": null,
-    "damage_count": null,
-    "price": 150
-  },
-  {
-    "url": "fogcloud",
-    "name": "Fog Cloud",
-    "description": "Creates a 20ft cloud of opaque fog. ",
-    "cost": "10 mana",
-    "damage_roll": null,
-    "damage_count": null,
-    "price": 500
-  },
-  {
-    "url": "frostfingers",
-    "name": "Frost Fingers",
-    "description": "Launches a blast of frost from your fingertips.",
-    "cost": "8 mana",
-    "damage_roll": "d8",
-    "damage_count": "2",
-    "price": 400
-  },
-  {
-    "url": "grease",
-    "name": "Grease",
-    "description": "Creates a 10ft puddle of grease. Any creatures on the grease must make a dexterity roll or they fall. ",
-    "cost": "8 mana",
-    "damage_roll": null,
-    "damage_count": null,
-    "price": 400
-  },
-  {
-    "url": "lesserheal",
-    "name": "Lesser Heal ",
-    "description": "Heals target for 2d4 + 2 health. ",
-    "cost": "6 mana",
-    "damage_roll": null,
-    "damage_count": null,
-    "price": 300
-  },
-  {
-    "url": "identify",
-    "name": "Identify",
-    "description": "Identifies an item upon touch. ",
-    "cost": "8 mana",
-    "damage_roll": null,
-    "damage_count": null,
-    "price": 400
-  },
-  {
-    "url": "magicmissile",
-    "name": "Magic Missile",
-    "description": "Launches a missile that cannot be evaded. ",
-    "cost": "12 mana",
-    "damage_roll": "d6",
-    "damage_count": "3",
-    "price": 600
-  },
-  {
-    "url": "senseemotion",
-    "name": "Sense Emotion",
-    "description": "Allows you to sense the emotions of people around you. Works up to 30ft.",
-    "cost": "13 mana",
-    "damage_roll": null,
-    "damage_count": null,
-    "price": 650
-  },
-  {
-    "url": "airbubble",
-    "name": "Air Bubble",
-    "description": "Creates a bubble around the target's head. Lasts a full day. ",
-    "cost": "15 mana",
-    "damage_roll": null,
-    "damage_count": null,
-    "price": 750
-  },
-  {
-    "url": "arcanelock",
-    "name": "Arcane Lock",
-    "description": "Creates a lock on a container or door. Lasts until unlocked. ",
-    "cost": "15 mana",
-    "damage_roll": null,
-    "damage_count": null,
-    "price": 750
-  },
-  {
-    "url": "augury",
-    "name": "Augury",
-    "description": "Reveals the result of a given action. Can either be weal (good), woe (bad), weal and woe, or nothing. ",
-    "cost": "24 mana",
-    "damage_roll": null,
-    "damage_count": null,
-    "price": 1200
-  },
-  {
-    "url": "continualflame",
-    "name": "Continual Flame",
-    "description": "Creates a small flame that makes no heat. Continues to burn until dispelled. ",
-    "cost": "12 mana",
-    "damage_roll": null,
-    "damage_count": null,
-    "price": 600
-  },
-  {
-    "url": "darkvision",
-    "name": "Darkvision",
-    "description": "Allows the target to see in the dark. ",
-    "cost": "12 mana",
-    "damage_roll": null,
-    "damage_count": null,
-    "price": 600
-  },
-  {
-    "url": "invisibility",
-    "name": "Invisibility",
-    "description": "Makes the target invisible, can be cast on another person through touch. Invisibility is lost when attacking, casting a spell, or after an hour passed. ",
-    "cost": "15 mana",
-    "damage_roll": null,
-    "damage_count": null,
-    "price": 750
-  },
-  {
-    "url": "levitate",
-    "name": "Levitate",
-    "description": "Levitate an object under 500lbs up to 20ft. ",
-    "cost": "12 mana",
-    "damage_roll": null,
-    "damage_count": null,
-    "price": 600
-  },
-  {
-    "url": "locateobject",
-    "name": "Locate Object",
-    "description": "Locate an object that you own up to 1000ft away from you. ",
-    "cost": "9 mana",
-    "damage_roll": null,
-    "damage_count": null,
-    "price": 450
-  },
-  {
-    "url": "acidarrow",
-    "name": "Acid Arrow",
-    "description": "launches an acid arrow towards the target. Does half damage if arrow doesn't hit the target. ",
-    "cost": "16 mana",
-    "damage_roll": "d4",
-    "damage_count": "6",
-    "price": 800
-  },
-  {
-    "url": "seeinvisibility",
-    "name": "See Invisibility",
-    "description": "Allows the target to see invisibility including ghosts. ",
-    "cost": "25 mana",
-    "damage_roll": null,
-    "damage_count": null,
-    "price": 1250
-  },
-  {
-    "url": "counterspell",
-    "name": "Counterspell",
-    "description": "Counter a spell being cast, may be used once per round even if a spell has been cast. Roll contested wisdom against the caster. Regardless if the counterspell is successful or not, you lose your next action and are unable to use counterspell until your next turn. You must be able to use the same kind of magic as the spell being countered. ",
-    "cost": "Double the cost of the spell being cast. ",
-    "damage_roll": null,
-    "damage_count": null,
-    "price": 10000
-  },
-  {
-    "url": "dispelmagic",
-    "name": "Dispel Magic",
-    "description": "Dispels a lingering spell. ",
-    "cost": "Double the cost of the dispelled spell",
-    "damage_roll": null,
-    "damage_count": null,
-    "price": 10000
-  },
-  {
-    "url": "eruptingearth",
-    "name": "Erupting Earth",
-    "description": "Stone erupts out of the ground in a 20ft area. ",
-    "cost": "22 mana",
-    "damage_roll": "d12",
-    "damage_count": "3",
-    "price": 1100
-  },
-  {
-    "url": "feigndeath",
-    "name": "Feign Death",
-    "description": "A willing target is put into a state indistinguishable from death for an hour. ",
-    "cost": "16 mana",
-    "damage_roll": null,
-    "damage_count": null,
-    "price": 800
-  },
-  {
-    "url": "fireball",
-    "name": "Fireball",
-    "description": "Launches a fireball at the target. Has a chance of setting things on fire. ",
-    "cost": "24 mana",
-    "damage_roll": "d6",
-    "damage_count": "8",
-    "price": 1200
-  },
-  {
-    "url": "fly",
-    "name": "Fly",
-    "description": "Allows the target to fly at 30mph for 10 minutes. ",
-    "cost": "21 mana",
-    "damage_roll": null,
-    "damage_count": null,
-    "price": 1050
-  },
-  {
-    "url": "haste",
-    "name": "Haste",
-    "description": "Target gains advantage on dexterity rolls and an additional non-magical attack. ",
-    "cost": "20 mana",
-    "damage_roll": null,
-    "damage_count": null,
-    "price": 1000
-  },
-  {
-    "url": "intellectfortress",
-    "name": "Intellect Fortress",
-    "description": "Gives the user advantage on intelligence and wisdom saving and contested rolls. ",
-    "cost": "23 mana",
-    "damage_roll": null,
-    "damage_count": null,
-    "price": 1150
-  },
-  {
-    "url": "lightningbolt",
-    "name": "Lightning Bolt",
-    "description": "Strikes the target creature with lightning. ",
-    "cost": "24 mana",
-    "damage_roll": "d6",
-    "damage_count": "8",
-    "price": 1200
-  },
-  {
-    "url": "majorillusion",
-    "name": "Major Illusion",
-    "description": "Creates an illusion that is no larger than 20ft in any direction. ",
-    "cost": "17 mana",
-    "damage_roll": null,
-    "damage_count": null,
-    "price": 850
-  },
-  {
-    "url": "wallofsand",
-    "name": "Wall of Sand",
-    "description": "Creates a wall of sand up to 30ft long, 10ft high, and 10ft thick. ",
-    "cost": "21 mana",
-    "damage_roll": null,
-    "damage_count": null,
-    "price": 1050
-  },
-  {
-    "url": "wallofwater",
-    "name": "Wall of Water",
-    "description": "Creates a wall of water that is 30ft long, 10ft high, and 1 foot thick. ",
-    "cost": "19 mana",
-    "damage_roll": null,
-    "damage_count": null,
-    "price": 950
-  },
-  {
-    "url": "waterbreathing",
-    "name": "Water Breathing",
-    "description": "Gives up to 10 willing creatures the ability to breathe underwater. ",
-    "cost": "30 mana",
-    "damage_roll": null,
-    "damage_count": null,
-    "price": 1500
-  },
-  {
-    "url": "arcaneeye",
-    "name": "Arcane Eye",
-    "description": "Summons an invisible floating eye that you can control and see from, from up to 30ft away. The eye has both normal and dark vision. ",
-    "cost": "16 mana",
-    "damage_roll": null,
-    "damage_count": null,
-    "price": 800
-  },
-  {
-    "url": "banishment",
-    "name": "Banishment",
-    "description": "Temporarily banish the target to its home plane. Target may make either a charisma or wisdom saving throw to prevent banishment. ",
-    "cost": "40 mana",
-    "damage_roll": null,
-    "damage_count": null,
-    "price": 2000
-  },
-  {
-    "url": "blight",
-    "name": "Blight",
-    "description": "Removes life force from the target. Has no effect on undead or constructs. ",
-    "cost": "26 mana",
-    "damage_roll": "d8",
-    "damage_count": "8",
-    "price": 1300
-  },
-  {
-    "url": "charmmonster",
-    "name": "Charm Monster",
-    "description": "The targeted monster must make a wisdom roll or becomes charmed by the caster. If it is in combat, the monster gains advantage on its roll. Charm is broken if you or your companions harm the monster. ",
-    "cost": "30 mana",
-    "damage_roll": null,
-    "damage_count": null,
-    "price": 1500
-  },
-  {
-    "url": "confuse",
-    "name": "Confuse",
-    "description": "Roll a d10 the target does one of the following actions according to what is rolled: 1 the target moves in a random direction, 2-6 the target doesn't move or take actions, 7-8 the target must melee during its next action, or 9-10 the spell has no effect on the target. The target may make a wisdom saving throw to prevent confusion. ",
-    "cost": "32 mana",
-    "damage_roll": null,
-    "damage_count": null,
-    "price": 1600
-  },
-  {
-    "url": "controlwater",
-    "name": "Control Water",
-    "description": "You may control up to 100 cubic feet of water.",
-    "cost": "29 mana",
-    "damage_roll": null,
-    "damage_count": null,
-    "price": 1450
-  },
-  {
-    "url": "divination",
-    "name": "Divination",
-    "description": "Ask the DM a question relating to a specific goal or event, the DM responds truthfully in any way that they want. After casting this spell twice in one day, there is a cumulative 25% chance that the DM gives a random reading instead of the truth. ",
-    "cost": "50 mana",
-    "damage_roll": null,
-    "damage_count": null,
-    "price": 2500
-  },
-  {
-    "url": "elementalbane",
-    "name": "Elemental Bane",
-    "description": "Choose a type acid, cold, fire, or lightning. The target must make a constitution saving throw or lose all resistances to that type. The monster always takes damage from this attack under normal circumstances. ",
-    "cost": "26 mana",
-    "damage_roll": "d6",
-    "damage_count": "2",
-    "price": 1300
-  },
-  {
-    "url": "blacktentacles",
-    "name": "Black Tentacles",
-    "description": "Summons a group of black tentacles in a 20ft square area. Creatures in the area that fail a strength roll are restrained for their next turn. ",
-    "cost": "28 mana",
-    "damage_roll": "d6",
-    "damage_count": "3",
-    "price": 1400
-  },
-  {
-    "url": "gateseal",
-    "name": "Gate Seal",
-    "description": "Close all portals and planar travel within a 30ft radius. ",
-    "cost": "40 mana",
-    "damage_roll": null,
-    "damage_count": null,
-    "price": 2000
-  },
-  {
-    "url": "hallucinatoryterrain",
-    "name": "Hallucinatory Terrain",
-    "description": "The terrain within a 150 ft area appears as a natural terrain of your choosing. The terrain will match the real terrain's surface, making the hallucination more believable. ",
-    "cost": "31 mana",
-    "damage_roll": null,
-    "damage_count": null,
-    "price": 1550
-  },
-  {
-    "url": "icestorm",
-    "name": "Ice Storm",
-    "description": "Create a storm of ice that has a 20ft radius and is 40 feet high. Creatures inside the storm take damage. ",
-    "cost": "27 mana",
-    "damage_roll": "d8",
-    "damage_count": "5",
-    "price": 1350
-  },
-  {
-    "url": "stoneskin",
-    "name": "Stoneskin",
-    "description": "Makes the target as hard as stone while not impeding movement. Target gains resistance to physical damage. ",
-    "cost": "25 mana",
-    "damage_roll": null,
-    "damage_count": null,
-    "price": 1250
-  },
-  {
-    "url": "walloffire",
-    "name": "Wall of Fire",
-    "description": "Create a wall of fire that is 60ft long, 20ft high, and 1 foot thick. ",
-    "cost": "37 mana",
-    "damage_roll": "d8",
-    "damage_count": "5",
-    "price": 1850
-  },
-  {
-    "url": "coneofcold",
-    "name": "Cone of Cold",
-    "description": "Blasts the target with a wide cone of ice. ",
-    "cost": "34 mana",
-    "damage_roll": "d8",
-    "damage_count": "8",
-    "price": 1700
-  },
-  {
-    "url": "controlwinds",
-    "name": "Control Winds",
-    "description": "Control a 100ft cube area of wind up to strong blows that push creatures who fail a strength check. ",
-    "cost": "32 mana",
-    "damage_roll": null,
-    "damage_count": null,
-    "price": 1600
-  },
-  {
-    "url": "dominateperson",
-    "name": "Dominate Person",
-    "description": "Allows you to completely take over the mind of a person. The targeted person may make a wisdom saving throw and has advantage if it is being attacked. You may issue commands to the person without using an action. You make take full control over the person and act for them instead of yourself. If the person takes damage, they make a wisdom saving throw to break out of the domination. ",
-    "cost": "44 mana",
-    "damage_roll": null,
-    "damage_count": null,
-    "price": 2200
-  },
-  {
-    "url": "immolation",
-    "name": "Immolation",
-    "description": "The target is caught on fire by magical flames. After the first round of being on fire, the target makes a dexterity roll to extinguish the flames. The flames cannot be extinguished by nonmagical means. The target takes 3d8 damage each turn after being set on fire. ",
-    "cost": "41 mana",
-    "damage_roll": "d6",
-    "damage_count": "7",
-    "price": 2050
-  },
-  {
-    "url": "scrying",
-    "name": "Scrying",
-    "description": "You can see and hear a creature on the same plane as you. The target can make a wisdom saving throw to prevent scrying. Modifier for saving throw: +5 if you've heard of the target, +0 if you've met the target, -5 if you know the target well. ",
-    "cost": "43 mana",
-    "damage_roll": null,
-    "damage_count": null,
-    "price": 2150
-  },
-  {
-    "url": "skillempowerment",
-    "name": "Skill Empowerment",
-    "description": "Temporarily Improves a skill that a creature knows. Ex. Superior -> Epic. ",
-    "cost": "39 mana",
-    "damage_roll": null,
-    "damage_count": null,
-    "price": 1950
-  },
-  {
-    "url": "telekinesis",
-    "name": "Telekinesis",
-    "description": "You can move creatures or objects that weigh under 1000lbs. Creatures may make a strength check to resist telekinesis. ",
-    "cost": "38 mana",
-    "damage_roll": null,
-    "damage_count": null,
-    "price": 1900
-  },
-  {
-    "url": "temporalshunt",
-    "name": "Temporal Shunt",
-    "description": "Moves the target creature one turn into the future. Target may make a wisdom throw to prevent temporal shunt. ",
-    "cost": "46 mana",
-    "damage_roll": null,
-    "damage_count": null,
-    "price": 2300
-  },
-  {
-    "url": "legendlore",
-    "name": "Legend Lore",
-    "description": "Name or describe a person, place, or object. You receive a brief summary of the significant lore about that things. ",
-    "cost": "36 mana",
-    "damage_roll": null,
-    "damage_count": null,
-    "price": 1800
-  },
-  {
-    "url": "steelwindstrike",
-    "name": "Steel Wind Strike",
-    "description": "Create a spike of wind that flies into the target. ",
-    "cost": "43 mana",
-    "damage_roll": "d10",
-    "damage_count": "6",
-    "price": 2150
-  },
-  {
-    "url": "chainlightning",
-    "name": "Chain Lightning",
-    "description": "Releases a bolt of lightning that strikes a target and can leap to up to 3 other targets 30ft away. ",
-    "cost": "60 mana",
-    "damage_roll": "d8",
-    "damage_count": "10",
-    "price": 3000
-  },
-  {
-    "url": "disintegrate",
-    "name": "Disintegrate",
-    "description": "Release a green ray that disintegrates a creature or object. ",
-    "cost": "65 mana",
-    "damage_roll": "d10",
-    "damage_count": "10",
-    "price": 3250
-  },
-  {
-    "url": "globeofinvulnerability",
-    "name": "Globe of Invulnerability",
-    "description": "An immobile and impenetrable globe with a 10ft radius is created around you. Lasts up to 1 minute or until it is dispelled. ",
-    "cost": "59",
-    "damage_roll": null,
-    "damage_count": null,
-    "price": 2950
-  },
-  {
-    "url": "investitureofflame",
-    "name": "Investiture of Flame",
-    "description": "The target becomes immune to fire. ",
-    "cost": "40 mana",
-    "damage_roll": null,
-    "damage_count": null,
-    "price": 2000
-  },
-  {
-    "url": "investitureofice",
-    "name": "Investiture of Ice",
-    "description": "The target becomes immune to cold. ",
-    "cost": "40 mana",
-    "damage_roll": null,
-    "damage_count": null,
-    "price": 2000
-  },
-  {
-    "url": "investitureofstone",
-    "name": "Investiture of Stone",
-    "description": "Target becomes immune to bludgeoning, piercing, and slashing from nonmagical weapons. ",
-    "cost": "40 mana",
-    "damage_roll": null,
-    "damage_count": null,
-    "price": 2000
-  },
-  {
-    "url": "investitureofwind",
-    "name": "Investiture of Wind",
-    "description": "Ranged attacks against the target have disadvantage and the target gains 30mph flight. ",
-    "cost": "40 mana",
-    "damage_roll": null,
-    "damage_count": null,
-    "price": 2000
-  },
-  {
-    "url": "scatter",
-    "name": "Scatter",
-    "description": "Teleport up to 5 creatures to a random place 120ft away from you. Targets may make a wisdom roll to prevent being teleported. ",
-    "cost": "67 mana",
-    "damage_roll": null,
-    "damage_count": null,
-    "price": 3350
-  },
-  {
-    "url": "trueseeing",
-    "name": "True Seeing",
-    "description": "Allows the user to see things how they truly are. ",
-    "cost": "55 mana",
-    "damage_roll": null,
-    "damage_count": null,
-    "price": 2750
-  },
-  {
-    "url": "animalmessenger",
-    "name": "Animal Messenger",
-    "description": "Send a small animal to send a message to another person in your voice. ",
-    "cost": null,
-    "damage_roll": null,
-    "damage_count": null,
-    "price": 10000
-  },
-  {
-    "url": "draconictransformation",
-    "name": "Draconic Transformation",
-    "description": "Turns you into a small dragon and gives you the following abilities: blindsight - perfectly see anything that isn't fully behind cover up to 30ft, breath weapon - deals 6d8 damage of an element of your choice, wings - allows you to fly up to 30mph. ",
-    "cost": "70 mana",
-    "damage_roll": null,
-    "damage_count": null,
-    "price": 3500
-  },
-  {
-    "url": "powerwordpain",
-    "name": "Power Word Pain",
-    "description": "Causes a target under 100 health to suffer severe pain. While in pain the target has disadvantage on all rolls. The target may make a constitution saving throw to remove the effects. ",
-    "cost": "56 mana",
-    "damage_roll": null,
-    "damage_count": null,
-    "price": 2800
-  },
-  {
-    "url": "reversegravity",
-    "name": "Reverse Gravity",
-    "description": "Reverse gravity in a 50ft area. Creatures inside may make a dexterity saving throw to grab onto a fixed object. ",
-    "cost": "58 mana",
-    "damage_roll": null,
-    "damage_count": null,
-    "price": 2900
-  },
-  {
-    "url": "teleport",
-    "name": "Teleport",
-    "description": "Teleport you and 8 willing creatures to anywhere in sight within a mile. ",
-    "cost": "53 mana",
-    "damage_roll": null,
-    "damage_count": null,
-    "price": 2650
-  },
-  {
-    "url": "whirlwind",
-    "name": "Whirlwind",
-    "description": "Creates a whirlwind that races towards your target. Any creature caught in the whirlwind suffers damage and must make either a dexterity or strength saving throw to avoid being swept into the whirlwind. ",
-    "cost": "57 mana",
-    "damage_roll": "d6",
-    "damage_count": "10",
-    "price": 2850
-  },
-  {
-    "url": "planeshift",
-    "name": "Plane Shift",
-    "description": "Teleport you and 8 other willing creatures to another plane of existence.",
-    "cost": "100 mana",
-    "damage_roll": null,
-    "damage_count": null,
-    "price": 5000
-  },
-  {
-    "url": "etheralness",
-    "name": "Etheralness",
-    "description": "You gain the properties of a ghost, become invisible, and can walk through solid objects. ",
-    "cost": "48 mana",
-    "damage_roll": null,
-    "damage_count": null,
-    "price": 2400
-  },
-  {
-    "url": "antimagicfield",
-    "name": "Antimagic Field",
-    "description": "Creates an 10ft spherical volume around you where magic does not exist. No spells can enter or be cast and magic items are rendered mundane. ",
-    "cost": "80 mana",
-    "damage_roll": null,
-    "damage_count": null,
-    "price": 4000
-  },
-  {
-    "url": "controlweather",
-    "name": "Control Weather",
-    "description": "Control the weather up to heavy rain and wind within a 5 mile area. ",
-    "cost": "75 mana",
-    "damage_roll": null,
-    "damage_count": null,
-    "price": 3750
-  },
-  {
-    "url": "dominatemonster",
-    "name": "Dominate Monster",
-    "description": "Allows you to control a monster. The monster may make a wisdom saving throw to prevent being dominated. When dominated you can instruct the monster or take over their mind acting as them instead of yourself. Each time the monster takes damage it may make a wisdom roll to break out of the domination. ",
-    "cost": "85 mana",
-    "damage_roll": null,
-    "damage_count": null,
-    "price": 4250
-  },
-  {
-    "url": "incendiarycloud",
-    "name": "Incendiary Cloud",
-    "description": "Creates a 20ft cloud of smoke and burning ash. Lasts up to 1 minute or until a wind disperses it. ",
-    "cost": "64 mana",
-    "damage_roll": "d8",
-    "damage_count": "10",
-    "price": 3200
-  },
-  {
-    "url": "powerwordstun",
-    "name": "Power Word Stun",
-    "description": "Prevents a target under 150 health from making actions. The target may make a constitution roll every turn to break out of stun. ",
-    "cost": "90 mana",
-    "damage_roll": null,
-    "damage_count": null,
-    "price": 4500
-  },
-  {
-    "url": "telepathy",
-    "name": "Telepathy",
-    "description": "Establish a psychic link between you and a willing creature in your plane of existence. This link may be used to send messages or sensory information. ",
-    "cost": "78 mana",
-    "damage_roll": null,
-    "damage_count": null,
-    "price": 3900
-  },
-  {
-    "url": "sunburst",
-    "name": "Sunburst",
-    "description": "Creates a bright flash in a 60ft radius centered on a point of your choosing. Creatures in the light take damage and must make a constitution saving throw or become blind for the next turn. ",
-    "cost": "67 mana",
-    "damage_roll": "d6",
-    "damage_count": "12",
-    "price": 3350
-  },
-  {
-    "url": "astralprojection",
-    "name": "Astral Projection",
-    "description": "Create a spectral clone of yourself and up to 8 others in the astral plane that is tethered to your physical body. If you enter any other plane of existence your physical body is teleported to your astral projection. If the tether is broken you insanity die. ",
-    "cost": "120 mana",
-    "damage_roll": null,
-    "damage_count": null,
-    "price": 6000
-  },
-  {
-    "url": "foresight",
-    "name": "Foresight",
-    "description": "Allows the target to see slightly into the future. This target gains advantage on attack rolls and saving throws. ",
-    "cost": "130 mana",
-    "damage_roll": null,
-    "damage_count": null,
-    "price": 6500
-  },
-  {
-    "url": "meteorswarm",
-    "name": "Meteor Swarm",
-    "description": "Meteors rain from the sky in a 40ft area dealing fire damage to anyone inside. ",
-    "cost": "150 mana",
-    "damage_roll": "d6",
-    "damage_count": "40",
-    "price": 7500
-  },
-  {
-    "url": "powerwordkill",
-    "name": "Power Word Kill",
-    "description": "Instantly kill a target under 100 health. ",
-    "cost": "100 mana",
-    "damage_roll": null,
-    "damage_count": null,
-    "price": 5000
-  },
-  {
-    "url": "timestop",
-    "name": "Time Stop",
-    "description": "Freeze time for everyone but yourself. You gain 2 free actions during this time. The spell ends if interact with any other creature or item that does not belong to you. ",
-    "cost": null,
-    "damage_roll": null,
-    "damage_count": null,
-    "price": 10000
-  },
-  {
-    "url": "wish",
-    "name": "Wish",
-    "description": "You may wish for one of the following: an item worth up to 1,000,000mp and no more than 300ft in any direction, allow up to 20 creatures to regain all health, grant up to 10 creatures resistance to any element for a day, grant up to 10 creatures immunity to a spell or magical effect for a day, force a reroll for any event that happened in the past day. This spell can only be cast once a week. Cannot be greater spell focused. ",
-    "cost": "180 mana",
-    "damage_roll": null,
-    "damage_count": null,
-    "price": 9000
-  },
-  {
-    "url": "summonblue",
-    "name": "Summon Blue",
-    "description": "Summons a blue colored minion that can heal other minions and players. Blues can sacrifice their lives for another minion's or heal a player for 1d6 hp. Blues cannot attack. Blue stats: hp 1, thac0 20, ac 10, str 5, dex 5, con 2, wis 1, int 1, cha 1. ",
-    "cost": "6 mana",
-    "damage_roll": null,
-    "damage_count": null,
-    "price": 300
-  },
-  {
-    "url": "summongreen",
-    "name": "Summon Green",
-    "description": "Summons a green colored minion who has every rogue skill except for incredible luck at 25%. Greens can also use any simple weapon. Green stats: hp 1, thac0 10, ac 5, str 5, dex 15, con 2, wis 1, int 1, cha 1. ",
-    "cost": "12 mana",
-    "damage_roll": null,
-    "damage_count": null,
-    "price": 600
-  },
-  {
-    "url": "summonred",
-    "name": "Summon Red",
-    "description": "Summons a red colored minion that can breathe fire. Reds can only attack with their fire breathe dealing 1d6 fire damage. Red stats: hp 1, thac0 10, ac 10, str 5, dex 15, con 2, wis 1, int 1, cha 1. ",
-    "cost": "9 mana",
-    "damage_roll": null,
-    "damage_count": null,
-    "price": 450
-  },
-  {
-    "url": "summonbrown",
-    "name": "Summon Brown",
-    "description": "Summons a brown colored minion who can use simple weapons. Brown stats: hp 1, thac0 10, ac 10, str 5, con 2, dex 5, wis 1, int 1, cha 1.",
-    "cost": "5 mana",
-    "damage_roll": null,
-    "damage_count": null,
-    "price": 250
-  },
-  {
-    "url": "alterminion",
-    "name": "Alter Minion",
-    "description": "Add magical and nonmagical attributes to a minion. ",
-    "cost": "var",
-    "damage_roll": null,
-    "damage_count": null,
-    "price": 10000
-  },
-  {
-    "url": "druidcraft",
-    "name": "Druidcraft",
-    "description": "Do one of the following: create a tiny snow globe like effect that predicts the weather at that location for the next day, instantly make a flower bloom, a seed pod open, or a leaf bud bloom, or instantly snuff out a small fire. ",
-    "cost": null,
-    "damage_roll": null,
-    "damage_count": null,
-    "price": 10000
-  },
-  {
-    "url": "magicstone",
-    "name": "Magic Stone",
-    "description": "Create 3 magical rocks. If they are used for a ranged attack, increase the damage of that attack by 1d10.",
-    "cost": null,
-    "damage_roll": null,
-    "damage_count": null,
-    "price": 10000
-  },
-  {
-    "url": "primalsavagery",
-    "name": "Primal Savagery",
-    "description": "Make your teeth and fingernails sharpen. If you make a melee attack, deal 1d10 extra acid damage. Once you make your attack, return to normal. ",
-    "cost": null,
-    "damage_roll": null,
-    "damage_count": null,
-    "price": 10000
-  },
-  {
-    "url": "thornwhip",
-    "name": "Thorn Whip",
-    "description": "Create a thorny vine that lashes out towards your target. ",
-    "cost": null,
-    "damage_roll": "d6",
-    "damage_count": "1",
-    "price": 10000
-  },
-  {
-    "url": "animalfriendship",
-    "name": "Animal Friendship",
-    "description": "Convince an animal that you mean no harm. Does not work on an animal with intelligence over 4. The animal makes a wisdom saving throw to prevent being charmed. ",
-    "cost": null,
-    "damage_roll": null,
-    "damage_count": null,
-    "price": 10000
-  },
-  {
-    "url": "createordestroywater",
-    "name": "Create or Destroy Water",
-    "description": "Create or Destroy up to 10 gallons of water.",
-    "cost": null,
-    "damage_roll": null,
-    "damage_count": null,
-    "price": 10000
-  },
-  {
-    "url": "curewounds",
-    "name": "Cure Wounds",
-    "description": "Heal the target for 2d8 health. ",
-    "cost": null,
-    "damage_roll": null,
-    "damage_count": null,
-    "price": 10000
-  },
-  {
-    "url": "entangle",
-    "name": "Entangle",
-    "description": "Vines sprout in a 20ft area. Creatures inside need to make a strength check or be restrained. ",
-    "cost": null,
-    "damage_roll": null,
-    "damage_count": null,
-    "price": 10000
-  },
-  {
-    "url": "purifyfoodanddrink",
-    "name": "Purify Food and Drink",
-    "description": "Remove poison from food in a 5ft area. ",
-    "cost": null,
-    "damage_roll": null,
-    "damage_count": null,
-    "price": 10000
-  },
-  {
-    "url": "speakwithanimals",
-    "name": "Speak with Animals",
-    "description": "Allows you to verbally communicate with an animal. ",
-    "cost": null,
-    "damage_roll": null,
-    "damage_count": null,
-    "price": 10000
-  },
-  {
-    "url": "beastsense",
-    "name": "Beast Sense",
-    "description": "See and hear through a friendly animal's eyes and ears. ",
-    "cost": null,
-    "damage_roll": null,
-    "damage_count": null,
-    "price": 10000
-  },
-  {
-    "url": "heatmetal",
-    "name": "Heat Metal",
-    "description": "Heat metal until it's glowing hot. Anything touching the metal takes 2d8 damage. ",
-    "cost": null,
-    "damage_roll": null,
-    "damage_count": null,
-    "price": 10000
-  },
-  {
-    "url": "locateanimalsorplants",
-    "name": "Locate Animals or Plants",
-    "description": "Name or Describe a kind of animal or plant. If there is one within 5 miles, receive the distance and direction of your animal or plant. ",
-    "cost": null,
-    "damage_roll": null,
-    "damage_count": null,
-    "price": 10000
-  },
-  {
-    "url": "spikegrowth",
-    "name": "Spike Growth",
-    "description": "Create thorns on the ground in a 20ft area. Every 5ft a creature travels in that area, they take 2d4 damage. ",
-    "cost": null,
-    "damage_roll": null,
-    "damage_count": null,
-    "price": 10000
-  },
-  {
-    "url": "auraofvitality",
-    "name": "Aura of Vitality",
-    "description": "You radiate healing, you and one other person heal 2d6 health. ",
-    "cost": null,
-    "damage_roll": null,
-    "damage_count": null,
-    "price": 10000
-  },
-  {
-    "url": "calllightning",
-    "name": "Call Lightning",
-    "description": "Summon a lightning bolt to strike an enemy. ",
-    "cost": null,
-    "damage_roll": "d10",
-    "damage_count": "3",
-    "price": 10000
-  },
-  {
-    "url": "conjureanimals",
-    "name": "Conjure Animals",
-    "description": "Summons a bunch of small creatures that obey you. ",
-    "cost": null,
-    "damage_roll": null,
-    "damage_count": null,
-    "price": 10000
-  },
-  {
-    "url": "summonbeast",
-    "name": "Summon Beast",
-    "description": "Summon a nonmagical animal to fight for you. ",
-    "cost": null,
-    "damage_roll": null,
-    "damage_count": null,
-    "price": 10000
-  },
-  {
-    "url": "plantgrowth",
-    "name": "Plant Growth",
-    "description": "All plants within a 100ft circle of you become thick and overgrown. You may exclude areas from growing. ",
-    "cost": null,
-    "damage_roll": null,
-    "damage_count": null,
-    "price": 10000
-  },
-  {
-    "url": "speakwithplants",
-    "name": "Speak with Plants",
-    "description": "Gives plants within a 30ft area of you limited sentience and the ability to communicate with you. ",
-    "cost": null,
-    "damage_roll": null,
-    "damage_count": null,
-    "price": 10000
-  },
-  {
-    "url": "summonfey",
-    "name": "Summon Fey",
-    "description": "Summon a small fey that is willing to fight for you. ",
-    "cost": null,
-    "damage_roll": null,
-    "damage_count": null,
-    "price": 10000
-  },
-  {
-    "url": "waterwalk",
-    "name": "Water Walk",
-    "description": "Allows the target to walk over any liquid. ",
-    "cost": null,
-    "damage_roll": null,
-    "damage_count": null,
-    "price": 10000
-  },
-  {
-    "url": "conjurewoodlandbeings",
-    "name": "Conjure Woodland Beings",
-    "description": "Summon a group of fey that obey you. ",
-    "cost": null,
-    "damage_roll": null,
-    "damage_count": null,
-    "price": 10000
-  },
-  {
-    "url": "conjureminorelementals",
-    "name": "Conjure Minor Elementals",
-    "description": "Summon a group of minor elementals that obey your command. ",
-    "cost": null,
-    "damage_roll": null,
-    "damage_count": null,
-    "price": 10000
-  },
-  {
-    "url": "dominatebeast",
-    "name": "Dominate Beast",
-    "description": "Allows you to control an Animal. The animal may make a wisdom saving throw to prevent being dominated. When dominated you can instruct the animal or take over their mind acting as them instead of yourself. Each time the animal takes damage it may make a wisdom roll to break out of the domination. ",
-    "cost": null,
-    "damage_roll": null,
-    "damage_count": null,
-    "price": 10000
-  },
-  {
-    "url": "giantinsect",
-    "name": "Giant Insect",
-    "description": "Grow an insect into a giant version of itself for 10 minutes. ",
-    "cost": null,
-    "damage_roll": null,
-    "damage_count": null,
-    "price": 10000
-  },
-  {
-    "url": "graspingvine",
-    "name": "Grasping Vine",
-    "description": "Summons a large vine that lashes towards your target. If the target fails their strength saving throw, you can move them up to 20ft in any direction. ",
-    "cost": null,
-    "damage_roll": null,
-    "damage_count": null,
-    "price": 10000
-  },
-  {
-    "url": "conjureelemental",
-    "name": "Conjure Elemental",
-    "description": "Summons an elemental with an element of your choice. ",
-    "cost": null,
-    "damage_roll": null,
-    "damage_count": null,
-    "price": 10000
-  },
-  {
-    "url": "insectplague",
-    "name": "Insect Plague",
-    "description": "Summon a swarm of insects to harass your target and everything around it in a 20ft area. Everything in the swarm must make a constitution roll or take damage. ",
-    "cost": null,
-    "damage_roll": "d10",
-    "damage_count": "4",
-    "price": 10000
-  },
-  {
-    "url": "masscurewounds",
-    "name": "Mass Cure Wounds",
-    "description": "Choose up to 6 targets to heal 4d8 health. ",
-    "cost": null,
-    "damage_roll": null,
-    "damage_count": null,
-    "price": 10000
-  },
-  {
-    "url": "reincarnate",
-    "name": "Reincarnate",
-    "description": "Roll a d100 and revive a target as the following creature: 1-4 Dragonborn, 5-21 dwarf, 22-25 dark elf, 26-34 high elf, 35-42 wood elf, 43-52 gnome, 53-56 half-elf, 57-60 half-orc, 61-76 halfling, 77-96 human, 97-100 tiefling. ",
-    "cost": null,
-    "damage_roll": null,
-    "damage_count": null,
-    "price": 10000
-  },
-  {
-    "url": "summondraconicspirit",
-    "name": "Summon Draconic Spirit",
-    "description": "Summons a young dragon with a breathe weapon.",
-    "cost": null,
-    "damage_roll": null,
-    "damage_count": null,
-    "price": 10000
-  },
-  {
-    "url": "treestride",
-    "name": "Tree Stride",
-    "description": "Allows you to teleport between trees 500ft away from each other. ",
-    "cost": null,
-    "damage_roll": null,
-    "damage_count": null,
-    "price": 10000
-  },
-  {
-    "url": "communewithnature",
-    "name": "Commune with Nature",
-    "description": "You briefly become one with nature and gain knowledge of the following: terrain and bodies of water, prevalent plants, minerals, animals, or people, powerful celestials, fey, fiends, elementals, or undead, influence from other planes of existence, and buildings. ",
-    "cost": null,
-    "damage_roll": null,
-    "damage_count": null,
-    "price": 10000
-  },
-  {
-    "url": "conjurefey",
-    "name": "Conjure Fey",
-    "description": "Conjures a powerful fey to fight for you. ",
-    "cost": null,
-    "damage_roll": null,
-    "damage_count": null,
-    "price": 10000
-  },
-  {
-    "url": "fleshtostone",
-    "name": "Flesh to Stone",
-    "description": "Attempt to turn a creature you can see into stone. The creature may make a constitution saving throw to avoid being petrified. ",
-    "cost": null,
-    "damage_roll": null,
-    "damage_count": null,
-    "price": 10000
-  },
-  {
-    "url": "heros'feast",
-    "name": "Heros' Feast",
-    "description": "Summon a great feast which can feed up to 12 people. Those who partake in the feast are cured of all diseases and poison, become immune to poison and frighten for the next 8hrs, and have advantage on wisdom saving throws. They also gain 2d10 maximum health for 24hrs.  ",
-    "cost": null,
-    "damage_roll": null,
-    "damage_count": null,
-    "price": 10000
-  },
-  {
-    "url": "primordialward",
-    "name": "Primordial Ward",
-    "description": "Gain resistance to acid, cold, fire, and lightning for one minute. If you take damage from one of these types become immune to it for the rest of the duration. ",
-    "cost": null,
-    "damage_roll": null,
-    "damage_count": null,
-    "price": 10000
-  },
-  {
-    "url": "transportviaplants",
-    "name": "Transport via Plants",
-    "description": "Create a connection between a nearby large plant and another large plant in the same plane as you that you have interacted with. Any creatures that step into either large plant are teleported to the opposite connection. ",
-    "cost": null,
-    "damage_roll": null,
-    "damage_count": null,
-    "price": 10000
-  },
-  {
-    "url": "wallofthorns",
-    "name": "Wall of Thorns",
-    "description": "Summons a wall of thorns that is 60ft long, 10ft high, and 5ft thick. Any creatures caught in the wall take piercing damage. ",
-    "cost": null,
-    "damage_roll": "d8",
-    "damage_count": "7",
-    "price": 10000
-  },
-  {
-    "url": "windwalk",
-    "name": "Wind Walk",
-    "description": "Up to 10 willing creatures assume a gaseous form, gain resistance to nonmagical weapons, and are able to fly at 30mph. Creatures in this form can only move or turn back into their normal form. This effect lasts 8hrs unless cancelled. ",
-    "cost": null,
-    "damage_roll": null,
-    "damage_count": null,
-    "price": 10000
-  },
-  {
-    "url": "greaterrestoration",
-    "name": "Greater Restoration",
-    "description": "Remove one of the following effects from your target: charm, petrification, disadvantage for one roll, reduced max health. ",
-    "cost": null,
-    "damage_roll": null,
-    "damage_count": null,
-    "price": 10000
-  },
-  {
-    "url": "firestorm",
-    "name": "Fire Storm",
-    "description": "Summon a 10ft wide storm of fire dealing fire damage to anyone inside. ",
-    "cost": null,
-    "damage_roll": "d10",
-    "damage_count": "7",
-    "price": 10000
-  },
-  {
-    "url": "regenerate",
-    "name": "Regenerate",
-    "description": "Heal a target for 6d8 health. The target restores 1 health at the start of every turn for an hour. The target also restores any lost members or limbs after an hour. ",
-    "cost": null,
-    "damage_roll": null,
-    "damage_count": null,
-    "price": 10000
-  },
-  {
-    "url": "animalshapes",
-    "name": "Animal Shapes",
-    "description": "Turn any number of creatures into wild animals or beasts. This effect lasts up to 24hrs or until the creature dies. The creature gains the abilities and stats of their transformed beast. ",
-    "cost": null,
-    "damage_roll": null,
-    "damage_count": null,
-    "price": 10000
-  },
-  {
-    "url": "earthquake",
-    "name": "Earthquake",
-    "description": "Create a seismic disturbance with a 100ft radius. Creatures in the area take damage if they are on the ground. ",
-    "cost": null,
-    "damage_roll": null,
-    "damage_count": null,
-    "price": 10000
-  },
-  {
-    "url": "tsunami",
-    "name": "Tsunami",
-    "description": "Summon a wall of water that is 300ft long, 300ft tall, and 50ft thick. The wall moves 50ft away from you every round for 6 rounds. The wall does maximum damage on the first turn but loses 1d10 damage every round. Creatures hit by the wall take damage. ",
-    "cost": null,
-    "damage_roll": "d10",
-    "damage_count": "6",
-    "price": 10000
-  },
-  {
-    "url": "shapechange",
-    "name": "Shapechange",
-    "description": "Transform into any creature your level or below. Your stats and health are replaced by this creatures. This spell lasts up to 1hr, until it's dispelled, or you die. ",
-    "cost": null,
-    "damage_roll": null,
-    "damage_count": null,
-    "price": 10000
-  },
-  {
-    "url": "massrevive",
-    "name": "Mass Revive",
-    "description": "Bring any number of creatures back from the dead in a 30ft radius. ",
-    "cost": null,
-    "damage_roll": null,
-    "damage_count": null,
-    "price": 10000
-  },
-  {
-    "url": "revive",
-    "name": "Revive",
-    "description": "Revives one creature in sight whose soul is still intact. ",
-    "cost": null,
-    "damage_roll": null,
-    "damage_count": null,
-    "price": 10000
-  },
-  {
-    "url": "stormofvengeance",
-    "name": "Storm of Vengeance",
-    "description": "Creates a massive storm with a radius of 360ft around your target. The storm lasts 10 turns and does the following effects to the creatures under it for the specified turns: 1 creatures make a constitution saving throw, on fail take 2d6 damage and become deaf for 5 minutes. 2 Acid rain falls and deals 1d6 damage. 3 lightning bolts strike and deal 10d6 damage. 4 hailstones fall dealing 2d6 damage. 5-10 The area under the storm becomes a blizzard obstructing vision and making it hard to move, creatures take 1d6 damage. ",
-    "cost": null,
-    "damage_roll": null,
-    "damage_count": null,
-    "price": 10000
-  },
-  {
-    "url": "heal",
-    "name": "Heal",
-    "description": "Heal a target for 70 health. ",
-    "cost": "35 mana",
-    "damage_roll": null,
-    "damage_count": null,
-    "price": 1750
-  },
-  {
-    "url": "sparethedying",
-    "name": "Spare the Dying",
-    "description": "Touch a creature that is at exactly 0 health, stabilize their condition. ",
-    "cost": "5 mana",
-    "damage_roll": null,
-    "damage_count": null,
-    "price": 250
-  },
-  {
-    "url": "blindness/deafness",
-    "name": "Blindness/Deafness",
-    "description": "Make a creature go either blind or deaf. That creature can make. constitution saving throw to avoid the effect. ",
-    "cost": "12 mana",
-    "damage_roll": null,
-    "damage_count": null,
-    "price": 600
-  },
-  {
-    "url": "rayofenfeeblement",
-    "name": "Ray of Enfeeblement",
-    "description": "Shoot a black ray of energy at an opponent. Your target deals half damage with melee attacks until the start of your next turn. ",
-    "cost": "15 mana",
-    "damage_roll": null,
-    "damage_count": null,
-    "price": 750
-  },
-  {
-    "url": "revivify",
-    "name": "Revivify",
-    "description": "Touch a creature that has died in the past minute. That creature is revived with 1 health. ",
-    "cost": "20 mana",
-    "damage_roll": null,
-    "damage_count": null,
-    "price": 1000
-  },
-  {
-    "url": "animatedead",
-    "name": "Animate Dead",
-    "description": "Raise either a skeleton or corpse that you have access to. The body or skeleton become undead and will listen to your commands.",
-    "cost": "9 mana",
-    "damage_roll": null,
-    "damage_count": null,
-    "price": 450
-  },
-  {
-    "url": "speakwithdead",
-    "name": "Speak with Dead",
-    "description": "Speak with a corpse who has died in the past 10 days. This corpse only knows things that it did in life. ",
-    "cost": "8 mana",
-    "damage_roll": null,
-    "damage_count": null,
-    "price": 400
-  },
-  {
-    "url": "tollofthedead",
-    "name": "Toll of the Dead",
-    "description": "Your target hears the sound of a dolorous bell. If your target fails their wisdom saving throw, they take 1d8 damage if they're at full health and 1d12 damage if they're damaged. ",
-    "cost": "6 mana",
-    "damage_roll": null,
-    "damage_count": null,
-    "price": 300
-  },
-  {
-    "url": "inflictwounds",
-    "name": "Inflict Wounds",
-    "description": "Wounds open on your targets body",
-    "cost": "15 mana",
-    "damage_roll": "d10",
-    "damage_count": "3",
-    "price": 750
-  },
-  {
-    "url": "rayofsickness",
-    "name": "Ray of Sickness",
-    "description": "Shoot a green ray of energy toward your target dealing poison damage. ",
-    "cost": "8 mana",
-    "damage_roll": "d8",
-    "damage_count": "2",
-    "price": 400
-  },
-  {
-    "url": "summonundead",
-    "name": "Summon Undead",
-    "description": "Summons an undead creature that obeys your command. ",
-    "cost": "15 mana",
-    "damage_roll": null,
-    "damage_count": null,
-    "price": 750
-  },
-  {
-    "url": "vampirictouch",
-    "name": "Vampiric Touch",
-    "description": "Deal necrotic damage against your target and heal for half as much damage as you dealt. ",
-    "cost": "13 mana",
-    "damage_roll": "d6",
-    "damage_count": "3",
-    "price": 650
-  },
-  {
-    "url": "dansemacabre",
-    "name": "Danse Macabre",
-    "description": "Raise up to 5 small to medium corpses to fight for you. ",
-    "cost": "30 mana",
-    "damage_roll": null,
-    "damage_count": null,
-    "price": 1500
-  },
-  {
-    "url": "enervation",
-    "name": "Enervation",
-    "description": "Reach forward with a black tentacle that latches onto an enemy dealing damage. Heal for half as much damage as you deal. ",
-    "cost": "24 mana",
-    "damage_roll": "d8",
-    "damage_count": "4",
-    "price": 1200
-  },
-  {
-    "url": "negativeenergyflood",
-    "name": "Negative Energy Flood",
-    "description": "Summon a tidal wave of black energy. Any creatures caught in the flood take damage. If an enemy is killed by the flood, they are resurrected as a zombie who attacks whatever creature is closest to it. ",
-    "cost": "45",
-    "damage_roll": "d12",
-    "damage_count": "5",
-    "price": 2250
-  },
-  {
-    "url": "harm",
-    "name": "Harm",
-    "description": "Unleashes harmful energy against your target sapping their life force. ",
-    "cost": "42 mana",
-    "damage_roll": "d6",
-    "damage_count": "14",
-    "price": 2100
-  },
-  {
-    "url": "createundead",
-    "name": "Create Undead",
-    "description": "Raise up to 3 bodies and turn them into powerful ghouls. ",
-    "cost": "45 mana",
-    "damage_roll": null,
-    "damage_count": null,
-    "price": 2250
-  },
-  {
-    "url": "circleofdeath",
-    "name": "Circle of Death",
-    "description": "Every creature in a 60ft radius circular area takes necrotic damage. ",
-    "cost": "48 mana",
-    "damage_roll": "d8",
-    "damage_count": "6",
-    "price": 2400
-  },
-  {
-    "url": "fingerofdeath",
-    "name": "Finger of Death",
-    "description": "Point at a creature and deal necrotic damage. A humanoid killed by this spell becomes a zombie that follows your orders. ",
-    "cost": "50 mana",
-    "damage_roll": "d8",
-    "damage_count": "12",
-    "price": 2500
-  },
-  {
-    "url": "light",
-    "name": "Light",
-    "description": "An aura of light emanates around you. ",
-    "cost": "3 mana",
-    "damage_roll": null,
-    "damage_count": null,
-    "price": 150
-  },
-  {
-    "url": "darkness",
-    "name": "Darkness",
-    "description": "You absorb light around you creating a fog of darkness. ",
-    "cost": "3 mana",
-    "damage_roll": null,
-    "damage_count": null,
-    "price": 150
-  },
-  {
-    "url": "farsight",
-    "name": "Far Sight",
-    "description": "Allows you to see clearly up to a mile away almost like you're using binoculars. ",
-    "cost": "4 mana",
-    "damage_roll": null,
-    "damage_count": null,
-    "price": 200
-  },
-  {
-    "url": "anthorde",
-    "name": "Ant Horde",
-    "description": "Summons tons of controllable ant to help you fix things in hard to reach places. Attacking someone with these ants deals damage. ",
-    "cost": "7 mana",
-    "damage_roll": "d6",
-    "damage_count": "1",
-    "price": 350
-  },
-  {
-    "url": "inspiration",
-    "name": "Inspiration",
-    "description": "Allows you to fulfill a wisdom roll when crafting. The cost of this spell is equal to a tenth the cost of crafting in gathering points. This spell can be used if you fail a wisdom roll when crafting as well. This spell can only be used once per crafting attempt or round. ",
-    "cost": "var",
-    "damage_roll": null,
-    "damage_count": null,
-    "price": 10000
-  },
-  {
-    "url": "feignweakness",
-    "name": "Feign Weakness",
-    "description": "Your target appears to be in a weakened state, more vulnerable to attacks. ",
-    "cost": "9 mana",
-    "damage_roll": null,
-    "damage_count": null,
-    "price": 450
-  },
-  {
-    "url": "attentioninvisibility",
-    "name": "Attention Invisibility",
-    "description": "Makes it less likely for an enemy to attack or detect you. If you attack an enemy, they are no longer under this effect. This spell lasts 1 day. ",
-    "cost": "10 mana",
-    "damage_roll": null,
-    "damage_count": null,
-    "price": 500
-  },
-  {
-    "url": "sharpensenses",
-    "name": "Sharpen Senses",
-    "description": "Increases your abilities to sense things making it harder for people to sneak up on you and giving your advantage when trying to use a sense. ",
-    "cost": "7 mana",
-    "damage_roll": null,
-    "damage_count": null,
-    "price": 350
-  },
-  {
-    "url": "songoflostdreams",
-    "name": "Song of Lost Dreams",
-    "description": "Bardic Spell. Make a sleeping creature's dream a reality. This spell cannot create any artifact level items, influence the actions or minds of others, or true resurrect. This spell can only be used once a month. If used twice a month, the second cast is successful but the user falls into an eternal slumber. ",
-    "cost": "250 mana",
-    "damage_roll": null,
-    "damage_count": null,
-    "price": 12500
-  },
-  {
-    "url": "imbuemagicaldevice",
-    "name": "Imbue Magical Device",
-    "description": "Imbue a device with a magical spell that you or another mage possesses. Both you and the caster must pay the price for the spell in mana. If you are the caster pay double. ",
-    "cost": "var",
-    "damage_roll": null,
-    "damage_count": null,
-    "price": 10000
-  },
-  {
-    "url": "magicalenergyweb",
-    "name": "Magical Energy Web",
-    "description": "Launch a web of magic energy at your target restraining them. Your target may make a strength swing throw to break free. ",
-    "cost": "15 mana",
-    "damage_roll": null,
-    "damage_count": null,
-    "price": 750
-  },
-  {
-    "url": "magicaltrap",
-    "name": "Magical Trap",
-    "description": "Creates a magical trap with your design specifications. ",
-    "cost": "var",
-    "damage_roll": null,
-    "damage_count": null,
-    "price": 10000
-  },
-  {
-    "url": "truesight",
-    "name": "True Sight",
-    "description": "Allows you to see disguised doors and containers as well as low level invisibility. ",
-    "cost": "15 mana",
-    "damage_roll": null,
-    "damage_count": null,
-    "price": 750
-  },
-  {
-    "url": "conjuredevice",
-    "name": "Conjure Device",
-    "description": "Conjures a magical device of your specification. This conjuration is exponentially more expensive than crafting. ",
-    "cost": "var",
-    "damage_roll": null,
-    "damage_count": null,
-    "price": 10000
-  },
-  {
-    "url": "conjurevehicle",
-    "name": "Conjure Vehicle",
-    "description": "Conjures a magical vehicle of your specification. This conjuration is exponentially more expensive than crafting. ",
-    "cost": "var",
-    "damage_roll": null,
-    "damage_count": null,
-    "price": 10000
-  },
-  {
-    "url": "mimicspell",
-    "name": "Mimic Spell",
-    "description": "Mimic a spell you see cast. This costs twice as much Ana as the original cost and cannot exceed the original spell's greater spell focus. ",
-    "cost": "var",
-    "damage_roll": null,
-    "damage_count": null,
-    "price": 10000
-  },
-  {
-    "url": "modronmind",
-    "name": "Modron Mind",
-    "description": "Gives you resistance to mind and emotion magic for a day. ",
-    "cost": "25 mana",
-    "damage_roll": null,
-    "damage_count": null,
-    "price": 1250
-  },
-  {
-    "url": "increaseefficiency",
-    "name": "Increase Efficiency ",
-    "description": "Increases the effectiveness of a machine with a single task. That machine gains advantage when completing this task. ",
-    "cost": "30 mana",
-    "damage_roll": null,
-    "damage_count": null,
-    "price": 1500
-  },
-  {
-    "url": "createelements",
-    "name": "Create Elements",
-    "description": "Allows you to conjure gathering points at a ratio of 8 mana to 1 gather points. ",
-    "cost": "var",
-    "damage_roll": null,
-    "damage_count": null,
-    "price": 10000
-  },
-  {
-    "url": "summonminormodron",
-    "name": "Summon Minor Modron",
-    "description": "Summons a weak modron to fight for you. ",
-    "cost": "30 mana",
-    "damage_roll": null,
-    "damage_count": null,
-    "price": 1500
-  },
-  {
-    "url": "shapeenvironment",
-    "name": "Shape Environment",
-    "description": "Change the environment to suit your wishes. Price changes based on your specifications. ",
-    "cost": "var",
-    "damage_roll": null,
-    "damage_count": null,
-    "price": 10000
-  },
-  {
-    "url": "commandlawfulbeings",
-    "name": "Command Lawful Beings",
-    "description": "Force a lawfully aligned creature to obey your orders for an hour. The creature can make a wisdom saving throw to resist being controlled. If the creature is harmed by you or an ally, you lose command over the creature. ",
-    "cost": "50 mana",
-    "damage_roll": null,
-    "damage_count": null,
-    "price": 2500
-  },
-  {
-    "url": "summonmodron",
-    "name": "Summon Modron",
-    "description": "Summons a modron to fight for you. ",
-    "cost": "60 mana",
-    "damage_roll": null,
-    "damage_count": null,
-    "price": 3000
-  },
-  {
-    "url": "summonlawfulservant",
-    "name": "Summon Lawful Servant",
-    "description": "Summons a small lawful being to obey you command for a day. This lawful being will not fight for you. ",
-    "cost": "30 mana",
-    "damage_roll": null,
-    "damage_count": null,
-    "price": 1500
-  },
-  {
-    "url": "conjurestructure",
-    "name": "Conjure Structure",
-    "description": "Conjures a magical structure of your specification. This spell costs exponentially more than crafting. ",
-    "cost": "var",
-    "damage_roll": null,
-    "damage_count": null,
-    "price": 10000
-  },
-  {
-    "url": "re-energizeparty",
-    "name": "Re-Energize Party",
-    "description": "Fill your party with energy healing them for 1d10 and removing minor effects from lack of food or sleep. ",
-    "cost": "50 mana",
-    "damage_roll": null,
-    "damage_count": null,
-    "price": 2500
-  },
-  {
-    "url": "summonmajormodron",
-    "name": "Summon Major Modron",
-    "description": "Summons a powerful modron to fight for you. ",
-    "cost": "90 mana",
-    "damage_roll": null,
-    "damage_count": null,
-    "price": 4500
-  },
-  {
-    "url": "experimentalminion",
-    "name": "Experimental Minion",
-    "description": "Summons a minion described by the player. The price of this minion is increased if you havent created it with alter minion before. You may take your altered minion as a unique spell after casting it as experimental minion. ",
-    "cost": "var",
-    "damage_roll": null,
-    "damage_count": null,
-    "price": 10000
-  },
-  {
-    "url": "prismaticspray",
-    "name": "Prismatic Spray",
-    "description": "Roll a d8 and do the corresponding action. 1 red - target takes 10d6 fire damage. 2 orange - target takes 10d6 acid damage. 3 yellow - target takes 10d6 lightning damage. 4 green - target takes 10d6 poison damage. 5 blue - target takes 10d6 cold damage. 6 indigo - target makes 3 constitution saving throws, if it fails all three it is turned to stone. 7 violet - target makes a wisdom saving throw, if it fails target becomes blind until your next turn. 8 - reroll twice and do both actions. ",
-    "cost": "60 mana",
-    "damage_roll": "d6",
-    "damage_count": "10",
-    "price": 3000
-  },
-  {
-    "url": "detectdead/undead",
-    "name": "Detect Dead/Undead",
-    "description": "Detects both dead and undead in a 30ft radius. You cannot tell if what you detected is dead or undead. ",
-    "cost": "9 mana",
-    "damage_roll": null,
-    "damage_count": null,
-    "price": 450
-  },
-  {
-    "url": "irresistibledance",
-    "name": "Irresistible Dance",
-    "description": "Causes your target to dance preventing them from doing other actions. Your target can make. wisdom saving throw to stop dancing. ",
-    "cost": "40 mana",
-    "damage_roll": null,
-    "damage_count": null,
-    "price": 2000
-  },
-  {
-    "url": "shapereality",
-    "name": "Shape Reality",
-    "description": "Choose one of the following things: convert up to 100 cubic feet of a material to another, change a 50ft area of a terrain to another, create a structure from a nonmagical material that can fit into a 20ft cube. ",
-    "cost": "50 mana",
-    "damage_roll": null,
-    "damage_count": null,
-    "price": 2500
-  },
-  {
-    "url": "consumesoul",
-    "name": "Consume Soul",
-    "description": "Consume a captured soul, possibly gaining some of its abilities. If the soul is good, you must make a wisdom saving throw to resist dropping in alignment. If the soul is evil, it may try to curse you. ",
-    "cost": "80",
-    "damage_roll": null,
-    "damage_count": null,
-    "price": 4000
-  },
-  {
-    "url": "import",
-    "name": "Import",
-    "description": "Allows you to import a single spell from another class into your REPL.",
-    "cost": "9 mana",
-    "damage_roll": null,
-    "damage_count": null,
-    "price": 450
-  },
-  {
-    "url": "repl",
-    "name": "REPL",
-    "description": "Stands for Read-Eval-Print Loop which allows you to type lines of code to be executed one at a time. Writing any line of code costs 1 mana by default, calling a command costs the amount of mana that the function or spell would cost.",
-    "cost": "1 mana",
-    "damage_roll": null,
-    "damage_count": null,
-    "price": 50
-  },
-  {
-    "url": "lightlaser1",
-    "name": "Light Laser 1",
-    "description": "Shoots a beam of light from your palm at your target. ",
-    "cost": "3 CEJ",
-    "damage_roll": "d6",
-    "damage_count": "1",
-    "price": 150
-  },
-  {
-    "url": "lightlaser2",
-    "name": "Light Laser 2",
-    "description": "Shoots a powerful beam of light from you or a crystal lotus. ",
-    "cost": "10 CEJ",
-    "damage_roll": "d8",
-    "damage_count": "3",
-    "price": 500
-  },
-  {
-    "url": "refractionshield",
-    "name": "Refraction Shield",
-    "description": "Creates a shield around you that protects from magic and energy damage. This shield lasts for one day. Casting the shield has a 4:1 CEJ:hp ratio. ",
-    "cost": "var",
-    "damage_roll": null,
-    "damage_count": null,
-    "price": 10000
-  },
-  {
-    "url": "laserlotus",
-    "name": "Laser Lotus",
-    "description": "Creates a crystal flower in the air that can fire light lasers for you. Laser lotuses cost twice as much to create as the light laser spell that they shoot. Laser lotuses take a round before they can fire and have 10hp per level of light laser used. ",
-    "cost": "var",
-    "damage_roll": null,
-    "damage_count": null,
-    "price": 10000
-  },
-  {
-    "url": "crystalshield",
-    "name": "Crystal Shield",
-    "description": "Creates an invisible layer of crystal on your skin protecting you from physical damage. This shield costs 4:1 CEJ:hp. ",
-    "cost": "var",
-    "damage_roll": null,
-    "damage_count": null,
-    "price": 10000
-  },
-  {
-    "url": "minorlightillusion",
-    "name": "Minor Light Illusion",
-    "description": "Creates the illusion of an object that everyone can see. This illusion is not tangible. ",
-    "cost": "10 CEJ",
-    "damage_roll": null,
-    "damage_count": null,
-    "price": 500
-  },
-  {
-    "url": "lightillusion",
-    "name": "Light Illusion",
-    "description": "Creates an illusion the size of a small room. This illusion is not tangible. ",
-    "cost": "35 CEJ",
-    "damage_roll": null,
-    "damage_count": null,
-    "price": 1750
-  },
-  {
-    "url": "conjurecrystal1",
-    "name": "Conjure Crystal 1",
-    "description": "Conjures a crystal that forms from you or another nearby surface that fits within a 5ft cube. ",
-    "cost": "5 CEJ",
-    "damage_roll": null,
-    "damage_count": null,
-    "price": 250
-  },
-  {
-    "url": "conjurecrystal2",
-    "name": "Conjure Crystal 2",
-    "description": "Creates a crystal with your desired shape that fits within a 25ft cube. ",
-    "cost": "30 CEJ",
-    "damage_roll": null,
-    "damage_count": null,
-    "price": 1500
-  },
-  {
-    "url": "createcrystalbattery",
-    "name": "Create Crystal Battery",
-    "description": "Allows you to store CEJ in a crystal battery at a 2:1 ratio. Other crystallites may use your battery at half the efficiency. This spell cannot be GSF. ",
-    "cost": "var",
-    "damage_roll": null,
-    "damage_count": null,
-    "price": 10000
-  },
-  {
-    "url": "lightinvisibilityfield",
-    "name": "Light Invisibility Field",
-    "description": "Creates a field of invisibility around you or your target. This field only blocks visual light.",
-    "cost": "20 CEJ",
-    "damage_roll": null,
-    "damage_count": null,
-    "price": 1000
-  },
-  {
-    "url": "invisibilityfield",
-    "name": "Invisibility Field",
-    "description": "Makes you invisible to all nonmagical forms of detection. ",
-    "cost": "40 CEJ",
-    "damage_roll": null,
-    "damage_count": null,
-    "price": 2000
-  },
-  {
-    "url": "lightlaser3",
-    "name": "Light Laser 3",
-    "description": "Creates a powerful laser that shoots from your palm or a laser lotus. ",
-    "cost": "30",
-    "damage_roll": "d10",
-    "damage_count": "5",
-    "price": 1500
-  },
-  {
-    "url": "lightlaser4",
-    "name": "Light Laser 4",
-    "description": "Creates a devastating laser from your palm or a laser lotus. ",
-    "cost": "50",
-    "damage_roll": "d10",
-    "damage_count": "10",
-    "price": 2500
-  },
-  {
-    "url": "conjurecrystal3",
-    "name": "Conjure Crystal 3",
-    "description": "Conjures a crystal with your desired shape from you or a nearby surface. This crystal must fit within a 40ft cube. ",
-    "cost": "50 CEJ",
-    "damage_roll": null,
-    "damage_count": null,
-    "price": 2500
-  },
-  {
-    "url": "crystalclone",
-    "name": "Crystal Clone",
-    "description": "Creates a clone of yourself using crystal. All clones pull from your pool of CEJ but can do any action that you can. Divide your stats among your clones, for example if you have one clone, you will be controlling two bodies so divide all of your stats by 2. ",
-    "cost": "100 CEJ",
-    "damage_roll": null,
-    "damage_count": null,
-    "price": 5000
-  },
-  {
-    "url": "crystalpseudoreality",
-    "name": "Crystal Pseudo Reality",
-    "description": "Create a large illusion made of crystal with a light illusion as the facade. The illusion feels real to anyone inside even if they touch the objects. ",
-    "cost": "85 CEJ",
-    "damage_roll": null,
-    "damage_count": null,
-    "price": 4250
-  },
-  {
-    "url": "lightlaser5",
-    "name": "Light Laser 5",
-    "description": "Creates yet another powerful laser that shoots from your palm or a light laser",
-    "cost": "70 CEJ",
-    "damage_roll": "d10",
-    "damage_count": "12",
-    "price": 3500
-  },
-  {
-    "url": "crystallineinvisibility",
-    "name": "Crystalline Invisibility",
-    "description": "Become invisible to all crystallites. If you cast a spell under the invisibility, you will become detectable. ",
-    "cost": "80 CEJ",
-    "damage_roll": null,
-    "damage_count": null,
-    "price": 4000
-  },
-  {
-    "url": "crystalportal",
-    "name": "Crystal Portal",
-    "description": "Creates a portal with an opening that is up to 10 miles away. ",
-    "cost": "90 CEJ",
-    "damage_roll": null,
-    "damage_count": null,
-    "price": 4500
-  },
-  {
-    "url": "conjurecrystal4",
-    "name": "Conjure Crystal 4",
-    "description": "Conjures a crystal of your desired shape that can fit within a 100ft cube. ",
-    "cost": "100 CEJ",
-    "damage_roll": null,
-    "damage_count": null,
-    "price": 5000
-  },
-  {
-    "url": "lightlaser6",
-    "name": "Light Laser 6",
-    "description": "Creates an overwhelming laser from your palm or a laser lotus. ",
-    "cost": "100 mana",
-    "damage_roll": "d20",
-    "damage_count": "8",
-    "price": 5000
-  },
-  {
-    "url": "conjuresingularity",
-    "name": "Conjure Singularity",
-    "description": "Conjure crystals so compact that they create a singularity for a fraction of a second. This singularity does not pull in matter but will consume any that gets in its way. It has a 1mm diameter. ",
-    "cost": "175 CEJ",
-    "damage_roll": null,
-    "damage_count": null,
-    "price": 8750
-  },
-  {
-    "url": "conjurecrystal5",
-    "name": "Conjure Crystal 5",
-    "description": "Creates a crystal of your desired shape that can fit within a 250ft cube. ",
-    "cost": "200 CEJ",
-    "damage_roll": null,
-    "damage_count": null,
-    "price": 10000
-  },
-  {
-    "url": "lightlaser7",
-    "name": "Light Laser 7",
-    "description": "Bring forth the ultimate laser from your palm or a laser lotus. ",
-    "cost": "200 CEJ",
-    "damage_roll": "d100",
-    "damage_count": "4",
-    "price": 10000
-  },
-  {
-    "url": "perfectcrystallineclone",
-    "name": "Perfect Crystalline Clone",
-    "description": "Creates a crystal clone that does not detriment your stats. Any duplicated equipment is still suffers cloning effects. ",
-    "cost": "250 CEJ",
-    "damage_roll": null,
-    "damage_count": null,
-    "price": 12500
-  },
-  {
-    "url": "quantumuntangle",
-    "name": "Quantum Untangle",
-    "description": "Untangle yourself or someone else from the fabric of the universe, allowing them to travel to ANY other dimension. ",
-    "cost": "300 CEJ",
-    "damage_roll": null,
-    "damage_count": null,
-    "price": 15000
-  },
-  {
-    "url": "crystalstrength",
-    "name": "Crystal Strength",
-    "description": "Convert CEJ directly to strength. Costs 10 ^ Strength per action. ",
-    "cost": "var",
-    "damage_roll": null,
-    "damage_count": null,
-    "price": 10000
-  },
-  {
-    "url": "createcrystal6",
-    "name": "Create Crystal 6",
-    "description": "Create a crystal the size of a skyscraper. ",
-    "cost": "140 CEJ",
-    "damage_roll": null,
-    "damage_count": null,
-    "price": 7000
-  },
-  {
-    "url": "createcrystal1",
-    "name": "Create Crystal 1",
-    "description": "Creates a crystal in the form of any desired shape with 1 cubic foot. ",
-    "cost": "5 CEJ",
-    "damage_roll": null,
-    "damage_count": null,
-    "price": 250
-  },
-  {
-    "url": "createcrystallinearmor",
-    "name": "Create Crystalline Armor",
-    "description": "Create armor with crystal.",
-    "cost": "var",
-    "damage_roll": null,
-    "damage_count": null,
-    "price": 10000
-  },
-  {
-    "url": "createcrystal3",
-    "name": "Create Crystal 3",
-    "description": "Create a crystal the size of a small house. ",
-    "cost": "30",
-    "damage_roll": null,
-    "damage_count": null,
-    "price": 1500
-  },
-  {
-    "url": "createsingularity",
-    "name": "Create Singularity",
-    "description": "Create a small singularity the size of a grain of sand for a single second. Anyone caught by the singularity (including you) needs to roll str to avoid being caught. ",
-    "cost": "140 CEJ",
-    "damage_roll": "d12",
-    "damage_count": 10,
-    "price": 7000
-  },
-  {
-    "url": "crystalwormhole",
-    "name": "Crystal Wormhole",
-    "description": "Create a wormhole to another location within 1 mile and in sight.",
-    "cost": "120 CEJ",
-    "damage_roll": null,
-    "damage_count": null,
-    "price": 6000
-  },
-  {
-    "url": "illusion",
-    "name": "Illusion",
-    "description": "Create an illusion the size of a room complete with sounds. ",
-    "cost": "30",
-    "damage_roll": null,
-    "damage_count": null,
-    "price": 1500
-  },
-  {
-    "url": "createcrystal2",
-    "name": "Create Crystal 2",
-    "description": "Create a crystal the size of a car. ",
-    "cost": "15 CEJ",
-    "damage_roll": null,
-    "damage_count": null,
-    "price": 750
-  },
-  {
-    "url": "createcrystallinedevice",
-    "name": "Create Crystalline Device",
-    "description": "Create a device of your choosing using crystals and CEJ. ",
-    "cost": "var",
-    "damage_roll": null,
-    "damage_count": null,
-    "price": 10000
-  },
-  {
-    "url": "createcrystal5",
-    "name": "Create Crystal 5",
-    "description": "Create a crystal the size of a small office building",
-    "cost": "100 CEJ",
-    "damage_roll": null,
-    "damage_count": null,
-    "price": 5000
-  },
-  {
-    "url": "crystallineclone",
-    "name": "Crystalline Clone",
-    "description": "Create a clone of yourself. Your stats are evenly divided between each clone in your control. ",
-    "cost": "60 CEJ",
-    "damage_roll": null,
-    "damage_count": null,
-    "price": 3000
-  },
-  {
-    "url": "createcrystal4",
-    "name": "Create Crystal 4",
-    "description": "Create a crystal the size of a suburban home. ",
-    "cost": "45 CEJ",
-    "damage_roll": null,
-    "damage_count": null,
-    "price": 2250
-  },
-  {
-    "url": "createcrystallineweapon",
-    "name": "Create Crystalline Weapon",
-    "description": "Allows the user to create crystal weapons.",
-    "cost": "var",
-    "damage_roll": null,
-    "damage_count": null,
-    "price": 10000
-  },
-  {
-    "url": "pseudoreality",
-    "name": "Pseudo Reality",
-    "description": "Create an illusion within a 100ft radius that is indistinguishable from reality. ",
-    "cost": "100 CEJ",
-    "damage_roll": null,
-    "damage_count": null,
-    "price": 5000
-  },
+      "url": "druidcraft",
+      "name": "Druidcraft",
+      "description": "Create a harmless natural effect. For example, create a tiny snow globe like effect that predicts the weather at that location for the next day, instantly make a flower bloom, a seed pod open, or a leaf bud bloom, or instantly snuff out a small fire.",
+      "cost": 2,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "feral_claws",
+      "name": "Feral Claws",
+      "description": "Grow claws on your fists increasing your unarmed melee damage by 1d4. ",
+      "cost": 3,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "feral_jaws",
+      "name": "Feral Jaws",
+      "description": "Grow serrated teath and increase your jaw strength increasing your bite damage by 1d8. ",
+      "cost": 3,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "purify_food_and_drink",
+      "name": "Purify Food and Drink",
+      "description": "Remove all poison effects from food or drink that you touch.",
+      "cost": 4,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "speak_with_animals",
+      "name": "Speak with Animals",
+      "description": "Allows you to verbally communicate with animals even if their intelligence is below 7.",
+      "cost": 2,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "speak_with_monsters",
+      "name": "Speak with Monsters",
+      "description": "Allows you to verbally communicate with monsters even if their intelligence is below 7.",
+      "cost": 15,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "animal_messenger",
+      "name": "Animal Messenger",
+      "description": "Speak through an animal that is charmed or allied to you.",
+      "cost": 1,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "beast_sense",
+      "name": "Beast Sense",
+      "description": "See and hear through a charmed or allied beast's eyes and ears.",
+      "cost": 6,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "lesser_locate_animal",
+      "name": "Lesser Locate Animal",
+      "description": "Locate a specified type of animal within 1 mile of your location.",
+      "cost": 3,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "lesser_locate_monster",
+      "name": "Lesser Locate Monster",
+      "description": "Locate a specified type of monster within 1 mile of your location.",
+      "cost": 9,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "lesser_locate_dragon",
+      "name": "Lesser Locate Dragon",
+      "description": "Locate a specified type of dragon within 1 mile of your location.",
+      "cost": 15,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "lesser_locate_plant",
+      "name": "Lesser Locate Plant",
+      "description": "Locate a specified type of plant within 1 mile of your location.",
+      "cost": 3,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "locate_animal",
+      "name": "Locate Animal",
+      "description": "Locate a specified type of animal within 50 miles of your location.",
+      "cost": 15,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "locate_monster",
+      "name": "Locate Monster",
+      "description": "Locate a specified type of monster within 50 miles of your location.",
+      "cost": 24,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "locate_dragon",
+      "name": "Locate Dragon",
+      "description": "Locate a specified type of dragon within 50 miles of your location.",
+      "cost": 45,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "locate_plant",
+      "name": "Locate Plant",
+      "description": "Locate a specified type of plant within 50 miles of your location.",
+      "cost": 15,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "greater_locate_animal",
+      "name": "Greater Locate Animal",
+      "description": "Locate a specified type of animal anywhere within your dimension.",
+      "cost": 36,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "greater_locate_monster",
+      "name": "Greater Locate Monster",
+      "description": "Locate a specified type of monster anywhere within your dimension.",
+      "cost": 45,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "greater_locate_dragon",
+      "name": "Greater Locate Dragon",
+      "description": "Locate a specified type of dragon anywhere within your dimension.",
+      "cost": 48,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "greater_locate_plant",
+      "name": "Greater Locate Plant",
+      "description": "Locate a specified type of plant anywhere within your dimension.",
+      "cost": 36,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "master_locate_animal",
+      "name": "Master Locate Animal",
+      "description": "Locate a specified type of animal anywhere in the multiverse.",
+      "cost": 54,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "master_locate_monster",
+      "name": "Master Locate Monster",
+      "description": "Locate a specified type of monster anywhere in the multiverse.",
+      "cost": 60,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "master_locate_dragon",
+      "name": "Master Locate Dragon",
+      "description": "Locate a specified type of dragon anywhere in the multiverse.",
+      "cost": 60,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "master_locate_plant",
+      "name": "Master Locate Plant",
+      "description": "Locate a specified type of plant anywhere in the multiverse.",
+      "cost": 54,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "speak_with_dragons",
+      "name": "Speak with Dragons",
+      "description": "Allows you to speak dragon tongue.",
+      "cost": 21,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "speak_with_plants",
+      "name": "Speak with Plants",
+      "description": "Allows you to speak with plants.",
+      "cost": 2,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "heros_feast",
+      "name": "Heros' Feast",
+      "description": "Summon a great feast which can feed up to 12 people. Those who partake in the feast are cured of all diseases and poison, become resistant to poison and horror for the next 8hrs, and have advantage on wisdom saving throws. They also gain 2d10 maximum health for 24hrs.",
+      "cost": 30,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "revivify",
+      "name": "Revivify",
+      "description": "Revive a creature who has been dead for less than 10 seconds.",
+      "cost": 15,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "revive",
+      "name": "Revive",
+      "description": "Revive a creature who has been dead for less than 1 week.",
+      "cost": 30,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "mass_revive",
+      "name": "Mass Revive",
+      "description": "Revive a group of creatures who have been dead for less than 1 week.",
+      "cost": 45,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "lesser_transport_via_plants",
+      "name": "Lesser Transport via Plants",
+      "description": "Teleport between two large plants that are within 1 mile of each other.",
+      "cost": 21,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "transport_via_plants",
+      "name": "Transport via Plants",
+      "description": "Teleport between two large plants that are in the same universe.",
+      "cost": 42,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "greater_transport_via_plants",
+      "name": "Greater Transport via Plants",
+      "description": "Teleport between two large plants anywhere in the multiverse.",
+      "cost": 51,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "familiar",
+      "name": "Familiar",
+      "description": "Make an allied creature your familiar. This creature may not be a person.",
+      "cost": 21,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "familiar_perminancy",
+      "name": "Familiar Perminancy",
+      "description": "Make a temporary effect on a familiar perminant including transformations and stat increases. Stat increases of the same type override each other.",
+      "cost": 36,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "summon_small_animal",
+      "name": "Summon Small Animal",
+      "description": "Summons a small animal under your control. You may specify an animal with no dimension larger than 2ft or a random animal will be summoned.",
+      "cost": 2,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "summon_animal",
+      "name": "Summon Animal",
+      "description": "Summons an animal under your control. You may specify an animal with no dimension larger than 4ft or a random animal will be summoned.",
+      "cost": 5,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "summon_large_animal",
+      "name": "Summon Large Animal",
+      "description": "Summons a large animal under your control. You may specify any non-magical animal or a random animal will be summoned.",
+      "cost": 9,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "animal_ability",
+      "name": "Animal Ability",
+      "description": "Gain an attribute or ability of a beast that you have seen or know of. This ability must be obtainable below your level.",
+      "cost": 6,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "plant_ability",
+      "name": "Plant Ability",
+      "description": "Gain an attribute or ability of a plant that you have seen or know of. This ability must be obtainable below your level.",
+      "cost": 6,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "monster_ability",
+      "name": "Monster Ability",
+      "description": "Gain an attribute or ability of a monster that you have seen or know of. This ability must be obtainable below your level.",
+      "cost": 12,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "dragon_ability",
+      "name": "Dragon Ability",
+      "description": "Gain an attribute or ability of a dragon that you have seen or know of. This ability must be obtainable below your level.",
+      "cost": 15,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "animal_shape",
+      "name": "Animal Shape",
+      "description": "Shapeshift into an animal that you have seen or know of. This creature must be under your level.",
+      "cost": 12,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "plant_shape",
+      "name": "Plant Shape",
+      "description": "Shapeshift into a plant that you have seen or know of. This creature must be under your level.",
+      "cost": 12,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "monster_shape",
+      "name": "Monster Shape",
+      "description": "Shapeshift into a monster that you have seen or know of. This creature must be under your level.",
+      "cost": 36,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "draconic_shape",
+      "name": "Draconic Shape",
+      "description": "Shapeshift into an animal that you have seen or know of. This creature must be under your level.",
+      "cost": 51,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "lesser_summon_plant",
+      "name": "Lesser Summon Plant",
+      "description": "Summon a small non-magical plant that has no dimension larger than 1ft. You must have seen this plant before or read about it.",
+      "cost": 2,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "summon_plant",
+      "name": "Summon Plant",
+      "description": "Summon a non-magical plant that has no dimension larger than 5ft. You must have seen this plant before or read about it.",
+      "cost": 6,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "greater_summon_plant",
+      "name": "Greater Summon Plant",
+      "description": "Summon any plant that has no dimension larger than 25ft. You must have seen this plant before or read about it.",
+      "cost": 18,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "master_summon_plant",
+      "name": "Master Summon Plant",
+      "description": "Summon any plant that you have seen or read of.",
+      "cost": 30,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "lesser_summon_monster",
+      "name": "Lesser Summon Monster",
+      "description": "Summon a monster that is level 2 or below. Improving this spell increases the level cap by 1.",
+      "cost": 15,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "summon_monster",
+      "name": "Summon Monster",
+      "description": "Summon a monster that is level 7 or below. Improving this spell increases the level cap by 1.",
+      "cost": 30,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "greater_summon_monster",
+      "name": "Greater Summon Monster",
+      "description": "Summon a monster that is level 12 or below. Improving this spell increases the level cap by 1.",
+      "cost": 45,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "master_summon_monster",
+      "name": "Master Summon Monster",
+      "description": "Summon a monster that is your level or below. Improving this spell increases the level cap by 1.",
+      "cost": 60,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "lesser_summon_dragon",
+      "name": "Lesser Summon Dragon",
+      "description": "Summon a very young dragon of any element. hp 15d8 + 60. str 21 dex 10 con 19 int 13 wis 11 cha 17 thac0 13 ac 3.",
+      "cost": 30,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "summon_dragon",
+      "name": "Summon Dragon",
+      "description": "Summon a juvenile dragon of any element. hp 18d10 + 108 str 24 dex 10 con 22 int 15 wis 11 cha 20 thac0 10 ac 0.",
+      "cost": 39,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "greater_summon_dragon",
+      "name": "Greater Summon Dragon",
+      "description": "Summon an adult dragon of any element. hp 19d12 + 133. str 27 dex 10 con 25 int 16 wis 13 cha 21 thac0 7 ac -3.",
+      "cost": 51,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "master_summon_dragon",
+      "name": "Master Summon Dragon",
+      "description": "Summon an old dragon of any element. hp 25d12 + 177. str 30 dex 10 con 27 int 17 wis 14 cha 22 thac0 5 ac -5.",
+      "cost": 60,
+      "damage_roll": null,
+      "damage_count": null
+    },
   {
       "url": "flame",
       "name": "Flame",
@@ -4907,6 +2977,2775 @@
         "cost": 19,
         "damage_roll": null,
         "damage_count": null
-    }
+    },
+    {
+      "url": "chill_touch",
+      "name": "Chill Touch",
+      "description": "Attach a skeletal hand to the target that reduces the amount gained from healing by half. This effect is overcome by the vitality effect.",
+      "cost": 5,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "spare_the_dying",
+      "name": "Spare the Dying",
+      "description": "Touch a creature that is at exactly 0 or -1 health, stabilizing their condition.",
+      "cost": 2,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "lesser_detect_dead",
+      "name": "Lesser Detect Dead",
+      "description": "Detect dead creatures that are unhidden or hidden by weaker concealment spells.",
+      "cost": 2,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "detect_dead",
+      "name": "Detect Dead",
+      "description": "Detect dead creatures that are unhidden or hidden by weaker concealment spells.",
+      "cost": 9,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "greater_detect_dead",
+      "name": "Greater Detect Dead",
+      "description": "Detect dead creatures that are unhidden or hidden by weaker concealment spells.",
+      "cost": 21,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "master_detect_dead",
+      "name": "Master Detect Dead",
+      "description": "Detect dead creatures that are unhidden or hidden by weaker concealment spells.",
+      "cost": 39,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "lesser_detect_undead",
+      "name": "Lesser Detect Undead",
+      "description": "Detect undead creatures that are unhidden or hidden by weaker concealment spells.",
+      "cost": 6,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "detect_undead",
+      "name": "Detect Undead",
+      "description": "Detect undead creatures that are unhidden or hidden by weaker concealment spells.",
+      "cost": 12,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "greater_detect_undead",
+      "name": "Greater Detect Undead",
+      "description": "Detect undead creatures that are unhidden or hidden by weaker concealment spells.",
+      "cost": 24,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "master_detect_undead",
+      "name": "Master Detect Undead",
+      "description": "Detect undead creatures that are unhidden or hidden by weaker concealment spells.",
+      "cost": 42,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "lesser_conceal_dead",
+      "name": "Lesser Conceal Dead",
+      "description": "Hides a dead creature's body from magical detect dead.",
+      "cost": 2,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "conceal_dead",
+      "name": "Conceal Dead",
+      "description": "Hides a dead creature's body from magical detect dead.",
+      "cost": 9,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "greater_conceal_dead",
+      "name": "Greater Conceal Dead",
+      "description": "Hides a dead creature's body from magical detect dead.",
+      "cost": 21,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "master_conceal_dead",
+      "name": "Master Conceal Dead",
+      "description": "Hides a dead creature's body from magical detect dead.",
+      "cost": 39,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "lesser_conceal_undead",
+      "name": "Lesser Conceal Undead",
+      "description": "Hides a undead creature's body from magical detect dead.",
+      "cost": 6,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "conceal_undead",
+      "name": "Conceal Undead",
+      "description": "Hides a undead creature's body from magical detect dead.",
+      "cost": 12,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "greater_conceal_undead",
+      "name": "Greater Conceal Undead",
+      "description": "Hides a undead creature's body from magical detect dead.",
+      "cost": 24,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "master_conceal_undead",
+      "name": "Master Conceal Undead",
+      "description": "Hides a undead creature's body from magical detect dead.",
+      "cost": 42,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "lesser_summon_zombie",
+      "name": "Lesser Summon Zombie",
+      "description": "Summons a weak zombie. str 12 con 17 dex 3 wis 1 int 1 cha -2 apr 1 thac0 18 ac 8.",
+      "cost": 7,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "summon_zombie",
+      "name": "Summon Zombie",
+      "description": "Summons a zombie. str 15 con 18 dex 4 wis 1 int 1 cha -3 apr 2 thac0 12 ac 2.",
+      "cost": 18,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "greater_summon_zombie",
+      "name": "Greater Summon Zombie",
+      "description": "Summons a zombie. str 17 con 19 dex 5 wis 1 int 1 cha -4 apr 4 thac0 6 ac 0.",
+      "cost": 40,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "master_summon_zombie",
+      "name": "Master Summon Zombie",
+      "description": "Summons a zombie. str 20 con 20 dex 7 wis 1 int 1 cha -5 apr 10 thac0 0 ac -5.",
+      "cost": 40,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "lesser_summon_skeleton",
+      "name": "Lesser Summon Skeleton",
+      "description": "Summons a weak skeleton that can use weapons. str 8 con 15 dex 5 wis 2 int 3 cha -1 apr 1 thac0 17 ac 7.",
+      "cost": 11,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "summon_skeleton",
+      "name": "Summon Skeleton",
+      "description": "Summons a skeleton that can use weapons. str 10 con 16 dex 7 wis 2 int 3 cha -1 apr 2 thac0 11 ac 1.",
+      "cost": 23,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "greater_summon_skeleton",
+      "name": "Greater Summon Skeleton",
+      "description": "Summons a skeleton that can use weapons. str 14 con 17 dex 10 wis 2 int 3 cha -1 apr 3 thac0 5 ac 0.",
+      "cost": 42,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "master_summon_skeleton",
+      "name": "Master Summon Skeleton",
+      "description": "Summons a skeleton that can use weapons. str 18 con 18 dex 15 wis 2 int 3 cha -1 apr 5 thac0 -1 ac -7.",
+      "cost": 60,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "summon_small_undead_animal",
+      "name": "Summon Small Undead Animal",
+      "description": "Summons a small undead animal under your control. You may specify an animal with no dimension larger than 2ft or a random animal will be summoned. The animal may be either skeletal or fleshy.",
+      "cost": 2,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "summon_undead_animal",
+      "name": "Summon Undead Animal",
+      "description": "Summons an undead animal under your control. You may specify an animal with no dimension larger than 4ft or a random animal will be summoned. The animal may be either skeletal or fleshy.",
+      "cost": 5,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "summon_large_undead_animal",
+      "name": "Summon Large Undead Animal",
+      "description": "Summons a large undead animal under your control. You may specify any non-magical animal or a random animal will be summoned. The animal may be either skeletal or fleshy.",
+      "cost": 9,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "lesser_raise_dead",
+      "name": "Lesser Raise Dead",
+      "description": "Animate a skeleton or corpse of a creature to fight for you. This creature must be level 1. Improving this spell raises the level cap by 1.",
+      "cost": 3,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "raise_dead",
+      "name": "Raise Dead",
+      "description": "Animate a skeleton or corpse of a creature to fight for you. This creature must be level 5 or below. Improving this spell raises the level cap by 1.",
+      "cost": 15,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "greater_raise_dead",
+      "name": "Greater Raise Dead",
+      "description": "Animate a skeleton or corpse of a creature to fight for you. This creature must be level 10 or below. Improving this spell raises the level cap by 1.",
+      "cost": 30,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "master_raise_dead",
+      "name": "Master Raise Dead",
+      "description": "Animate a skeleton or corpse of a creature to fight for you. This creature must be your level or below. Improving this spell raises the level cap by 1.",
+      "cost": 60,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "speak_with_dead",
+      "name": "Speak with Dead",
+      "description": "Speak with a skeleton or corpse who has died in the past 10 days. The dead creature only knows what they knew in life.",
+      "cost": 2,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "speak_with_undead",
+      "name": "Speak with Unead",
+      "description": "Speak with any undead corpse or skeleton.",
+      "cost": 3,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "consume_soul",
+      "name": "Consume Soul",
+      "description": "Consume the captured soul of another creature gaining some of its power. If the creature was above your level, there is a 5 * (their level - your level) percent chance that you become posessed.",
+      "cost": 20,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "lesser_summon_vampire",
+      "name": "Lesser Summon Vampire",
+      "description": "Summons a vampire that is either a level 3 necromancer, mage, rogue, or fighter. str 12 con 13 dex 10 wis 15 int 10 cha 12 apr 3 thac0 15 ac 5. Improving this skill increases the level of the vampire by 1.",
+      "cost": 21,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "summon_vampire",
+      "name": "Summon Vampire",
+      "description": "Summons a vampire that is either a level 8 necromancer, mage, rogue, or fighter. str 15 con 16 dex 13 wis 16 int 12 cha 15 apr 8 thac0 10 ac 0. Improving this skill increases the level of the vampire by 1.",
+      "cost": 36,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "greater_summon_vampire",
+      "name": "Greater Summon Vampire",
+      "description": "Summons a vampire that is either a level 12 necromancer, mage, rogue, or fighter. str 17 con 18 dex 15 wis 18 int 14 cha 17 apr 12 thac0 6 ac -4. Improving this skill increases the level of the vampire by 1.",
+      "cost": 51,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "master_summon_vampire",
+      "name": "Master Summon Vampire",
+      "description": "Summons a vampire that is either a level 15 necromancer, mage, rogue, or fighter. str 19 con 20 dex 18 wis 20 int 14 cha 19 apr 15 thac0 3 ac -7. Improving this skill increases the level of the vampire by 1.",
+      "cost": 60,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "lesser_summon_ghost",
+      "name": "Lesser Summon Ghost",
+      "description": "Summons an etherial ghost to fight for you. The ghost cannot be hurt by non-enchanted weapons and has access to level 1 mage spells. str 5 con 20 dex 5 wis 10 int 1 cha -1 apr 1 thac0 16 ac 6. Improving this spell increases the ghosts level by 1.",
+      "cost": 12,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "summon_ghost",
+      "name": "Summon Ghost",
+      "description": "Summons an etherial ghost to fight for you. The ghost cannot be hurt by non-enchanted weapons and has access to level 4 mage spells. str 7 con 20 dex 7 wis 13 int 2 cha -2 apr 2 thac0 11 ac 1. Improving this spell increases the ghosts level by 1.",
+      "cost": 24,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "greater_summon_ghost",
+      "name": "Greater Summon Ghost",
+      "description": "Summons an etherial ghost to fight for you. The ghost cannot be hurt by non-enchanted weapons and has access to level 9 mage spells. str 10 con 20 dex 10 wis 16 int 3 cha -3 apr 3 thac0 5 ac -5. Improving this spell increases the ghosts level by 1.",
+      "cost": 42,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "master_summon_ghost",
+      "name": "Master Summon Ghost",
+      "description": "Summons an etherial ghost to fight for you. The ghost cannot be hurt by non-enchanted weapons and has access to level 16 mage spells. str 15 con 20 dex 15 wis 20 int 4 cha -4 apr 4 thac0 3 ac -11. Improving this spell increases the ghosts level by 1.",
+      "cost": 60,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "summon_spectre",
+      "name": "Summon Spectre",
+      "description": "Summon a spectre using the captured soul of another creature. If the creature's level is greater than yours, this spectre has a 10 * (their level - your level) percent chance of rebelling.",
+      "cost": 25,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "fright",
+      "name": "Fright",
+      "description": "Trigger horror in a target with a 10% bonus. If successful, the target spends their next turn fleeing. Horror = bonus + 5 * aggressor level + 3 * negative cha - 10 * defender level.",
+      "cost": 6,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "mass_fright",
+      "name": "Mass Fright",
+      "description": "Trigger horror in all target that can sense you with a 10% bonus. If successful, the target spends their next turn fleeing. Horror = bonus + 5 * aggressor level + 3 * negative cha - 10 * defender level.",
+      "cost": 24,
+      "damage_roll": null,
+      "damage_count": null
+    },
+  {
+    "url": "spiderclimb",
+    "name": "Spider Climb",
+    "description": "Allows the target to climb walls like Spiderman. ",
+    "cost": "16 mana",
+    "damage_roll": null,
+    "damage_count": null,
+    "price": 800
+  },
+  {
+    "url": "flame",
+    "name": "Flame",
+    "description": "Creates a small flame in front of the user's palm. ",
+    "cost": "3 mana",
+    "damage_roll": "d6",
+    "damage_count": "1",
+    "price": 150
+  },
+  {
+    "url": "acidsplash",
+    "name": "Acid Splash",
+    "description": "Lob a glob of acid towards your target. It splashes with a 2.5 foot radius. ",
+    "cost": "4 mana",
+    "damage_roll": "d6",
+    "damage_count": "1",
+    "price": 200
+  },
+  {
+    "url": "chilltouch",
+    "name": "Chill Touch",
+    "description": "Attach a skeletal hand to the target that prevents them from regaining health until your next turn. ",
+    "cost": "8 mana",
+    "damage_roll": "d8",
+    "damage_count": "1",
+    "price": 400
+  },
+  {
+    "url": "controlflames",
+    "name": "Control Flames",
+    "description": "You control flames that fit into a 5 by 5ft cube. You may do one of the following things: expand the flame 5ft in one direction, extinguish the flames, brighten or dim the light caused by the flame, or shape the flames. ",
+    "cost": "5 mana",
+    "damage_roll": null,
+    "damage_count": null,
+    "price": 250
+  },
+  {
+    "url": "createbonfire",
+    "name": "Create Bonfire",
+    "description": "Creates a bonfire on the ground with a 2.5ft radius. Can light fires and deal damage. ",
+    "cost": "6 mana",
+    "damage_roll": "d8",
+    "damage_count": "1",
+    "price": 300
+  },
+  {
+    "url": "dancinglights",
+    "name": "Dancing Lights",
+    "description": "Create 4 dancing lights that shine light in a 10ft radius. May be controlled for an additional action. ",
+    "cost": "2 mana",
+    "damage_roll": null,
+    "damage_count": null,
+    "price": 100
+  },
+  {
+    "url": "suggestion",
+    "name": "Suggestion",
+    "description": "Makes a target complete a non-harmful action. Target makes. wisdom saving throw. ",
+    "cost": "20 mana",
+    "damage_roll": null,
+    "damage_count": null,
+    "price": 1000
+  },
+  {
+    "url": "wardingwind",
+    "name": "Warding Wind",
+    "description": "Creates a gust of 20 mph wind around you in a 10ft radius. Lasts 10 minutes. The wind deafens you and everyone in the area, extinguishes unprotected flames, disadvantages ranged attacks if that pass through the wind.",
+    "cost": "18 mana",
+    "damage_roll": null,
+    "damage_count": null,
+    "price": 900
+  },
+  {
+    "url": "stride",
+    "name": "Stride",
+    "description": "Allows the target to run 30mph. ",
+    "cost": "25 mph",
+    "damage_roll": null,
+    "damage_count": null,
+    "price": 1250
+  },
+  {
+    "url": "blink",
+    "name": "Blink",
+    "description": "Allows you to teleport 10ft away.",
+    "cost": "10 mana",
+    "damage_roll": null,
+    "damage_count": null,
+    "price": 500
+  },
+  {
+    "url": "friends",
+    "name": "Friends",
+    "description": "Gives you advantage on all charisma rolls against your target for one minute. The target will realize that the spell was active once it is over.",
+    "cost": "20 mana",
+    "damage_roll": null,
+    "damage_count": null,
+    "price": 1000
+  },
+  {
+    "url": "gust",
+    "name": "Gust",
+    "description": "Allows you to control the air in one of the following ways: push a creature of human size or less up to 5ft away from you (can be blocked by strength check), push a small object up to 10ft away, create a gust of wind to blow through the area around you. ",
+    "cost": "4 mana",
+    "damage_roll": null,
+    "damage_count": null,
+    "price": 200
+  },
+  {
+    "url": "magehand",
+    "name": "Mage Hand",
+    "description": "Summons a controllable spectral hand that can be used up to 30ft away.",
+    "cost": "3 mana",
+    "damage_roll": null,
+    "damage_count": null,
+    "price": 150
+  },
+  {
+    "url": "mending",
+    "name": "Mending",
+    "description": "Restores a small crack or break in an object. It leaves no trace of former damage. ",
+    "cost": "2 mana",
+    "damage_roll": null,
+    "damage_count": null,
+    "price": 100
+  },
+  {
+    "url": "minorillusion",
+    "name": "Minor Illusion",
+    "description": "Create either a sound (whisper to scream) or an image (fits within a 5ft cube). Lasts 1 minute.",
+    "cost": "12 mana",
+    "damage_roll": null,
+    "damage_count": null,
+    "price": 600
+  },
+  {
+    "url": "poisonspray",
+    "name": "Poison Spray",
+    "description": "Release a puff of poison smoke towards the target. Target must make a constitution roll or they take damage. ",
+    "cost": "10 mana",
+    "damage_roll": "d12",
+    "damage_count": "1",
+    "price": 500
+  },
+  {
+    "url": "rayoffrost",
+    "name": "Ray of Frost",
+    "description": "Fire a beam of blue-white frost toward the target. ",
+    "cost": "7 mana",
+    "damage_roll": "d8",
+    "damage_count": "1",
+    "price": 350
+  },
+  {
+    "url": "shapewater",
+    "name": "Shape Water",
+    "description": "You man do one of the following to a 5ft cubed amount of water: move water 5ft in one direction, shape the water, change the color or opacity, or freeze the water if there is no one in it.",
+    "cost": "6 mana. ",
+    "damage_roll": null,
+    "damage_count": null,
+    "price": 300
+  },
+  {
+    "url": "thunderclap",
+    "name": "Thunderclap",
+    "description": "Creates a loud burst of sound that can be heard up to 100ft away. Each target in range must make a constitution roll or suffer damage. ",
+    "cost": "11 mana",
+    "damage_roll": "d6",
+    "damage_count": "1",
+    "price": 550
+  },
+  {
+    "url": "truestrike",
+    "name": "True Strike",
+    "description": "Informs the user of the targets weaknesses.",
+    "cost": "9 mana",
+    "damage_roll": null,
+    "damage_count": null,
+    "price": 450
+  },
+  {
+    "url": "acidstream",
+    "name": "Acid Stream",
+    "description": "Sprays the target with acid. ",
+    "cost": "10 mana",
+    "damage_roll": "d4",
+    "damage_count": "3",
+    "price": 500
+  },
+  {
+    "url": "alarm",
+    "name": "Alarm",
+    "description": "Creates an area that notifies you when an unwanted creature enters the area. Can be mental or audible, triggers up to 1 mile away. ",
+    "cost": "9 mana",
+    "damage_roll": null,
+    "damage_count": null,
+    "price": 450
+  },
+  {
+    "url": "burninghands",
+    "name": "Burning Hands",
+    "description": "Shoots a sheet of flames out from your fingertips. ",
+    "cost": "12 mana",
+    "damage_roll": "d6",
+    "damage_count": "3",
+    "price": 600
+  },
+  {
+    "url": "charmperson",
+    "name": "Charm Person",
+    "description": "Attempt to charm a humanoid target. Target must make a wisdom saving roll to avoid the charm.",
+    "cost": "10 mana",
+    "damage_roll": null,
+    "damage_count": null,
+    "price": 500
+  },
+  {
+    "url": "chromaticorb",
+    "name": "Chromatic Orb",
+    "description": "Fires an orb of either acid, ice, fire, lightning, earth, or poison.",
+    "cost": "12 mana",
+    "damage_roll": "d8",
+    "damage_count": "3",
+    "price": 600
+  },
+  {
+    "url": "comprehendlanguages",
+    "name": "Comprehend Languages",
+    "description": "Understand the literal meaning of any spoken language. You must be touching the speaker. ",
+    "cost": "10 mana",
+    "damage_roll": null,
+    "damage_count": null,
+    "price": 500
+  },
+  {
+    "url": "detectmagic",
+    "name": "Detect Magic",
+    "description": "Detects magic within a 30ft area. ",
+    "cost": "15 mana",
+    "damage_roll": null,
+    "damage_count": null,
+    "price": 750
+  },
+  {
+    "url": "falselife",
+    "name": "False Life",
+    "description": "Temporarily give a target 1d4 + 4 health. Lasts 1hr. ",
+    "cost": "6 mana",
+    "damage_roll": null,
+    "damage_count": null,
+    "price": 300
+  },
+  {
+    "url": "featherfall",
+    "name": "Feather Fall",
+    "description": "Slows the rate of fall of a target. Target takes no fall damage. ",
+    "cost": "3 mana",
+    "damage_roll": null,
+    "damage_count": null,
+    "price": 150
+  },
+  {
+    "url": "fogcloud",
+    "name": "Fog Cloud",
+    "description": "Creates a 20ft cloud of opaque fog. ",
+    "cost": "10 mana",
+    "damage_roll": null,
+    "damage_count": null,
+    "price": 500
+  },
+  {
+    "url": "frostfingers",
+    "name": "Frost Fingers",
+    "description": "Launches a blast of frost from your fingertips.",
+    "cost": "8 mana",
+    "damage_roll": "d8",
+    "damage_count": "2",
+    "price": 400
+  },
+  {
+    "url": "grease",
+    "name": "Grease",
+    "description": "Creates a 10ft puddle of grease. Any creatures on the grease must make a dexterity roll or they fall. ",
+    "cost": "8 mana",
+    "damage_roll": null,
+    "damage_count": null,
+    "price": 400
+  },
+  {
+    "url": "lesserheal",
+    "name": "Lesser Heal ",
+    "description": "Heals target for 2d4 + 2 health. ",
+    "cost": "6 mana",
+    "damage_roll": null,
+    "damage_count": null,
+    "price": 300
+  },
+  {
+    "url": "identify",
+    "name": "Identify",
+    "description": "Identifies an item upon touch. ",
+    "cost": "8 mana",
+    "damage_roll": null,
+    "damage_count": null,
+    "price": 400
+  },
+  {
+    "url": "magicmissile",
+    "name": "Magic Missile",
+    "description": "Launches a missile that cannot be evaded. ",
+    "cost": "12 mana",
+    "damage_roll": "d6",
+    "damage_count": "3",
+    "price": 600
+  },
+  {
+    "url": "senseemotion",
+    "name": "Sense Emotion",
+    "description": "Allows you to sense the emotions of people around you. Works up to 30ft.",
+    "cost": "13 mana",
+    "damage_roll": null,
+    "damage_count": null,
+    "price": 650
+  },
+  {
+    "url": "airbubble",
+    "name": "Air Bubble",
+    "description": "Creates a bubble around the target's head. Lasts a full day. ",
+    "cost": "15 mana",
+    "damage_roll": null,
+    "damage_count": null,
+    "price": 750
+  },
+  {
+    "url": "arcanelock",
+    "name": "Arcane Lock",
+    "description": "Creates a lock on a container or door. Lasts until unlocked. ",
+    "cost": "15 mana",
+    "damage_roll": null,
+    "damage_count": null,
+    "price": 750
+  },
+  {
+    "url": "augury",
+    "name": "Augury",
+    "description": "Reveals the result of a given action. Can either be weal (good), woe (bad), weal and woe, or nothing. ",
+    "cost": "24 mana",
+    "damage_roll": null,
+    "damage_count": null,
+    "price": 1200
+  },
+  {
+    "url": "continualflame",
+    "name": "Continual Flame",
+    "description": "Creates a small flame that makes no heat. Continues to burn until dispelled. ",
+    "cost": "12 mana",
+    "damage_roll": null,
+    "damage_count": null,
+    "price": 600
+  },
+  {
+    "url": "darkvision",
+    "name": "Darkvision",
+    "description": "Allows the target to see in the dark. ",
+    "cost": "12 mana",
+    "damage_roll": null,
+    "damage_count": null,
+    "price": 600
+  },
+  {
+    "url": "invisibility",
+    "name": "Invisibility",
+    "description": "Makes the target invisible, can be cast on another person through touch. Invisibility is lost when attacking, casting a spell, or after an hour passed. ",
+    "cost": "15 mana",
+    "damage_roll": null,
+    "damage_count": null,
+    "price": 750
+  },
+  {
+    "url": "levitate",
+    "name": "Levitate",
+    "description": "Levitate an object under 500lbs up to 20ft. ",
+    "cost": "12 mana",
+    "damage_roll": null,
+    "damage_count": null,
+    "price": 600
+  },
+  {
+    "url": "locateobject",
+    "name": "Locate Object",
+    "description": "Locate an object that you own up to 1000ft away from you. ",
+    "cost": "9 mana",
+    "damage_roll": null,
+    "damage_count": null,
+    "price": 450
+  },
+  {
+    "url": "acidarrow",
+    "name": "Acid Arrow",
+    "description": "launches an acid arrow towards the target. Does half damage if arrow doesn't hit the target. ",
+    "cost": "16 mana",
+    "damage_roll": "d4",
+    "damage_count": "6",
+    "price": 800
+  },
+  {
+    "url": "seeinvisibility",
+    "name": "See Invisibility",
+    "description": "Allows the target to see invisibility including ghosts. ",
+    "cost": "25 mana",
+    "damage_roll": null,
+    "damage_count": null,
+    "price": 1250
+  },
+  {
+    "url": "counterspell",
+    "name": "Counterspell",
+    "description": "Counter a spell being cast, may be used once per round even if a spell has been cast. Roll contested wisdom against the caster. Regardless if the counterspell is successful or not, you lose your next action and are unable to use counterspell until your next turn. You must be able to use the same kind of magic as the spell being countered. ",
+    "cost": "Double the cost of the spell being cast. ",
+    "damage_roll": null,
+    "damage_count": null,
+    "price": 10000
+  },
+  {
+    "url": "dispelmagic",
+    "name": "Dispel Magic",
+    "description": "Dispels a lingering spell. ",
+    "cost": "Double the cost of the dispelled spell",
+    "damage_roll": null,
+    "damage_count": null,
+    "price": 10000
+  },
+  {
+    "url": "eruptingearth",
+    "name": "Erupting Earth",
+    "description": "Stone erupts out of the ground in a 20ft area. ",
+    "cost": "22 mana",
+    "damage_roll": "d12",
+    "damage_count": "3",
+    "price": 1100
+  },
+  {
+    "url": "feigndeath",
+    "name": "Feign Death",
+    "description": "A willing target is put into a state indistinguishable from death for an hour. ",
+    "cost": "16 mana",
+    "damage_roll": null,
+    "damage_count": null,
+    "price": 800
+  },
+  {
+    "url": "fireball",
+    "name": "Fireball",
+    "description": "Launches a fireball at the target. Has a chance of setting things on fire. ",
+    "cost": "24 mana",
+    "damage_roll": "d6",
+    "damage_count": "8",
+    "price": 1200
+  },
+  {
+    "url": "fly",
+    "name": "Fly",
+    "description": "Allows the target to fly at 30mph for 10 minutes. ",
+    "cost": "21 mana",
+    "damage_roll": null,
+    "damage_count": null,
+    "price": 1050
+  },
+  {
+    "url": "haste",
+    "name": "Haste",
+    "description": "Target gains advantage on dexterity rolls and an additional non-magical attack. ",
+    "cost": "20 mana",
+    "damage_roll": null,
+    "damage_count": null,
+    "price": 1000
+  },
+  {
+    "url": "intellectfortress",
+    "name": "Intellect Fortress",
+    "description": "Gives the user advantage on intelligence and wisdom saving and contested rolls. ",
+    "cost": "23 mana",
+    "damage_roll": null,
+    "damage_count": null,
+    "price": 1150
+  },
+  {
+    "url": "lightningbolt",
+    "name": "Lightning Bolt",
+    "description": "Strikes the target creature with lightning. ",
+    "cost": "24 mana",
+    "damage_roll": "d6",
+    "damage_count": "8",
+    "price": 1200
+  },
+  {
+    "url": "majorillusion",
+    "name": "Major Illusion",
+    "description": "Creates an illusion that is no larger than 20ft in any direction. ",
+    "cost": "17 mana",
+    "damage_roll": null,
+    "damage_count": null,
+    "price": 850
+  },
+  {
+    "url": "wallofsand",
+    "name": "Wall of Sand",
+    "description": "Creates a wall of sand up to 30ft long, 10ft high, and 10ft thick. ",
+    "cost": "21 mana",
+    "damage_roll": null,
+    "damage_count": null,
+    "price": 1050
+  },
+  {
+    "url": "wallofwater",
+    "name": "Wall of Water",
+    "description": "Creates a wall of water that is 30ft long, 10ft high, and 1 foot thick. ",
+    "cost": "19 mana",
+    "damage_roll": null,
+    "damage_count": null,
+    "price": 950
+  },
+  {
+    "url": "waterbreathing",
+    "name": "Water Breathing",
+    "description": "Gives up to 10 willing creatures the ability to breathe underwater. ",
+    "cost": "30 mana",
+    "damage_roll": null,
+    "damage_count": null,
+    "price": 1500
+  },
+  {
+    "url": "arcaneeye",
+    "name": "Arcane Eye",
+    "description": "Summons an invisible floating eye that you can control and see from, from up to 30ft away. The eye has both normal and dark vision. ",
+    "cost": "16 mana",
+    "damage_roll": null,
+    "damage_count": null,
+    "price": 800
+  },
+  {
+    "url": "banishment",
+    "name": "Banishment",
+    "description": "Temporarily banish the target to its home plane. Target may make either a charisma or wisdom saving throw to prevent banishment. ",
+    "cost": "40 mana",
+    "damage_roll": null,
+    "damage_count": null,
+    "price": 2000
+  },
+  {
+    "url": "blight",
+    "name": "Blight",
+    "description": "Removes life force from the target. Has no effect on undead or constructs. ",
+    "cost": "26 mana",
+    "damage_roll": "d8",
+    "damage_count": "8",
+    "price": 1300
+  },
+  {
+    "url": "charmmonster",
+    "name": "Charm Monster",
+    "description": "The targeted monster must make a wisdom roll or becomes charmed by the caster. If it is in combat, the monster gains advantage on its roll. Charm is broken if you or your companions harm the monster. ",
+    "cost": "30 mana",
+    "damage_roll": null,
+    "damage_count": null,
+    "price": 1500
+  },
+  {
+    "url": "confuse",
+    "name": "Confuse",
+    "description": "Roll a d10 the target does one of the following actions according to what is rolled: 1 the target moves in a random direction, 2-6 the target doesn't move or take actions, 7-8 the target must melee during its next action, or 9-10 the spell has no effect on the target. The target may make a wisdom saving throw to prevent confusion. ",
+    "cost": "32 mana",
+    "damage_roll": null,
+    "damage_count": null,
+    "price": 1600
+  },
+  {
+    "url": "controlwater",
+    "name": "Control Water",
+    "description": "You may control up to 100 cubic feet of water.",
+    "cost": "29 mana",
+    "damage_roll": null,
+    "damage_count": null,
+    "price": 1450
+  },
+  {
+    "url": "divination",
+    "name": "Divination",
+    "description": "Ask the DM a question relating to a specific goal or event, the DM responds truthfully in any way that they want. After casting this spell twice in one day, there is a cumulative 25% chance that the DM gives a random reading instead of the truth. ",
+    "cost": "50 mana",
+    "damage_roll": null,
+    "damage_count": null,
+    "price": 2500
+  },
+  {
+    "url": "elementalbane",
+    "name": "Elemental Bane",
+    "description": "Choose a type acid, cold, fire, or lightning. The target must make a constitution saving throw or lose all resistances to that type. The monster always takes damage from this attack under normal circumstances. ",
+    "cost": "26 mana",
+    "damage_roll": "d6",
+    "damage_count": "2",
+    "price": 1300
+  },
+  {
+    "url": "blacktentacles",
+    "name": "Black Tentacles",
+    "description": "Summons a group of black tentacles in a 20ft square area. Creatures in the area that fail a strength roll are restrained for their next turn. ",
+    "cost": "28 mana",
+    "damage_roll": "d6",
+    "damage_count": "3",
+    "price": 1400
+  },
+  {
+    "url": "gateseal",
+    "name": "Gate Seal",
+    "description": "Close all portals and planar travel within a 30ft radius. ",
+    "cost": "40 mana",
+    "damage_roll": null,
+    "damage_count": null,
+    "price": 2000
+  },
+  {
+    "url": "hallucinatoryterrain",
+    "name": "Hallucinatory Terrain",
+    "description": "The terrain within a 150 ft area appears as a natural terrain of your choosing. The terrain will match the real terrain's surface, making the hallucination more believable. ",
+    "cost": "31 mana",
+    "damage_roll": null,
+    "damage_count": null,
+    "price": 1550
+  },
+  {
+    "url": "icestorm",
+    "name": "Ice Storm",
+    "description": "Create a storm of ice that has a 20ft radius and is 40 feet high. Creatures inside the storm take damage. ",
+    "cost": "27 mana",
+    "damage_roll": "d8",
+    "damage_count": "5",
+    "price": 1350
+  },
+  {
+    "url": "stoneskin",
+    "name": "Stoneskin",
+    "description": "Makes the target as hard as stone while not impeding movement. Target gains resistance to physical damage. ",
+    "cost": "25 mana",
+    "damage_roll": null,
+    "damage_count": null,
+    "price": 1250
+  },
+  {
+    "url": "walloffire",
+    "name": "Wall of Fire",
+    "description": "Create a wall of fire that is 60ft long, 20ft high, and 1 foot thick. ",
+    "cost": "37 mana",
+    "damage_roll": "d8",
+    "damage_count": "5",
+    "price": 1850
+  },
+  {
+    "url": "coneofcold",
+    "name": "Cone of Cold",
+    "description": "Blasts the target with a wide cone of ice. ",
+    "cost": "34 mana",
+    "damage_roll": "d8",
+    "damage_count": "8",
+    "price": 1700
+  },
+  {
+    "url": "controlwinds",
+    "name": "Control Winds",
+    "description": "Control a 100ft cube area of wind up to strong blows that push creatures who fail a strength check. ",
+    "cost": "32 mana",
+    "damage_roll": null,
+    "damage_count": null,
+    "price": 1600
+  },
+  {
+    "url": "dominateperson",
+    "name": "Dominate Person",
+    "description": "Allows you to completely take over the mind of a person. The targeted person may make a wisdom saving throw and has advantage if it is being attacked. You may issue commands to the person without using an action. You make take full control over the person and act for them instead of yourself. If the person takes damage, they make a wisdom saving throw to break out of the domination. ",
+    "cost": "44 mana",
+    "damage_roll": null,
+    "damage_count": null,
+    "price": 2200
+  },
+  {
+    "url": "immolation",
+    "name": "Immolation",
+    "description": "The target is caught on fire by magical flames. After the first round of being on fire, the target makes a dexterity roll to extinguish the flames. The flames cannot be extinguished by nonmagical means. The target takes 3d8 damage each turn after being set on fire. ",
+    "cost": "41 mana",
+    "damage_roll": "d6",
+    "damage_count": "7",
+    "price": 2050
+  },
+  {
+    "url": "scrying",
+    "name": "Scrying",
+    "description": "You can see and hear a creature on the same plane as you. The target can make a wisdom saving throw to prevent scrying. Modifier for saving throw: +5 if you've heard of the target, +0 if you've met the target, -5 if you know the target well. ",
+    "cost": "43 mana",
+    "damage_roll": null,
+    "damage_count": null,
+    "price": 2150
+  },
+  {
+    "url": "skillempowerment",
+    "name": "Skill Empowerment",
+    "description": "Temporarily Improves a skill that a creature knows. Ex. Superior -> Epic. ",
+    "cost": "39 mana",
+    "damage_roll": null,
+    "damage_count": null,
+    "price": 1950
+  },
+  {
+    "url": "telekinesis",
+    "name": "Telekinesis",
+    "description": "You can move creatures or objects that weigh under 1000lbs. Creatures may make a strength check to resist telekinesis. ",
+    "cost": "38 mana",
+    "damage_roll": null,
+    "damage_count": null,
+    "price": 1900
+  },
+  {
+    "url": "temporalshunt",
+    "name": "Temporal Shunt",
+    "description": "Moves the target creature one turn into the future. Target may make a wisdom throw to prevent temporal shunt. ",
+    "cost": "46 mana",
+    "damage_roll": null,
+    "damage_count": null,
+    "price": 2300
+  },
+  {
+    "url": "legendlore",
+    "name": "Legend Lore",
+    "description": "Name or describe a person, place, or object. You receive a brief summary of the significant lore about that things. ",
+    "cost": "36 mana",
+    "damage_roll": null,
+    "damage_count": null,
+    "price": 1800
+  },
+  {
+    "url": "steelwindstrike",
+    "name": "Steel Wind Strike",
+    "description": "Create a spike of wind that flies into the target. ",
+    "cost": "43 mana",
+    "damage_roll": "d10",
+    "damage_count": "6",
+    "price": 2150
+  },
+  {
+    "url": "chainlightning",
+    "name": "Chain Lightning",
+    "description": "Releases a bolt of lightning that strikes a target and can leap to up to 3 other targets 30ft away. ",
+    "cost": "60 mana",
+    "damage_roll": "d8",
+    "damage_count": "10",
+    "price": 3000
+  },
+  {
+    "url": "disintegrate",
+    "name": "Disintegrate",
+    "description": "Release a green ray that disintegrates a creature or object. ",
+    "cost": "65 mana",
+    "damage_roll": "d10",
+    "damage_count": "10",
+    "price": 3250
+  },
+  {
+    "url": "globeofinvulnerability",
+    "name": "Globe of Invulnerability",
+    "description": "An immobile and impenetrable globe with a 10ft radius is created around you. Lasts up to 1 minute or until it is dispelled. ",
+    "cost": "59",
+    "damage_roll": null,
+    "damage_count": null,
+    "price": 2950
+  },
+  {
+    "url": "investitureofflame",
+    "name": "Investiture of Flame",
+    "description": "The target becomes immune to fire. ",
+    "cost": "40 mana",
+    "damage_roll": null,
+    "damage_count": null,
+    "price": 2000
+  },
+  {
+    "url": "investitureofice",
+    "name": "Investiture of Ice",
+    "description": "The target becomes immune to cold. ",
+    "cost": "40 mana",
+    "damage_roll": null,
+    "damage_count": null,
+    "price": 2000
+  },
+  {
+    "url": "investitureofstone",
+    "name": "Investiture of Stone",
+    "description": "Target becomes immune to bludgeoning, piercing, and slashing from nonmagical weapons. ",
+    "cost": "40 mana",
+    "damage_roll": null,
+    "damage_count": null,
+    "price": 2000
+  },
+  {
+    "url": "investitureofwind",
+    "name": "Investiture of Wind",
+    "description": "Ranged attacks against the target have disadvantage and the target gains 30mph flight. ",
+    "cost": "40 mana",
+    "damage_roll": null,
+    "damage_count": null,
+    "price": 2000
+  },
+  {
+    "url": "scatter",
+    "name": "Scatter",
+    "description": "Teleport up to 5 creatures to a random place 120ft away from you. Targets may make a wisdom roll to prevent being teleported. ",
+    "cost": "67 mana",
+    "damage_roll": null,
+    "damage_count": null,
+    "price": 3350
+  },
+  {
+    "url": "trueseeing",
+    "name": "True Seeing",
+    "description": "Allows the user to see things how they truly are. ",
+    "cost": "55 mana",
+    "damage_roll": null,
+    "damage_count": null,
+    "price": 2750
+  },
+  {
+    "url": "animalmessenger",
+    "name": "Animal Messenger",
+    "description": "Send a small animal to send a message to another person in your voice. ",
+    "cost": null,
+    "damage_roll": null,
+    "damage_count": null,
+    "price": 10000
+  },
+  {
+    "url": "draconictransformation",
+    "name": "Draconic Transformation",
+    "description": "Turns you into a small dragon and gives you the following abilities: blindsight - perfectly see anything that isn't fully behind cover up to 30ft, breath weapon - deals 6d8 damage of an element of your choice, wings - allows you to fly up to 30mph. ",
+    "cost": "70 mana",
+    "damage_roll": null,
+    "damage_count": null,
+    "price": 3500
+  },
+  {
+    "url": "powerwordpain",
+    "name": "Power Word Pain",
+    "description": "Causes a target under 100 health to suffer severe pain. While in pain the target has disadvantage on all rolls. The target may make a constitution saving throw to remove the effects. ",
+    "cost": "56 mana",
+    "damage_roll": null,
+    "damage_count": null,
+    "price": 2800
+  },
+  {
+    "url": "reversegravity",
+    "name": "Reverse Gravity",
+    "description": "Reverse gravity in a 50ft area. Creatures inside may make a dexterity saving throw to grab onto a fixed object. ",
+    "cost": "58 mana",
+    "damage_roll": null,
+    "damage_count": null,
+    "price": 2900
+  },
+  {
+    "url": "teleport",
+    "name": "Teleport",
+    "description": "Teleport you and 8 willing creatures to anywhere in sight within a mile. ",
+    "cost": "53 mana",
+    "damage_roll": null,
+    "damage_count": null,
+    "price": 2650
+  },
+  {
+    "url": "whirlwind",
+    "name": "Whirlwind",
+    "description": "Creates a whirlwind that races towards your target. Any creature caught in the whirlwind suffers damage and must make either a dexterity or strength saving throw to avoid being swept into the whirlwind. ",
+    "cost": "57 mana",
+    "damage_roll": "d6",
+    "damage_count": "10",
+    "price": 2850
+  },
+  {
+    "url": "planeshift",
+    "name": "Plane Shift",
+    "description": "Teleport you and 8 other willing creatures to another plane of existence.",
+    "cost": "100 mana",
+    "damage_roll": null,
+    "damage_count": null,
+    "price": 5000
+  },
+  {
+    "url": "etheralness",
+    "name": "Etheralness",
+    "description": "You gain the properties of a ghost, become invisible, and can walk through solid objects. ",
+    "cost": "48 mana",
+    "damage_roll": null,
+    "damage_count": null,
+    "price": 2400
+  },
+  {
+    "url": "antimagicfield",
+    "name": "Antimagic Field",
+    "description": "Creates an 10ft spherical volume around you where magic does not exist. No spells can enter or be cast and magic items are rendered mundane. ",
+    "cost": "80 mana",
+    "damage_roll": null,
+    "damage_count": null,
+    "price": 4000
+  },
+  {
+    "url": "controlweather",
+    "name": "Control Weather",
+    "description": "Control the weather up to heavy rain and wind within a 5 mile area. ",
+    "cost": "75 mana",
+    "damage_roll": null,
+    "damage_count": null,
+    "price": 3750
+  },
+  {
+    "url": "dominatemonster",
+    "name": "Dominate Monster",
+    "description": "Allows you to control a monster. The monster may make a wisdom saving throw to prevent being dominated. When dominated you can instruct the monster or take over their mind acting as them instead of yourself. Each time the monster takes damage it may make a wisdom roll to break out of the domination. ",
+    "cost": "85 mana",
+    "damage_roll": null,
+    "damage_count": null,
+    "price": 4250
+  },
+  {
+    "url": "incendiarycloud",
+    "name": "Incendiary Cloud",
+    "description": "Creates a 20ft cloud of smoke and burning ash. Lasts up to 1 minute or until a wind disperses it. ",
+    "cost": "64 mana",
+    "damage_roll": "d8",
+    "damage_count": "10",
+    "price": 3200
+  },
+  {
+    "url": "powerwordstun",
+    "name": "Power Word Stun",
+    "description": "Prevents a target under 150 health from making actions. The target may make a constitution roll every turn to break out of stun. ",
+    "cost": "90 mana",
+    "damage_roll": null,
+    "damage_count": null,
+    "price": 4500
+  },
+  {
+    "url": "telepathy",
+    "name": "Telepathy",
+    "description": "Establish a psychic link between you and a willing creature in your plane of existence. This link may be used to send messages or sensory information. ",
+    "cost": "78 mana",
+    "damage_roll": null,
+    "damage_count": null,
+    "price": 3900
+  },
+  {
+    "url": "sunburst",
+    "name": "Sunburst",
+    "description": "Creates a bright flash in a 60ft radius centered on a point of your choosing. Creatures in the light take damage and must make a constitution saving throw or become blind for the next turn. ",
+    "cost": "67 mana",
+    "damage_roll": "d6",
+    "damage_count": "12",
+    "price": 3350
+  },
+  {
+    "url": "astralprojection",
+    "name": "Astral Projection",
+    "description": "Create a spectral clone of yourself and up to 8 others in the astral plane that is tethered to your physical body. If you enter any other plane of existence your physical body is teleported to your astral projection. If the tether is broken you insanity die. ",
+    "cost": "120 mana",
+    "damage_roll": null,
+    "damage_count": null,
+    "price": 6000
+  },
+  {
+    "url": "foresight",
+    "name": "Foresight",
+    "description": "Allows the target to see slightly into the future. This target gains advantage on attack rolls and saving throws. ",
+    "cost": "130 mana",
+    "damage_roll": null,
+    "damage_count": null,
+    "price": 6500
+  },
+  {
+    "url": "meteorswarm",
+    "name": "Meteor Swarm",
+    "description": "Meteors rain from the sky in a 40ft area dealing fire damage to anyone inside. ",
+    "cost": "150 mana",
+    "damage_roll": "d6",
+    "damage_count": "40",
+    "price": 7500
+  },
+  {
+    "url": "powerwordkill",
+    "name": "Power Word Kill",
+    "description": "Instantly kill a target under 100 health. ",
+    "cost": "100 mana",
+    "damage_roll": null,
+    "damage_count": null,
+    "price": 5000
+  },
+  {
+    "url": "timestop",
+    "name": "Time Stop",
+    "description": "Freeze time for everyone but yourself. You gain 2 free actions during this time. The spell ends if interact with any other creature or item that does not belong to you. ",
+    "cost": null,
+    "damage_roll": null,
+    "damage_count": null,
+    "price": 10000
+  },
+  {
+    "url": "wish",
+    "name": "Wish",
+    "description": "You may wish for one of the following: an item worth up to 1,000,000mp and no more than 300ft in any direction, allow up to 20 creatures to regain all health, grant up to 10 creatures resistance to any element for a day, grant up to 10 creatures immunity to a spell or magical effect for a day, force a reroll for any event that happened in the past day. This spell can only be cast once a week. Cannot be greater spell focused. ",
+    "cost": "180 mana",
+    "damage_roll": null,
+    "damage_count": null,
+    "price": 9000
+  },
+  {
+    "url": "summonblue",
+    "name": "Summon Blue",
+    "description": "Summons a blue colored minion that can heal other minions and players. Blues can sacrifice their lives for another minion's or heal a player for 1d6 hp. Blues cannot attack. Blue stats: hp 1, thac0 20, ac 10, str 5, dex 5, con 2, wis 1, int 1, cha 1. ",
+    "cost": "6 mana",
+    "damage_roll": null,
+    "damage_count": null,
+    "price": 300
+  },
+  {
+    "url": "summongreen",
+    "name": "Summon Green",
+    "description": "Summons a green colored minion who has every rogue skill except for incredible luck at 25%. Greens can also use any simple weapon. Green stats: hp 1, thac0 10, ac 5, str 5, dex 15, con 2, wis 1, int 1, cha 1. ",
+    "cost": "12 mana",
+    "damage_roll": null,
+    "damage_count": null,
+    "price": 600
+  },
+  {
+    "url": "summonred",
+    "name": "Summon Red",
+    "description": "Summons a red colored minion that can breathe fire. Reds can only attack with their fire breathe dealing 1d6 fire damage. Red stats: hp 1, thac0 10, ac 10, str 5, dex 15, con 2, wis 1, int 1, cha 1. ",
+    "cost": "9 mana",
+    "damage_roll": null,
+    "damage_count": null,
+    "price": 450
+  },
+  {
+    "url": "summonbrown",
+    "name": "Summon Brown",
+    "description": "Summons a brown colored minion who can use simple weapons. Brown stats: hp 1, thac0 10, ac 10, str 5, con 2, dex 5, wis 1, int 1, cha 1.",
+    "cost": "5 mana",
+    "damage_roll": null,
+    "damage_count": null,
+    "price": 250
+  },
+  {
+    "url": "alterminion",
+    "name": "Alter Minion",
+    "description": "Add magical and nonmagical attributes to a minion. ",
+    "cost": "var",
+    "damage_roll": null,
+    "damage_count": null,
+    "price": 10000
+  },
+  {
+    "url": "druidcraft",
+    "name": "Druidcraft",
+    "description": "Do one of the following: create a tiny snow globe like effect that predicts the weather at that location for the next day, instantly make a flower bloom, a seed pod open, or a leaf bud bloom, or instantly snuff out a small fire. ",
+    "cost": null,
+    "damage_roll": null,
+    "damage_count": null,
+    "price": 10000
+  },
+  {
+    "url": "magicstone",
+    "name": "Magic Stone",
+    "description": "Create 3 magical rocks. If they are used for a ranged attack, increase the damage of that attack by 1d10.",
+    "cost": null,
+    "damage_roll": null,
+    "damage_count": null,
+    "price": 10000
+  },
+  {
+    "url": "primalsavagery",
+    "name": "Primal Savagery",
+    "description": "Make your teeth and fingernails sharpen. If you make a melee attack, deal 1d10 extra acid damage. Once you make your attack, return to normal. ",
+    "cost": null,
+    "damage_roll": null,
+    "damage_count": null,
+    "price": 10000
+  },
+  {
+    "url": "thornwhip",
+    "name": "Thorn Whip",
+    "description": "Create a thorny vine that lashes out towards your target. ",
+    "cost": null,
+    "damage_roll": "d6",
+    "damage_count": "1",
+    "price": 10000
+  },
+  {
+    "url": "animalfriendship",
+    "name": "Animal Friendship",
+    "description": "Convince an animal that you mean no harm. Does not work on an animal with intelligence over 4. The animal makes a wisdom saving throw to prevent being charmed. ",
+    "cost": null,
+    "damage_roll": null,
+    "damage_count": null,
+    "price": 10000
+  },
+  {
+    "url": "createordestroywater",
+    "name": "Create or Destroy Water",
+    "description": "Create or Destroy up to 10 gallons of water.",
+    "cost": null,
+    "damage_roll": null,
+    "damage_count": null,
+    "price": 10000
+  },
+  {
+    "url": "curewounds",
+    "name": "Cure Wounds",
+    "description": "Heal the target for 2d8 health. ",
+    "cost": null,
+    "damage_roll": null,
+    "damage_count": null,
+    "price": 10000
+  },
+  {
+    "url": "entangle",
+    "name": "Entangle",
+    "description": "Vines sprout in a 20ft area. Creatures inside need to make a strength check or be restrained. ",
+    "cost": null,
+    "damage_roll": null,
+    "damage_count": null,
+    "price": 10000
+  },
+  {
+    "url": "purifyfoodanddrink",
+    "name": "Purify Food and Drink",
+    "description": "Remove poison from food in a 5ft area. ",
+    "cost": null,
+    "damage_roll": null,
+    "damage_count": null,
+    "price": 10000
+  },
+  {
+    "url": "speakwithanimals",
+    "name": "Speak with Animals",
+    "description": "Allows you to verbally communicate with an animal. ",
+    "cost": null,
+    "damage_roll": null,
+    "damage_count": null,
+    "price": 10000
+  },
+  {
+    "url": "beastsense",
+    "name": "Beast Sense",
+    "description": "See and hear through a friendly animal's eyes and ears. ",
+    "cost": null,
+    "damage_roll": null,
+    "damage_count": null,
+    "price": 10000
+  },
+  {
+    "url": "heatmetal",
+    "name": "Heat Metal",
+    "description": "Heat metal until it's glowing hot. Anything touching the metal takes 2d8 damage. ",
+    "cost": null,
+    "damage_roll": null,
+    "damage_count": null,
+    "price": 10000
+  },
+  {
+    "url": "locateanimalsorplants",
+    "name": "Locate Animals or Plants",
+    "description": "Name or Describe a kind of animal or plant. If there is one within 5 miles, receive the distance and direction of your animal or plant. ",
+    "cost": null,
+    "damage_roll": null,
+    "damage_count": null,
+    "price": 10000
+  },
+  {
+    "url": "spikegrowth",
+    "name": "Spike Growth",
+    "description": "Create thorns on the ground in a 20ft area. Every 5ft a creature travels in that area, they take 2d4 damage. ",
+    "cost": null,
+    "damage_roll": null,
+    "damage_count": null,
+    "price": 10000
+  },
+  {
+    "url": "auraofvitality",
+    "name": "Aura of Vitality",
+    "description": "You radiate healing, you and one other person heal 2d6 health. ",
+    "cost": null,
+    "damage_roll": null,
+    "damage_count": null,
+    "price": 10000
+  },
+  {
+    "url": "calllightning",
+    "name": "Call Lightning",
+    "description": "Summon a lightning bolt to strike an enemy. ",
+    "cost": null,
+    "damage_roll": "d10",
+    "damage_count": "3",
+    "price": 10000
+  },
+  {
+    "url": "conjureanimals",
+    "name": "Conjure Animals",
+    "description": "Summons a bunch of small creatures that obey you. ",
+    "cost": null,
+    "damage_roll": null,
+    "damage_count": null,
+    "price": 10000
+  },
+  {
+    "url": "summonbeast",
+    "name": "Summon Beast",
+    "description": "Summon a nonmagical animal to fight for you. ",
+    "cost": null,
+    "damage_roll": null,
+    "damage_count": null,
+    "price": 10000
+  },
+  {
+    "url": "plantgrowth",
+    "name": "Plant Growth",
+    "description": "All plants within a 100ft circle of you become thick and overgrown. You may exclude areas from growing. ",
+    "cost": null,
+    "damage_roll": null,
+    "damage_count": null,
+    "price": 10000
+  },
+  {
+    "url": "speakwithplants",
+    "name": "Speak with Plants",
+    "description": "Gives plants within a 30ft area of you limited sentience and the ability to communicate with you. ",
+    "cost": null,
+    "damage_roll": null,
+    "damage_count": null,
+    "price": 10000
+  },
+  {
+    "url": "summonfey",
+    "name": "Summon Fey",
+    "description": "Summon a small fey that is willing to fight for you. ",
+    "cost": null,
+    "damage_roll": null,
+    "damage_count": null,
+    "price": 10000
+  },
+  {
+    "url": "waterwalk",
+    "name": "Water Walk",
+    "description": "Allows the target to walk over any liquid. ",
+    "cost": null,
+    "damage_roll": null,
+    "damage_count": null,
+    "price": 10000
+  },
+  {
+    "url": "conjurewoodlandbeings",
+    "name": "Conjure Woodland Beings",
+    "description": "Summon a group of fey that obey you. ",
+    "cost": null,
+    "damage_roll": null,
+    "damage_count": null,
+    "price": 10000
+  },
+  {
+    "url": "conjureminorelementals",
+    "name": "Conjure Minor Elementals",
+    "description": "Summon a group of minor elementals that obey your command. ",
+    "cost": null,
+    "damage_roll": null,
+    "damage_count": null,
+    "price": 10000
+  },
+  {
+    "url": "dominatebeast",
+    "name": "Dominate Beast",
+    "description": "Allows you to control an Animal. The animal may make a wisdom saving throw to prevent being dominated. When dominated you can instruct the animal or take over their mind acting as them instead of yourself. Each time the animal takes damage it may make a wisdom roll to break out of the domination. ",
+    "cost": null,
+    "damage_roll": null,
+    "damage_count": null,
+    "price": 10000
+  },
+  {
+    "url": "giantinsect",
+    "name": "Giant Insect",
+    "description": "Grow an insect into a giant version of itself for 10 minutes. ",
+    "cost": null,
+    "damage_roll": null,
+    "damage_count": null,
+    "price": 10000
+  },
+  {
+    "url": "graspingvine",
+    "name": "Grasping Vine",
+    "description": "Summons a large vine that lashes towards your target. If the target fails their strength saving throw, you can move them up to 20ft in any direction. ",
+    "cost": null,
+    "damage_roll": null,
+    "damage_count": null,
+    "price": 10000
+  },
+  {
+    "url": "conjureelemental",
+    "name": "Conjure Elemental",
+    "description": "Summons an elemental with an element of your choice. ",
+    "cost": null,
+    "damage_roll": null,
+    "damage_count": null,
+    "price": 10000
+  },
+  {
+    "url": "insectplague",
+    "name": "Insect Plague",
+    "description": "Summon a swarm of insects to harass your target and everything around it in a 20ft area. Everything in the swarm must make a constitution roll or take damage. ",
+    "cost": null,
+    "damage_roll": "d10",
+    "damage_count": "4",
+    "price": 10000
+  },
+  {
+    "url": "masscurewounds",
+    "name": "Mass Cure Wounds",
+    "description": "Choose up to 6 targets to heal 4d8 health. ",
+    "cost": null,
+    "damage_roll": null,
+    "damage_count": null,
+    "price": 10000
+  },
+  {
+    "url": "reincarnate",
+    "name": "Reincarnate",
+    "description": "Roll a d100 and revive a target as the following creature: 1-4 Dragonborn, 5-21 dwarf, 22-25 dark elf, 26-34 high elf, 35-42 wood elf, 43-52 gnome, 53-56 half-elf, 57-60 half-orc, 61-76 halfling, 77-96 human, 97-100 tiefling. ",
+    "cost": null,
+    "damage_roll": null,
+    "damage_count": null,
+    "price": 10000
+  },
+  {
+    "url": "summondraconicspirit",
+    "name": "Summon Draconic Spirit",
+    "description": "Summons a young dragon with a breathe weapon.",
+    "cost": null,
+    "damage_roll": null,
+    "damage_count": null,
+    "price": 10000
+  },
+  {
+    "url": "treestride",
+    "name": "Tree Stride",
+    "description": "Allows you to teleport between trees 500ft away from each other. ",
+    "cost": null,
+    "damage_roll": null,
+    "damage_count": null,
+    "price": 10000
+  },
+  {
+    "url": "communewithnature",
+    "name": "Commune with Nature",
+    "description": "You briefly become one with nature and gain knowledge of the following: terrain and bodies of water, prevalent plants, minerals, animals, or people, powerful celestials, fey, fiends, elementals, or undead, influence from other planes of existence, and buildings. ",
+    "cost": null,
+    "damage_roll": null,
+    "damage_count": null,
+    "price": 10000
+  },
+  {
+    "url": "conjurefey",
+    "name": "Conjure Fey",
+    "description": "Conjures a powerful fey to fight for you. ",
+    "cost": null,
+    "damage_roll": null,
+    "damage_count": null,
+    "price": 10000
+  },
+  {
+    "url": "fleshtostone",
+    "name": "Flesh to Stone",
+    "description": "Attempt to turn a creature you can see into stone. The creature may make a constitution saving throw to avoid being petrified. ",
+    "cost": null,
+    "damage_roll": null,
+    "damage_count": null,
+    "price": 10000
+  },
+  {
+    "url": "heros'feast",
+    "name": "Heros' Feast",
+    "description": "Summon a great feast which can feed up to 12 people. Those who partake in the feast are cured of all diseases and poison, become immune to poison and frighten for the next 8hrs, and have advantage on wisdom saving throws. They also gain 2d10 maximum health for 24hrs.  ",
+    "cost": null,
+    "damage_roll": null,
+    "damage_count": null,
+    "price": 10000
+  },
+  {
+    "url": "primordialward",
+    "name": "Primordial Ward",
+    "description": "Gain resistance to acid, cold, fire, and lightning for one minute. If you take damage from one of these types become immune to it for the rest of the duration. ",
+    "cost": null,
+    "damage_roll": null,
+    "damage_count": null,
+    "price": 10000
+  },
+  {
+    "url": "transportviaplants",
+    "name": "Transport via Plants",
+    "description": "Create a connection between a nearby large plant and another large plant in the same plane as you that you have interacted with. Any creatures that step into either large plant are teleported to the opposite connection. ",
+    "cost": null,
+    "damage_roll": null,
+    "damage_count": null,
+    "price": 10000
+  },
+  {
+    "url": "wallofthorns",
+    "name": "Wall of Thorns",
+    "description": "Summons a wall of thorns that is 60ft long, 10ft high, and 5ft thick. Any creatures caught in the wall take piercing damage. ",
+    "cost": null,
+    "damage_roll": "d8",
+    "damage_count": "7",
+    "price": 10000
+  },
+  {
+    "url": "windwalk",
+    "name": "Wind Walk",
+    "description": "Up to 10 willing creatures assume a gaseous form, gain resistance to nonmagical weapons, and are able to fly at 30mph. Creatures in this form can only move or turn back into their normal form. This effect lasts 8hrs unless cancelled. ",
+    "cost": null,
+    "damage_roll": null,
+    "damage_count": null,
+    "price": 10000
+  },
+  {
+    "url": "greaterrestoration",
+    "name": "Greater Restoration",
+    "description": "Remove one of the following effects from your target: charm, petrification, disadvantage for one roll, reduced max health. ",
+    "cost": null,
+    "damage_roll": null,
+    "damage_count": null,
+    "price": 10000
+  },
+  {
+    "url": "firestorm",
+    "name": "Fire Storm",
+    "description": "Summon a 10ft wide storm of fire dealing fire damage to anyone inside. ",
+    "cost": null,
+    "damage_roll": "d10",
+    "damage_count": "7",
+    "price": 10000
+  },
+  {
+    "url": "regenerate",
+    "name": "Regenerate",
+    "description": "Heal a target for 6d8 health. The target restores 1 health at the start of every turn for an hour. The target also restores any lost members or limbs after an hour. ",
+    "cost": null,
+    "damage_roll": null,
+    "damage_count": null,
+    "price": 10000
+  },
+  {
+    "url": "animalshapes",
+    "name": "Animal Shapes",
+    "description": "Turn any number of creatures into wild animals or beasts. This effect lasts up to 24hrs or until the creature dies. The creature gains the abilities and stats of their transformed beast. ",
+    "cost": null,
+    "damage_roll": null,
+    "damage_count": null,
+    "price": 10000
+  },
+  {
+    "url": "earthquake",
+    "name": "Earthquake",
+    "description": "Create a seismic disturbance with a 100ft radius. Creatures in the area take damage if they are on the ground. ",
+    "cost": null,
+    "damage_roll": null,
+    "damage_count": null,
+    "price": 10000
+  },
+  {
+    "url": "tsunami",
+    "name": "Tsunami",
+    "description": "Summon a wall of water that is 300ft long, 300ft tall, and 50ft thick. The wall moves 50ft away from you every round for 6 rounds. The wall does maximum damage on the first turn but loses 1d10 damage every round. Creatures hit by the wall take damage. ",
+    "cost": null,
+    "damage_roll": "d10",
+    "damage_count": "6",
+    "price": 10000
+  },
+  {
+    "url": "shapechange",
+    "name": "Shapechange",
+    "description": "Transform into any creature your level or below. Your stats and health are replaced by this creatures. This spell lasts up to 1hr, until it's dispelled, or you die. ",
+    "cost": null,
+    "damage_roll": null,
+    "damage_count": null,
+    "price": 10000
+  },
+  {
+    "url": "massrevive",
+    "name": "Mass Revive",
+    "description": "Bring any number of creatures back from the dead in a 30ft radius. ",
+    "cost": null,
+    "damage_roll": null,
+    "damage_count": null,
+    "price": 10000
+  },
+  {
+    "url": "revive",
+    "name": "Revive",
+    "description": "Revives one creature in sight whose soul is still intact. ",
+    "cost": null,
+    "damage_roll": null,
+    "damage_count": null,
+    "price": 10000
+  },
+  {
+    "url": "stormofvengeance",
+    "name": "Storm of Vengeance",
+    "description": "Creates a massive storm with a radius of 360ft around your target. The storm lasts 10 turns and does the following effects to the creatures under it for the specified turns: 1 creatures make a constitution saving throw, on fail take 2d6 damage and become deaf for 5 minutes. 2 Acid rain falls and deals 1d6 damage. 3 lightning bolts strike and deal 10d6 damage. 4 hailstones fall dealing 2d6 damage. 5-10 The area under the storm becomes a blizzard obstructing vision and making it hard to move, creatures take 1d6 damage. ",
+    "cost": null,
+    "damage_roll": null,
+    "damage_count": null,
+    "price": 10000
+  },
+  {
+    "url": "heal",
+    "name": "Heal",
+    "description": "Heal a target for 70 health. ",
+    "cost": "35 mana",
+    "damage_roll": null,
+    "damage_count": null,
+    "price": 1750
+  },
+  {
+    "url": "sparethedying",
+    "name": "Spare the Dying",
+    "description": "Touch a creature that is at exactly 0 health, stabilize their condition. ",
+    "cost": "5 mana",
+    "damage_roll": null,
+    "damage_count": null,
+    "price": 250
+  },
+  {
+    "url": "blindness/deafness",
+    "name": "Blindness/Deafness",
+    "description": "Make a creature go either blind or deaf. That creature can make. constitution saving throw to avoid the effect. ",
+    "cost": "12 mana",
+    "damage_roll": null,
+    "damage_count": null,
+    "price": 600
+  },
+  {
+    "url": "rayofenfeeblement",
+    "name": "Ray of Enfeeblement",
+    "description": "Shoot a black ray of energy at an opponent. Your target deals half damage with melee attacks until the start of your next turn. ",
+    "cost": "15 mana",
+    "damage_roll": null,
+    "damage_count": null,
+    "price": 750
+  },
+  {
+    "url": "revivify",
+    "name": "Revivify",
+    "description": "Touch a creature that has died in the past minute. That creature is revived with 1 health. ",
+    "cost": "20 mana",
+    "damage_roll": null,
+    "damage_count": null,
+    "price": 1000
+  },
+  {
+    "url": "animatedead",
+    "name": "Animate Dead",
+    "description": "Raise either a skeleton or corpse that you have access to. The body or skeleton become undead and will listen to your commands.",
+    "cost": "9 mana",
+    "damage_roll": null,
+    "damage_count": null,
+    "price": 450
+  },
+  {
+    "url": "speakwithdead",
+    "name": "Speak with Dead",
+    "description": "Speak with a corpse who has died in the past 10 days. This corpse only knows things that it did in life. ",
+    "cost": "8 mana",
+    "damage_roll": null,
+    "damage_count": null,
+    "price": 400
+  },
+  {
+    "url": "tollofthedead",
+    "name": "Toll of the Dead",
+    "description": "Your target hears the sound of a dolorous bell. If your target fails their wisdom saving throw, they take 1d8 damage if they're at full health and 1d12 damage if they're damaged. ",
+    "cost": "6 mana",
+    "damage_roll": null,
+    "damage_count": null,
+    "price": 300
+  },
+  {
+    "url": "inflictwounds",
+    "name": "Inflict Wounds",
+    "description": "Wounds open on your targets body",
+    "cost": "15 mana",
+    "damage_roll": "d10",
+    "damage_count": "3",
+    "price": 750
+  },
+  {
+    "url": "rayofsickness",
+    "name": "Ray of Sickness",
+    "description": "Shoot a green ray of energy toward your target dealing poison damage. ",
+    "cost": "8 mana",
+    "damage_roll": "d8",
+    "damage_count": "2",
+    "price": 400
+  },
+  {
+    "url": "summonundead",
+    "name": "Summon Undead",
+    "description": "Summons an undead creature that obeys your command. ",
+    "cost": "15 mana",
+    "damage_roll": null,
+    "damage_count": null,
+    "price": 750
+  },
+  {
+    "url": "vampirictouch",
+    "name": "Vampiric Touch",
+    "description": "Deal necrotic damage against your target and heal for half as much damage as you dealt. ",
+    "cost": "13 mana",
+    "damage_roll": "d6",
+    "damage_count": "3",
+    "price": 650
+  },
+  {
+    "url": "dansemacabre",
+    "name": "Danse Macabre",
+    "description": "Raise up to 5 small to medium corpses to fight for you. ",
+    "cost": "30 mana",
+    "damage_roll": null,
+    "damage_count": null,
+    "price": 1500
+  },
+  {
+    "url": "enervation",
+    "name": "Enervation",
+    "description": "Reach forward with a black tentacle that latches onto an enemy dealing damage. Heal for half as much damage as you deal. ",
+    "cost": "24 mana",
+    "damage_roll": "d8",
+    "damage_count": "4",
+    "price": 1200
+  },
+  {
+    "url": "negativeenergyflood",
+    "name": "Negative Energy Flood",
+    "description": "Summon a tidal wave of black energy. Any creatures caught in the flood take damage. If an enemy is killed by the flood, they are resurrected as a zombie who attacks whatever creature is closest to it. ",
+    "cost": "45",
+    "damage_roll": "d12",
+    "damage_count": "5",
+    "price": 2250
+  },
+  {
+    "url": "harm",
+    "name": "Harm",
+    "description": "Unleashes harmful energy against your target sapping their life force. ",
+    "cost": "42 mana",
+    "damage_roll": "d6",
+    "damage_count": "14",
+    "price": 2100
+  },
+  {
+    "url": "createundead",
+    "name": "Create Undead",
+    "description": "Raise up to 3 bodies and turn them into powerful ghouls. ",
+    "cost": "45 mana",
+    "damage_roll": null,
+    "damage_count": null,
+    "price": 2250
+  },
+  {
+    "url": "circleofdeath",
+    "name": "Circle of Death",
+    "description": "Every creature in a 60ft radius circular area takes necrotic damage. ",
+    "cost": "48 mana",
+    "damage_roll": "d8",
+    "damage_count": "6",
+    "price": 2400
+  },
+  {
+    "url": "fingerofdeath",
+    "name": "Finger of Death",
+    "description": "Point at a creature and deal necrotic damage. A humanoid killed by this spell becomes a zombie that follows your orders. ",
+    "cost": "50 mana",
+    "damage_roll": "d8",
+    "damage_count": "12",
+    "price": 2500
+  },
+  {
+    "url": "light",
+    "name": "Light",
+    "description": "An aura of light emanates around you. ",
+    "cost": "3 mana",
+    "damage_roll": null,
+    "damage_count": null,
+    "price": 150
+  },
+  {
+    "url": "darkness",
+    "name": "Darkness",
+    "description": "You absorb light around you creating a fog of darkness. ",
+    "cost": "3 mana",
+    "damage_roll": null,
+    "damage_count": null,
+    "price": 150
+  },
+  {
+    "url": "farsight",
+    "name": "Far Sight",
+    "description": "Allows you to see clearly up to a mile away almost like you're using binoculars. ",
+    "cost": "4 mana",
+    "damage_roll": null,
+    "damage_count": null,
+    "price": 200
+  },
+  {
+    "url": "anthorde",
+    "name": "Ant Horde",
+    "description": "Summons tons of controllable ant to help you fix things in hard to reach places. Attacking someone with these ants deals damage. ",
+    "cost": "7 mana",
+    "damage_roll": "d6",
+    "damage_count": "1",
+    "price": 350
+  },
+  {
+    "url": "inspiration",
+    "name": "Inspiration",
+    "description": "Allows you to fulfill a wisdom roll when crafting. The cost of this spell is equal to a tenth the cost of crafting in gathering points. This spell can be used if you fail a wisdom roll when crafting as well. This spell can only be used once per crafting attempt or round. ",
+    "cost": "var",
+    "damage_roll": null,
+    "damage_count": null,
+    "price": 10000
+  },
+  {
+    "url": "feignweakness",
+    "name": "Feign Weakness",
+    "description": "Your target appears to be in a weakened state, more vulnerable to attacks. ",
+    "cost": "9 mana",
+    "damage_roll": null,
+    "damage_count": null,
+    "price": 450
+  },
+  {
+    "url": "attentioninvisibility",
+    "name": "Attention Invisibility",
+    "description": "Makes it less likely for an enemy to attack or detect you. If you attack an enemy, they are no longer under this effect. This spell lasts 1 day. ",
+    "cost": "10 mana",
+    "damage_roll": null,
+    "damage_count": null,
+    "price": 500
+  },
+  {
+    "url": "sharpensenses",
+    "name": "Sharpen Senses",
+    "description": "Increases your abilities to sense things making it harder for people to sneak up on you and giving your advantage when trying to use a sense. ",
+    "cost": "7 mana",
+    "damage_roll": null,
+    "damage_count": null,
+    "price": 350
+  },
+  {
+    "url": "songoflostdreams",
+    "name": "Song of Lost Dreams",
+    "description": "Bardic Spell. Make a sleeping creature's dream a reality. This spell cannot create any artifact level items, influence the actions or minds of others, or true resurrect. This spell can only be used once a month. If used twice a month, the second cast is successful but the user falls into an eternal slumber. ",
+    "cost": "250 mana",
+    "damage_roll": null,
+    "damage_count": null,
+    "price": 12500
+  },
+  {
+    "url": "imbuemagicaldevice",
+    "name": "Imbue Magical Device",
+    "description": "Imbue a device with a magical spell that you or another mage possesses. Both you and the caster must pay the price for the spell in mana. If you are the caster pay double. ",
+    "cost": "var",
+    "damage_roll": null,
+    "damage_count": null,
+    "price": 10000
+  },
+  {
+    "url": "magicalenergyweb",
+    "name": "Magical Energy Web",
+    "description": "Launch a web of magic energy at your target restraining them. Your target may make a strength swing throw to break free. ",
+    "cost": "15 mana",
+    "damage_roll": null,
+    "damage_count": null,
+    "price": 750
+  },
+  {
+    "url": "magicaltrap",
+    "name": "Magical Trap",
+    "description": "Creates a magical trap with your design specifications. ",
+    "cost": "var",
+    "damage_roll": null,
+    "damage_count": null,
+    "price": 10000
+  },
+  {
+    "url": "truesight",
+    "name": "True Sight",
+    "description": "Allows you to see disguised doors and containers as well as low level invisibility. ",
+    "cost": "15 mana",
+    "damage_roll": null,
+    "damage_count": null,
+    "price": 750
+  },
+  {
+    "url": "conjuredevice",
+    "name": "Conjure Device",
+    "description": "Conjures a magical device of your specification. This conjuration is exponentially more expensive than crafting. ",
+    "cost": "var",
+    "damage_roll": null,
+    "damage_count": null,
+    "price": 10000
+  },
+  {
+    "url": "conjurevehicle",
+    "name": "Conjure Vehicle",
+    "description": "Conjures a magical vehicle of your specification. This conjuration is exponentially more expensive than crafting. ",
+    "cost": "var",
+    "damage_roll": null,
+    "damage_count": null,
+    "price": 10000
+  },
+  {
+    "url": "mimicspell",
+    "name": "Mimic Spell",
+    "description": "Mimic a spell you see cast. This costs twice as much Ana as the original cost and cannot exceed the original spell's greater spell focus. ",
+    "cost": "var",
+    "damage_roll": null,
+    "damage_count": null,
+    "price": 10000
+  },
+  {
+    "url": "modronmind",
+    "name": "Modron Mind",
+    "description": "Gives you resistance to mind and emotion magic for a day. ",
+    "cost": "25 mana",
+    "damage_roll": null,
+    "damage_count": null,
+    "price": 1250
+  },
+  {
+    "url": "increaseefficiency",
+    "name": "Increase Efficiency ",
+    "description": "Increases the effectiveness of a machine with a single task. That machine gains advantage when completing this task. ",
+    "cost": "30 mana",
+    "damage_roll": null,
+    "damage_count": null,
+    "price": 1500
+  },
+  {
+    "url": "createelements",
+    "name": "Create Elements",
+    "description": "Allows you to conjure gathering points at a ratio of 8 mana to 1 gather points. ",
+    "cost": "var",
+    "damage_roll": null,
+    "damage_count": null,
+    "price": 10000
+  },
+  {
+    "url": "summonminormodron",
+    "name": "Summon Minor Modron",
+    "description": "Summons a weak modron to fight for you. ",
+    "cost": "30 mana",
+    "damage_roll": null,
+    "damage_count": null,
+    "price": 1500
+  },
+  {
+    "url": "shapeenvironment",
+    "name": "Shape Environment",
+    "description": "Change the environment to suit your wishes. Price changes based on your specifications. ",
+    "cost": "var",
+    "damage_roll": null,
+    "damage_count": null,
+    "price": 10000
+  },
+  {
+    "url": "commandlawfulbeings",
+    "name": "Command Lawful Beings",
+    "description": "Force a lawfully aligned creature to obey your orders for an hour. The creature can make a wisdom saving throw to resist being controlled. If the creature is harmed by you or an ally, you lose command over the creature. ",
+    "cost": "50 mana",
+    "damage_roll": null,
+    "damage_count": null,
+    "price": 2500
+  },
+  {
+    "url": "summonmodron",
+    "name": "Summon Modron",
+    "description": "Summons a modron to fight for you. ",
+    "cost": "60 mana",
+    "damage_roll": null,
+    "damage_count": null,
+    "price": 3000
+  },
+  {
+    "url": "summonlawfulservant",
+    "name": "Summon Lawful Servant",
+    "description": "Summons a small lawful being to obey you command for a day. This lawful being will not fight for you. ",
+    "cost": "30 mana",
+    "damage_roll": null,
+    "damage_count": null,
+    "price": 1500
+  },
+  {
+    "url": "conjurestructure",
+    "name": "Conjure Structure",
+    "description": "Conjures a magical structure of your specification. This spell costs exponentially more than crafting. ",
+    "cost": "var",
+    "damage_roll": null,
+    "damage_count": null,
+    "price": 10000
+  },
+  {
+    "url": "re-energizeparty",
+    "name": "Re-Energize Party",
+    "description": "Fill your party with energy healing them for 1d10 and removing minor effects from lack of food or sleep. ",
+    "cost": "50 mana",
+    "damage_roll": null,
+    "damage_count": null,
+    "price": 2500
+  },
+  {
+    "url": "summonmajormodron",
+    "name": "Summon Major Modron",
+    "description": "Summons a powerful modron to fight for you. ",
+    "cost": "90 mana",
+    "damage_roll": null,
+    "damage_count": null,
+    "price": 4500
+  },
+  {
+    "url": "experimentalminion",
+    "name": "Experimental Minion",
+    "description": "Summons a minion described by the player. The price of this minion is increased if you havent created it with alter minion before. You may take your altered minion as a unique spell after casting it as experimental minion. ",
+    "cost": "var",
+    "damage_roll": null,
+    "damage_count": null,
+    "price": 10000
+  },
+  {
+    "url": "prismaticspray",
+    "name": "Prismatic Spray",
+    "description": "Roll a d8 and do the corresponding action. 1 red - target takes 10d6 fire damage. 2 orange - target takes 10d6 acid damage. 3 yellow - target takes 10d6 lightning damage. 4 green - target takes 10d6 poison damage. 5 blue - target takes 10d6 cold damage. 6 indigo - target makes 3 constitution saving throws, if it fails all three it is turned to stone. 7 violet - target makes a wisdom saving throw, if it fails target becomes blind until your next turn. 8 - reroll twice and do both actions. ",
+    "cost": "60 mana",
+    "damage_roll": "d6",
+    "damage_count": "10",
+    "price": 3000
+  },
+  {
+    "url": "detectdead/undead",
+    "name": "Detect Dead/Undead",
+    "description": "Detects both dead and undead in a 30ft radius. You cannot tell if what you detected is dead or undead. ",
+    "cost": "9 mana",
+    "damage_roll": null,
+    "damage_count": null,
+    "price": 450
+  },
+  {
+    "url": "irresistibledance",
+    "name": "Irresistible Dance",
+    "description": "Causes your target to dance preventing them from doing other actions. Your target can make. wisdom saving throw to stop dancing. ",
+    "cost": "40 mana",
+    "damage_roll": null,
+    "damage_count": null,
+    "price": 2000
+  },
+  {
+    "url": "shapereality",
+    "name": "Shape Reality",
+    "description": "Choose one of the following things: convert up to 100 cubic feet of a material to another, change a 50ft area of a terrain to another, create a structure from a nonmagical material that can fit into a 20ft cube. ",
+    "cost": "50 mana",
+    "damage_roll": null,
+    "damage_count": null,
+    "price": 2500
+  },
+  {
+    "url": "consumesoul",
+    "name": "Consume Soul",
+    "description": "Consume a captured soul, possibly gaining some of its abilities. If the soul is good, you must make a wisdom saving throw to resist dropping in alignment. If the soul is evil, it may try to curse you. ",
+    "cost": "80",
+    "damage_roll": null,
+    "damage_count": null,
+    "price": 4000
+  },
+  {
+    "url": "import",
+    "name": "Import",
+    "description": "Allows you to import a single spell from another class into your REPL.",
+    "cost": "9 mana",
+    "damage_roll": null,
+    "damage_count": null,
+    "price": 450
+  },
+  {
+    "url": "repl",
+    "name": "REPL",
+    "description": "Stands for Read-Eval-Print Loop which allows you to type lines of code to be executed one at a time. Writing any line of code costs 1 mana by default, calling a command costs the amount of mana that the function or spell would cost.",
+    "cost": "1 mana",
+    "damage_roll": null,
+    "damage_count": null,
+    "price": 50
+  },
+  {
+    "url": "lightlaser1",
+    "name": "Light Laser 1",
+    "description": "Shoots a beam of light from your palm at your target. ",
+    "cost": "3 CEJ",
+    "damage_roll": "d6",
+    "damage_count": "1",
+    "price": 150
+  },
+  {
+    "url": "lightlaser2",
+    "name": "Light Laser 2",
+    "description": "Shoots a powerful beam of light from you or a crystal lotus. ",
+    "cost": "10 CEJ",
+    "damage_roll": "d8",
+    "damage_count": "3",
+    "price": 500
+  },
+  {
+    "url": "refractionshield",
+    "name": "Refraction Shield",
+    "description": "Creates a shield around you that protects from magic and energy damage. This shield lasts for one day. Casting the shield has a 4:1 CEJ:hp ratio. ",
+    "cost": "var",
+    "damage_roll": null,
+    "damage_count": null,
+    "price": 10000
+  },
+  {
+    "url": "laserlotus",
+    "name": "Laser Lotus",
+    "description": "Creates a crystal flower in the air that can fire light lasers for you. Laser lotuses cost twice as much to create as the light laser spell that they shoot. Laser lotuses take a round before they can fire and have 10hp per level of light laser used. ",
+    "cost": "var",
+    "damage_roll": null,
+    "damage_count": null,
+    "price": 10000
+  },
+  {
+    "url": "crystalshield",
+    "name": "Crystal Shield",
+    "description": "Creates an invisible layer of crystal on your skin protecting you from physical damage. This shield costs 4:1 CEJ:hp. ",
+    "cost": "var",
+    "damage_roll": null,
+    "damage_count": null,
+    "price": 10000
+  },
+  {
+    "url": "minorlightillusion",
+    "name": "Minor Light Illusion",
+    "description": "Creates the illusion of an object that everyone can see. This illusion is not tangible. ",
+    "cost": "10 CEJ",
+    "damage_roll": null,
+    "damage_count": null,
+    "price": 500
+  },
+  {
+    "url": "lightillusion",
+    "name": "Light Illusion",
+    "description": "Creates an illusion the size of a small room. This illusion is not tangible. ",
+    "cost": "35 CEJ",
+    "damage_roll": null,
+    "damage_count": null,
+    "price": 1750
+  },
+  {
+    "url": "conjurecrystal1",
+    "name": "Conjure Crystal 1",
+    "description": "Conjures a crystal that forms from you or another nearby surface that fits within a 5ft cube. ",
+    "cost": "5 CEJ",
+    "damage_roll": null,
+    "damage_count": null,
+    "price": 250
+  },
+  {
+    "url": "conjurecrystal2",
+    "name": "Conjure Crystal 2",
+    "description": "Creates a crystal with your desired shape that fits within a 25ft cube. ",
+    "cost": "30 CEJ",
+    "damage_roll": null,
+    "damage_count": null,
+    "price": 1500
+  },
+  {
+    "url": "createcrystalbattery",
+    "name": "Create Crystal Battery",
+    "description": "Allows you to store CEJ in a crystal battery at a 2:1 ratio. Other crystallites may use your battery at half the efficiency. This spell cannot be GSF. ",
+    "cost": "var",
+    "damage_roll": null,
+    "damage_count": null,
+    "price": 10000
+  },
+  {
+    "url": "lightinvisibilityfield",
+    "name": "Light Invisibility Field",
+    "description": "Creates a field of invisibility around you or your target. This field only blocks visual light.",
+    "cost": "20 CEJ",
+    "damage_roll": null,
+    "damage_count": null,
+    "price": 1000
+  },
+  {
+    "url": "invisibilityfield",
+    "name": "Invisibility Field",
+    "description": "Makes you invisible to all nonmagical forms of detection. ",
+    "cost": "40 CEJ",
+    "damage_roll": null,
+    "damage_count": null,
+    "price": 2000
+  },
+  {
+    "url": "lightlaser3",
+    "name": "Light Laser 3",
+    "description": "Creates a powerful laser that shoots from your palm or a laser lotus. ",
+    "cost": "30",
+    "damage_roll": "d10",
+    "damage_count": "5",
+    "price": 1500
+  },
+  {
+    "url": "lightlaser4",
+    "name": "Light Laser 4",
+    "description": "Creates a devastating laser from your palm or a laser lotus. ",
+    "cost": "50",
+    "damage_roll": "d10",
+    "damage_count": "10",
+    "price": 2500
+  },
+  {
+    "url": "conjurecrystal3",
+    "name": "Conjure Crystal 3",
+    "description": "Conjures a crystal with your desired shape from you or a nearby surface. This crystal must fit within a 40ft cube. ",
+    "cost": "50 CEJ",
+    "damage_roll": null,
+    "damage_count": null,
+    "price": 2500
+  },
+  {
+    "url": "crystalclone",
+    "name": "Crystal Clone",
+    "description": "Creates a clone of yourself using crystal. All clones pull from your pool of CEJ but can do any action that you can. Divide your stats among your clones, for example if you have one clone, you will be controlling two bodies so divide all of your stats by 2. ",
+    "cost": "100 CEJ",
+    "damage_roll": null,
+    "damage_count": null,
+    "price": 5000
+  },
+  {
+    "url": "crystalpseudoreality",
+    "name": "Crystal Pseudo Reality",
+    "description": "Create a large illusion made of crystal with a light illusion as the facade. The illusion feels real to anyone inside even if they touch the objects. ",
+    "cost": "85 CEJ",
+    "damage_roll": null,
+    "damage_count": null,
+    "price": 4250
+  },
+  {
+    "url": "lightlaser5",
+    "name": "Light Laser 5",
+    "description": "Creates yet another powerful laser that shoots from your palm or a light laser",
+    "cost": "70 CEJ",
+    "damage_roll": "d10",
+    "damage_count": "12",
+    "price": 3500
+  },
+  {
+    "url": "crystallineinvisibility",
+    "name": "Crystalline Invisibility",
+    "description": "Become invisible to all crystallites. If you cast a spell under the invisibility, you will become detectable. ",
+    "cost": "80 CEJ",
+    "damage_roll": null,
+    "damage_count": null,
+    "price": 4000
+  },
+  {
+    "url": "crystalportal",
+    "name": "Crystal Portal",
+    "description": "Creates a portal with an opening that is up to 10 miles away. ",
+    "cost": "90 CEJ",
+    "damage_roll": null,
+    "damage_count": null,
+    "price": 4500
+  },
+  {
+    "url": "conjurecrystal4",
+    "name": "Conjure Crystal 4",
+    "description": "Conjures a crystal of your desired shape that can fit within a 100ft cube. ",
+    "cost": "100 CEJ",
+    "damage_roll": null,
+    "damage_count": null,
+    "price": 5000
+  },
+  {
+    "url": "lightlaser6",
+    "name": "Light Laser 6",
+    "description": "Creates an overwhelming laser from your palm or a laser lotus. ",
+    "cost": "100 mana",
+    "damage_roll": "d20",
+    "damage_count": "8",
+    "price": 5000
+  },
+  {
+    "url": "conjuresingularity",
+    "name": "Conjure Singularity",
+    "description": "Conjure crystals so compact that they create a singularity for a fraction of a second. This singularity does not pull in matter but will consume any that gets in its way. It has a 1mm diameter. ",
+    "cost": "175 CEJ",
+    "damage_roll": null,
+    "damage_count": null,
+    "price": 8750
+  },
+  {
+    "url": "conjurecrystal5",
+    "name": "Conjure Crystal 5",
+    "description": "Creates a crystal of your desired shape that can fit within a 250ft cube. ",
+    "cost": "200 CEJ",
+    "damage_roll": null,
+    "damage_count": null,
+    "price": 10000
+  },
+  {
+    "url": "lightlaser7",
+    "name": "Light Laser 7",
+    "description": "Bring forth the ultimate laser from your palm or a laser lotus. ",
+    "cost": "200 CEJ",
+    "damage_roll": "d100",
+    "damage_count": "4",
+    "price": 10000
+  },
+  {
+    "url": "perfectcrystallineclone",
+    "name": "Perfect Crystalline Clone",
+    "description": "Creates a crystal clone that does not detriment your stats. Any duplicated equipment is still suffers cloning effects. ",
+    "cost": "250 CEJ",
+    "damage_roll": null,
+    "damage_count": null,
+    "price": 12500
+  },
+  {
+    "url": "quantumuntangle",
+    "name": "Quantum Untangle",
+    "description": "Untangle yourself or someone else from the fabric of the universe, allowing them to travel to ANY other dimension. ",
+    "cost": "300 CEJ",
+    "damage_roll": null,
+    "damage_count": null,
+    "price": 15000
+  },
+  {
+    "url": "crystalstrength",
+    "name": "Crystal Strength",
+    "description": "Convert CEJ directly to strength. Costs 10 ^ Strength per action. ",
+    "cost": "var",
+    "damage_roll": null,
+    "damage_count": null,
+    "price": 10000
+  },
+  {
+    "url": "createcrystal6",
+    "name": "Create Crystal 6",
+    "description": "Create a crystal the size of a skyscraper. ",
+    "cost": "140 CEJ",
+    "damage_roll": null,
+    "damage_count": null,
+    "price": 7000
+  },
+  {
+    "url": "createcrystal1",
+    "name": "Create Crystal 1",
+    "description": "Creates a crystal in the form of any desired shape with 1 cubic foot. ",
+    "cost": "5 CEJ",
+    "damage_roll": null,
+    "damage_count": null,
+    "price": 250
+  },
+  {
+    "url": "createcrystallinearmor",
+    "name": "Create Crystalline Armor",
+    "description": "Create armor with crystal.",
+    "cost": "var",
+    "damage_roll": null,
+    "damage_count": null,
+    "price": 10000
+  },
+  {
+    "url": "createcrystal3",
+    "name": "Create Crystal 3",
+    "description": "Create a crystal the size of a small house. ",
+    "cost": "30",
+    "damage_roll": null,
+    "damage_count": null,
+    "price": 1500
+  },
+  {
+    "url": "createsingularity",
+    "name": "Create Singularity",
+    "description": "Create a small singularity the size of a grain of sand for a single second. Anyone caught by the singularity (including you) needs to roll str to avoid being caught. ",
+    "cost": "140 CEJ",
+    "damage_roll": "d12",
+    "damage_count": 10,
+    "price": 7000
+  },
+  {
+    "url": "crystalwormhole",
+    "name": "Crystal Wormhole",
+    "description": "Create a wormhole to another location within 1 mile and in sight.",
+    "cost": "120 CEJ",
+    "damage_roll": null,
+    "damage_count": null,
+    "price": 6000
+  },
+  {
+    "url": "illusion",
+    "name": "Illusion",
+    "description": "Create an illusion the size of a room complete with sounds. ",
+    "cost": "30",
+    "damage_roll": null,
+    "damage_count": null,
+    "price": 1500
+  },
+  {
+    "url": "createcrystal2",
+    "name": "Create Crystal 2",
+    "description": "Create a crystal the size of a car. ",
+    "cost": "15 CEJ",
+    "damage_roll": null,
+    "damage_count": null,
+    "price": 750
+  },
+  {
+    "url": "createcrystallinedevice",
+    "name": "Create Crystalline Device",
+    "description": "Create a device of your choosing using crystals and CEJ. ",
+    "cost": "var",
+    "damage_roll": null,
+    "damage_count": null,
+    "price": 10000
+  },
+  {
+    "url": "createcrystal5",
+    "name": "Create Crystal 5",
+    "description": "Create a crystal the size of a small office building",
+    "cost": "100 CEJ",
+    "damage_roll": null,
+    "damage_count": null,
+    "price": 5000
+  },
+  {
+    "url": "crystallineclone",
+    "name": "Crystalline Clone",
+    "description": "Create a clone of yourself. Your stats are evenly divided between each clone in your control. ",
+    "cost": "60 CEJ",
+    "damage_roll": null,
+    "damage_count": null,
+    "price": 3000
+  },
+  {
+    "url": "createcrystal4",
+    "name": "Create Crystal 4",
+    "description": "Create a crystal the size of a suburban home. ",
+    "cost": "45 CEJ",
+    "damage_roll": null,
+    "damage_count": null,
+    "price": 2250
+  },
+  {
+    "url": "createcrystallineweapon",
+    "name": "Create Crystalline Weapon",
+    "description": "Allows the user to create crystal weapons.",
+    "cost": "var",
+    "damage_roll": null,
+    "damage_count": null,
+    "price": 10000
+  },
+  {
+    "url": "pseudoreality",
+    "name": "Pseudo Reality",
+    "description": "Create an illusion within a 100ft radius that is indistinguishable from reality. ",
+    "cost": "100 CEJ",
+    "damage_roll": null,
+    "damage_count": null,
+    "price": 5000
+  }
 ]
-
