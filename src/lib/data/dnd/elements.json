@@ -2,62 +2,86 @@
     {
       "name": "Fire",
       "description": "Burning heat, flames, explosions.",
-      "effective_against": ["Cold", "Plant", "Necrotic"]
+      "effective_against": ["Cold", "Plant", "Necrotic"],
+      "color": "#ff1014",
+      "text": "light"
     },
     {
       "name": "Water",
       "description": "Flowing, crushing force, or pure water magic.",
-      "effective_against": ["Fire", "Earth", "Acid", "Poison"]
+      "effective_against": ["Fire", "Earth", "Acid", "Poison"],
+      "color":  "#009aff",
+      "text": "dark"
     },
     {
       "name": "Earth",
       "description": "Stone, metal, soil, stability, crushing power.",
-      "effective_against": ["Air", "Lightning", "Fire", "Poison"]
+      "effective_against": ["Air", "Lightning", "Fire", "Thunder", "Water"],
+      "color": "#4b2d15",
+      "text": "light"
     },
     {
       "name": "Plant",
       "description": "Nature, life energy, growth.",
-      "effective_against": ["Water", "Earth"] 
+      "effective_against": ["Water", "Earth"],
+      "color": "#00c11f",
+      "text": "dark"
     },
     {
       "name": "Air",
       "description": "Wind, storms, speed, mobility.",
-      "effective_against": ["Earth", "Poison", "Acid"]
+      "effective_against": ["Poison", "Acid"],
+      "color": "#8fdce5",
+      "text": "dark"
     },
     {
       "name": "Lightning",
       "description": "Electric shocks, arcs, storms.",
-      "effective_against": ["Water", "Necrotic"]
+      "effective_against": ["Water", "Necrotic", "Cold"],
+      "color": "#fff128",
+      "text": "dark"
     },
     {
       "name": "Thunder",
       "description": "Concussive sound waves, shockwaves.",
-      "effective_against": ["Earth", "Water"]
+      "effective_against": ["Water"],
+      "color": "#bbbbbb",
+      "text": "dark"
     },
     {
       "name": "Cold",
       "description": "Freezing frost, slowing or freezing targets.",
-      "effective_against": ["Fire", "Plant", "Water"]
+      "effective_against": ["Fire", "Plant", "Water"],
+      "color": "#7afaff",
+      "text": "dark"
     },
     {
       "name": "Acid",
       "description": "Corrosive substances that dissolve materials.",
-      "effective_against": ["Earth", "Plant"]
+      "effective_against": ["Earth", "Plant"],
+      "color": "#bbff4c",
+      "text": "dark"
     },
     {
       "name": "Poison",
       "description": "Toxic substances that damage or debilitate.",
-      "effective_against": ["Plant"]
+      "effective_against": ["Plant"],
+      "color": "#355900",
+      "text": "light"
     },
     {
       "name": "Necrotic",
       "description": "Death energy, decay, life-draining power.",
-      "effective_against": ["Radiant"]
+      "effective_against": ["Radiant"],
+      "color": "#241937",
+      "text": "light"
     },
     {
       "name": "Radiant",
       "description": "Holy or pure energy, burns the unholy.",
-      "effective_against": ["Necrotic"]
+      "effective_against": ["Necrotic"],
+      "color": "#ffefaa",
+      "text": "dark"
     }
   ]
   

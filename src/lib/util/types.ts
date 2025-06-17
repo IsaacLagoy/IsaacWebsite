@@ -118,6 +118,9 @@ export type DndElement = {
     name: string;
     description: string;
     effective_against: string[];
+    weak_against: string[];
+    color: string;
+    text: string;
 }
 
 // potions

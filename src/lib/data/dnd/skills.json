@@ -1,5 +1,47 @@
 [
     {
+        "url": "redirect_focus",
+        "name": "Redirect Focus",
+        "description": "When being tagreted by an enemy attack, you may roll contested wisdom to redirect that attack towards a random friendly ally.",
+        "rolls": ["wis"]
+    },
+    {
+        "url": "death_curse",
+        "name": "Death Curse",
+        "description": "Enchant a creature with a spell that activates upon death. This spell will be directed towards the slayer of your target. Death curses only activate when the creature dies and is not instantly revived or healed.",
+        "rolls": []
+    },
+    {
+        "url": "untargetable",
+        "name": "Untargetable",
+        "description": "You may not be targeted by enemy attacks until there are no remaining taregtable allies alive. ",
+        "rolls": []
+    },
+    {
+        "url": "commander",
+        "name": "Commander",
+        "description": "Increase the number of units you may easily control by 1 times your level. Improving this skill increases the multiplier by 1.",
+        "rolls": []
+    },
+    {
+        "url": "rally",
+        "name": "Rally",
+        "description": "Increase the morale of allies in earshot by 5% for 1 combat rounds. Improving this skill increases the numer of rounds by 1 and the percent morale by 5. ",
+        "rolls": ["cha"]
+    },
+    {
+        "url": "leadership",
+        "name": "Leadership",
+        "description": "Increase the morale of allies under your command by 5%. ",
+        "rolls": []
+    },
+    {
+        "url": "mad_scientist",
+        "name": "Mad Scientist",
+        "description": "Dismembering a creature does not lower your alignment, this does not need to be rolled for. Also allows you to perform surgeries to attach severed parts of other creatures to minions and people.",
+        "rolls": ["wis", "dex"]
+    },
+    {
         "url": "animal_friendship",
         "name": "Animal Friendship",
         "description": "Beasts under 6 intelligence will not attack you unless provoked.",

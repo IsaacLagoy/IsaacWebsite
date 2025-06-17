@@ -448,73 +448,114 @@
         ]
     },
     {
-        "url": "overlord",
-        "name": "Overlord",
-        "skills": [
-            [],
-            [],
-            [],
-            [
-                "Redirect Focus"
-            ],
-            [],
-            [],
-            [],
-            [
-                "Mad Scientist"
-            ],
-            [],
-            [],
-            [
-                "Infuse Soul",
-                "Untargetable"
-            ],
-            [],
-            [],
-            [],
-            [],
-            [],
-            [],
-            [],
-            [],
-            [],
-            []
+    "url": "overlord",
+    "name": "Overlord",
+    "skills": [
+        [],
+        [
+            "Leadership",
+            "Rally",
+            "Commander"
         ],
-        "spells": [
-            [
-                "Summon Brown"
-            ],
-            [],
-            [
-                "Summon Blue"
-            ],
-            [
-                "Summon Red",
-                "Alter Minion"
-            ],
-            [],
-            [
-                "Summon Green"
-            ],
-            [],
-            [
-                "Experimental Minion"
-            ],
-            [],
-            [],
-            [],
-            [],
-            [],
-            [],
-            [],
-            [],
-            [],
-            [],
-            [],
-            [],
-            []
+        [
+            "Mad Scientist"
+        ],
+        [
+            "Redirect Focus"
+        ],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [
+            "Untargetable",
+            "Death Curse"
+        ],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+    ],
+    "spells": [
+        [],
+        [
+            "Summon Brown"
+        ],
+        [
+            "Summon Blue",
+            "Mutate Minion"
+        ],
+        [
+            "Summon Red",
+            "Alter Minion",
+            "Explode Minion",
+            "Clone Minion",
+            "Strength Fortress",
+            "Dexterity Fortress",
+            "Constitution Fortress",
+            "Intelligence Fortress",
+            "Wisdom Fortress",
+            "Charisma Fortress"
+        ],
+        [
+            "Fuse Minion"
+        ],
+        [
+            "Summon Green",
+            "Fortify Strength",
+            "Fortify Dexterity",
+            "Fortify Constitution",
+            "Fortify Intelligence",
+            "Fortify Wisdom",
+            "Fortify Charisma",
+            "Fortify Thac0",
+            "Fortify AC",
+            "Lesser Fortify Health"
+        ],
+        [
+            "Summon White",
+            "Imbue Spell"
+        ],
+        [
+            "Enlighten Minion",
+            "Strengthen Minion",
+            "Condition Minion",
+            "Quicken Minion"
+        ],
+        [
+            "Infuse Soul"
+        ],
+        [],
+        [
+            "Summon Grey",
+            "Fortify Health"
+        ],
+        [],
+        [],
+        [],
+        [],
+        [
+            "Greater Fortify Health"
+        ],
+        [],
+        [],
+        [
+            "Summon Black"
+        ],
+        [],
+        [
+            "Master Fortify Health"
         ]
-    },
+    ]
+},
     {
         "url": "rogue",
         "name": "Rogue",

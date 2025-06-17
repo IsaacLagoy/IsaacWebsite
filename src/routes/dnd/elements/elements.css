@@ -1,0 +1,53 @@
+.element-container {
+    position: relative;
+    width: 600px;
+    height: 600px;
+    margin-top: 5rem;
+    border-radius: 50%;
+    overflow: visible;
+    text-align: center;
+    left: 50%; /* force to be in the center */
+    transform: translateX(-50%);
+    margin-bottom: 100px;
+}
+
+.element-box {
+    position: absolute;
+    top: calc(50% - 50px);
+    left: calc(50% - 50px);
+    transform-origin: center;
+    transform: translateX(calc(cos(var(--i) / 6 * pi) * 1px * var(--r))) translateY(calc(sin(var(--i) / 6 * pi) * 1px * var(--r)));
+    color: #444;
+}
+
+.element-bubble {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: #eee;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation: float 6s ease-in-out infinite;
+}
+
+.element-bubble::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    border-radius: 50%;
+    z-index: 2; /* above the background, below the logo */
+    background: radial-gradient(
+    circle at 30% 30%,
+        rgba(255, 255, 255, 0.35) 0%,
+        rgba(0, 0, 0, 0.1) 40%,
+        rgba(0, 0, 0, 0.5) 80%
+    );
+    pointer-events: none;
+}
+
+@keyframes float {
+    0%, 100% { transform: translateY(0px); }
+    50% { transform: translateY(-10px); }
+}

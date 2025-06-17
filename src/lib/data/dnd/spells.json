@@ -1,5 +1,149 @@
 [
   {
+      "url": "summon_grey",
+      "name": "Summon Grey",
+      "description": "Summons a grey minion that can command up to 5 groups of 32 minions. This minion has the same stats as a brown. If a grey dies, the minions under its command will route for one round.",
+      "cost": 30,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "summon_black",
+      "name": "Summon Black",
+      "description": "Summons a black minion that has the abilities of a level 10 overlord. hp 8d12 apr 3 mana 45 thac0 10 ac 0 str 14 con 5 dex 15 wis 15 int 10 cha 1. If a black dies, the minions under its command will route for one round. All overlord skills from a black are superior and they can use all weapons.",
+      "cost": 60,
+      "damage_roll": null,
+      "damage_count": null
+    },
+  {
+      "url": "summon_brown",
+      "name": "Summon Brown",
+      "description": "Summons a brown minion to fight for you. This minion can use a single weapon but not armor. hp 1, apr 1, thac0 18, ac 8, str 10, con 5, dex 10, wis 5, int 5, cha 1.",
+      "cost": 2,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "summon_blue",
+      "name": "Summon Blue",
+      "description": "Summons a blue minion that you heal a target for 1d4 health on touch. hp 1, apr 1, thac0 20, ac 10, str 5, con 5, dex 5, wis 10, int 10, cha 1.",
+      "cost": 6,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "summon_red",
+      "name": "Summon Red",
+      "description": "Summons a red minion that can cast flame. Has the same stats as a blue minion.",
+      "cost": 9,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "summon_green",
+      "name": "Summon Green",
+      "description": "Summons a green minion that can use all rogue skills at 25%. Has the same stats as a brown.",
+      "cost": 15,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "alter_minion",
+      "name": "Alter Minion",
+      "description": "Phyically change a minion giving them new attributes. This does not include direct stat or health changes. Examples include horns, scales, or claws. The effects of these changes are determined by the DM.",
+      "cost": 7,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "mutate_minion",
+      "name": "Mutate Minion",
+      "description": "Randomly mutate a minion changing its physical attributes, stats, or looks entirely.",
+      "cost": 5,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "explode_minion",
+      "name": "Explode Minion",
+      "description": "Detonates a minion damaging everything in the area.",
+      "cost": 9,
+      "damage_roll": "d8",
+      "damage_count": 1
+    },
+    {
+      "url": "clone_minion",
+      "name": "Clone Minion",
+      "description": "Creates a copy of a target minion under your control.",
+      "cost": 9,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "fuse_minion",
+      "name": "Fuse Minion",
+      "description": "",
+      "cost": 10,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "summon_white",
+      "name": "Summon White",
+      "description": "Summons a white minion that can be imbued with a spell. This minion has the same stats as a blue.",
+      "cost": 15,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "imbue_spell",
+      "name": "Imbue Spell",
+      "description": "Grant a white minion the ability to use a spell. Imbue Spell can be overridden by casting it again with a different spell. Similar to weapon proficiency, Imbue Spell works with a single spell from the mage skill sheet, changing the name to Imbue (Selected Spell). For example, if an overlord wants to imbue a minion with toxic dart, they would take the spell Imbue Toxic Dart. The cost of Imbue Spell is the cost of the spell being imbued. When a white minion is imbued with a spell, their color changes to match the essence of that spell. ",
+      "cost": null,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "enlighten_minion",
+      "name": "Enlighten Minion",
+      "description": "Perminantly increase the wisdom and intelligence of a minion by 1 and decrease the strength and dexterity of a minion by 1.",
+      "cost": 21,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "strengthen_minion",
+      "name": "Strengthen Minion",
+      "description": "Perminantly increase a minion's strength by 1 and decrease wisdom, intelligence, and thac0 by 1.",
+      "cost": 21,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "condition_minion",
+      "name": "Condition Minion",
+      "description": "Perminantly increase a minion's con by 1 and decrease ac, wisdom, and intelligence by 1. ",
+      "cost": 21,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "quicken_minion",
+      "name": "Quicken Minion",
+      "description": "Perminantly increase the dexterity and apr of a minion by 1 and decrease the wisdom and intelligence of a minion by 1. ",
+      "cost": 21,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "infuse_soul",
+      "name": "Infuse Soul",
+      "description": "Infuse the captured soul of a creature into a minion, giving it some of the abilities of the creature. ",
+      "cost": 24,
+      "damage_roll": null,
+      "damage_count": null
+    },
+  {
       "url": "druidcraft",
       "name": "Druidcraft",
       "description": "Create a harmless natural effect. For example, create a tiny snow globe like effect that predicts the weather at that location for the next day, instantly make a flower bloom, a seed pod open, or a leaf bud bloom, or instantly snuff out a small fire.",
