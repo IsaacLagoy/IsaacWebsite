@@ -556,223 +556,307 @@
         ]
     ]
 },
-    {
-        "url": "rogue",
-        "name": "Rogue",
-        "skills": [
-            [
-                "Weapon Proficiency"
-            ],
-            [
-                "Hey I Like That Guy",
-                "Unnoticeable",
-                "Deception",
-                "Persuasion",
-                "Walk In Like I Own The Place",
-                "Comprehend Languages",
-                "Pick Pocket",
-                "Detect Trap",
-                "Detect Treasure",
-                "Pass Without Trace",
-                "Picklock",
-                "Backstab",
-                "Incredible Luck",
-                "Use Magic Device",
-                "Long Backstab",
-                "Diplomacy",
-                "Local Connections",
-                "Local Knowledge",
-                "Underworld Connections",
-                "Jack of All Trades"
-            ],
-            [],
-            [],
-            [],
-            [
-                "Uncanny Dodge",
-                "Financial Backing",
-                "Chain Backstab"
-            ],
-            [],
-            [
-                "Blindsense",
-                "Perfect Response"
-            ],
-            [],
-            [],
-            [
-                "Forego Rogue Skill Limit",
-                "No Quick Death"
-            ],
-            [],
-            [],
-            [],
-            [],
-            [],
-            [],
-            [],
-            [
-                "Elusive"
-            ],
-            [],
-            [
-                "Legendary Saving Throw"
-            ]
+{
+    "url": "rogue",
+    "name": "Rogue",
+    "skills": [
+        [
+            "Weapon Proficiency"
         ],
-        "spells": [
-            [],
-            [],
-            [],
-            [],
-            [],
-            [],
-            [],
-            [],
-            [],
-            [],
-            [],
-            [],
-            [],
-            [],
-            [],
-            [],
-            [],
-            [],
-            [],
-            [],
-            []
-        ]
-    },
-    {
-        "url": "engineer",
-        "name": "Engineer",
-        "skills": [
-            [
-                "Detect Trap",
-                "Create Device",
-                "Mathematics"
-            ],
-            [
-                "Construction"
-            ],
-            [
-                "Create Magical Device",
-                "Intuit Device",
-                "Disarm Trap",
-                "Gather Elements"
-            ],
-            [
-                "Identify Magical Item"
-            ],
-            [
-                "Chink in Armor",
-                "Lucky Break",
-                "Advanced Gathering Elements",
-                "Create Trap",
-                "Picklock"
-            ],
-            [
-                "Speed Assemble",
-                "Speed Disassemble",
-                "Incredible Luck",
-                "Create Vehicle",
-                "Demolition",
-                "Perfect Response"
-            ],
-            [
-                "Device Weapon Proficiency"
-            ],
-            [
-                "Create Golem"
-            ],
-            [
-                "Mind Magic Resistance",
-                "Wild Magic Resistance",
-                "Necromancy Resistance"
-            ],
-            [
-                "Lawful Planar Alliances",
-                "Mechanus Patron",
-                "Design City"
-            ],
-            [],
-            [],
-            [
-                "Modron Form"
-            ],
-            [],
-            [],
-            [],
-            [],
-            [],
-            [],
-            [],
-            [
-                "Perfect Modron Form"
-            ]
+        [
+            "Hey I Like That Guy",
+            "Unnoticable",
+            "Deception",
+            "Persuasion",
+            "Walk Like I Own The Place",
+            "Comprehend Languages",
+            "Pick Pocket",
+            "Detect Trap",
+            "Detect Treasure",
+            "Pass Without Trace",
+            "Improved Ambush Initiative",
+            "Picklock",
+            "Backstab",
+            "Incredible Luck",
+            "Use Magic Device",
+            "Long Backstab",
+            "Diplomacy",
+            "Jack of All Trades",
+            "This Is The Way",
+            "Hint Please",
+            "Disarm Trap",
+            "Identify Magical Device"
         ],
-        "spells": [
-            [],
-            [
-                "Light",
-                "Darkness",
-                "Far Sight",
-                "Ant Horde",
-                "Inspiration"
-            ],
-            [
-                "Feign Weakness",
-                "Attention Invisibility",
-                "Sharpen Senses",
-                "Haste"
-            ],
-            [
-                "Imbue Magical Device",
-                "Magical Energy Web",
-                "Magical Trap"
-            ],
-            [
-                "True Sight"
-            ],
-            [
-                "Conjure Device",
-                "Conjure Vehicle"
-            ],
-            [
-                "Hallucinatory Terrain",
-                "Modron Mind",
-                "Increase Efficiency ",
-                "Create Elements"
-            ],
-            [
-                "Summon Minor Modron",
-                "Shape Environment",
-                "Teleport"
-            ],
-            [
-                "Command Lawful Beings"
-            ],
-            [
-                "Summon Modron",
-                "Summon Lawful Servant",
-                "Conjure Structure",
-                "Re-Energize Party"
-            ],
-            [],
-            [],
-            [
-                "Summon Major Modron"
-            ],
-            [],
-            [],
-            [],
-            [],
-            [],
-            [],
-            [],
-            []
+        [
+            "Perfect Response",
+            "Blindsense"
+        ],
+        [],
+        [],
+        [
+            "Uncanny Dodge",
+            "Chain Backstab"
+        ],
+        [],
+        [
+            "Master Pick Pocket"
+        ],
+        [
+            "Blindsense Expert"
+        ],
+        [],
+        [
+            "Forgo Rogue Skill Limit",
+            "No Quick Death"
+        ],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [
+            "Elusive"
+        ],
+        [],
+        [
+            "Miracle Saving Throw"
         ]
-    },
+    ],
+    "spells": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+    ]
+},
+    {
+    "url": "engineer",
+    "name": "Engineer",
+    "skills": [
+        [
+            "Create Device",
+            "Gather Elements"
+        ],
+        [
+            "Detect Trap",
+            "Disarm Trap",
+            "Picklock",
+            "Incredible Luck",
+            "Identify Magical Device",
+            "Mathematics",
+            "Construction",
+            "Intuit Device",
+            "Chink In Armor",
+            "Device Weapon Proficiency",
+            "City Planning",
+            "Programming",
+            "Hacking"
+        ],
+        [
+            "Perfect Response",
+            "Create Vehicle"
+        ],
+        [
+            "Create Lesser Magical Device",
+            "Lucky Break"
+        ],
+        [],
+        [
+            "Advanced Gather Elements",
+            "Mechanus Patron"
+        ],
+        [],
+        [],
+        [
+            "Create Magical Device"
+        ],
+        [],
+        [
+            "Expert Gather Elements",
+            "Modron Form",
+            "Modron Familiar"
+        ],
+        [],
+        [],
+        [],
+        [
+            "Create Greater Magical Device"
+        ],
+        [],
+        [],
+        [],
+        [],
+        [
+            "Create Master Magical Device"
+        ],
+        []
+    ],
+    "spells": [
+        [],
+        [
+            "Dancing Lights",
+            "Darken",
+            "Mage Hand",
+            "Static Shock",
+            "Lesser Alert",
+            "Lesser Conceal Movement",
+            "Darkvision",
+            "Lesser Telekinesis",
+            "Lesser Locate Object",
+            "Conjure Device",
+            "Fortify Touch",
+            "Fortify Smell",
+            "Fortify Taste",
+            "Fortify Hearing",
+            "Fortify Sight"
+        ],
+        [
+            "Illuminate",
+            "Darkness",
+            "Grease",
+            "Glue",
+            "Lesser Identify Magical Item",
+            "Lesser Hide Magical Item",
+            "Lesser Telepathy",
+            "Blink",
+            "Lesser Conjure Structure"
+        ],
+        [
+            "Spark Lance",
+            "Lesser True Sight",
+            "Lesser Invisibility",
+            "Lesser Conjure Magical Device",
+            "Lesser Conjure Vehicle",
+            "Strength Fortress",
+            "Dexterity Fortress",
+            "Constitution Fortress",
+            "Intelligence Fortress",
+            "Wisdom Fortress",
+            "Charisma Fortress",
+            "Unstable Strength",
+            "Unstable Dexterity",
+            "Unstable Constitution",
+            "Unstable Intelligence",
+            "Unstable Wisdom",
+            "Unstable Charisma"
+        ],
+        [
+            "Shine",
+            "Dark Veil",
+            "Lesser Detect Trap",
+            "Lesser Conceal Trap"
+        ],
+        [
+            "Haste",
+            "Lesser Summon Lawful Being",
+            "Fortify Strength",
+            "Fortify Dexterity",
+            "Fortify Constitution",
+            "Fortify Intelligence",
+            "Fortify Wisdom",
+            "Fortify Charisma",
+            "Fortify Thac0",
+            "Fortify AC",
+            "Lesser Fortify Health"
+        ],
+        [
+            "Chain Bolt",
+            "Lesser Summon Modron"
+        ],
+        [
+            "Alert",
+            "Conceal Movement",
+            "True Sight",
+            "Invisibility",
+            "Dispel",
+            "Teleport"
+        ],
+        [
+            "Identify Magical Item",
+            "Hide Magical Item",
+            "Detect Trap",
+            "Conceal Trap",
+            "Locate Object",
+            "Conjure Structure"
+        ],
+        [
+            "Conjure Magical Device",
+            "Conjure Vehicle"
+        ],
+        [
+            "Voltaic Burst",
+            "Disjunct",
+            "Summon Modron",
+            "Fortify Health"
+        ],
+        [
+            "Summon Lawful Being"
+        ],
+        [
+            "Greater Locate Object"
+        ],
+        [
+            "Greater True Sight",
+            "Greater Invisibility"
+        ],
+        [
+            "Thunderlash",
+            "Greater Detect Trap",
+            "Greater Conceal Trap",
+            "Greater Summon Modron"
+        ],
+        [
+            "Greater Identify Magical Item",
+            "Greater Hide Magical Item",
+            "Plane Shift",
+            "Greater Conjure Magical Device",
+            "Greater Fortify Health"
+        ],
+        [
+            "Greater Conjure Structure"
+        ],
+        [
+            "Greater Alert",
+            "Greater Conceal Movement",
+            "Greater Conjure Vehicle",
+            "Greater Summon Lawful Being"
+        ],
+        [
+            "Master True Sight",
+            "Master Invisibility",
+            "Master Summon Modron"
+        ],
+        [
+            "Master Detect Trap",
+            "Master Conceal Trap"
+        ],
+        [
+            "Stormstrike",
+            "Master Conjure Magical Device",
+            "Master Conjure Structure",
+            "Master Fortify Health"
+        ]
+    ]
+},
     {
     "url": "druid",
     "name": "Druid",

@@ -1,4 +1,156 @@
 [
+    {
+      "url": "conjure_device",
+      "name": "Conjure Device",
+      "description": "Conjures a nonmagical device.",
+      "cost": 5,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "lesser_conjure_magical_device",
+      "name": "Lesser Conjure Magical Device",
+      "description": "Conjure a magical device that is either magically powered and/or utilizes a lv2 or below mage spell.",
+      "cost": 11,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "conjure_magical_device",
+      "name": "Conjure Magical Device",
+      "description": "Conjure a magical device that is either magically powered and/or utilizes a lv7 or below mage spell.",
+      "cost": 34,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "greater_conjure_magical_device",
+      "name": "Greater Conjure Magical Device",
+      "description": "Conjure a magical device that is either magically powered and/or utilizes a lv13 or below mage spell.",
+      "cost": 47,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "master_conjure_magical_device",
+      "name": "Master Conjure Magical Device",
+      "description": "Conjure a magical device that is either magically powered and/or utilizes a lv17 or below mage spell.",
+      "cost": 70,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "lesser_conjure_structure",
+      "name": "Lesser Conjure Structure",
+      "description": "Conjure a structure made of either wood or iron that is up to 25sqft and 1 floor.",
+      "cost": 6,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "conjure_structure",
+      "name": "Conjure Structure",
+      "description": "Conjure a structure made of wood, iron, and stone. The structure may have basic electrical components, 500sqrt, and be up to 3 stories tall.",
+      "cost": 24,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "greater_conjure_structure",
+      "name": "Greater Conjure Structure",
+      "description": "Conjure a structure that is made from any non-magical material, has electricity, 10000sqft, and up to 10 stories tall.",
+      "cost": 48,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "master_conjure_structure",
+      "name": "Master Conjure Structure",
+      "description": "Conjure a structure that is made from any non-magical material, has electricity, 25000sqft, and up to 50 stories tall.",
+      "cost": 60,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "lesser_conjure_vehicle",
+      "name": "Lesser Conjure Vehicle",
+      "description": "Conjure a simple vehicle made of wood and iron, no bugger than an Oregon trail wagon.",
+      "cost": 9,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "conjure_vehicle",
+      "name": "Conjure Vehicle",
+      "description": "Conjure an electric, non-programmable, vehicle made from any non-magical material.",
+      "cost": 27,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "greater_conjure_vehicle",
+      "name": "Greater Conjure Vehicle",
+      "description": "Conjure a high-tech vehicle.",
+      "cost": 51,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "lesser_summon_modron",
+      "name": "Lesser Summon Modron",
+      "description": "Summon an intelligent robotic being to fight for you. This Modron will be around level 3.",
+      "cost": 18,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "summon_modron",
+      "name": "Summon Modron",
+      "description": "Summon an intelligent robotic being to fight for you. This Modron will be around level 7.",
+      "cost": 30,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "greater_summon_modron",
+      "name": "Greater Summon Modron",
+      "description": "Summon an intelligent robotic being to fight for you. This Modron will be around level 11.",
+      "cost": 42,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "master_summon_modron",
+      "name": "Master Summon Modron",
+      "description": "Summon an intelligent robotic being to fight for you. This Modron will be around level 15.",
+      "cost": 54,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "lesser_summon_lawful_being",
+      "name": "Lesser Summon Lawful Being",
+      "description": "Summons a lawful being that will aid you in construction. The lawful being is able to create lesser devices.",
+      "cost": 15,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "summon_lawful_being",
+      "name": "Summon Lawful Being",
+      "description": "Summons a lawful being that will aid you in construction. The lawful being is able to create devices.",
+      "cost": 33,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "greater_summon_lawful_being",
+      "name": "Greater Summon Lawful Being",
+      "description": "Summons a lawful being that will aid you in construction. The lawful being is able to create greater devices.",
+      "cost": 42,
+      "damage_roll": null,
+      "damage_count": null
+    },
   {
       "url": "summon_grey",
       "name": "Summon Grey",

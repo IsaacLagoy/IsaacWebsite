@@ -1,0 +1,208 @@
+[
+    {
+        "url": "weapon_proficiency",
+        "name": "Weapon Proficiency",
+        "description": "Be able to use a weapon well, reduces thac0 by 1 when using the weapon. You may select one weapon category when taking this skill but you may take this skill multiple times to have multiple proficiencies. Write your weapon category instead of just weapon proficiency when taking this skill. Ex. Sword Proficiency.",
+        "rolls": []
+    },
+    {
+        "url": "hey_i_like_that_guy",
+        "name": "Hey I Like That Guy",
+        "description": "People generally enjoy your presence and have less suspicion towards you.",
+        "rolls": ["cha"]
+    },
+    {
+        "url": "unnoticeable",
+        "name": "Unnoticeable",
+        "description": "Allows you to sneak past enemies and prevent yourself from being detected.",
+        "rolls": ["dex"]
+    },
+    {
+        "url": "deception",
+        "name": "Deception",
+        "description": "Prevents people from reading your face and helps you hide the truth when lying.",
+        "rolls": ["cha"]
+    },
+    {
+        "url": "persuasion",
+        "name": "Persuasion",
+        "description": "Improves your ability to influence people to complete an action or give information.",
+        "rolls": ["cha"]
+    },
+    {
+        "url": "walk_like_i_own_the_place",
+        "name": "Walk Like I Own The Place",
+        "description": "Walk with authority, avoiding suspicion and reducing the chance that someone will question your presence.",
+        "rolls": ["cha"]
+    },
+    {
+        "url": "comprehend_languages",
+        "name": "Comprehend Languages",
+        "description": "Understand any spoken language.",
+        "rolls": ["d100"]
+    },
+    {
+        "url": "pick_pocket",
+        "name": "Pick Pocket",
+        "description": "Steal an item from someone's pocket.",
+        "rolls": ["d100"]
+    },
+    {
+        "url": "master_pick_pocket",
+        "name": "Master Pick Pocket",
+        "description": "Steal an item from someone's pocket, hand, or even losely fit clothing.",
+        "rolls": ["d100"]
+    },
+    {
+        "url": "detect_trap",
+        "name": "Detect Trap",
+        "description": "Detects a trap in the immediate area.",
+        "rolls": ["d100"]
+    },
+    {
+        "url": "detect_treasure",
+        "name": "Detect Treasure",
+        "description": "Detects treasure in the immediate area.",
+        "rolls": ["d100"]
+    },
+    {
+        "url": "pass_without_trace",
+        "name": "Pass Without Trace",
+        "description": "Improves stealth and allows you to move without any trace, preventing tracking.",
+        "rolls": ["d100"]
+    },
+    {
+        "url": "improved_ambush_initiative",
+        "name": "Improved Ambush Initiative",
+        "description": "Increase ambush initiative from 5 to 6.",
+        "rolls": []
+    },
+    {
+        "url": "picklock",
+        "name": "Picklock",
+        "description": "Allows you to pick open locks.",
+        "rolls": ["d100"]
+    },
+    {
+        "url": "backstab",
+        "name": "Backstab",
+        "description": "Instantly kill any creature 100 health or below. If a creature is above 100 health, deal damage equal to the percentage rolled for backstab minus the reduce rogue skill percentage on your target. Improving this skill gives you an extra usage. Failing a backstab gives your target a free attack against you.",
+        "rolls": ["d100"]
+    },
+    {
+        "url": "incredible_luck",
+        "name": "Incredible Luck",
+        "description": "Become incredibly lucky on any action you attempt to do or event that happens to you. Maxes at 35%.",
+        "rolls": ["d100"]
+    },
+    {
+        "url": "use_magic_device",
+        "name": "Use Magic Device",
+        "description": "Ignore all nonphysical requirements for using any given item. Allows you to use scrolls, wands, and staffs without being a mage.",
+        "rolls": ["int"]
+    },
+    {
+        "url": "long_backstab",
+        "name": "Long Backstab",
+        "description": "Allows you to backstab with a ranged weapon. Improving this skill increases dex by 1 for this skill.",
+        "rolls": ["dex"]
+    },
+    {
+        "url": "diplomacy",
+        "name": "Diplomacy",
+        "description": "Makes it easier to establish diplomatic relationships, truces, and treaties.",
+        "rolls": ["cha"]
+    },
+    {
+        "url": "jack_of_all_trades",
+        "name": "Jack of All Trades",
+        "description": "Be able to use any non-magical and non-combative skill.",
+        "rolls": ["d100"]
+    },
+    {
+        "url": "uncanny_dodge",
+        "name": "Uncanny Dodge",
+        "description": "Dodge an attack. Can be used any number of times in combat.",
+        "rolls": ["d100"]
+    },
+    {
+        "url": "chain_backstab",
+        "name": "Chain Bacskstab",
+        "description": "After making a successful backstab kill, make a backstab on a target who has not been backstabed by you this action.",
+        "rolls": []
+    },
+    {
+        "url": "perfect_response",
+        "name": "Perfect Response",
+        "description": "The DM tells you what they view to be a perfect solution to an immediate situation. This information does not have to consider to explain future actions.",
+        "rolls": ["d100"]
+    },
+    {
+        "url": "blindsense",
+        "name": "Blindsense",
+        "description": "You are able to hear anything moving around you and detect its position well enough to attack and dodge. Does not include projectiles.",
+        "rolls": ["int"]
+    },
+    {
+        "url": "blindsense_expert",
+        "name": "Blindsense Expert",
+        "description": "Allows you to sense projectiles with blindsense.",
+        "rolls": ["int"]
+    },
+    {
+        "url": "forgo_rogue_skill_limit",
+        "name": "Forgo Rogue Skill Limit",
+        "description": "Allows you to improve rogue skills by another 50%.",
+        "rolls": []
+    },
+    {
+        "url": "no_quick_death",
+        "name": "No Quick Death",
+        "description": "If you are killed by a single attack or spell from full health, survive at 1 health. May be used once per encounter per level on this skill.",
+        "rolls": []
+    },
+    {
+        "url": "elusive",
+        "name": "Elusive",
+        "description": "Prevents attacks from gaining advantage on you unless you are restrained or incapacitated.",
+        "rolls": ["dex"]
+    },
+    {
+        "url": "miracle_saving_throw",
+        "name": "Miracle Saving Throw",
+        "description": "Prevents taking any one-time damage even if it's impossible to avoid by normal means.",
+        "rolls": ["dex"]
+    },
+    {
+        "url": "this_is_the_way",
+        "name": "This Is The Way",
+        "description": "Know the correct direction to travel inside of a building as long as you know your bearing. i.e. your direction on a compass.",
+        "rolls": ["d100"]
+    },
+    {
+        "url": "hint_please",
+        "name": "Hint Please",
+        "description": "Get a hint when solving a puzzle.",
+        "rolls": ["d100"]
+    },
+    {
+        "url": "disarm_trap",
+        "name": "Disarm Trap",
+        "description": "Automatically disarm any trap that you have detected.",
+        "rolls": ["d100"]
+    },
+    {
+        "url": "identify_magical_device",
+        "name": "Identify Magical Device",
+        "description": "Identify what a magical item is and how to use it.",
+        "rolls": ["int"]
+    }
+]
+
+,
+    {
+        "url": "",
+        "name": "",
+        "description": "",
+        "rolls": []
+    }

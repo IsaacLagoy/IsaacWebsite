@@ -126,6 +126,22 @@
       "cost": 24,
       "damage_roll": null,
       "damage_count": null
+    },
+    {
+      "url": "summon_grey",
+      "name": "Summon Grey",
+      "description": "Summons a grey minion that can command up to 5 groups of 32 minions. This minion has the same stats as a brown. If a grey dies, the minions under its command will route for one round.",
+      "cost": 30,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "summon_black",
+      "name": "Summon Black",
+      "description": "Summons a black minion that has the abilities of a level 10 overlord. hp 8d12 apr 3 mana 45 thac0 10 ac 0 str 14 con 5 dex 15 wis 15 int 10 cha 1. If a black dies, the minions under its command will route for one round. All overlord skills from a black are superior and they can use all weapons.",
+      "cost": 60,
+      "damage_roll": null,
+      "damage_count": null
     }
 ]
 
@@ -171,22 +187,5 @@
         "name": "Mad Scientist",
         "description": "Dismembering a creature does not lower your alignment, this does not need to be rolled for. Also allows you to perform surgeries to attach severed parts of other creatures to minions and people.",
         "rolls": ["wis", "dex"]
-    },
-    {
-      "url": "summon_grey",
-      "name": "Summon Grey",
-      "description": "Summons a grey minion that can command up to 5 groups of 32 minions. This minion has the same stats as a brown. If a grey dies, the minions under its command will route for one round.",
-      "cost": 30,
-      "damage_roll": null,
-      "damage_count": null
-    },
-    {
-      "url": "summon_black",
-      "name": "Summon Black",
-      "description": "Summons a black minion that has the abilities of a level 10 overlord. hp 8d12 apr 3 mana 45 thac0 10 ac 0 str 14 con 5 dex 15 wis 15 int 10 cha 1. If a black dies, the minions under its command will route for one round. All overlord skills from a black are superior and they can use all weapons.",
-      "cost": 60,
-      "damage_roll": null,
-      "damage_count": null
     }
-
 ]

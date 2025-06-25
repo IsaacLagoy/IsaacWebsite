@@ -1,0 +1,33 @@
+{
+    "universes" : [
+        {
+            "url" : "citadel",
+            "name" : "Citadel",
+            "ge" : 0,
+            "description" : "",
+            "color" : "#",
+            "text" : "light"
+        },
+        {
+            "url" : "",
+            "name" : "",
+            "ge" : 0,
+            "description" : "",
+            "color" : "#",
+            "text" : "light"
+        }
+    ],
+    "adjacency" : [
+
+    ]
+}
+
+,
+        {
+            "url" : "",
+            "name" : "",
+            "ge" : 0,
+            "description" : "",
+            "color" : "#",
+            "text" : "light"
+        }

@@ -2,7 +2,7 @@
     {
         "url": "engineer",
         "name": "Engineer",
-        "description": "Bob the builder",
+        "description": "Craft and conjure devices to defeat your enemies. Befriend robots and fellow lawful beings.",
         "skill_sheets": [
             "Engineer",
             "General Skills"
@@ -11,21 +11,21 @@
         "alignment": "Must have a lawful alignment. ",
         "thac0": [
             20,
-            1
+            3
         ],
         "ac": [
             10,
-            1
+            3
         ],
         "health": "d4",
         "mana": 9,
-        "skills": 2,
+        "skills": 3,
         "hidden": false
     },
     {
         "url": "necromancer",
         "name": "Necromancer",
-        "description": "Spooky scary skeletons",
+        "description": "Harness the power of the dead and drain life from everything around you.",
         "skill_sheets": [
             "Fighter",
             "Necromancer",
@@ -49,7 +49,7 @@
     {
         "url": "rogue",
         "name": "Rogue",
-        "description": "You're a sneaky little guy. ",
+        "description": "Become as quiet as the wind to sneak past your foes and strike when the time is right. Talk your way out of any scenario.",
         "skill_sheets": [
             "Rogue",
             "General Skills"
@@ -72,7 +72,7 @@
     {
         "url": "mage",
         "name": "Mage",
-        "description": "I got magic hands :)",
+        "description": "Cast powerful and deadly spells to control the world around you.",
         "skill_sheets": [
             "Mage",
             "General Skills"
@@ -89,13 +89,13 @@
         ],
         "health": "d4",
         "mana": 9,
-        "skills": 2,
+        "skills": 4,
         "hidden": false
     },
     {
         "url": "overlord",
         "name": "Overlord",
-        "description": "Control Minions",
+        "description": "Control hordes of minions to do your bidding. Lead your army into battle.",
         "skill_sheets": [
             "Fighter",
             "Overlord",
@@ -119,7 +119,7 @@
     {
         "url": "eldritchknight",
         "name": "Eldritch Knight",
-        "description": "Magic fists",
+        "description": "Become a mage that knows how to fight, dealing both magical and non-magical damage. ",
         "skill_sheets": [
             "Mage",
             "Fighter",
@@ -149,7 +149,7 @@
             "Rogue",
             "General Skills"
         ],
-        "rules": null,
+        "rules": "Cannot become immune to silence.",
         "alignment": null,
         "thac0": [
             20,
@@ -161,13 +161,13 @@
         ],
         "health": "d6",
         "mana": 6,
-        "skills": 3,
+        "skills": 2,
         "hidden": false
     },
     {
         "url": "druid",
         "name": "Druid",
-        "description": "130",
+        "description": "Plants and animals are your friends. Gain affinities with animals, monsters, and even dragons, learning their powers.",
         "skill_sheets": [
             "Druid",
             "General Skills"
@@ -184,13 +184,13 @@
         ],
         "health": "d4",
         "mana": null,
-        "skills": 2,
+        "skills": 4,
         "hidden": false
     },
     {
         "url": "ranger",
         "name": "Ranger",
-        "description": "Druid and Fighter",
+        "description": "Become a druid that knows how to fight, harnessing the power of nature and your own raw strength. ",
         "skill_sheets": [
             "Druid",
             "Fighter",
@@ -214,7 +214,7 @@
     {
         "url": "fighter",
         "name": "Fighter",
-        "description": "Womp Womp",
+        "description": "Overpower your enemies with massive amounts of defense and strength.",
         "skill_sheets": [
             "Fighter",
             "General Skills"
@@ -260,7 +260,7 @@
     {
         "url": "crystallite",
         "name": "Crystallite",
-        "description": "A young magic from a corner of the multiverse. Creation, destruction, justice. ",
+        "description": "A young magic from a corner of the multiverse. Create crystals and lasers from quantum energy. ",
         "skill_sheets": [
             "Crystallite",
             "General Skills"

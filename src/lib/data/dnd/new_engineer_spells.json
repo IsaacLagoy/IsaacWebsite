@@ -1,0 +1,284 @@
+[
+    {
+      "url": "conjure_device",
+      "name": "Conjure Device",
+      "description": "Conjures a nonmagical device.",
+      "cost": 5,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "lesser_conjure_magical_device",
+      "name": "Lesser Conjure Magical Device",
+      "description": "Conjure a magical device that is either magically powered and/or utilizes a lv2 or below mage spell.",
+      "cost": 11,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "conjure_magical_device",
+      "name": "Conjure Magical Device",
+      "description": "Conjure a magical device that is either magically powered and/or utilizes a lv7 or below mage spell.",
+      "cost": 34,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "greater_conjure_magical_device",
+      "name": "Greater Conjure Magical Device",
+      "description": "Conjure a magical device that is either magically powered and/or utilizes a lv13 or below mage spell.",
+      "cost": 47,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "master_conjure_magical_device",
+      "name": "Master Conjure Magical Device",
+      "description": "Conjure a magical device that is either magically powered and/or utilizes a lv17 or below mage spell.",
+      "cost": 70,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "lesser_conjure_structure",
+      "name": "Lesser Conjure Structure",
+      "description": "Conjure a structure made of either wood or iron that is up to 25sqft and 1 floor.",
+      "cost": 6,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "conjure_structure",
+      "name": "Conjure Structure",
+      "description": "Conjure a structure made of wood, iron, and stone. The structure may have basic electrical components, 500sqrt, and be up to 3 stories tall.",
+      "cost": 24,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "greater_conjure_structure",
+      "name": "Greater Conjure Structure",
+      "description": "Conjure a structure that is made from any non-magical material, has electricity, 10000sqft, and up to 10 stories tall.",
+      "cost": 48,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "master_conjure_structure",
+      "name": "Master Conjure Structure",
+      "description": "Conjure a structure that is made from any non-magical material, has electricity, 25000sqft, and up to 50 stories tall.",
+      "cost": 60,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "lesser_conjure_vehicle",
+      "name": "Lesser Conjure Vehicle",
+      "description": "Conjure a simple vehicle made of wood and iron, no bugger than an Oregon trail wagon.",
+      "cost": 9,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "conjure_vehicle",
+      "name": "Conjure Vehicle",
+      "description": "Conjure an electric, non-programmable, vehicle made from any non-magical material.",
+      "cost": 27,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "greater_conjure_vehicle",
+      "name": "Greater Conjure Vehicle",
+      "description": "Conjure a high-tech vehicle.",
+      "cost": 51,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "lesser_summon_modron",
+      "name": "Lesser Summon Modron",
+      "description": "Summon an intelligent robotic being to fight for you. This Modron will be around level 3.",
+      "cost": 18,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "summon_modron",
+      "name": "Summon Modron",
+      "description": "Summon an intelligent robotic being to fight for you. This Modron will be around level 7.",
+      "cost": 30,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "greater_summon_modron",
+      "name": "Greater Summon Modron",
+      "description": "Summon an intelligent robotic being to fight for you. This Modron will be around level 11.",
+      "cost": 42,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "master_summon_modron",
+      "name": "Master Summon Modron",
+      "description": "Summon an intelligent robotic being to fight for you. This Modron will be around level 15.",
+      "cost": 54,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "lesser_summon_lawful_being",
+      "name": "Lesser Summon Lawful Being",
+      "description": "Summons a lawful being that will aid you in construction. The lawful being is able to create lesser devices.",
+      "cost": 15,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "summon_lawful_being",
+      "name": "Summon Lawful Being",
+      "description": "Summons a lawful being that will aid you in construction. The lawful being is able to create devices.",
+      "cost": 33,
+      "damage_roll": null,
+      "damage_count": null
+    },
+    {
+      "url": "greater_summon_lawful_being",
+      "name": "Greater Summon Lawful Being",
+      "description": "Summons a lawful being that will aid you in construction. The lawful being is able to create greater devices.",
+      "cost": 42,
+      "damage_roll": null,
+      "damage_count": null
+    }
+]
+
+[
+    {
+        "url": "create_device",
+        "name": "Create Device",
+        "description": "Create a non-magical device. Requires gp.",
+        "rolls": ["int", "dex"]
+    },
+    {
+        "url": "mathematics",
+        "name": "Mathematics",
+        "description": "Solve a complex mathematical problem or recieve a hint of how to solve the problem if it is a puzzle.",
+        "rolls": ["int"]
+    },
+    {
+        "url": "construction",
+        "name": "Construction",
+        "description": "Create non-magical buildings. Requires gp.",
+        "rolls": ["int", "dex"]
+    },
+    {
+        "url": "intuit_device",
+        "name": "Intuit Device",
+        "description": "Learn how a device works and how to rebuild it.",
+        "rolls": ["int"]
+    },
+    {
+        "url": "create_lesser_magical_device",
+        "name": "Create Lesser Magical Device",
+        "description": "Create a device that is either magically powered or has the capabilities of a level 2 mage spell.",
+        "rolls": ["int", "dex"]
+    },
+    {
+        "url": "create_magical_device",
+        "name": "Create Magical Device",
+        "description": "Create a device that is either magically powered or has the capabilities of a level 7 mage spell.",
+        "rolls": ["int", "dex"]
+    },
+    {
+        "url": "create_greater_magical_device",
+        "name": "Create Greater Magical Device",
+        "description": "Create a device that is either magically powered or has the capabilities of a level 13 mage spell.",
+        "rolls": ["int", "dex"]
+    },
+    {
+        "url": "create_master_magical_device",
+        "name": "Create Master Magical Device",
+        "description": "Create a device that is either magically powered or has the capabilities of a level 17 mage spell.",
+        "rolls": ["int", "dex"]
+    },
+    {
+        "url": "gather_elements",
+        "name": "Gather Elements",
+        "description": "Collect 1d100 elements from the surrounding area. This roll may change based on the area you are in and is up to DM discression.",
+        "rolls": []
+    },
+    {
+        "url": "advanced_gather_elements",
+        "name": "Advanced Gather Elements",
+        "description": "Collect 2d100 elements from the surrounding area. This roll may change based on the area you are in and is up to DM discression.",
+        "rolls": []
+    },
+    {
+        "url": "expert_gather_elements",
+        "name": "Expert Gather Elements",
+        "description": "Collect 3d100 elements from the surrounding area. This roll may change based on the area you are in and is up to DM discression.",
+        "rolls": []
+    },
+    {
+        "url": "chink_in_armor",
+        "name": "Chink In Armor",
+        "description": "Determine the weaknesses of a creature or device.",
+        "rolls": ["int"]
+    },
+    {
+        "url": "lucky_break",
+        "name": "Lucky Break",
+        "description": "Reroll a creafting roll. May be done once per craft per level of this skill.",
+        "rolls": []
+    },
+    {
+        "url": "create_vehicle",
+        "name": "Create Vehicle",
+        "description": "Create a vehicle using gathering points.",
+        "rolls": ["int", "dex"]
+    },
+    {
+        "url": "device_weapon_proficiency",
+        "name": "Device Weapon Proficiency",
+        "description": "Reduce the thac0 required to use a device that you have created or intuited by 1.",
+        "rolls": []
+    },
+    {
+        "url": "mechanus_patron",
+        "name": "Mechanus Patron",
+        "description": "Follow the teachings and praise a god of engineering, metalworking, or crafting. A classic example is Vulcan. Sacrifice devices and resources to your patron to gain their favor and blessing.",
+        "rolls": []
+    },
+    {
+        "url": "city_planning",
+        "name": "City Planning",
+        "description": "Become an expert at designing cities, their utilities, and infrastructure.",
+        "rolls": ["int"]
+    },
+    {
+        "url": "modron_form",
+        "name": "Modron Form",
+        "description": "Transform yourself into part modron allowing you to add mechanical automated components onto your own body.",
+        "rolls": []
+    },
+    {
+        "url": "modron_familiar",
+        "name": "Modron Familiar",
+        "description": "Convert an allied modron into a familiar.",
+        "rolls": ["wis"]
+    },
+    {
+        "url": "programming",
+        "name": "Programming",
+        "description": "Allows you to create devices and vehicles with complex instructions. Also allows you to program any programmable device with permissions.",
+        "rolls": ["int"]
+    },
+    {
+        "url": "hacking",
+        "name": "Hacking",
+        "description": "Allows you to hack into programmable devices, giving yourself permissions to program and change settings. Roll contested intelligence against the original programmer to hack the device.",
+        "rolls": ["int"]
+    }
+]
+
