@@ -196,6 +196,294 @@
         "name": "Identify Magical Device",
         "description": "Identify what a magical item is and how to use it.",
         "rolls": ["int"]
+    },
+    {
+        "url": "anything_goes",
+        "name": "Anything Goes",
+        "description": "-1 thac0 when using any non-conventional weapon for melee.",
+        "rolls": []
+    },
+    {
+        "url": "anything_goes_long",
+        "name": "Anything Goes Long",
+        "description": "-1 thac0 when using any ranged non-conventional weapon.",
+        "rolls": []
+    },
+    {
+        "url": "haggling",
+        "name": "Haggling",
+        "description": "Haggle for better prices when buying or selling items.",
+        "rolls": ["cha"]
+    },
+    {
+        "url": "appraise",
+        "name": "Appraise",
+        "description": "Determine the price of an item.",
+        "rolls": ["int"]
+    },
+    {
+        "url": "acrobatics",
+        "name": "Acrobatics",
+        "description": "Gain advantage when doing parkour, flips, and tricks.",
+        "rolls": []
+    },
+    {
+        "url": "swimming",
+        "name": "Swimming",
+        "description": "Gain advantage when rolling for swimming.",
+        "rolls": []
+    },
+    {
+        "url": "climbing",
+        "name": "Climbing",
+        "description": "Gain advantage when rolling for climbing.",
+        "rolls": []
+    },
+    {
+        "url": "animal_ecology",
+        "name": "Animal Ecology",
+        "description": "Identify any animal and facts about them including weaknesses and strengths.",
+        "rolls": ["int"]
+    },
+    {
+        "url": "plant_ecology",
+        "name": "Plant Ecology",
+        "description": "Identify any plant and facts about them including weaknesses and strengths.",
+        "rolls": ["int"]
+    },
+    {
+        "url": "monster_ecology",
+        "name": "Monster Ecology",
+        "description": "Identify any monster and facts about them including weaknesses and strengths.",
+        "rolls": ["int"]
+    },
+    {
+        "url": "dragon_ecology",
+        "name": "Dragon Ecology",
+        "description": "Identify any dragon and facts about them including weaknesses and strengths.",
+        "rolls": ["int"]
+    },
+    {
+        "url": "extra_skill",
+        "name": "Extra Skill",
+        "description": "Gain an extra skill per level.",
+        "rolls": []
+    },
+    {
+        "url": "extra_slot",
+        "name": "Extra Slot",
+        "description": "Gain an extra 1/3 of your mana per level. This skill works on the level you take it on.",
+        "rolls": []
+    },
+    {
+        "url": "improved_crit",
+        "name": "Improved Crit",
+        "description": "Lowers the required roll to crit on thac0 from 20 to 19.",
+        "rolls": []
+    },
+    {
+        "url": "improved_stat_crit",
+        "name": "Improved Stat Crit",
+        "description": "Lowers the required roll to crit on stat rolls by 1.",
+        "rolls": []
+    },
+    {
+        "url": "improved_initiative",
+        "name": "Improved Initiative",
+        "description": "Adds 1 to your initiative rolls.",
+        "rolls": []
+    },
+    {
+        "url": "devastating_crit",
+        "name": "Devastating Crit",
+        "description": "Increases your crit multiplier from 2 to 3.",
+        "rolls": []
+    },
+    {
+        "url": "penetrating_crit",
+        "name": "Penetrating Crit",
+        "description": "Your crits an easily pierce through thick armor, stone, and metal",
+        "rolls": []
+    },
+    {
+        "url": "sculpt_spell",
+        "name": "Sculpt Spell",
+        "description": "Slightly change the properties of a spell including shape, casting location by 1ft, and casting delay by 10 seconds.",
+        "rolls": []
+    },
+    {
+        "url": "contingency",
+        "name": "Contingency",
+        "description": "Allows you to cast a spell that will activate when a certain even occurs. Contingent spells cost 1.5 times your normal cost.",
+        "rolls": ["int"]
+    },
+    {
+        "url": "perminancy",
+        "name": "Perminancy",
+        "description": "Allows you to cast a spell that lasts indefinitely. If the spell if a one time use, you may cast it onto a magical item to be used later. For example, a fire ball scroll. Perminancied spells cost 1.5 times their normal value.",
+        "rolls": ["int"]
+    },
+    {
+        "url": "two_actions_per_round",
+        "name": "Two Actions Per Round",
+        "description": "Take two actions per round of combat, the second round may not be used for a second round of attacks.",
+        "rolls": []
+    },
+    {
+        "url": "long_shot",
+        "name": "Long Shot",
+        "description": "Increase your dex when using a ranged attack by 1.",
+        "rolls": []
+    },
+    {
+        "url": "instant_reload",
+        "name": "Instant Reload",
+        "description": "Increases the number of reloads you can make in a round from 1 to 2. i.e. allows you to fire 2 magazines from a gun.",
+        "rolls": []
+    },
+    {
+        "url": "handle_mount",
+        "name": "Handle Mount",
+        "description": "Allows you to proficiently ride a mount including vehicles.",
+        "rolls": []
+    },
+    {
+        "url": "tracking",
+        "name": "Tracking",
+        "description": "You are able to track and identify paths left behind by other creatures.",
+        "rolls": ["int"]
+    },
+    {
+        "url": "forage",
+        "name": "Forage",
+        "description": "Gather nearby plants and/or locate bodies of water.",
+        "rolls": ["int"]
+    },
+    {
+        "url": "history",
+        "name": "History",
+        "description": "Know about the history of your current area or a well known area elsewhere.",
+        "rolls": ["int"]
+    },
+    {
+        "url": "intimidation",
+        "name": "Intimidation",
+        "description": "Frighten someone into doing something or giving you information.",
+        "rolls": ["cha"]
+    },
+    {
+        "url": "iron_stomach",
+        "name": "Iron Stomach",
+        "description": "Receive no nonmagical deficits from eating harmful food.",
+        "rolls": ["con"]
+    },
+    {
+        "url": "lifting",
+        "name": "Lifting",
+        "description": "You konw how to lift heavy weights to improve your strength.",
+        "rolls": []
+    },
+    {
+        "url": "endurance_training",
+        "name": "Endurance Training",
+        "description": "Train your endurance to build up your constitution.",
+        "rolls": []
+    },
+    {
+        "url": "reflex_drills",
+        "name": "Reflex Drills",
+        "description": "Train your reflexes to increase your dexterity.",
+        "rolls": []
+    },
+    {
+        "url": "meditation",
+        "name": "Meditation",
+        "description": "Meditate with force beyond our comprehension to increase your wisdom.",
+        "rolls": []
+    },
+    {
+        "url": "memory_recall",
+        "name": "Memory Recall",
+        "description": "Practice remembering facts and identifying items to improve your intelligence.",
+        "rolls": []
+    },
+    {
+        "url": "stagecraft",
+        "name": "Stagecraft",
+        "description": "Perform for others or tell jokes to increase your charisma. Roleplaying will help this skill especially.",
+        "rolls": []
+    },
+    {
+        "url": "just_a_scratch",
+        "name": "Just A Scratch",
+        "description": "Gain advantage when rolling con at half health.",
+        "rolls": []
+    },
+    {
+        "url": "lightning_reflexes",
+        "name": "Lightning Reflexes",
+        "description": "Gain advantage when rolling dex saving throws like dodge.",
+        "rolls": []
+    },
+    {
+        "url": "spot",
+        "name": "Spot",
+        "description": "See things far away.",
+        "rolls": ["int"]
+    },
+    {
+        "url": "perception",
+        "name": "Perception",
+        "description": "Be able to correctly identify small details up close.",
+        "rolls": ["int"]
+    },
+    {
+        "url": "dodge",
+        "name": "Dodge",
+        "description": "Leap out of danger, avoiding all damage. Cannot be an area of effect like a flame thrower. This skill can be used once per combat per level of this skill.",
+        "rolls": ["dex"]
+    },
+    {
+        "url": "evade_attack",
+        "name": "Evade Attack",
+        "description": "Avoid an area of effect attack. This skill can be used once per combat per level of this skill.",
+        "rolls": ["dex"]
+    },
+    {
+        "url": "deflection",
+        "name": "Deflection",
+        "description": "Allows you to block or parry a projectile. You get one per encounter per level on this skill.",
+        "rolls": ["dex"]
+    },
+    {
+        "url": "block",
+        "name": "Block",
+        "description": "Block an attack or area of effect with your shield. This skill can be used once per combat per level of this skill.",
+        "rolls": ["dex"]
+    },
+    {
+        "url": "parry",
+        "name": "Parry",
+        "description": "Block an attack from an enemy with your weapon. This skill can be used once per combat per level of this skill.",
+        "rolls": ["dex"]
+    },
+    {
+        "url": "max_hit_die",
+        "name": "Max Hit Die",
+        "description": "Gain the maximum amount of health when leveling up. If you increase your health by d6, increase your health by 6. Improving this skill doubles, then triples the size of your dice. This skill applies on the level you take it.",
+        "rolls": []
+    },
+    {
+        "url": "extra_hit_die",
+        "name": "Extra Hit Die",
+        "description": "Roll an extra dice when increasing your health on level up. This skill applies on the level you take it.",
+        "rolls": []
+    },
+    {
+        "url": "analyze_opponent",
+        "name": "Analyze Opponent",
+        "description": "Identify a target's weaknesses.",
+        "rolls": []
     }
 ]
 
